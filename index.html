@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+<meta charset="UTF-8">
+<title>Investavimo Palyginimas</title>
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h3>Investavimo palyginimas</h3>
+
+<div class="container">
+  <div class="box">
+    <h4>A sąskaita</h4>
+    <div class="field"><label for="metaiA" class="label">Metai</label><input id="metaiA" type="number" min="1" step="1" value="30"></div>
+    <div class="field"><label for="menesineImokaA" class="label">Mėnesinė įmoka</label><input id="menesineImokaA" type="number" min="0" step="10" value="400"></div>
+    <div class="field"><label for="metineGrazaA" class="label">Metinė grąža (%)</label><input id="metineGrazaA" type="number" min="0" step="0.1" value="8"></div>
+    <div class="field"><label for="valdymoMokestisA" class="label">Valdymo mokestis (metinis)</label><input id="valdymoMokestisA" type="number" min="0" step="0.01" value="0.07"></div>
+    <div class="field"><label for="saugojimoMokestisA" class="label">Saugojimo mokestis (menesinis)</label><input id="saugojimoMokestisA" type="number" min="0" step="0.01" value="0"></div>
+    <div class="field"><label for="pirkimoMokestisA" class="label">Pirkimo/Parvadimo mokestis</label><input id="pirkimoMokestisA" type="number" min="0" step="0.01" value="0"></div>
+    <div id="outputA"></div>
+  </div>
+
+  <div class="box">
+    <h4>B sąskaita</h4>
+    <div class="field"><label for="metaiB" class="label">Metai</label><input id="metaiB" type="number" min="1" step="1" value="30"></div>
+    <div class="field"><label for="menesineImokaB" class="label">Mėnesinė įmoka</label><input id="menesineImokaB" type="number" min="0" step="10" value="400"></div>
+    <div class="field"><label for="metineGrazaB" class="label">Metinė grąža (%)</label><input id="metineGrazaB" type="number" min="0" step="0.1" value="8"></div>
+    <div class="field"><label for="valdymoMokestisB" class="label">Valdymo mokestis (metinis)</label><input id="valdymoMokestisB" type="number" min="0" step="0.01" value="0.07"></div>
+    <div class="field"><label for="saugojimoMokestisB" class="label">Saugojimo mokestis (menesinis)</label><input id="saugojimoMokestisB" type="number" min="0" step="0.01" value="0.013"></div>
+    <div class="field"><label for="pirkimoMokestisB" class="label">Pirkimo/Parvadimo mokestis</label><input id="pirkimoMokestisB" type="number" min="0" step="0.01" value="0.25"></div>
+    <div id="outputB"></div>
+  </div>
+</div>
+
+<canvas id="chart" width="900" height="300"></canvas>
+<div id="tooltip"></div>
+
+<script src="globals.js"></script>
+<script src="calculations.js"></script>
+<script src="render.js"></script>
+<script src="chart.js"></script>
+<script src="tooltip.js"></script>
+
+</body>
+</html>
