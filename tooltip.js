@@ -12,7 +12,13 @@ document.addEventListener("DOMContentLoaded", () => {
     const rect = canvas.getBoundingClientRect();
     const x = e.clientX - rect.left;
 
-    const years = Math.max(graphA.length, graphB.length);
+    const accounts = Array.from(document.querySelectorAll('.account-card')).map(card => {
+      const prefix = card.dataset.prefix;
+      const history = calculate(prefix);
+      return { prefix, history };
+    });
+
+    const years = Math.max(...accounts.map(account => Math.ceil(account.history.length / 12)), 0);
     if (years === 0) return;
 
     const stepX = canvas.width / Math.max(years - 1, 1);
@@ -23,10 +29,14 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
 
+    const lines = accounts.map(account => {
+      const value = account.history[idx * 12 + 11] ?? account.history[account.history.length - 1] ?? 0;
+      return `🔹 ${account.prefix}: ${typeof value === 'number' ? value.toFixed(2) : '-'} €`;
+    });
+
     tooltip.innerHTML =
       "Metai " + (idx + 1) + "<br>" +
-      "🔵 A: " + (graphA[idx]?.toFixed(2) ?? "-") + " €<br>" +
-      "🔴 B: " + (graphB[idx]?.toFixed(2) ?? "-") + " €";
+      lines.join("<br>");
 
     tooltip.style.left = (e.pageX + 15) + "px";
     tooltip.style.top = (e.pageY + 15) + "px";

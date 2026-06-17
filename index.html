@@ -8,11 +8,22 @@
 </head>
 <body>
 
-<h3>Investavimo palyginimas</h3>
+<div class="page-header">
+  <h3>Investavimo palyginimas</h3>
+  <p class="description">Palyginkite dviejų sąskaitų investicijų augimą pagal metinę grąžą, valdymo mokestį, saugojimo mokestį ir pirkimo mokestį.</p>
+</div>
 
-<div class="container">
-  <div class="box">
-    <h4>A sąskaita</h4>
+<div class="hero">
+  <canvas id="chart" width="868" height="500"></canvas>
+  <div id="tooltip"></div>
+</div>
+
+
+<div class="container" id="accountsContainer">
+  <div class="box account-card" data-prefix="A">
+    <div class="card-header">
+      <h4>A sąskaita</h4>
+    </div>
     <div class="field"><label for="metaiA" class="label">Metai</label><input id="metaiA" type="number" min="1" step="1" value="30"></div>
     <div class="field"><label for="menesineImokaA" class="label">Mėnesinė įmoka</label><input id="menesineImokaA" type="number" min="0" step="10" value="400"></div>
     <div class="field"><label for="metineGrazaA" class="label">Metinė grąža (%)</label><input id="metineGrazaA" type="number" min="0" step="0.1" value="8"></div>
@@ -22,8 +33,10 @@
     <div id="outputA"></div>
   </div>
 
-  <div class="box">
-    <h4>B sąskaita</h4>
+  <div class="box account-card" data-prefix="B">
+    <div class="card-header">
+      <h4>B sąskaita</h4>
+    </div>
     <div class="field"><label for="metaiB" class="label">Metai</label><input id="metaiB" type="number" min="1" step="1" value="30"></div>
     <div class="field"><label for="menesineImokaB" class="label">Mėnesinė įmoka</label><input id="menesineImokaB" type="number" min="0" step="10" value="400"></div>
     <div class="field"><label for="metineGrazaB" class="label">Metinė grąža (%)</label><input id="metineGrazaB" type="number" min="0" step="0.1" value="8"></div>
@@ -33,9 +46,6 @@
     <div id="outputB"></div>
   </div>
 </div>
-
-<canvas id="chart" width="900" height="300"></canvas>
-<div id="tooltip"></div>
 
 <script src="globals.js"></script>
 <script src="calculations.js"></script>
