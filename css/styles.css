@@ -1,0 +1,75 @@
+:root {
+	--content-width: 70vw;
+}
+
+#chart {
+	width: var(--content-width);
+	height: 50vh;
+}
+
+#inputs {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1%;
+	width: var(--content-width);
+}
+
+.input-block {
+	width: calc((100% - 1%) / 2);
+	box-sizing: border-box;
+	border: 1px solid black;
+	padding: 10px;
+}
+
+.field {
+	display: flex;
+	align-items: center;
+	margin-bottom: 8px;
+}
+
+.field label {
+	width: 150px;
+}
+
+.field input {
+	flex: 1;
+}
+
+#chart,
+.input-block {
+	box-sizing: border-box;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input[type="number"] {
+	appearance: textfield;
+}
+
+.year {
+	cursor: pointer;
+	padding: 6px;
+	border-top: 1px solid #ddd;
+}
+
+.months {
+	display: none;
+	padding-left: 16px;
+}
+
+.months.show {
+	display: block;
+}
+
+.month {
+	padding: 3px;
+}
+
+.input-block h3 {
+	margin: 0 0 10px;
+	text-align: center;
+}

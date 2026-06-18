@@ -1,0 +1,37 @@
+body {
+	font-family: Arial, sans-serif;
+	background: #f4f6f8;
+}
+
+#chart,
+.input-block {
+	background: white;
+	border-radius: 12px;
+	box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+}
+
+#chart {
+	padding: 12px;
+	margin-bottom: 16px;
+}
+
+.input-block {
+	border: none;
+}
+
+.field label {
+	font-weight: bold;
+	color: #333;
+}
+
+.field input {
+	padding: 6px;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+}
+
+.field input:focus {
+	outline: none;
+	border-color: #4a90e2;
+}
+

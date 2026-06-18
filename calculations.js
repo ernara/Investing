@@ -1,23 +1,26 @@
-function calculate(prefix) {
-  const metai = parseInt(document.getElementById("metai" + prefix).value) || 0;
-  const menesineImoka = parseFloat(document.getElementById("menesineImoka" + prefix).value) || 0;
+const accounts = ["A", "B"];
 
-  const metineGraza = (parseFloat(document.getElementById("metineGraza" + prefix).value) || 0) / 100;
-  const valdymoMokestis = (parseFloat(document.getElementById("valdymoMokestis" + prefix).value) || 0) / 100;
-  const saugojimoMokestis = (parseFloat(document.getElementById("saugojimoMokestis" + prefix).value) || 0) / 100;
-  const pirkimoMokestis = (parseFloat(document.getElementById("pirkimoMokestis" + prefix).value) || 0) / 100;
+function calculateProfit(prefix) {
+	const g = id => +document.getElementById(id + prefix).value || 0;
 
-  let kapitalas = 0;
-  const history = [];
+	const metai = g("metai");
+	const menesineImoka = g("menesineImoka");
+	const metineGraza = g("metineGraza") / 1200;
+	const valdymoMokestis = g("valdymoMokestis") / 1200;
+	const saugojimoMokestis = g("saugojimoMokestis") / 100;
+	const pirkimoMokestis = g("pirkimoMokestis") / 100;
 
-  const months = metai * 12;
-  for (let i = 0; i < months; i++) {
-    kapitalas += menesineImoka * (1 - pirkimoMokestis);
-    kapitalas *= (1 + metineGraza / 12 - valdymoMokestis / 12);
-    kapitalas *= (1 - saugojimoMokestis);
-
+	let kapitalas = g("pradineInvesticija");
+	const history = [];
+    
     history.push(kapitalas);
-  }
 
-  return history;
+	for (let i = 0; i < metai * 12; i++) {
+		kapitalas += menesineImoka * (1 - pirkimoMokestis);
+		kapitalas *= 1 + metineGraza - valdymoMokestis;
+		kapitalas *= 1 - saugojimoMokestis;
+		history.push(kapitalas);
+	}
+
+	return history;
 }

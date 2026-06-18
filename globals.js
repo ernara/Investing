@@ -1,2 +1,0 @@
-let graphA = [];
-let graphB = [];
