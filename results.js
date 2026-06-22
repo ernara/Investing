@@ -25,6 +25,7 @@ function getSummary(prefix, history) {
 	};
 }
 
+/*
 function renderTopSummary(summaries) {
 	let box = document.getElementById("comparison-summary");
 
@@ -45,6 +46,7 @@ function renderTopSummary(summaries) {
 		<p>${winner} laimi per ${money(difference)}</p>
 	`;
 }
+*/
 
 function renderResults() {
 	const summaries = [];
@@ -125,7 +127,7 @@ function renderResults() {
 		output.append(toggle, years);
 	});
 
-	renderTopSummary(summaries);
+	// renderTopSummary(summaries);
 }
 
 document.addEventListener("input", () => {

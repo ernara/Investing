@@ -46,17 +46,24 @@ function drawChart() {
 			},
 
 			plugins: {
-				tooltip: {
-					callbacks: {
-						title: items =>
-							items[0].dataIndex === 0
-								? "Pradžia"
-								: `Metai ${items[0].dataIndex}`,
+		tooltip: {
+			bodyFont: {
+				family: "monospace"
+			},
+			callbacks: {
+				title: items =>
+					items[0].dataIndex === 0
+						? "Pradžia"
+						: `Metai ${items[0].dataIndex}`,
 
-						label: item =>
-							`${titles[item.dataset.label] || item.dataset.label}: ${formatMoney(item.raw)}`
-					}
+				label: item => {
+					const name = item.dataset.label;
+					const value = formatMoney(item.raw);
+
+					return (name + ": ").padEnd(12) + value;
 				}
+			}
+		}
 			}
 		}
 	});
