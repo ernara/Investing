@@ -21,11 +21,14 @@ function drawChart() {
 
 			scales: {
 				x: {
-					title: {
-						display: true,
-						text: "Metai"
-					}
+				title: {
+					display: true,
+					text: "Metai"
 				},
+				ticks: {
+					autoSkip: false
+				}
+			},
 				y: {
 					title: {
 						display: true,
