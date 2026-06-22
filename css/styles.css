@@ -115,3 +115,20 @@
 .years-list.show {
 	display: block;
 }
+
+.summary-actions {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	gap: 6px;
+	align-items: center;
+}
+
+.summary-actions button {
+	height: 38px;
+	padding: 0;
+	font-size: 16px;
+}
+
+.summary-actions .excel-button {
+	font-size: 12px;
+}

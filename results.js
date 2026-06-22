@@ -25,29 +25,6 @@ function getSummary(prefix, history) {
 	};
 }
 
-/*
-function renderTopSummary(summaries) {
-	let box = document.getElementById("comparison-summary");
-
-	if (!box) {
-		box = document.createElement("div");
-		box.id = "comparison-summary";
-		document.getElementById("inputs").before(box);
-	}
-
-	const first = summaries[0];
-	const second = summaries[1];
-
-	const difference = Math.abs(first.summary.final - second.summary.final);
-	const winner = first.summary.final > second.summary.final ? first.name : second.name;
-
-	box.innerHTML = `
-		<h2>Investavimo palyginimas</h2>
-		<p>${winner} laimi per ${money(difference)}</p>
-	`;
-}
-*/
-
 function renderResults() {
 	const summaries = [];
 
@@ -80,6 +57,13 @@ function renderResults() {
 				<div>
 					<span>Vidutinė metinė grąža</span>
 					<strong>${summary.yearlyProfitPercent.toFixed(2)} %</strong>
+				</div>
+				<div class="summary-actions">
+					<button type="button" onclick="resetDefaults('${prefix}')" title="Atstatyti numatytas reikšmes">↺</button>
+					<button type="button" onclick="resetToZero('${prefix}')" title="Viską nustatyti į 0">0</button>
+					<button title="Grįžti atgal">↶</button>
+					<button title="Eiti pirmyn">↷</button>
+					<button type="button" onclick="downloadCSV('${prefix}')" class="excel-button" title="Atsisiųsti Excel">XLS</button>
 				</div>
 			</div>
 		`;
@@ -127,7 +111,53 @@ function renderResults() {
 		output.append(toggle, years);
 	});
 
-	// renderTopSummary(summaries);
+}
+
+function resetDefaults(prefix) {
+	names.forEach(([id], i) => {
+		document.getElementById(id + prefix).value = defaultValues[prefix][i];
+	});
+
+	renderResults();
+	drawChart();
+}
+
+function resetToZero(prefix) {
+	names.forEach(([id]) => {
+		document.getElementById(id + prefix).value = 0;
+	});
+
+	renderResults();
+	drawChart();
+}
+
+function downloadCSV(prefix) {
+	const history = calculateProfit(prefix);
+	const name = titles[prefix] || prefix;
+
+	const rows = [
+		["Sąskaita", name],
+		[],
+		["Mėnuo", "Metai", "Kapitalas"]
+	];
+
+	history.forEach((value, month) => {
+		rows.push([
+			month,
+			(month / 12).toFixed(2),
+			value.toFixed(2)
+		]);
+	});
+
+	const csv = rows.map(row => row.join(";")).join("\n");
+	const blob = new Blob(["\uFEFF" + csv], { type: "text/csv;charset=utf-8;" });
+
+	const link = document.createElement("a");
+	link.href = URL.createObjectURL(blob);
+	link.download = `${name}.csv`;
+	link.click();
+
+	URL.revokeObjectURL(link.href);
 }
 
 document.addEventListener("input", () => {
