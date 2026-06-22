@@ -1,3 +1,8 @@
+const titles = {
+	A: "SEB",
+	B: "Trading212"
+};
+
 const names = [
 	["metai", "Metai"],
 	["pradineInvesticija", "Pradinė Investicija"],
@@ -8,11 +13,10 @@ const names = [
 	["pirkimoMokestis", "Pirkimo Mokestis"]
 ];
 
-
 function createInputs(prefix, values) {
 	const block = document.createElement("div");
 	block.className = "input-block";
-	block.innerHTML = `<h3>${prefix}</h3>`;
+	block.innerHTML = `<h3>${titles[prefix]}</h3>`;
 
 	names.forEach(([id, label], i) => {
 		block.innerHTML += `
@@ -27,5 +31,5 @@ function createInputs(prefix, values) {
 	document.getElementById("inputs").appendChild(block);
 }
 
-createInputs("A",[30,0,400,8,0.07,0,0]);
-createInputs("B",[30,0,400,8,0.07,0.013,0.25]);
+createInputs("A", [30,0,400,8,0.07,0,0]);
+createInputs("B", [30,0,400,8,0.07,0.013,0.25]);

@@ -1,7 +1,12 @@
 let chart;
 
-function drawChart() {
+function formatMoney(value) {
+	if (value >= 1000000) return (value / 1000000).toFixed(1) + "M €";
+	if (value >= 1000) return (value / 1000).toFixed(0) + "k €";
+	return value.toFixed(2) + " €";
+}
 
+function drawChart() {
 	if (chart) chart.destroy();
 
 	chart = new Chart(document.getElementById("c"), {
@@ -13,17 +18,40 @@ function drawChart() {
 		options: {
 			responsive: true,
 			maintainAspectRatio: false,
+
+			scales: {
+				x: {
+					title: {
+						display: true,
+						text: "Metai"
+					}
+				},
+				y: {
+					title: {
+						display: true,
+						text: "Kapitalas"
+					},
+					ticks: {
+						callback: value => formatMoney(value)
+					}
+				}
+			},
+
 			interaction: {
 				mode: "index",
 				intersect: false
 			},
+
 			plugins: {
 				tooltip: {
 					callbacks: {
 						title: items =>
 							items[0].dataIndex === 0
 								? "Pradžia"
-								: `Metai ${items[0].dataIndex}`
+								: `Metai ${items[0].dataIndex}`,
+
+						label: item =>
+							`${titles[item.dataset.label] || item.dataset.label}: ${formatMoney(item.raw)}`
 					}
 				}
 			}
@@ -35,8 +63,10 @@ function getData() {
 	const data = accounts.map(prefix => calculateProfit(prefix));
 
 	return data.map((values, i) => ({
-		label: accounts[i],
-		data: values.filter((_, index) => index === 0 || index % 12 === 0)
+		label: titles[accounts[i]],
+		data: values.filter((_, index) => index === 0 || index % 12 === 0),
+		pointRadius: 0,
+		pointHoverRadius: 0
 	}));
 }
 
