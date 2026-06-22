@@ -1,6 +1,6 @@
 const titles = {
-	A: "SEB",
-	B: "Trading212"
+	A: "Trading212",
+	B: "SEB"
 };
 
 const names = [

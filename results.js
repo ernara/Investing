@@ -9,15 +9,19 @@ function getInput(prefix, id) {
 function getSummary(prefix, history) {
 	const final = history[history.length - 1];
 	const months = history.length - 1;
+	const years = months / 12;
+
 	const invested = getInput(prefix, "pradineInvesticija") + getInput(prefix, "menesineImoka") * months;
 	const profit = final - invested;
 	const profitPercent = invested === 0 ? 0 : profit / invested * 100;
+	const yearlyProfitPercent = years === 0 ? 0 : profitPercent / years;
 
 	return {
 		final,
 		invested,
 		profit,
-		profitPercent
+		profitPercent,
+		yearlyProfitPercent
 	};
 }
 
@@ -68,8 +72,12 @@ function renderResults() {
 					<strong>${money(summary.profit)}</strong>
 				</div>
 				<div>
-					<span>Grąža</span>
+					<span>Bendra grąža</span>
 					<strong>${summary.profitPercent.toFixed(2)} %</strong>
+				</div>
+				<div>
+					<span>Vidutinė metinė grąža</span>
+					<strong>${summary.yearlyProfitPercent.toFixed(2)} %</strong>
 				</div>
 			</div>
 		`;
