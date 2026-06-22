@@ -1,11 +1,11 @@
 const titles = {
-	A: "SEB",
-	B: "Trading212"
+	A: "Trading212",
+	B: "SEB"
 };
 
 const defaultValues = {
-	A: [30,0,400,8,0.07,0,0],
-	B: [30,0,400,8,0.07,0.013,0.25]
+	A: [30,0,400,8,0.07,0.013,0.25],
+	B: [30,0,400,8,0.07,0,0]
 };
 
 const names = [
@@ -18,10 +18,34 @@ const names = [
 	["pirkimoMokestis", "Pirkimo Mokestis"]
 ];
 
+function changeName(prefix) {
+	const oldName = titles[prefix];
+	const newName = prompt("Naujas pavadinimas:", oldName);
+
+	if (!newName || !newName.trim()) return;
+
+	titles[prefix] = newName.trim();
+	document.getElementById("title" + prefix).textContent = titles[prefix];
+
+	renderResults();
+	drawChart();
+}
+
 function createInputs(prefix, values) {
 	const block = document.createElement("div");
 	block.className = "input-block";
-	block.innerHTML = `<h3>${titles[prefix]}</h3>`;
+
+	block.innerHTML = `
+		<h3
+			id="title${prefix}"
+			class="investment-title"
+			onclick="changeName('${prefix}')"
+			oncontextmenu="event.preventDefault(); changeName('${prefix}')"
+			title="Spauskite, kad pakeistumėte pavadinimą"
+		>
+			${titles[prefix]}
+		</h3>
+	`;
 
 	names.forEach(([id, label], i) => {
 		block.innerHTML += `
@@ -34,35 +58,6 @@ function createInputs(prefix, values) {
 
 	block.innerHTML += `<div id="output${prefix}"></div>`;
 	document.getElementById("inputs").appendChild(block);
-}
-
-function downloadCSV(prefix) {
-	const history = calculateProfit(prefix);
-	const name = titles[prefix] || prefix;
-
-	const rows = [
-		["Sąskaita", name],
-		[],
-		["Mėnuo", "Metai", "Kapitalas"]
-	];
-
-	history.forEach((value, month) => {
-		rows.push([
-			month,
-			(month / 12).toFixed(2),
-			value.toFixed(2)
-		]);
-	});
-
-	const csv = rows.map(row => row.join(";")).join("\n");
-	const blob = new Blob(["\uFEFF" + csv], { type: "text/csv;charset=utf-8;" });
-
-	const link = document.createElement("a");
-	link.href = URL.createObjectURL(blob);
-	link.download = `${name}.csv`;
-	link.click();
-
-	URL.revokeObjectURL(link.href);
 }
 
 createInputs("A", defaultValues.A);

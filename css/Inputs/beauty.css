@@ -1,0 +1,40 @@
+.input-block {
+	background: white;
+	border-radius: 12px;
+	box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+	border: none;
+}
+
+.investment-title {
+	cursor: pointer;
+}
+
+.investment-title:hover {
+	color: #4a90e2;
+	text-decoration: underline;
+}
+
+.field label {
+	font-weight: bold;
+	color: #333;
+}
+
+.field input {
+	border: 1px solid #ccc;
+	border-radius: 6px;
+}
+
+.field input:focus {
+	outline: none;
+	border-color: #4a90e2;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input[type="number"] {
+	appearance: textfield;
+}

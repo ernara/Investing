@@ -1,0 +1,32 @@
+#inputs {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1%;
+	width: var(--content-width);
+}
+
+.input-block {
+	width: calc((100% - 1%) / 2);
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+.input-block h3 {
+	margin: 0 0 10px;
+	text-align: center;
+}
+
+.field {
+	display: flex;
+	align-items: center;
+	margin-bottom: 8px;
+}
+
+.field label {
+	width: 150px;
+}
+
+.field input {
+	flex: 1;
+	padding: 6px;
+}

@@ -1,52 +1,11 @@
-body {
-	font-family: Arial, sans-serif;
-	background: #f4f6f8;
-}
-
-#chart,
-.input-block,
 #comparison-summary {
 	background: white;
 	border-radius: 12px;
 	box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
 }
 
-.input-block {
-	border: none;
-}
-
-.investment-title {
-	cursor: pointer;
-}
-
-.investment-title:hover {
-	color: #4a90e2;
-	text-decoration: underline;
-}
-
-.field label {
+#comparison-summary p {
 	font-weight: bold;
-	color: #333;
-}
-
-.field input {
-	border: 1px solid #ccc;
-	border-radius: 6px;
-}
-
-.field input:focus {
-	outline: none;
-	border-color: #4a90e2;
-}
-
-input::-webkit-inner-spin-button,
-input::-webkit-outer-spin-button {
-	-webkit-appearance: none;
-	margin: 0;
-}
-
-input[type="number"] {
-	appearance: textfield;
 }
 
 .year {
@@ -72,10 +31,6 @@ input[type="number"] {
 
 .month:last-child {
 	border-bottom: none;
-}
-
-#comparison-summary p {
-	font-weight: bold;
 }
 
 .summary-card div {

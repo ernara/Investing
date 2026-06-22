@@ -1,0 +1,7 @@
+#chart {
+	width: var(--content-width);
+	height: 50vh;
+	padding: 12px;
+	margin-bottom: 16px;
+	box-sizing: border-box;
+}
