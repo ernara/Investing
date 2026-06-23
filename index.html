@@ -1,28 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="lt">
 <head>
-    <title>Chart</title>
-    <link rel="stylesheet" href="css/Page/pixels.css">
-    <link rel="stylesheet" href="css/Chart/pixels.css">
-    <link rel="stylesheet" href="css/Inputs/pixels.css">
-    <link rel="stylesheet" href="css/Results/pixels.css">
+	<meta charset="UTF-8">
+	<title>Investavimo Palyginimas</title>
 
-    <link rel="stylesheet" href="css/Page/beauty.css">
-    <link rel="stylesheet" href="css/Chart/beauty.css">
-    <link rel="stylesheet" href="css/Inputs/beauty.css">
-    <link rel="stylesheet" href="css/Results/beauty.css">
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  
+	<link rel="stylesheet" href="css/page/pixels.css">
+	<link rel="stylesheet" href="css/chart/pixels.css">
+	<link rel="stylesheet" href="css/inputs/pixels.css">
+	<link rel="stylesheet" href="css/results/pixels.css">
+
+	<link rel="stylesheet" href="css/page/beauty.css">
+	<link rel="stylesheet" href="css/chart/beauty.css">
+	<link rel="stylesheet" href="css/inputs/beauty.css">
+	<link rel="stylesheet" href="css/results/beauty.css">
+
+	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-    <div id="chart"> <canvas id="c"></canvas> </div>
+	<div id="chart">
+		<canvas id="c"></canvas>
+	</div>
 
-    <script src="chart.js" defer></script>
-    
-    <div id="inputs"></div>
-    <script src="inputBlocks.js"></script>
-    <script src="calculations.js"></script>
-    <script src="results.js"></script>
-  
+	<div id="inputs"></div>
+
+	<script src="js/core/inputBlocks.js"></script>
+	<script src="js/core/calculations.js"></script>
+
+	<script src="js/chart/helpers.js"></script>
+	<script src="js/chart/options.js"></script>
+	<script src="js/chart/main.js"></script>
+
+	<script src="js/results/summary.js"></script>
+    <script src="js/results/actions.js"></script>
+    <script src="js/results/main.js"></script>
 </body>
 </html>

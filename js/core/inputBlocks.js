@@ -4,8 +4,8 @@ const titles = {
 };
 
 const defaultValues = {
-	A: [30,0,400,8,0.07,0.013,0.25],
-	B: [30,0,400,8,0.07,0,0]
+	A: [30,0,400,8,0.07,0,0],
+	B: [30,0,400,8,0.07,0.013,0.25]
 };
 
 const names = [
@@ -24,11 +24,10 @@ function changeName(prefix) {
 
 	if (!newName || !newName.trim()) return;
 
-	titles[prefix] = newName.trim();
-	document.getElementById("title" + prefix).textContent = titles[prefix];
-
-	renderResults();
-	drawChart();
+	runAction(prefix, () => {
+		titles[prefix] = newName.trim();
+		document.getElementById("title" + prefix).textContent = titles[prefix];
+	});
 }
 
 function createInputs(prefix, values) {

@@ -7,11 +7,23 @@
 
 .investment-title {
 	cursor: pointer;
+	color: #222;
+	transition: 0.2s;
+}
+
+.investment-title::after {
+	content: " ✎";
+	opacity: 0;
+	color: #4a90e2;
+	transition: 0.2s;
 }
 
 .investment-title:hover {
 	color: #4a90e2;
-	text-decoration: underline;
+}
+
+.investment-title:hover::after {
+	opacity: 1;
 }
 
 .field label {
