@@ -15,6 +15,8 @@ function makeBlocksDraggable() {
 		title.addEventListener("mousedown", e => {
 			if (locks[prefix]) return;
 
+			e.preventDefault();
+
 			dragging = true;
 			moved = false;
 			startMouseX = e.clientX;
@@ -23,6 +25,7 @@ function makeBlocksDraggable() {
 			startBlockY = +(block.dataset.y || 0);
 
 			block.style.zIndex = 20;
+			block.classList.add("is-dragging");
 			document.body.classList.add("dragging-block");
 		});
 
@@ -51,6 +54,7 @@ function makeBlocksDraggable() {
 			}
 
 			dragging = false;
+			block.classList.remove("is-dragging");
 			document.body.classList.remove("dragging-block");
 		});
 	});

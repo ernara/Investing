@@ -56,3 +56,13 @@ input[type="number"] {
 	border: none;
 	cursor: pointer;
 }
+
+.input-block.is-dragging .investment-title {
+	color: #d97706;
+	background: #fff3cd;
+}
+
+.input-block.is-dragging .investment-title::after,
+.input-block.is-dragging .investment-title:hover::after {
+	opacity: 0;
+}
