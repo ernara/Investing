@@ -1,3 +1,24 @@
+function isTooFarFromOriginal(block) {
+	const rect = block.getBoundingClientRect();
+
+	const outsideLeft = Math.max(0, -rect.left);
+	const outsideRight = Math.max(0, rect.right - window.innerWidth);
+	const outsideTop = Math.max(0, -rect.top);
+	const outsideBottom = Math.max(0, rect.bottom - window.innerHeight);
+
+	return outsideLeft > rect.width * 0.5 ||
+		outsideRight > rect.width * 0.5 ||
+		outsideTop > rect.height * 0.5 ||
+		outsideBottom > rect.height * 0.5;
+}
+
+function resetBlockPosition(block) {
+	block.style.transform = "";
+	block.style.zIndex = "";
+	block.dataset.x = 0;
+	block.dataset.y = 0;
+}
+
 function makeBlocksDraggable() {
 	const suppressClick = {};
 
@@ -51,6 +72,10 @@ function makeBlocksDraggable() {
 			if (dragging && moved) {
 				suppressClick[prefix] = true;
 				setTimeout(() => suppressClick[prefix] = false, 0);
+
+				if (isTooFarFromOriginal(block)) {
+					resetBlockPosition(block);
+				}
 			}
 
 			dragging = false;

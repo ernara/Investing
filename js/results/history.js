@@ -1,11 +1,22 @@
 const undoHistory = {};
 const redoHistory = {};
 const editStartState = {};
+const maxHistoryStates = 20;
 
 accounts.forEach(prefix => {
 	undoHistory[prefix] = [];
 	redoHistory[prefix] = [];
 });
+
+function pushHistory(history, state) {
+	history.push(state);
+
+	if (history.length > maxHistoryStates) {
+		history.shift();
+	}
+}
+
+
 
 function getActionState(prefix) {
 	const state = {
@@ -56,7 +67,7 @@ function runAction(prefix, action) {
 function undo(prefix) {
 	if (undoHistory[prefix].length === 0) return;
 
-	redoHistory[prefix].push(getActionState(prefix));
+	pushHistory(redoHistory[prefix], getActionState(prefix));
 	setActionState(prefix, undoHistory[prefix].pop());
 
 	updatePage();
@@ -65,7 +76,7 @@ function undo(prefix) {
 function redo(prefix) {
 	if (redoHistory[prefix].length === 0) return;
 
-	undoHistory[prefix].push(getActionState(prefix));
+	pushHistory(undoHistory[prefix], getActionState(prefix));
 	setActionState(prefix, redoHistory[prefix].pop());
 
 	updatePage();
