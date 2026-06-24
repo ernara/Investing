@@ -33,6 +33,7 @@ function sameState(a, b) {
 }
 
 function updatePage() {
+	saveData();
 	renderResults();
 	drawChart();
 }
