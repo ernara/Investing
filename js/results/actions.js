@@ -26,6 +26,7 @@ function renderActionButtons(prefix) {
 			<button type="button" onclick="redo('${prefix}')" title="Eiti pirmyn">↷</button>
 			<button type="button" onclick="importCSV('${prefix}')" class="excel-button" title="Importuoti CSV">IN</button>
 			<button type="button" onclick="downloadCSV('${prefix}')" class="excel-button" title="Atsisiųsti CSV">CSV</button>
+            ${false ? `<input class="width-input" type="number" value="${getContentWidth()}" onchange="setContentWidth(this.value)" title="Puslapio plotis">` : ""}
 		</div>
 	`;
 }

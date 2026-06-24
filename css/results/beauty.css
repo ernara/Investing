@@ -42,7 +42,8 @@
 	color: #666;
 }
 
-.summary-actions button {
+.summary-actions button,
+.summary-actions input {
 	border: none;
 	border-radius: 7px;
 	background: white;
