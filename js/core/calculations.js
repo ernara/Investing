@@ -1,5 +1,3 @@
-const accounts = ["A", "B"];
-
 function calculateProfit(prefix) {
 	const g = id => +document.getElementById(id + prefix).value || 0;
 

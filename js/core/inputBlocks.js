@@ -1,8 +1,13 @@
-const titles = {
+const accounts = ["A", "B"];
+
+const defaultTitles = {
 	A: "Trading212",
 	B: "SEB"
 };
 
+const titles = {
+	...defaultTitles
+};
 
 
 const defaultValues = {
@@ -41,7 +46,7 @@ function createInputs(prefix, values) {
 	block.innerHTML = `<h3 id="title${prefix}" class="investment-title" onclick="changeName('${prefix}')" 
 	oncontextmenu="event.preventDefault(); changeName('${prefix}')" title="Spauskite, kad pakeistumėte pavadinimą">
 	${titles[prefix]}</h3>`;
-	
+
 	names.forEach(([id, label], i) => {
 		block.innerHTML += `
 			<div class="field">
