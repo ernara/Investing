@@ -52,7 +52,7 @@ input[type="number"] {
 }
 
 .lock-button {
-	background: white;
+	background: transparent;
 	border: none;
 	cursor: pointer;
 }
