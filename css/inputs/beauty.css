@@ -50,3 +50,9 @@ input::-webkit-outer-spin-button {
 input[type="number"] {
 	appearance: textfield;
 }
+
+.lock-button {
+	background: white;
+	border: none;
+	cursor: pointer;
+}

@@ -31,3 +31,23 @@
 	flex: 1;
 	padding: 6px;
 }
+
+.input-block {
+	position: relative;
+}
+
+.lock-button {
+	position: absolute;
+	top: 8px;
+	right: 8px;
+}
+
+.input-block.unlocked .investment-title {
+	cursor: move;
+}
+
+body.dragging-block,
+body.dragging-block * {
+	cursor: move !important;
+	user-select: none;
+}

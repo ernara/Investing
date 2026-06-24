@@ -42,8 +42,9 @@ function changeName(prefix) {
 function createInputs(prefix, values) {
 	const block = document.createElement("div");
 	block.className = "input-block";
+	block.innerHTML = `<button id="lock${prefix}" class="lock-button" onclick="toggleLock('${prefix}')" title="Lock / unlock">🔒</button>`;
 
-	block.innerHTML = `<h3 id="title${prefix}" class="investment-title" onclick="changeName('${prefix}')" 
+	block.innerHTML += `<h3 id="title${prefix}" class="investment-title" onclick="changeName('${prefix}')" 
 	oncontextmenu="event.preventDefault(); changeName('${prefix}')" title="Spauskite, kad pakeistumėte pavadinimą">
 	${titles[prefix]}</h3>`;
 
