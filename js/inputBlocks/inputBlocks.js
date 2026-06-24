@@ -26,6 +26,16 @@ const names = [
 	["pirkimoMokestis", "Pirkimo Mokestis"]
 ];
 
+const maxTitleLength = 20;
+
+function cleanTitle(title, fallback) {
+	const text = String(title || "")
+		.trim()
+		.slice(0, maxTitleLength);
+
+	return text || fallback;
+}
+
 
 function changeName(prefix) {
 	const oldName = titles[prefix];
@@ -34,7 +44,7 @@ function changeName(prefix) {
 	if (!newName || !newName.trim()) return;
 
 	runAction(prefix, () => {
-		titles[prefix] = newName.trim();
+		titles[prefix] = cleanTitle(newName, titles[prefix]);
 		document.getElementById("title" + prefix).textContent = titles[prefix];
 	});
 }
@@ -45,14 +55,16 @@ function createInputs(prefix, values) {
 	block.innerHTML = `<button id="lock${prefix}" class="lock-button" onclick="toggleLock('${prefix}')" title="Lock / unlock">🔒</button>`;
 
 	block.innerHTML += `<h3 id="title${prefix}" class="investment-title" onclick="changeName('${prefix}')" 
-	oncontextmenu="event.preventDefault(); changeName('${prefix}')" title="Spauskite, kad pakeistumėte pavadinimą">
-	${titles[prefix]}</h3>`;
+	oncontextmenu="event.preventDefault(); changeName('${prefix}')" title="Spauskite, kad pakeistumėte pavadinimą"></h3>`;
+
+	titles[prefix] = cleanTitle(titles[prefix], defaultTitles[prefix]);
+	block.querySelector("#title" + prefix).textContent = titles[prefix];
 
 	names.forEach(([id, label], i) => {
 		block.innerHTML += `
 			<div class="field">
 				<label>${label}:</label>
-				<input id="${id + prefix}" type="number" value="${values[i]}">
+				<input id="${id + prefix}" type="text" inputmode="decimal" value="${values[i]}">
 			</div>
 		`;
 	});

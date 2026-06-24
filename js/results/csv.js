@@ -146,7 +146,7 @@ function importCSV(prefix) {
 			const accountRow = rows.find(row => row[0] === "Sąskaita");
 
 			if (accountRow && accountRow[1]) {
-				titles[prefix] = accountRow[1].trim();
+				titles[prefix] = cleanTitle(accountRow[1], titles[prefix]);
 				document.getElementById("title" + prefix).textContent = titles[prefix];
 			}
 
@@ -179,11 +179,10 @@ function importCSV(prefix) {
 
 				if (!id) return;
 
-				const value = String(row[1])
-					.replace("%", "")
-					.trim();
+				const input = document.getElementById(id + prefix);
+				const value = limitInputValue(id, parseInputValue(row[1]));
 
-				document.getElementById(id + prefix).value = value;
+				input.value = value;
 			});
 		});
 	};

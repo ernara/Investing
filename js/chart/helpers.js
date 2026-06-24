@@ -10,11 +10,14 @@ function getChartData() {
 }
 
 function getChartAxis() {
-	const yearly = calculateProfit(accounts[0])
-		.filter((_, i) => i === 0 || i % 12 === 0);
+	const maxLength = Math.max(
+		...accounts.map(prefix => calculateProfit(prefix).length)
+	);
+
+	const years = Math.floor((maxLength - 1) / 12);
 
 	return Array.from(
-		{ length: yearly.length },
+		{ length: years + 1 },
 		(_, i) => i
 	);
 }

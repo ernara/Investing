@@ -2,10 +2,6 @@ function money(value) {
 	return formatMoney(value);
 }
 
-function getInput(prefix, id) {
-	return +document.getElementById(id + prefix).value || 0;
-}
-
 function getSummary(prefix, history) {
 	const final = history[history.length - 1];
 	const months = history.length - 1;

@@ -1,17 +1,15 @@
 function calculateProfit(prefix) {
-	const g = id => +document.getElementById(id + prefix).value || 0;
+	const metai = getInput(prefix, "metai");
+	const menesineImoka = getInput(prefix, "menesineImoka");
+	const metineGraza = getInput(prefix, "metineGraza") / 1200;
+	const valdymoMokestis = getInput(prefix, "valdymoMokestis") / 1200;
+	const saugojimoMokestis = getInput(prefix, "saugojimoMokestis") / 100;
+	const pirkimoMokestis = getInput(prefix, "pirkimoMokestis") / 100;
 
-	const metai = g("metai");
-	const menesineImoka = g("menesineImoka");
-	const metineGraza = g("metineGraza") / 1200;
-	const valdymoMokestis = g("valdymoMokestis") / 1200;
-	const saugojimoMokestis = g("saugojimoMokestis") / 100;
-	const pirkimoMokestis = g("pirkimoMokestis") / 100;
-
-	let kapitalas = g("pradineInvesticija");
+	let kapitalas = getInput(prefix, "pradineInvesticija");
 	const history = [];
-    
-    history.push(kapitalas);
+
+	history.push(kapitalas);
 
 	for (let i = 0; i < metai * 12; i++) {
 		kapitalas += menesineImoka * (1 - pirkimoMokestis);
