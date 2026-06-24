@@ -1,11 +1,23 @@
 const contentWidthStorageKey = "content-width";
+const chartHeightStorageKey = "chart-height";
 
 function setContentWidth(width) {
-	const safeWidth = Math.max(45, Math.min(95, width));
+	const safeWidth = Math.max(35, Math.min(95, width));
 
 	document.documentElement.style.setProperty("--content-width", safeWidth + "vw");
 	localStorage.setItem(contentWidthStorageKey, safeWidth);
-    updateWidthInputs(safeWidth);
+	updateWidthInputs(safeWidth);
+
+	if (typeof chart !== "undefined" && chart) {
+		chart.resize();
+	}
+}
+
+function setChartHeight(height) {
+	const safeHeight = Math.max(35, Math.min(90, height));
+
+	document.documentElement.style.setProperty("--chart-height", safeHeight + "vh");
+	localStorage.setItem(chartHeightStorageKey, safeHeight);
 
 	if (typeof chart !== "undefined" && chart) {
 		chart.resize();
@@ -20,36 +32,12 @@ function loadContentWidth() {
 	setContentWidth(+savedWidth);
 }
 
-function createWidthHandle() {
-	const chartBox = document.getElementById("chart");
-	const handle = document.createElement("div");
+function loadChartHeight() {
+	const savedHeight = localStorage.getItem(chartHeightStorageKey);
 
-	handle.id = "width-handle";
-	handle.title = "Tempkite, kad pakeistumėte plotį";
+	if (!savedHeight) return;
 
-	chartBox.appendChild(handle);
-
-	let dragging = false;
-
-	handle.addEventListener("mousedown", e => {
-		e.preventDefault();
-		dragging = true;
-		document.body.classList.add("resizing-width");
-	});
-
-	document.addEventListener("mousemove", e => {
-		if (!dragging) return;
-
-		const chartLeft = chartBox.getBoundingClientRect().left;
-		const newWidth = (e.clientX - chartLeft) / window.innerWidth * 100;
-
-		setContentWidth(newWidth);
-	});
-
-	document.addEventListener("mouseup", () => {
-		dragging = false;
-		document.body.classList.remove("resizing-width");
-	});
+	setChartHeight(+savedHeight);
 }
 
 function updateWidthInputs(width) {
@@ -62,5 +50,36 @@ function getContentWidth() {
 	return Math.round(localStorage.getItem(contentWidthStorageKey) || 70);
 }
 
+function createSizeHandle() {
+	const chartBox = document.getElementById("chart");
+	const handle = document.createElement("div");
+
+	handle.id = "size-handle";
+	chartBox.appendChild(handle);
+
+	let dragging = false;
+
+	handle.addEventListener("mousedown", e => {
+		e.preventDefault();
+		dragging = true;
+		document.body.classList.add("resizing-size");
+	});
+
+	document.addEventListener("mousemove", e => {
+		if (!dragging) return;
+
+		const rect = chartBox.getBoundingClientRect();
+
+		setContentWidth((e.clientX - rect.left) / window.innerWidth * 100);
+		setChartHeight((e.clientY - rect.top) / window.innerHeight * 100);
+	});
+
+	document.addEventListener("mouseup", () => {
+		dragging = false;
+		document.body.classList.remove("resizing-size");
+	});
+}
+
 loadContentWidth();
-createWidthHandle();
+loadChartHeight();
+createSizeHandle();

@@ -1,6 +1,6 @@
 #chart {
 	width: var(--content-width);
-	height: 50vh;
+	height: var(--chart-height);
 	padding: 12px;
 	margin-bottom: 16px;
 	box-sizing: border-box;
@@ -8,13 +8,16 @@
 	box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
 	position: relative;
 	overflow: visible;
+	
 }
 
-#width-handle {
+#size-handle {
 	position: absolute;
-	top: 0;
 	right: -8px;
-	bottom: 0;
+	bottom: -8px;
 	width: 16px;
-	cursor: ew-resize;
+	height: 16px;
+	cursor: nwse-resize;
+	z-index: 10;
+	user-select: none;
 }
