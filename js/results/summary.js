@@ -1,5 +1,5 @@
 function money(value) {
-	return value.toFixed(2) + " €";
+	return formatMoney(value);
 }
 
 function getInput(prefix, id) {
