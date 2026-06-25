@@ -12,10 +12,13 @@ function getSummary(prefix, history) {
 	const profitPercent = invested === 0 ? 0 : profit / invested * 100;
 	const yearlyProfitPercent = years === 0 ? 0 : profitPercent / years;
 
+	const feesPaid = calculateInvestment(prefix).feesPaid;
+
 	return {
 		final,
 		invested,
 		profit,
+		feesPaid,
 		profitPercent,
 		yearlyProfitPercent
 	};
@@ -37,14 +40,22 @@ function renderSummaryCard(summary, prefix) {
 				<strong>${money(summary.profit)}</strong>
 			</div>
 			<div>
+				<span>Mokesčiai</span>
+				<strong>${money(summary.feesPaid)}</strong>
+			</div>
+			<div>
 				<span>Bendra grąža</span>
 				<strong>${summary.profitPercent.toFixed(2)} %</strong>
 			</div>
+				
 			<div>
 				<span>Vidutinė metinė grąža</span>
 				<strong>${summary.yearlyProfitPercent.toFixed(2)} %</strong>
+
+			</div >
+
+			<div class="summary-actions-card">
+				${renderActionButtons(prefix)}
 			</div>
-			${renderActionButtons(prefix)}
-		</div>
 	`;
 }

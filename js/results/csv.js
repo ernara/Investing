@@ -45,7 +45,7 @@ function parseCSV(text) {
 }
 
 function downloadCSV(prefix) {
-	const history = calculateProfit(prefix);
+	const history = calculateInvestment(prefix).history;
 	const name = titles[prefix] || prefix;
 	const summary = getSummary(prefix, history);
 

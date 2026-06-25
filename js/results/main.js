@@ -35,7 +35,7 @@ function renderYears(history) {
 
 function renderResults() {
 	accounts.forEach(prefix => {
-		const history = calculateProfit(prefix);
+		const history = calculateInvestment(prefix).history;
 		const output = document.getElementById("output" + prefix);
 		const summary = getSummary(prefix, history);
 

@@ -1,5 +1,5 @@
 function getChartData() {
-	const data = accounts.map(prefix => calculateProfit(prefix));
+	const data = accounts.map(prefix => calculateInvestment(prefix).history);
 
 	return data.map((values, i) => ({
 		label: titles[accounts[i]],
@@ -11,7 +11,7 @@ function getChartData() {
 
 function getChartAxis() {
 	const maxLength = Math.max(
-		...accounts.map(prefix => calculateProfit(prefix).length)
+		...accounts.map(prefix => calculateInvestment(prefix).history.length)
 	);
 
 	const years = Math.floor((maxLength - 1) / 12);
