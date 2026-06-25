@@ -1,0 +1,31 @@
+body.dark #comparison-summary {
+	background: #1f2937;
+	color: #f9fafb;
+}
+
+body.dark .summary-card div,
+body.dark .year {
+	background: #374151;
+}
+
+body.dark .summary-card span {
+	color: #d1d5db;
+}
+
+body.dark .months {
+	background: #1f2937;
+}
+
+body.dark .month {
+	border-bottom-color: #374151;
+}
+
+body.dark .summary-actions button,
+body.dark .summary-actions input {
+	background: #111827;
+	color: #f9fafb;
+}
+
+body.dark .summary-actions button:hover {
+	background: #374151;
+}

@@ -1,0 +1,26 @@
+body.dark .input-block {
+	background: #1f2937;
+	color: #f9fafb;
+}
+
+body.dark .input-block input {
+	background: #111827;
+	color: #f9fafb;
+	border-color: #374151;
+}
+
+body.dark .investment-title {
+	color: #f9fafb;
+}
+
+body.dark .investment-title:hover {
+	color: #93c5fd;
+}
+
+body.dark .field,
+body.dark .field label,
+body.dark .field span,
+body.dark .label {
+	/* color: #d1d5db; */
+    color: #9ca3af;
+}

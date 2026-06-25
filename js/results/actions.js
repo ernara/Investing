@@ -27,6 +27,7 @@ function renderActionButtons(prefix) {
 			<button type="button" onclick="toggleMoneyMode()" class="money-mode-button" title="Skaičių formatas">${getMoneyModeLabel()}</button>
 			<button type="button" onclick="importCSV('${prefix}')" class="excel-button" title="Importuoti CSV">IN</button>
 			<button type="button" onclick="downloadCSV('${prefix}')" class="excel-button" title="Atsisiųsti CSV">CSV</button>
+			<button type="button" onclick="toggleTheme()" title="Tamsus režimas">☾</button>
             ${false ? `<input class="width-input" type="number" value="${getContentWidth()}" onchange="setContentWidth(this.value)" title="Puslapio plotis">` : ""}
 		</div>
 	`;

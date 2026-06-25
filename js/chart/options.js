@@ -1,4 +1,8 @@
 function getChartOptions() {
+	const isDark = document.body.classList.contains("dark");
+	const chartTextColor = isDark ? "#d1d5db" : "#666";
+	const chartGridColor = isDark ? "#374151" : "#ddd";
+
 	return {
 		responsive: true,
 		maintainAspectRatio: false,
@@ -7,19 +11,29 @@ function getChartOptions() {
 			x: {
 				title: {
 					display: true,
-					text: "Metai"
+					text: "Metai",
+					color: chartTextColor
 				},
 				ticks: {
-					autoSkip: false
+					autoSkip: false,
+					color: chartTextColor
+				},
+				grid: {
+					color: chartGridColor
 				}
 			},
 			y: {
 				title: {
 					display: true,
-					text: "Kapitalas"
+					text: "Kapitalas",
+					color: chartTextColor
 				},
 				ticks: {
+					color: chartTextColor,
 					callback: value => formatMoney(value)
+				},
+				grid: {
+					color: chartGridColor
 				}
 			}
 		},
@@ -30,6 +44,11 @@ function getChartOptions() {
 		},
 
 		plugins: {
+			legend: {
+				labels: {
+					color: chartTextColor
+				}
+			},
 			tooltip: {
 				bodyFont: {
 					family: "monospace"
