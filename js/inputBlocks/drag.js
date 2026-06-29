@@ -33,10 +33,11 @@ function makeBlocksDraggable() {
 		let dragging = false;
 		let moved = false;
 
-		title.addEventListener("mousedown", e => {
+		title.addEventListener("pointerdown", e => {
 			if (locks[prefix]) return;
 
 			e.preventDefault();
+			title.setPointerCapture(e.pointerId);
 
 			dragging = true;
 			moved = false;
@@ -50,7 +51,7 @@ function makeBlocksDraggable() {
 			document.body.classList.add("dragging-block");
 		});
 
-		document.addEventListener("mousemove", e => {
+		document.addEventListener("pointermove", e => {
 			if (!dragging) return;
 
 			const dx = e.clientX - startMouseX;
@@ -68,7 +69,7 @@ function makeBlocksDraggable() {
 			block.style.transform = `translate(${x}px, ${y}px)`;
 		});
 
-		document.addEventListener("mouseup", () => {
+		document.addEventListener("pointerup", () => {
 			if (dragging && moved) {
 				suppressClick[prefix] = true;
 				setTimeout(() => suppressClick[prefix] = false, 0);
@@ -78,6 +79,12 @@ function makeBlocksDraggable() {
 				}
 			}
 
+			dragging = false;
+			block.classList.remove("is-dragging");
+			document.body.classList.remove("dragging-block");
+		});
+
+		document.addEventListener("pointercancel", () => {
 			dragging = false;
 			block.classList.remove("is-dragging");
 			document.body.classList.remove("dragging-block");

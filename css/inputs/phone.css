@@ -1,0 +1,27 @@
+@media (max-width: 700px) {
+	.lock-button {
+		width: 44px;
+		height: 44px;
+		font-size: 24px;
+		background: #ffffff;
+		border-radius: 10px;
+		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+	}
+
+	.input-block.unlocked .lock-button {
+		background: #fef3c7;
+	}
+
+	body.dark .lock-button {
+		background: #111827;
+	}
+
+	body.dark .input-block.unlocked .lock-button {
+		background: #92400e;
+	}
+
+	.input-block.unlocked .investment-title,
+	#size-handle {
+		touch-action: none;
+	}
+}

@@ -59,13 +59,15 @@ function createSizeHandle() {
 
 	let dragging = false;
 
-	handle.addEventListener("mousedown", e => {
+	handle.addEventListener("pointerdown", e => {
 		e.preventDefault();
+		handle.setPointerCapture(e.pointerId);
+
 		dragging = true;
 		document.body.classList.add("resizing-size");
 	});
 
-	document.addEventListener("mousemove", e => {
+	document.addEventListener("pointermove", e => {
 		if (!dragging) return;
 
 		const rect = chartBox.getBoundingClientRect();
@@ -74,10 +76,15 @@ function createSizeHandle() {
 		setChartHeight((e.clientY - rect.top) / window.innerHeight * 100);
 	});
 
-	document.addEventListener("mouseup", () => {
+	document.addEventListener("pointerup", () => {
 		dragging = false;
 		document.body.classList.remove("resizing-size");
 	});
+
+	document.addEventListener("pointercancel", () => {
+	dragging = false;
+	document.body.classList.remove("resizing-size");
+});
 }
 
 loadContentWidth();
