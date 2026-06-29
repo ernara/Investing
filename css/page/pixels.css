@@ -1,18 +1,16 @@
+html,
 body,
-button,
-label,
-span,
-div,
-h1,
-h2,
-h3,
-p {
+body * {
 	user-select: none;
+	-webkit-user-select: none;
+	-webkit-touch-callout: none;
 }
 
 input,
 textarea {
 	user-select: text;
+	-webkit-user-select: text;
+	-webkit-touch-callout: default;
 }
 
 :root {

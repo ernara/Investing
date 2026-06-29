@@ -54,6 +54,8 @@ function makeBlocksDraggable() {
 		document.addEventListener("pointermove", e => {
 			if (!dragging) return;
 
+			e.preventDefault();
+
 			const dx = e.clientX - startMouseX;
 			const dy = e.clientY - startMouseY;
 
