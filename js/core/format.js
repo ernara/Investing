@@ -20,6 +20,12 @@ function updateMoneyModeButtons() {
 	document.querySelectorAll(".money-mode-button").forEach(button => {
 		button.textContent = getMoneyModeLabel();
 	});
+
+	const menuIcon = document.getElementById("money-mode-menu-icon");
+
+	if (menuIcon) {
+		menuIcon.textContent = getMoneyModeLabel();
+	}
 }
 
 function toggleMoneyMode() {
@@ -29,4 +35,5 @@ function toggleMoneyMode() {
 	updateMoneyModeButtons();
 	renderResults();
 	drawChart();
+	updateMoneyModeButtons();
 }

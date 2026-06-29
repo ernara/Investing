@@ -2,3 +2,27 @@ body.dark {
 	background: #111827;
 	color: #f9fafb;
 }
+
+body.dark #top-menu-button {
+	color: #f9fafb;
+}
+
+body.dark #top-menu-button:hover {
+	background: #374151;
+}
+
+body.dark #top-menu-dropdown {
+	background: #1f2937;
+}
+
+body.dark #top-menu-dropdown button {
+	color: #f9fafb;
+}
+
+body.dark #top-menu-dropdown button:hover {
+	background: #374151;
+}
+
+body.dark #top-menu-dropdown button span {
+	color: #f9fafb;
+}
