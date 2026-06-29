@@ -1,0 +1,723 @@
+[
+	{
+		"id": "f50a",
+		"ticker": "F50A",
+		"name": "Amundi Prime Global UCITS",
+		"terPercent": 0.05,
+		"totalCompanies": 1385,
+		"totalWeightPercent": 100.0,
+		"estimated": false,
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 414,
+				"weightPercent": 71.35,
+				"estimated": false
+			},
+			{
+				"name": "Japan",
+				"nameLt": "Japonija",
+				"code": "JP",
+				"companies": 306,
+				"weightPercent": 6.56,
+				"estimated": false
+			},
+			{
+				"name": "Canada",
+				"nameLt": "Kanada",
+				"code": "CA",
+				"companies": 82,
+				"weightPercent": 3.46,
+				"estimated": false
+			},
+			{
+				"name": "Australia",
+				"nameLt": "Australija",
+				"code": "AU",
+				"companies": 69,
+				"weightPercent": 1.78,
+				"estimated": false
+			},
+			{
+				"name": "United Kingdom",
+				"nameLt": "Jungtinė Karalystė",
+				"code": "GB",
+				"companies": 67,
+				"weightPercent": 3.5,
+				"estimated": false
+			},
+			{
+				"name": "Sweden",
+				"nameLt": "Švedija",
+				"code": "SE",
+				"companies": 58,
+				"weightPercent": 0.83,
+				"estimated": false
+			},
+			{
+				"name": "Hong Kong",
+				"nameLt": "Hong Kongas",
+				"code": "HK",
+				"companies": 46,
+				"weightPercent": 0.5,
+				"estimated": false
+			},
+			{
+				"name": "Israel",
+				"nameLt": "Izraelis",
+				"code": "IL",
+				"companies": 45,
+				"weightPercent": 0.4,
+				"estimated": false
+			},
+			{
+				"name": "Germany",
+				"nameLt": "Vokietija",
+				"code": "DE",
+				"companies": 41,
+				"weightPercent": 2.04,
+				"estimated": false
+			},
+			{
+				"name": "France",
+				"nameLt": "Prancūzija",
+				"code": "FR",
+				"companies": 31,
+				"weightPercent": 2.21,
+				"estimated": false
+			},
+			{
+				"name": "Norway",
+				"nameLt": "Norvegija",
+				"code": "NO",
+				"companies": 28,
+				"weightPercent": 0.2,
+				"estimated": false
+			},
+			{
+				"name": "Switzerland",
+				"nameLt": "Šveicarija",
+				"code": "CH",
+				"companies": 26,
+				"weightPercent": 2.15,
+				"estimated": false
+			},
+			{
+				"name": "Singapore",
+				"nameLt": "Singapūras",
+				"code": "SG",
+				"companies": 26,
+				"weightPercent": 0.43,
+				"estimated": false
+			},
+			{
+				"name": "Italy",
+				"nameLt": "Italija",
+				"code": "IT",
+				"companies": 25,
+				"weightPercent": 0.81,
+				"estimated": false
+			},
+			{
+				"name": "Netherlands",
+				"nameLt": "Nyderlandai",
+				"code": "NL",
+				"companies": 18,
+				"weightPercent": 1.4,
+				"estimated": false
+			},
+			{
+				"name": "Poland",
+				"nameLt": "Lenkija",
+				"code": "PL",
+				"companies": 17,
+				"weightPercent": 0.15,
+				"estimated": false
+			},
+			{
+				"name": "Belgium",
+				"nameLt": "Belgija",
+				"code": "BE",
+				"companies": 14,
+				"weightPercent": 0.25,
+				"estimated": false
+			},
+			{
+				"name": "Spain",
+				"nameLt": "Ispanija",
+				"code": "ES",
+				"companies": 14,
+				"weightPercent": 0.91,
+				"estimated": false
+			},
+			{
+				"name": "Denmark",
+				"nameLt": "Danija",
+				"code": "DK",
+				"companies": 13,
+				"weightPercent": 0.41,
+				"estimated": false
+			},
+			{
+				"name": "Finland",
+				"nameLt": "Suomija",
+				"code": "FI",
+				"companies": 13,
+				"weightPercent": 0.3,
+				"estimated": false
+			},
+			{
+				"name": "Austria",
+				"nameLt": "Austrija",
+				"code": "AT",
+				"companies": 11,
+				"weightPercent": 0.11,
+				"estimated": false
+			},
+			{
+				"name": "New Zealand",
+				"nameLt": "Naujoji Zelandija",
+				"code": "NZ",
+				"companies": 11,
+				"weightPercent": 0.07,
+				"estimated": false
+			},
+			{
+				"name": "Ireland",
+				"nameLt": "Airija",
+				"code": "IE",
+				"companies": 6,
+				"weightPercent": 0.13,
+				"estimated": false
+			},
+			{
+				"name": "Portugal",
+				"nameLt": "Portugalija",
+				"code": "PT",
+				"companies": 4,
+				"weightPercent": 0.05,
+				"estimated": false
+			}
+		]
+	},
+	{
+		"id": "uetw",
+		"ticker": "UETW",
+		"name": "UBS Core MSCI World UCITS",
+		"terPercent": 0.06,
+		"totalCompanies": 1308,
+		"totalWeightPercent": 100.0,
+		"estimated": false,
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 536,
+				"weightPercent": 72.45,
+				"estimated": false
+			},
+			{
+				"name": "Japan",
+				"nameLt": "Japonija",
+				"code": "JP",
+				"companies": 179,
+				"weightPercent": 5.7,
+				"estimated": false
+			},
+			{
+				"name": "United Kingdom",
+				"nameLt": "Jungtinė Karalystė",
+				"code": "GB",
+				"companies": 71,
+				"weightPercent": 3.5,
+				"estimated": false
+			},
+			{
+				"name": "Canada",
+				"nameLt": "Kanada",
+				"code": "CA",
+				"companies": 83,
+				"weightPercent": 3.38,
+				"estimated": false
+			},
+			{
+				"name": "France",
+				"nameLt": "Prancūzija",
+				"code": "FR",
+				"companies": 54,
+				"weightPercent": 2.39,
+				"estimated": false
+			},
+			{
+				"name": "Switzerland",
+				"nameLt": "Šveicarija",
+				"code": "CH",
+				"companies": 40,
+				"weightPercent": 2.24,
+				"estimated": false
+			},
+			{
+				"name": "Germany",
+				"nameLt": "Vokietija",
+				"code": "DE",
+				"companies": 54,
+				"weightPercent": 2.18,
+				"estimated": false
+			},
+			{
+				"name": "Australia",
+				"nameLt": "Australija",
+				"code": "AU",
+				"companies": 46,
+				"weightPercent": 1.57,
+				"estimated": false
+			},
+			{
+				"name": "Netherlands",
+				"nameLt": "Nyderlandai",
+				"code": "NL",
+				"companies": 28,
+				"weightPercent": 1.36,
+				"estimated": false
+			},
+			{
+				"name": "Spain",
+				"nameLt": "Ispanija",
+				"code": "ES",
+				"companies": 22,
+				"weightPercent": 0.94,
+				"estimated": false
+			},
+			{
+				"name": "Sweden",
+				"nameLt": "Švedija",
+				"code": "SE",
+				"companies": 43,
+				"weightPercent": 0.87,
+				"estimated": false
+			},
+			{
+				"name": "Italy",
+				"nameLt": "Italija",
+				"code": "IT",
+				"companies": 25,
+				"weightPercent": 0.8,
+				"estimated": false
+			},
+			{
+				"name": "Hong Kong",
+				"nameLt": "Hong Kongas",
+				"code": "HK",
+				"companies": 26,
+				"weightPercent": 0.49,
+				"estimated": false
+			},
+			{
+				"name": "Singapore",
+				"nameLt": "Singapūras",
+				"code": "SG",
+				"companies": 16,
+				"weightPercent": 0.4,
+				"estimated": false
+			},
+			{
+				"name": "Denmark",
+				"nameLt": "Danija",
+				"code": "DK",
+				"companies": 15,
+				"weightPercent": 0.4,
+				"estimated": false
+			},
+			{
+				"name": "Finland",
+				"nameLt": "Suomija",
+				"code": "FI",
+				"companies": 13,
+				"weightPercent": 0.31,
+				"estimated": false
+			},
+			{
+				"name": "Israel",
+				"nameLt": "Izraelis",
+				"code": "IL",
+				"companies": 14,
+				"weightPercent": 0.28,
+				"estimated": false
+			},
+			{
+				"name": "Belgium",
+				"nameLt": "Belgija",
+				"code": "BE",
+				"companies": 12,
+				"weightPercent": 0.27,
+				"estimated": false
+			},
+			{
+				"name": "Norway",
+				"nameLt": "Norvegija",
+				"code": "NO",
+				"companies": 11,
+				"weightPercent": 0.16,
+				"estimated": false
+			},
+			{
+				"name": "Ireland",
+				"nameLt": "Airija",
+				"code": "IE",
+				"companies": 5,
+				"weightPercent": 0.11,
+				"estimated": false
+			},
+			{
+				"name": "Austria",
+				"nameLt": "Austrija",
+				"code": "AT",
+				"companies": 5,
+				"weightPercent": 0.08,
+				"estimated": false
+			},
+			{
+				"name": "Portugal",
+				"nameLt": "Portugalija",
+				"code": "PT",
+				"companies": 5,
+				"weightPercent": 0.05,
+				"estimated": false
+			},
+			{
+				"name": "New Zealand",
+				"nameLt": "Naujoji Zelandija",
+				"code": "NZ",
+				"companies": 5,
+				"weightPercent": 0.04,
+				"estimated": false
+			}
+		]
+	},
+	{
+		"id": "webn",
+		"ticker": "WEBN",
+		"name": "Amundi Prime All Country World",
+		"terPercent": 0.07,
+		"totalCompanies": 3463,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 414,
+				"weightPercent": 61.87,
+				"estimated": true
+			},
+			{
+				"name": "Japan",
+				"nameLt": "Japonija",
+				"code": "JP",
+				"companies": 306,
+				"weightPercent": 5.7,
+				"estimated": true
+			},
+			{
+				"name": "Taiwan",
+				"nameLt": "Taivanas",
+				"code": "TW",
+				"companies": 110,
+				"weightPercent": 3.47,
+				"estimated": true
+			},
+			{
+				"name": "South Korea",
+				"nameLt": "Pietų Korėja",
+				"code": "KR",
+				"companies": 133,
+				"weightPercent": 3.03,
+				"estimated": true
+			},
+			{
+				"name": "Canada",
+				"nameLt": "Kanada",
+				"code": "CA",
+				"companies": 82,
+				"weightPercent": 2.99,
+				"estimated": true
+			},
+			{
+				"name": "United Kingdom",
+				"nameLt": "Jungtinė Karalystė",
+				"code": "GB",
+				"companies": 67,
+				"weightPercent": 2.9,
+				"estimated": true
+			},
+			{
+				"name": "China",
+				"nameLt": "Kinija",
+				"code": "CN",
+				"companies": 1261,
+				"weightPercent": 2.69,
+				"estimated": true
+			},
+			{
+				"name": "Switzerland",
+				"nameLt": "Šveicarija",
+				"code": "CH",
+				"companies": 26,
+				"weightPercent": 2.12,
+				"estimated": true
+			},
+			{
+				"name": "Germany",
+				"nameLt": "Vokietija",
+				"code": "DE",
+				"companies": 41,
+				"weightPercent": 1.77,
+				"estimated": true
+			},
+			{
+				"name": "France",
+				"nameLt": "Prancūzija",
+				"code": "FR",
+				"companies": 31,
+				"weightPercent": 1.73,
+				"estimated": true
+			},
+			{
+				"name": "Australia",
+				"nameLt": "Australija",
+				"code": "AU",
+				"companies": 69,
+				"weightPercent": 1.57,
+				"estimated": true
+			},
+			{
+				"name": "India",
+				"nameLt": "Indija",
+				"code": "IN",
+				"companies": 248,
+				"weightPercent": 1.49,
+				"estimated": true
+			},
+			{
+				"name": "Netherlands",
+				"nameLt": "Nyderlandai",
+				"code": "NL",
+				"companies": 18,
+				"weightPercent": 1.29,
+				"estimated": true
+			},
+			{
+				"name": "Sweden",
+				"nameLt": "Švedija",
+				"code": "SE",
+				"companies": 58,
+				"weightPercent": 0.79,
+				"estimated": true
+			},
+			{
+				"name": "Spain",
+				"nameLt": "Ispanija",
+				"code": "ES",
+				"companies": 14,
+				"weightPercent": 0.76,
+				"estimated": true
+			},
+			{
+				"name": "Italy",
+				"nameLt": "Italija",
+				"code": "IT",
+				"companies": 25,
+				"weightPercent": 0.65,
+				"estimated": true
+			},
+			{
+				"name": "Brazil",
+				"nameLt": "Brazilija",
+				"code": "BR",
+				"companies": 47,
+				"weightPercent": 0.53,
+				"estimated": true
+			},
+			{
+				"name": "Hong Kong",
+				"nameLt": "Honkongas",
+				"code": "HK",
+				"companies": 46,
+				"weightPercent": 0.43,
+				"estimated": true
+			},
+			{
+				"name": "Singapore",
+				"nameLt": "Singapūras",
+				"code": "SG",
+				"companies": 26,
+				"weightPercent": 0.43,
+				"estimated": true
+			},
+			{
+				"name": "Denmark",
+				"nameLt": "Danija",
+				"code": "DK",
+				"companies": 13,
+				"weightPercent": 0.35,
+				"estimated": true
+			},
+			{
+				"name": "Israel",
+				"nameLt": "Izraelis",
+				"code": "IL",
+				"companies": 47,
+				"weightPercent": 0.31,
+				"estimated": true
+			},
+			{
+				"name": "South Africa",
+				"nameLt": "Pietų Afrika",
+				"code": "ZA",
+				"companies": 30,
+				"weightPercent": 0.31,
+				"estimated": true
+			},
+			{
+				"name": "Mexico",
+				"nameLt": "Meksika",
+				"code": "MX",
+				"companies": 23,
+				"weightPercent": 0.24,
+				"estimated": true
+			},
+			{
+				"name": "Belgium",
+				"nameLt": "Belgija",
+				"code": "BE",
+				"companies": 14,
+				"weightPercent": 0.22,
+				"estimated": true
+			},
+			{
+				"name": "Finland",
+				"nameLt": "Suomija",
+				"code": "FI",
+				"companies": 13,
+				"weightPercent": 0.21,
+				"estimated": true
+			},
+			{
+				"name": "Thailand",
+				"nameLt": "Tailandas",
+				"code": "TH",
+				"companies": 42,
+				"weightPercent": 0.2,
+				"estimated": true
+			},
+			{
+				"name": "Malaysia",
+				"nameLt": "Malaizija",
+				"code": "MY",
+				"companies": 43,
+				"weightPercent": 0.18,
+				"estimated": true
+			},
+			{
+				"name": "Norway",
+				"nameLt": "Norvegija",
+				"code": "NO",
+				"companies": 27,
+				"weightPercent": 0.18,
+				"estimated": true
+			},
+			{
+				"name": "Poland",
+				"nameLt": "Lenkija",
+				"code": "PL",
+				"companies": 19,
+				"weightPercent": 0.13,
+				"estimated": true
+			},
+			{
+				"name": "Ireland",
+				"nameLt": "Airija",
+				"code": "IE",
+				"companies": 6,
+				"weightPercent": 0.1,
+				"estimated": true
+			},
+			{
+				"name": "Austria",
+				"nameLt": "Austrija",
+				"code": "AT",
+				"companies": 11,
+				"weightPercent": 0.1,
+				"estimated": true
+			},
+			{
+				"name": "Indonesia",
+				"nameLt": "Indonezija",
+				"code": "ID",
+				"companies": 43,
+				"weightPercent": 0.09,
+				"estimated": true
+			},
+			{
+				"name": "Greece",
+				"nameLt": "Graikija",
+				"code": "GR",
+				"companies": 11,
+				"weightPercent": 0.07,
+				"estimated": true
+			},
+			{
+				"name": "Chile",
+				"nameLt": "Čilė",
+				"code": "CL",
+				"companies": 15,
+				"weightPercent": 0.06,
+				"estimated": true
+			},
+			{
+				"name": "New Zealand",
+				"nameLt": "Naujoji Zelandija",
+				"code": "NZ",
+				"companies": 11,
+				"weightPercent": 0.05,
+				"estimated": true
+			},
+			{
+				"name": "Portugal",
+				"nameLt": "Portugalija",
+				"code": "PT",
+				"companies": 4,
+				"weightPercent": 0.04,
+				"estimated": true
+			},
+			{
+				"name": "Hungary",
+				"nameLt": "Vengrija",
+				"code": "HU",
+				"companies": 3,
+				"weightPercent": 0.04,
+				"estimated": true
+			},
+			{
+				"name": "Philippines",
+				"nameLt": "Filipinai",
+				"code": "PH",
+				"companies": 14,
+				"weightPercent": 0.04,
+				"estimated": true
+			},
+			{
+				"name": "Colombia",
+				"nameLt": "Kolumbija",
+				"code": "CO",
+				"companies": 11,
+				"weightPercent": 0.03,
+				"estimated": true
+			}
+		]
+	}
+]

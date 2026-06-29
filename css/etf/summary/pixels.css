@@ -1,0 +1,64 @@
+#etfSummary {
+	width: min(520px, calc(100vw - 32px)) !important;
+	margin: 70px auto 20px !important;
+}
+
+.etf-cards {
+	display: flex !important;
+	flex-direction: column !important;
+	gap: 10px !important;
+}
+
+.etf-card {
+	display: block !important;
+	width: 100% !important;
+	box-sizing: border-box !important;
+}
+
+.etf-card-top {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.etf-card h3 {
+	margin: 0;
+	font-size: 14px;
+	line-height: 1.25;
+}
+
+.drag-handle {
+	cursor: grab;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 1;
+}
+
+.etf-card.dragging .drag-handle,
+body.dragging-etf,
+body.dragging-etf * {
+	cursor: grabbing !important;
+}
+
+.etf-mini-table,
+.country-table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 12px;
+}
+
+.etf-mini-table th,
+.etf-mini-table td,
+.country-table th,
+.country-table td {
+	padding: 4px 6px;
+	text-align: left;
+}
+
+.country-button {
+	margin-top: 6px;
+}
+
+.hidden {
+	display: none;
+}

@@ -60,9 +60,17 @@ input[type="number"] {
 .input-block.is-dragging .investment-title {
 	color: #d97706;
 	background: #fff3cd;
+	body.dragging-block,
+	body.dragging-block * {
+	cursor: grabbing !important;
+	}
 }
 
 .input-block.is-dragging .investment-title::after,
 .input-block.is-dragging .investment-title:hover::after {
 	opacity: 0;
+}
+
+.input-block.unlocked .investment-title {
+	cursor: grab;
 }

@@ -8,6 +8,11 @@ function updateThemeMenuIcon() {
 	icon.textContent = "☾";
 }
 
+function redrawPageAfterThemeChange() {
+	if (typeof drawChart === "function") drawChart();
+	if (typeof drawEtfChart === "function") drawEtfChart();
+}
+
 function loadTheme() {
 	document.body.classList.toggle(
 		"dark",
@@ -23,8 +28,7 @@ function toggleTheme() {
 	localStorage.setItem(themeStorageKey, isDark ? "dark" : "light");
 
 	updateThemeMenuIcon();
-
-	if (typeof drawChart === "function") drawChart();
+	redrawPageAfterThemeChange();
 }
 
 loadTheme();

@@ -1,0 +1,113 @@
+async function loadEtfs() {
+	const root = document.getElementById("etfSummary");
+
+	if (!root) return;
+
+	try {
+		const response = await fetch("data/etfs.json");
+
+		if (!response.ok) throw new Error("data/etfs.json not found");
+
+		const etfs = await response.json();
+
+		renderEtfs(sortEtfs(etfs));
+		setupCountryButtons();
+
+	} catch (error) {
+		console.error(error);
+
+		root.innerHTML = `
+			<p class="etf-error">Nepavyko užkrauti ETF duomenų.</p>
+		`;
+	}
+}
+
+function renderEtfs(etfs) {
+	const root = document.getElementById("etfSummary");
+
+	root.innerHTML = etfs.map(renderEtfCard).join("");
+}
+
+function renderEtfCard(etf) {
+	const usa = etf.countries.find(country => country.code === "US");
+
+	return `
+		<article class="etf-card">
+			<div class="etf-card-top">
+				<span class="drag-handle">⋮⋮</span>
+				<h3>${etf.ticker} - ${etf.name}</h3>
+			</div>
+
+			<table class="etf-mini-table">
+				<tbody>
+					<tr>
+						<th>Valdymo mokestis</th>
+						<td>${formatPercent(etf.terPercent)}</td>
+					</tr>
+					<tr>
+						<th>USA įmonių</th>
+						<td>${formatNumber(usa.companies)}</td>
+					</tr>
+					<tr>
+						<th>Iš viso įmonių</th>
+						<td>${formatNumber(etf.totalCompanies)}</td>
+					</tr>
+					<tr>
+						<th>USA kapitalo dalis</th>
+						<td>${formatPercent(usa.weightPercent)}</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<button class="country-button" type="button">
+				Rodyti šalis
+			</button>
+
+			<div class="country-panel hidden">
+				${renderCountryTable(etf.countries)}
+			</div>
+		</article>
+	`;
+}
+
+function renderCountryTable(countries) {
+	return `
+		<div class="country-list">
+			${countries.map(country => `
+				<div class="country-row">
+					<span>${country.nameLt}</span>
+					<span>${formatNumber(country.companies)}</span>
+					<strong>${formatPercent(country.weightPercent)}</strong>
+				</div>
+			`).join("")}
+		</div>
+	`;
+}
+
+function setupCountryButtons() {
+	document.querySelectorAll(".country-button").forEach(button => {
+		button.addEventListener("click", () => {
+			const panel = button.nextElementSibling;
+
+			panel.classList.toggle("hidden");
+
+			button.textContent = panel.classList.contains("hidden")
+				? "Rodyti šalis"
+				: "Slėpti šalis";
+		});
+	});
+}
+
+function sortEtfs(etfs) {
+	return [...etfs].sort((a, b) => a.terPercent - b.terPercent);
+}
+
+function formatNumber(number) {
+	return number.toLocaleString("lt-LT");
+}
+
+function formatPercent(number) {
+	return number.toFixed(2).replace(".", ",") + " %";
+}
+
+loadEtfs();

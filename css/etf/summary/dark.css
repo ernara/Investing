@@ -1,0 +1,55 @@
+body.dark {
+	background: #0f172a;
+	color: #e5e7eb;
+}
+
+body.dark .etf-card {
+	background: #111827;
+	border-color: #263244;
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+
+body.dark .etf-mini-table th,
+body.dark .etf-mini-table td,
+body.dark .country-table th,
+body.dark .country-table td {
+	border-bottom-color: #263244;
+}
+
+body.dark .etf-mini-table th {
+	color: #cbd5e1;
+}
+
+body.dark .country-button {
+	background: #2563eb;
+	color: white;
+}
+
+body.dark .country-panel {
+	background: transparent;
+	border: none;
+}
+
+body.dark .country-table th {
+	background: #1f2937;
+	color: #e5e7eb;
+}
+
+body.dark .country-table td {
+	background: #111827;
+	color: #e5e7eb;
+}
+
+body.dark .drag-handle {
+	color: #93c5fd;
+}
+
+body.dark .etf-error,
+body.dark .no-data {
+	color: #fca5a5;
+}
+
+body.dark .country-row {
+	background: #374151;
+	color: #f9fafb;
+}

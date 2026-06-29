@@ -9,13 +9,14 @@
 	width: calc((100% - 1%) / 2);
 	box-sizing: border-box;
 	padding: 10px;
+	position: relative;
+	user-select: none;
 }
 
 .input-block h3 {
 	margin: 0 0 10px;
 	text-align: center;
 }
-
 
 .field {
 	display: flex;
@@ -32,11 +33,6 @@
 	padding: 6px;
 }
 
-.input-block {
-	position: relative;
-	user-select: none;
-}
-
 .lock-button {
 	position: absolute;
 	top: 4px;
@@ -47,11 +43,12 @@
 }
 
 .input-block.unlocked .investment-title {
-	cursor: move;
+	cursor: grab;
 }
 
+.input-block.is-dragging .investment-title,
 body.dragging-block,
 body.dragging-block * {
-	cursor: move !important;
+	cursor: grabbing !important;
 	user-select: none;
 }
