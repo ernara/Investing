@@ -53,3 +53,8 @@ body.dark .country-row {
 	background: #374151;
 	color: #f9fafb;
 }
+
+body.dark .country-flag-missing {
+	background: #4b5563;
+	color: white;
+}

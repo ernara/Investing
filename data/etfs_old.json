@@ -1587,7 +1587,7 @@
 				"name": "United States",
 				"nameLt": "JAV",
 				"code": "US",
-				"companies": 441,
+				"companies": null,
 				"weightPercent": 62.73,
 				"estimated": true
 			},
@@ -1595,7 +1595,7 @@
 				"name": "Japan",
 				"nameLt": "Japonija",
 				"code": "JP",
-				"companies": 421,
+				"companies": null,
 				"weightPercent": 5.71,
 				"estimated": true
 			},
@@ -1603,7 +1603,7 @@
 				"name": "Taiwan",
 				"nameLt": "Taivanas",
 				"code": "TW",
-				"companies": 116,
+				"companies": null,
 				"weightPercent": 3.23,
 				"estimated": true
 			},
@@ -1611,7 +1611,7 @@
 				"name": "United Kingdom",
 				"nameLt": "Jungtinė Karalystė",
 				"code": "GB",
-				"companies": 82,
+				"companies": null,
 				"weightPercent": 3.1,
 				"estimated": true
 			},
@@ -1619,7 +1619,7 @@
 				"name": "Canada",
 				"nameLt": "Kanada",
 				"code": "CA",
-				"companies": 74,
+				"companies": null,
 				"weightPercent": 2.88,
 				"estimated": true
 			},
@@ -1627,7 +1627,7 @@
 				"name": "South Korea",
 				"nameLt": "Pietų Korėja",
 				"code": "KR",
-				"companies": 139,
+				"companies": null,
 				"weightPercent": 2.84,
 				"estimated": true
 			},
@@ -1635,7 +1635,7 @@
 				"name": "Hong Kong",
 				"nameLt": "Honkongas",
 				"code": "HK",
-				"companies": 58,
+				"companies": null,
 				"weightPercent": 2.45,
 				"estimated": true
 			},
@@ -1643,7 +1643,7 @@
 				"name": "Switzerland",
 				"nameLt": "Šveicarija",
 				"code": "CH",
-				"companies": 44,
+				"companies": null,
 				"weightPercent": 1.95,
 				"estimated": true
 			},
@@ -1651,7 +1651,7 @@
 				"name": "Germany",
 				"nameLt": "Vokietija",
 				"code": "DE",
-				"companies": 56,
+				"companies": null,
 				"weightPercent": 1.84,
 				"estimated": true
 			},
@@ -1659,7 +1659,7 @@
 				"name": "France",
 				"nameLt": "Prancūzija",
 				"code": "FR",
-				"companies": 50,
+				"companies": null,
 				"weightPercent": 1.82,
 				"estimated": true
 			},
@@ -1667,7 +1667,7 @@
 				"name": "Australia",
 				"nameLt": "Australija",
 				"code": "AU",
-				"companies": 94,
+				"companies": null,
 				"weightPercent": 1.55,
 				"estimated": true
 			},
@@ -1675,7 +1675,7 @@
 				"name": "India",
 				"nameLt": "Indija",
 				"code": "IN",
-				"companies": 241,
+				"companies": null,
 				"weightPercent": 1.52,
 				"estimated": true
 			},
@@ -1683,7 +1683,7 @@
 				"name": "Netherlands",
 				"nameLt": "Nyderlandai",
 				"code": "NL",
-				"companies": 27,
+				"companies": null,
 				"weightPercent": 1.11,
 				"estimated": true
 			},
@@ -1691,7 +1691,7 @@
 				"name": "Spain",
 				"nameLt": "Ispanija",
 				"code": "ES",
-				"companies": 21,
+				"companies": null,
 				"weightPercent": 0.79,
 				"estimated": true
 			},
@@ -1699,7 +1699,7 @@
 				"name": "Italy",
 				"nameLt": "Italija",
 				"code": "IT",
-				"companies": 33,
+				"companies": null,
 				"weightPercent": 0.77,
 				"estimated": true
 			},
@@ -1707,7 +1707,7 @@
 				"name": "Sweden",
 				"nameLt": "Švedija",
 				"code": "SE",
-				"companies": 48,
+				"companies": null,
 				"weightPercent": 0.7,
 				"estimated": true
 			},
@@ -1715,7 +1715,7 @@
 				"name": "China",
 				"nameLt": "Kinija",
 				"code": "CN",
-				"companies": 1126,
+				"companies": null,
 				"weightPercent": 0.6,
 				"estimated": true
 			},
@@ -1723,7 +1723,7 @@
 				"name": "Brazil",
 				"nameLt": "Brazilija",
 				"code": "BR",
-				"companies": 60,
+				"companies": null,
 				"weightPercent": 0.44,
 				"estimated": true
 			},
@@ -1731,7 +1731,7 @@
 				"name": "South Africa",
 				"nameLt": "Pietų Afrika",
 				"code": "ZA",
-				"companies": 36,
+				"companies": null,
 				"weightPercent": 0.38,
 				"estimated": true
 			},
@@ -1739,7 +1739,7 @@
 				"name": "Singapore",
 				"nameLt": "Singapūras",
 				"code": "SG",
-				"companies": 33,
+				"companies": null,
 				"weightPercent": 0.37,
 				"estimated": true
 			},
@@ -1747,7 +1747,7 @@
 				"name": "Israel",
 				"nameLt": "Izraelis",
 				"code": "IL",
-				"companies": 39,
+				"companies": null,
 				"weightPercent": 0.33,
 				"estimated": true
 			},
@@ -1755,7 +1755,7 @@
 				"name": "Denmark",
 				"nameLt": "Danija",
 				"code": "DK",
-				"companies": 15,
+				"companies": null,
 				"weightPercent": 0.33,
 				"estimated": true
 			},
@@ -1763,7 +1763,7 @@
 				"name": "Saudi Arabia",
 				"nameLt": "Saudo Arabija",
 				"code": "SA",
-				"companies": 56,
+				"companies": null,
 				"weightPercent": 0.32,
 				"estimated": true
 			},
@@ -1771,7 +1771,7 @@
 				"name": "Finland",
 				"nameLt": "Suomija",
 				"code": "FI",
-				"companies": 12,
+				"companies": null,
 				"weightPercent": 0.27,
 				"estimated": true
 			},
@@ -1779,7 +1779,7 @@
 				"name": "Belgium",
 				"nameLt": "Belgija",
 				"code": "BE",
-				"companies": 12,
+				"companies": null,
 				"weightPercent": 0.24,
 				"estimated": true
 			},
@@ -1787,7 +1787,7 @@
 				"name": "Mexico",
 				"nameLt": "Meksika",
 				"code": "MX",
-				"companies": 30,
+				"companies": null,
 				"weightPercent": 0.23,
 				"estimated": true
 			},
@@ -1795,7 +1795,7 @@
 				"name": "Malaysia",
 				"nameLt": "Malaizija",
 				"code": "MY",
-				"companies": 34,
+				"companies": null,
 				"weightPercent": 0.15,
 				"estimated": true
 			},
@@ -1803,7 +1803,7 @@
 				"name": "United Arab Emirates",
 				"nameLt": "JAE",
 				"code": "AE",
-				"companies": 30,
+				"companies": null,
 				"weightPercent": 0.15,
 				"estimated": true
 			},
@@ -1811,7 +1811,7 @@
 				"name": "Thailand",
 				"nameLt": "Tailandas",
 				"code": "TH",
-				"companies": 39,
+				"companies": null,
 				"weightPercent": 0.15,
 				"estimated": true
 			},
@@ -1819,7 +1819,7 @@
 				"name": "Norway",
 				"nameLt": "Norvegija",
 				"code": "NO",
-				"companies": 12,
+				"companies": null,
 				"weightPercent": 0.14,
 				"estimated": true
 			},
@@ -1827,7 +1827,7 @@
 				"name": "Poland",
 				"nameLt": "Lenkija",
 				"code": "PL",
-				"companies": 9,
+				"companies": null,
 				"weightPercent": 0.1,
 				"estimated": true
 			},
@@ -1835,7 +1835,7 @@
 				"name": "Turkey",
 				"nameLt": "Turkija",
 				"code": "TR",
-				"companies": 101,
+				"companies": null,
 				"weightPercent": 0.09,
 				"estimated": true
 			},
@@ -1843,7 +1843,7 @@
 				"name": "Greece",
 				"nameLt": "Graikija",
 				"code": "GR",
-				"companies": 26,
+				"companies": null,
 				"weightPercent": 0.08,
 				"estimated": true
 			},
@@ -1851,7 +1851,7 @@
 				"name": "Austria",
 				"nameLt": "Austrija",
 				"code": "AT",
-				"companies": 8,
+				"companies": null,
 				"weightPercent": 0.08,
 				"estimated": true
 			},
@@ -1859,7 +1859,7 @@
 				"name": "Ireland",
 				"nameLt": "Airija",
 				"code": "IE",
-				"companies": 4,
+				"companies": null,
 				"weightPercent": 0.08,
 				"estimated": true
 			},
@@ -1867,7 +1867,7 @@
 				"name": "Indonesia",
 				"nameLt": "Indonezija",
 				"code": "ID",
-				"companies": 34,
+				"companies": null,
 				"weightPercent": 0.07,
 				"estimated": true
 			},
@@ -1875,7 +1875,7 @@
 				"name": "Qatar",
 				"nameLt": "Kataras",
 				"code": "QA",
-				"companies": 15,
+				"companies": null,
 				"weightPercent": 0.07,
 				"estimated": true
 			},
@@ -1883,7 +1883,7 @@
 				"name": "Chile",
 				"nameLt": "Čilė",
 				"code": "CL",
-				"companies": 19,
+				"companies": null,
 				"weightPercent": 0.07,
 				"estimated": true
 			},
@@ -1891,7 +1891,7 @@
 				"name": "Kuwait",
 				"nameLt": "Kuveitas",
 				"code": "KW",
-				"companies": 7,
+				"companies": null,
 				"weightPercent": 0.06,
 				"estimated": true
 			},
@@ -1899,7 +1899,7 @@
 				"name": "New Zealand",
 				"nameLt": "Naujoji Zelandija",
 				"code": "NZ",
-				"companies": 10,
+				"companies": null,
 				"weightPercent": 0.05,
 				"estimated": true
 			},
@@ -1907,7 +1907,7 @@
 				"name": "Hungary",
 				"nameLt": "Vengrija",
 				"code": "HU",
-				"companies": 5,
+				"companies": null,
 				"weightPercent": 0.04,
 				"estimated": true
 			},
@@ -1915,7 +1915,7 @@
 				"name": "Portugal",
 				"nameLt": "Portugalija",
 				"code": "PT",
-				"companies": 4,
+				"companies": null,
 				"weightPercent": 0.04,
 				"estimated": true
 			},
@@ -1923,7 +1923,7 @@
 				"name": "Philippines",
 				"nameLt": "Filipinai",
 				"code": "PH",
-				"companies": 20,
+				"companies": null,
 				"weightPercent": 0.04,
 				"estimated": true
 			},
@@ -1931,7 +1931,7 @@
 				"name": "Colombia",
 				"nameLt": "Kolumbija",
 				"code": "CO",
-				"companies": 5,
+				"companies": null,
 				"weightPercent": 0.02,
 				"estimated": true
 			},
@@ -1939,7 +1939,7 @@
 				"name": "Romania",
 				"nameLt": "Rumunija",
 				"code": "RO",
-				"companies": 5,
+				"companies": null,
 				"weightPercent": 0.01,
 				"estimated": true
 			},
@@ -1947,7 +1947,7 @@
 				"name": "Czech Republic",
 				"nameLt": "Čekija",
 				"code": "CZ",
-				"companies": 4,
+				"companies": null,
 				"weightPercent": 0.01,
 				"estimated": true
 			},
@@ -1955,7 +1955,7 @@
 				"name": "Iceland",
 				"nameLt": "Islandija",
 				"code": "IS",
-				"companies": 6,
+				"companies": null,
 				"weightPercent": 0.0,
 				"estimated": true
 			},
@@ -1963,7 +1963,7 @@
 				"name": "Egypt",
 				"nameLt": "Egiptas",
 				"code": "EG",
-				"companies": 2,
+				"companies": null,
 				"weightPercent": 0.0,
 				"estimated": true
 			}
@@ -1983,9 +1983,7 @@
 			"asOf": "2026-05-31",
 			"sourceName": "Vanguard fact sheet",
 			"estimated": false
-		},
-		"companyCountMethod": "Estimated from FTSE All-World index constituent counts by country, scaled to Vanguard reported 3,763 fund stocks.",
-		"companyCountSource": "FTSE Russell All-World indicative constituent weights PDF, data as at 2026-03-31; Vanguard portfolio data shows 3,763 fund stocks as at 2026-05-31."
+		}
 	},
 	{
 		"id": "iusq",

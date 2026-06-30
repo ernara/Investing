@@ -30,8 +30,8 @@ function renderEtfs(etfs) {
 
 function renderEtfCard(etf) {
 	const usa = etf.countries.find(country => country.code === "US") || {
-	companies: 0,
-	weightPercent: 0
+	companies: null,
+	weightPercent: null
 	};
 
 	return `
@@ -43,6 +43,10 @@ function renderEtfCard(etf) {
 
 			<table class="etf-mini-table">
 				<tbody>
+					<tr>
+						<th>ETF kapitalas</th>
+						<td>${formatFundCapital(etf.fundCapital)}</td>
+					</tr>
 					<tr>
 						<th>Valdymo mokestis</th>
 						<td>${formatPercent(etf.terPercent)}</td>
@@ -83,17 +87,23 @@ function renderCountryTable(countries) {
 			<div class="country-header">
 				<span>Šalis</span>
 				<span>Įmonių sk.</span>
-				<span>Kapitalo dalis ETF’e</span>
+				<span>ETF dalis</span>
 			</div>
 
 			${countries.map(country => `
 				<div class="country-row">
 					<span class="country-name">
-						<img class="country-flag" src="${getFlagUrl(country.code)}" alt="">
+						${renderFlag(country.code)}
 						<span>${country.nameLt}</span>
 					</span>
-					<span class="country-companies">${formatNumber(country.companies)}</span>
-					<strong class="country-weight">${formatPercent(country.weightPercent)}</strong>
+
+					<span class="country-companies">
+						${formatNumber(country.companies)}
+					</span>
+
+					<strong class="country-weight">
+						${formatPercent(country.weightPercent)}
+					</strong>
 				</div>
 			`).join("")}
 		</div>
@@ -118,16 +128,45 @@ function setupCountryButtons() {
 	});
 }
 
+function renderFlag(code) {
+	if (!code || code.length !== 2) {
+		return `<span class="country-flag country-flag-missing">?</span>`;
+	}
+
+	return `
+		<img
+			class="country-flag"
+			src="${getFlagUrl(code)}"
+			alt=""
+			onerror="this.outerHTML='<span class=&quot;country-flag country-flag-missing&quot;>?</span>'"
+		>
+	`;
+}
+
+function getFlagUrl(code) {
+	return `https://flagcdn.com/24x18/${code.toLowerCase()}.png`;
+}
+
+
+
 function sortEtfs(etfs) {
 	return [...etfs].sort((a, b) => a.terPercent - b.terPercent);
 }
 
 function formatNumber(number) {
-	return (number ?? 0).toLocaleString("lt-LT");
+	if (number === null || number === undefined) return "Nerasta";
+
+	return number.toLocaleString("lt-LT");
 }
 
 function formatPercent(number) {
-	return (number ?? 0).toFixed(2).replace(".", ",") + " %";
+	if (number === null || number === undefined) return "Nerasta";
+
+	return number.toFixed(2).replace(".", ",") + " %";
+}
+
+function formatFundCapital(fundCapital) {
+	return fundCapital?.label || "Nerasta";
 }
 
 loadEtfs();

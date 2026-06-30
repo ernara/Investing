@@ -180,3 +180,13 @@ body.dragging-etf * {
 	position: relative;
 	overflow: visible;
 }
+
+.country-flag-missing {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	background: #e5e7eb;
+	color: #111827;
+	font-size: 12px;
+	font-weight: 700;
+}
