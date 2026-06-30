@@ -1,6 +1,13 @@
 let draggedEtfCard = null;
 let dragOffsetX = 0;
 let dragOffsetY = 0;
+let highestEtfZIndex = 1;
+
+function bringEtfCardToFront(card) {
+	highestEtfZIndex++;
+
+	card.style.zIndex = highestEtfZIndex;
+}
 
 document.addEventListener("pointerdown", event => {
 	const top = event.target.closest(".etf-card-top");
@@ -20,7 +27,7 @@ document.addEventListener("pointerdown", event => {
 
 	draggedEtfCard.classList.add("dragging");
 	document.body.classList.add("dragging-etf");
-	draggedEtfCard.style.zIndex = "1000";
+	bringEtfCardToFront(draggedEtfCard);
 
 	event.preventDefault();
 });
@@ -108,7 +115,14 @@ function stopEtfDrag() {
 
 	draggedEtfCard.classList.remove("dragging");
 	document.body.classList.remove("dragging-etf");
-	draggedEtfCard.style.zIndex = "";
 
 	draggedEtfCard = null;
 }
+
+document.addEventListener("click", event => {
+	const card = event.target.closest(".etf-card");
+
+	if (!card) return;
+
+	bringEtfCardToFront(card);
+});

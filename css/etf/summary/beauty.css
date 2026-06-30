@@ -124,20 +124,26 @@ body.dragging-etf * {
 	gap: 7px;
 }
 
+.country-header,
 .country-row {
 	display: grid;
-	grid-template-columns: 1fr 70px 80px;
+	grid-template-columns: 1fr 110px 120px;
 	gap: 8px;
 	align-items: center;
+}
+
+.country-header {
+	padding: 0 10px 4px;
+	font-size: 12px;
+	font-weight: 700;
+	opacity: 0.75;
+}
+
+.country-row {
 	padding: 9px 10px;
 	border-radius: 8px;
 	background: #f3f4f6;
 	font-size: 13px;
-}
-
-.country-row span:nth-child(2),
-.country-row strong {
-	text-align: right;
 }
 
 .country-name {
@@ -151,6 +157,16 @@ body.dragging-etf * {
 	height: 18px;
 	object-fit: cover;
 	border-radius: 2px;
+}
+
+.country-header span:nth-child(2),
+.country-companies {
+	text-align: center;
+}
+
+.country-header span:nth-child(3),
+.country-weight {
+	text-align: right;
 }
 
 .etf-error,

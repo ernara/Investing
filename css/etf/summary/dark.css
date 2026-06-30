@@ -21,8 +21,8 @@ body.dark .etf-mini-table th {
 }
 
 body.dark .country-button {
-	background: #2563eb;
-	color: white;
+	background: white;
+	color: #111827;
 }
 
 body.dark .country-panel {

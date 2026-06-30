@@ -45,7 +45,7 @@ function renderEtfCard(etf) {
 						<td>${formatPercent(etf.terPercent)}</td>
 					</tr>
 					<tr>
-						<th>USA įmonių</th>
+						<th>JAV įmonių</th>
 						<td>${formatNumber(usa.companies)}</td>
 					</tr>
 					<tr>
@@ -53,7 +53,7 @@ function renderEtfCard(etf) {
 						<td>${formatNumber(etf.totalCompanies)}</td>
 					</tr>
 					<tr>
-						<th>USA kapitalo dalis</th>
+						<th>JAV kapitalo dalis</th>
 						<td>${formatPercent(usa.weightPercent)}</td>
 					</tr>
 				</tbody>
@@ -71,16 +71,26 @@ function renderEtfCard(etf) {
 }
 
 function renderCountryTable(countries) {
+	if (!countries.length) {
+		return `<p class="no-data">Nėra šalių duomenų.</p>`;
+	}
+
 	return `
 		<div class="country-list">
+			<div class="country-header">
+				<span>Šalis</span>
+				<span>Įmonių sk.</span>
+				<span>Kapitalo dalis ETF’e</span>
+			</div>
+
 			${countries.map(country => `
 				<div class="country-row">
 					<span class="country-name">
 						<img class="country-flag" src="${getFlagUrl(country.code)}" alt="">
 						<span>${country.nameLt}</span>
 					</span>
-					<span>${formatNumber(country.companies)}</span>
-					<strong>${formatPercent(country.weightPercent)}</strong>
+					<span class="country-companies">${formatNumber(country.companies)}</span>
+					<strong class="country-weight">${formatPercent(country.weightPercent)}</strong>
 				</div>
 			`).join("")}
 		</div>
