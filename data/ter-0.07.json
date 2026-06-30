@@ -1,0 +1,1067 @@
+[
+	{
+		"id": "webn",
+		"ticker": "WEBN",
+		"name": "Amundi Prime All Country World UCITS ETF Acc",
+		"terPercent": 0.07,
+		"totalCompanies": 3463,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Acc",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "WEBN"
+			},
+			{
+				"exchange": "gettex",
+				"ticker": "WEBN"
+			},
+			{
+				"exchange": "Borsa Italiana",
+				"ticker": "WEBN"
+			}
+		],
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 414,
+				"weightPercent": 61.87,
+				"estimated": true
+			},
+			{
+				"name": "Japan",
+				"nameLt": "Japonija",
+				"code": "JP",
+				"companies": 306,
+				"weightPercent": 5.7,
+				"estimated": true
+			},
+			{
+				"name": "Taiwan",
+				"nameLt": "Taivanas",
+				"code": "TW",
+				"companies": 110,
+				"weightPercent": 3.47,
+				"estimated": true
+			},
+			{
+				"name": "South Korea",
+				"nameLt": "Pietų Korėja",
+				"code": "KR",
+				"companies": 133,
+				"weightPercent": 3.03,
+				"estimated": true
+			},
+			{
+				"name": "Canada",
+				"nameLt": "Kanada",
+				"code": "CA",
+				"companies": 82,
+				"weightPercent": 2.99,
+				"estimated": true
+			},
+			{
+				"name": "United Kingdom",
+				"nameLt": "Jungtinė Karalystė",
+				"code": "GB",
+				"companies": 67,
+				"weightPercent": 2.9,
+				"estimated": true
+			},
+			{
+				"name": "China",
+				"nameLt": "Kinija",
+				"code": "CN",
+				"companies": 1261,
+				"weightPercent": 2.69,
+				"estimated": true
+			},
+			{
+				"name": "Switzerland",
+				"nameLt": "Šveicarija",
+				"code": "CH",
+				"companies": 26,
+				"weightPercent": 2.12,
+				"estimated": true
+			},
+			{
+				"name": "Germany",
+				"nameLt": "Vokietija",
+				"code": "DE",
+				"companies": 41,
+				"weightPercent": 1.77,
+				"estimated": true
+			},
+			{
+				"name": "France",
+				"nameLt": "Prancūzija",
+				"code": "FR",
+				"companies": 31,
+				"weightPercent": 1.73,
+				"estimated": true
+			},
+			{
+				"name": "Australia",
+				"nameLt": "Australija",
+				"code": "AU",
+				"companies": 69,
+				"weightPercent": 1.57,
+				"estimated": true
+			},
+			{
+				"name": "India",
+				"nameLt": "Indija",
+				"code": "IN",
+				"companies": 248,
+				"weightPercent": 1.49,
+				"estimated": true
+			},
+			{
+				"name": "Netherlands",
+				"nameLt": "Nyderlandai",
+				"code": "NL",
+				"companies": 18,
+				"weightPercent": 1.29,
+				"estimated": true
+			},
+			{
+				"name": "Sweden",
+				"nameLt": "Švedija",
+				"code": "SE",
+				"companies": 58,
+				"weightPercent": 0.79,
+				"estimated": true
+			},
+			{
+				"name": "Spain",
+				"nameLt": "Ispanija",
+				"code": "ES",
+				"companies": 14,
+				"weightPercent": 0.76,
+				"estimated": true
+			},
+			{
+				"name": "Italy",
+				"nameLt": "Italija",
+				"code": "IT",
+				"companies": 25,
+				"weightPercent": 0.65,
+				"estimated": true
+			},
+			{
+				"name": "Brazil",
+				"nameLt": "Brazilija",
+				"code": "BR",
+				"companies": 47,
+				"weightPercent": 0.53,
+				"estimated": true
+			},
+			{
+				"name": "Hong Kong",
+				"nameLt": "Hong Kongas",
+				"code": "HK",
+				"companies": 46,
+				"weightPercent": 0.43,
+				"estimated": true
+			},
+			{
+				"name": "Singapore",
+				"nameLt": "Singapūras",
+				"code": "SG",
+				"companies": 26,
+				"weightPercent": 0.43,
+				"estimated": true
+			},
+			{
+				"name": "Denmark",
+				"nameLt": "Danija",
+				"code": "DK",
+				"companies": 13,
+				"weightPercent": 0.35,
+				"estimated": true
+			},
+			{
+				"name": "Israel",
+				"nameLt": "Izraelis",
+				"code": "IL",
+				"companies": 47,
+				"weightPercent": 0.31,
+				"estimated": true
+			},
+			{
+				"name": "South Africa",
+				"nameLt": "Pietų Afrika",
+				"code": "ZA",
+				"companies": 30,
+				"weightPercent": 0.31,
+				"estimated": true
+			},
+			{
+				"name": "Mexico",
+				"nameLt": "Meksika",
+				"code": "MX",
+				"companies": 23,
+				"weightPercent": 0.24,
+				"estimated": true
+			},
+			{
+				"name": "Belgium",
+				"nameLt": "Belgija",
+				"code": "BE",
+				"companies": 14,
+				"weightPercent": 0.22,
+				"estimated": true
+			},
+			{
+				"name": "Finland",
+				"nameLt": "Suomija",
+				"code": "FI",
+				"companies": 13,
+				"weightPercent": 0.21,
+				"estimated": true
+			},
+			{
+				"name": "Thailand",
+				"nameLt": "Tailandas",
+				"code": "TH",
+				"companies": 42,
+				"weightPercent": 0.2,
+				"estimated": true
+			},
+			{
+				"name": "Malaysia",
+				"nameLt": "Malaizija",
+				"code": "MY",
+				"companies": 43,
+				"weightPercent": 0.18,
+				"estimated": true
+			},
+			{
+				"name": "Norway",
+				"nameLt": "Norvegija",
+				"code": "NO",
+				"companies": 27,
+				"weightPercent": 0.18,
+				"estimated": true
+			},
+			{
+				"name": "Poland",
+				"nameLt": "Lenkija",
+				"code": "PL",
+				"companies": 19,
+				"weightPercent": 0.13,
+				"estimated": true
+			},
+			{
+				"name": "Ireland",
+				"nameLt": "Airija",
+				"code": "IE",
+				"companies": 6,
+				"weightPercent": 0.1,
+				"estimated": true
+			},
+			{
+				"name": "Austria",
+				"nameLt": "Austrija",
+				"code": "AT",
+				"companies": 11,
+				"weightPercent": 0.1,
+				"estimated": true
+			},
+			{
+				"name": "Indonesia",
+				"nameLt": "Indonezija",
+				"code": "ID",
+				"companies": 43,
+				"weightPercent": 0.09,
+				"estimated": true
+			},
+			{
+				"name": "Greece",
+				"nameLt": "Graikija",
+				"code": "GR",
+				"companies": 11,
+				"weightPercent": 0.07,
+				"estimated": true
+			},
+			{
+				"name": "Chile",
+				"nameLt": "Čilė",
+				"code": "CL",
+				"companies": 15,
+				"weightPercent": 0.06,
+				"estimated": true
+			},
+			{
+				"name": "New Zealand",
+				"nameLt": "Naujoji Zelandija",
+				"code": "NZ",
+				"companies": 11,
+				"weightPercent": 0.05,
+				"estimated": true
+			},
+			{
+				"name": "Portugal",
+				"nameLt": "Portugalija",
+				"code": "PT",
+				"companies": 4,
+				"weightPercent": 0.04,
+				"estimated": true
+			},
+			{
+				"name": "Hungary",
+				"nameLt": "Vengrija",
+				"code": "HU",
+				"companies": 3,
+				"weightPercent": 0.04,
+				"estimated": true
+			},
+			{
+				"name": "Philippines",
+				"nameLt": "Filipinai",
+				"code": "PH",
+				"companies": 14,
+				"weightPercent": 0.04,
+				"estimated": true
+			},
+			{
+				"name": "Colombia",
+				"nameLt": "Kolumbija",
+				"code": "CO",
+				"companies": 11,
+				"weightPercent": 0.03,
+				"estimated": true
+			},
+			{
+				"name": "Other countries",
+				"nameLt": "Kitos šalys",
+				"code": null,
+				"companies": 41,
+				"weightPercent": 0.84,
+				"estimated": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 2089,
+			"currency": "EUR",
+			"label": "€2 089M",
+			"asOf": "2026-06",
+			"sourceName": "justETF + previous project country-count table",
+			"estimated": false
+		}
+	},
+	{
+		"id": "webg",
+		"ticker": "WEBG",
+		"name": "Amundi Prime All Country World UCITS ETF Dist",
+		"terPercent": 0.07,
+		"totalCompanies": 3463,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Dist",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "WEBG"
+			},
+			{
+				"exchange": "gettex",
+				"ticker": "WEBG"
+			},
+			{
+				"exchange": "Borsa Italiana",
+				"ticker": "WEBG"
+			}
+		],
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 414,
+				"weightPercent": 61.87,
+				"estimated": true
+			},
+			{
+				"name": "Japan",
+				"nameLt": "Japonija",
+				"code": "JP",
+				"companies": 306,
+				"weightPercent": 5.7,
+				"estimated": true
+			},
+			{
+				"name": "Taiwan",
+				"nameLt": "Taivanas",
+				"code": "TW",
+				"companies": 110,
+				"weightPercent": 3.47,
+				"estimated": true
+			},
+			{
+				"name": "South Korea",
+				"nameLt": "Pietų Korėja",
+				"code": "KR",
+				"companies": 133,
+				"weightPercent": 3.03,
+				"estimated": true
+			},
+			{
+				"name": "Canada",
+				"nameLt": "Kanada",
+				"code": "CA",
+				"companies": 82,
+				"weightPercent": 2.99,
+				"estimated": true
+			},
+			{
+				"name": "United Kingdom",
+				"nameLt": "Jungtinė Karalystė",
+				"code": "GB",
+				"companies": 67,
+				"weightPercent": 2.9,
+				"estimated": true
+			},
+			{
+				"name": "China",
+				"nameLt": "Kinija",
+				"code": "CN",
+				"companies": 1261,
+				"weightPercent": 2.69,
+				"estimated": true
+			},
+			{
+				"name": "Switzerland",
+				"nameLt": "Šveicarija",
+				"code": "CH",
+				"companies": 26,
+				"weightPercent": 2.12,
+				"estimated": true
+			},
+			{
+				"name": "Germany",
+				"nameLt": "Vokietija",
+				"code": "DE",
+				"companies": 41,
+				"weightPercent": 1.77,
+				"estimated": true
+			},
+			{
+				"name": "France",
+				"nameLt": "Prancūzija",
+				"code": "FR",
+				"companies": 31,
+				"weightPercent": 1.73,
+				"estimated": true
+			},
+			{
+				"name": "Australia",
+				"nameLt": "Australija",
+				"code": "AU",
+				"companies": 69,
+				"weightPercent": 1.57,
+				"estimated": true
+			},
+			{
+				"name": "India",
+				"nameLt": "Indija",
+				"code": "IN",
+				"companies": 248,
+				"weightPercent": 1.49,
+				"estimated": true
+			},
+			{
+				"name": "Netherlands",
+				"nameLt": "Nyderlandai",
+				"code": "NL",
+				"companies": 18,
+				"weightPercent": 1.29,
+				"estimated": true
+			},
+			{
+				"name": "Sweden",
+				"nameLt": "Švedija",
+				"code": "SE",
+				"companies": 58,
+				"weightPercent": 0.79,
+				"estimated": true
+			},
+			{
+				"name": "Spain",
+				"nameLt": "Ispanija",
+				"code": "ES",
+				"companies": 14,
+				"weightPercent": 0.76,
+				"estimated": true
+			},
+			{
+				"name": "Italy",
+				"nameLt": "Italija",
+				"code": "IT",
+				"companies": 25,
+				"weightPercent": 0.65,
+				"estimated": true
+			},
+			{
+				"name": "Brazil",
+				"nameLt": "Brazilija",
+				"code": "BR",
+				"companies": 47,
+				"weightPercent": 0.53,
+				"estimated": true
+			},
+			{
+				"name": "Hong Kong",
+				"nameLt": "Hong Kongas",
+				"code": "HK",
+				"companies": 46,
+				"weightPercent": 0.43,
+				"estimated": true
+			},
+			{
+				"name": "Singapore",
+				"nameLt": "Singapūras",
+				"code": "SG",
+				"companies": 26,
+				"weightPercent": 0.43,
+				"estimated": true
+			},
+			{
+				"name": "Denmark",
+				"nameLt": "Danija",
+				"code": "DK",
+				"companies": 13,
+				"weightPercent": 0.35,
+				"estimated": true
+			},
+			{
+				"name": "Israel",
+				"nameLt": "Izraelis",
+				"code": "IL",
+				"companies": 47,
+				"weightPercent": 0.31,
+				"estimated": true
+			},
+			{
+				"name": "South Africa",
+				"nameLt": "Pietų Afrika",
+				"code": "ZA",
+				"companies": 30,
+				"weightPercent": 0.31,
+				"estimated": true
+			},
+			{
+				"name": "Mexico",
+				"nameLt": "Meksika",
+				"code": "MX",
+				"companies": 23,
+				"weightPercent": 0.24,
+				"estimated": true
+			},
+			{
+				"name": "Belgium",
+				"nameLt": "Belgija",
+				"code": "BE",
+				"companies": 14,
+				"weightPercent": 0.22,
+				"estimated": true
+			},
+			{
+				"name": "Finland",
+				"nameLt": "Suomija",
+				"code": "FI",
+				"companies": 13,
+				"weightPercent": 0.21,
+				"estimated": true
+			},
+			{
+				"name": "Thailand",
+				"nameLt": "Tailandas",
+				"code": "TH",
+				"companies": 42,
+				"weightPercent": 0.2,
+				"estimated": true
+			},
+			{
+				"name": "Malaysia",
+				"nameLt": "Malaizija",
+				"code": "MY",
+				"companies": 43,
+				"weightPercent": 0.18,
+				"estimated": true
+			},
+			{
+				"name": "Norway",
+				"nameLt": "Norvegija",
+				"code": "NO",
+				"companies": 27,
+				"weightPercent": 0.18,
+				"estimated": true
+			},
+			{
+				"name": "Poland",
+				"nameLt": "Lenkija",
+				"code": "PL",
+				"companies": 19,
+				"weightPercent": 0.13,
+				"estimated": true
+			},
+			{
+				"name": "Ireland",
+				"nameLt": "Airija",
+				"code": "IE",
+				"companies": 6,
+				"weightPercent": 0.1,
+				"estimated": true
+			},
+			{
+				"name": "Austria",
+				"nameLt": "Austrija",
+				"code": "AT",
+				"companies": 11,
+				"weightPercent": 0.1,
+				"estimated": true
+			},
+			{
+				"name": "Indonesia",
+				"nameLt": "Indonezija",
+				"code": "ID",
+				"companies": 43,
+				"weightPercent": 0.09,
+				"estimated": true
+			},
+			{
+				"name": "Greece",
+				"nameLt": "Graikija",
+				"code": "GR",
+				"companies": 11,
+				"weightPercent": 0.07,
+				"estimated": true
+			},
+			{
+				"name": "Chile",
+				"nameLt": "Čilė",
+				"code": "CL",
+				"companies": 15,
+				"weightPercent": 0.06,
+				"estimated": true
+			},
+			{
+				"name": "New Zealand",
+				"nameLt": "Naujoji Zelandija",
+				"code": "NZ",
+				"companies": 11,
+				"weightPercent": 0.05,
+				"estimated": true
+			},
+			{
+				"name": "Portugal",
+				"nameLt": "Portugalija",
+				"code": "PT",
+				"companies": 4,
+				"weightPercent": 0.04,
+				"estimated": true
+			},
+			{
+				"name": "Hungary",
+				"nameLt": "Vengrija",
+				"code": "HU",
+				"companies": 3,
+				"weightPercent": 0.04,
+				"estimated": true
+			},
+			{
+				"name": "Philippines",
+				"nameLt": "Filipinai",
+				"code": "PH",
+				"companies": 14,
+				"weightPercent": 0.04,
+				"estimated": true
+			},
+			{
+				"name": "Colombia",
+				"nameLt": "Kolumbija",
+				"code": "CO",
+				"companies": 11,
+				"weightPercent": 0.03,
+				"estimated": true
+			},
+			{
+				"name": "Other countries",
+				"nameLt": "Kitos šalys",
+				"code": null,
+				"companies": 41,
+				"weightPercent": 0.84,
+				"estimated": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 4452,
+			"currency": "EUR",
+			"label": "€4 452M",
+			"asOf": "2026-06",
+			"sourceName": "justETF + previous project country-count table",
+			"estimated": false
+		}
+	},
+	{
+		"id": "sxr8",
+		"ticker": "SXR8",
+		"name": "iShares Core S&P 500 UCITS ETF USD Acc",
+		"terPercent": 0.07,
+		"totalCompanies": 503,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Acc",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "SXR8"
+			},
+			{
+				"exchange": "gettex",
+				"ticker": "SXR8"
+			}
+		],
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 503,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 128805,
+			"currency": "EUR",
+			"label": "€128 805M",
+			"asOf": "2026-06",
+			"sourceName": "justETF",
+			"estimated": false
+		}
+	},
+	{
+		"id": "iusa",
+		"ticker": "IUSA",
+		"name": "iShares Core S&P 500 UCITS ETF USD Dist",
+		"terPercent": 0.07,
+		"totalCompanies": 503,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Dist",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "IUSA"
+			},
+			{
+				"exchange": "Euronext Amsterdam",
+				"ticker": "IUSA"
+			},
+			{
+				"exchange": "Borsa Italiana",
+				"ticker": "IUSA"
+			}
+		],
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 503,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 18869,
+			"currency": "EUR",
+			"label": "€18 869M",
+			"asOf": "2026-06",
+			"sourceName": "justETF",
+			"estimated": false
+		}
+	},
+	{
+		"id": "vuaa",
+		"ticker": "VUAA",
+		"name": "Vanguard S&P 500 UCITS ETF USD Acc",
+		"terPercent": 0.07,
+		"totalCompanies": 503,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Acc",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "VUAA"
+			},
+			{
+				"exchange": "Borsa Italiana",
+				"ticker": "VUAA"
+			}
+		],
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 503,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 28487,
+			"currency": "EUR",
+			"label": "€28 487M",
+			"asOf": "2026-06",
+			"sourceName": "justETF",
+			"estimated": false
+		}
+	},
+	{
+		"id": "vusa",
+		"ticker": "VUSA",
+		"name": "Vanguard S&P 500 UCITS ETF USD Dist",
+		"terPercent": 0.07,
+		"totalCompanies": 503,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Dist",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "Euronext Amsterdam",
+				"ticker": "VUSA"
+			},
+			{
+				"exchange": "Borsa Italiana",
+				"ticker": "VUSA"
+			}
+		],
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 503,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 44813,
+			"currency": "EUR",
+			"label": "€44 813M",
+			"asOf": "2026-06",
+			"sourceName": "justETF",
+			"estimated": false
+		}
+	},
+	{
+		"id": "sxrw",
+		"ticker": "SXRW",
+		"name": "iShares Core FTSE 100 UCITS ETF GBP Acc",
+		"terPercent": 0.07,
+		"totalCompanies": 102,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Acc",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "SXRW"
+			},
+			{
+				"exchange": "gettex",
+				"ticker": "SXRW"
+			}
+		],
+		"countries": [
+			{
+				"name": "United Kingdom",
+				"nameLt": "Jungtinė Karalystė",
+				"code": "GB",
+				"companies": 102,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 3608,
+			"currency": "EUR",
+			"label": "€3 608M",
+			"asOf": "2026-06",
+			"sourceName": "justETF",
+			"estimated": false
+		}
+	},
+	{
+		"id": "iusz",
+		"ticker": "IUSZ",
+		"name": "iShares Core FTSE 100 UCITS ETF GBP Dist",
+		"terPercent": 0.07,
+		"totalCompanies": 102,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Dist",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "IUSZ"
+			},
+			{
+				"exchange": "gettex",
+				"ticker": "IUSZ"
+			}
+		],
+		"countries": [
+			{
+				"name": "United Kingdom",
+				"nameLt": "Jungtinė Karalystė",
+				"code": "GB",
+				"companies": 102,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 18386,
+			"currency": "EUR",
+			"label": "€18 386M",
+			"asOf": "2026-06",
+			"sourceName": "justETF",
+			"estimated": false
+		}
+	},
+	{
+		"id": "zpa5",
+		"ticker": "ZPA5",
+		"name": "Amundi S&P 500 Climate Paris Aligned UCITS ETF Acc",
+		"terPercent": 0.07,
+		"totalCompanies": 261,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Acc",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "ZPA5"
+			},
+			{
+				"exchange": "gettex",
+				"ticker": "ZPA5"
+			}
+		],
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 261,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 1211,
+			"currency": "EUR",
+			"label": "€1 211M",
+			"asOf": "2026-06",
+			"sourceName": "justETF",
+			"estimated": false
+		}
+	},
+	{
+		"id": "web2",
+		"ticker": "WEB2",
+		"name": "Amundi MSCI USA ESG Broad Transition UCITS ETF Acc",
+		"terPercent": 0.07,
+		"totalCompanies": 475,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Acc",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "WEB2"
+			},
+			{
+				"exchange": "gettex",
+				"ticker": "WEB2"
+			}
+		],
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 475,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 2960,
+			"currency": "EUR",
+			"label": "€2 960M",
+			"asOf": "2026-06",
+			"sourceName": "justETF",
+			"estimated": false
+		}
+	},
+	{
+		"id": "lyyb",
+		"ticker": "LYYB",
+		"name": "Amundi MSCI USA ESG Broad Transition UCITS ETF Dist",
+		"terPercent": 0.07,
+		"totalCompanies": 475,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Dist",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "LYYB"
+			},
+			{
+				"exchange": "gettex",
+				"ticker": "LYYB"
+			}
+		],
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 475,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 2265,
+			"currency": "EUR",
+			"label": "€2 265M",
+			"asOf": "2026-06",
+			"sourceName": "justETF",
+			"estimated": false
+		}
+	}
+]

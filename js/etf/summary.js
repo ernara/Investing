@@ -4,13 +4,17 @@ async function loadEtfs() {
 	if (!root) return;
 
 	try {
-		const response = await fetch("data/etfs.json");
+		const response = await fetch("data/ter-0.07.json");
 
-		if (!response.ok) throw new Error("data/etfs.json not found");
+		if (!response.ok) throw new Error("data/ter-0.07.json not found");
 
 		const etfs = await response.json();
 
-		renderEtfs(sortEtfs(etfs));
+		const displayEtfs = prepareEtfsForDisplay(etfs, {
+		combineShareClasses: true
+		});
+
+		renderEtfs(sortEtfs(displayEtfs));
 		setupCountryButtons();
 
 	} catch (error) {
@@ -52,16 +56,8 @@ function renderEtfCard(etf) {
 						<td>${formatPercent(etf.terPercent)}</td>
 					</tr>
 					<tr>
-						<th>JAV įmonių</th>
-						<td>${formatNumber(usa.companies)}</td>
-					</tr>
-					<tr>
 						<th>Iš viso įmonių</th>
 						<td>${formatNumber(etf.totalCompanies)}</td>
-					</tr>
-					<tr>
-						<th>JAV kapitalo dalis</th>
-						<td>${formatPercent(usa.weightPercent)}</td>
 					</tr>
 				</tbody>
 			</table>
@@ -143,6 +139,75 @@ function renderFlag(code) {
 	`;
 }
 
+function prepareEtfsForDisplay(etfs, options = {}) {
+	if (!options.combineShareClasses) return etfs;
+
+	return combineEtfShareClasses(etfs);
+}
+
+function combineEtfShareClasses(etfs) {
+	const groups = new Map();
+
+	etfs.forEach(etf => {
+		const key = getEtfGroupKey(etf);
+		const capital = getCapitalForCombining(etf);
+
+		if (!groups.has(key)) {
+			groups.set(key, {
+				...etf,
+				ticker: etf.ticker,
+				name: cleanEtfName(etf.name),
+				fundCapital: {
+					amountMillions: 0,
+					currency: capital?.currency || etf.fundCapital?.currency || "USD",
+					estimated: Boolean(capital?.estimated || etf.fundCapital?.estimated),
+					sourceName: capital?.sourceName || etf.fundCapital?.sourceName || "",
+					asOf: capital?.asOf || etf.fundCapital?.asOf || null
+				},
+				shareClasses: []
+			});
+		}
+
+		const group = groups.get(key);
+
+		group.shareClasses.push(etf);
+		group.ticker = mergeTickers(group.ticker, etf.ticker);
+
+		if (capital?.amountMillions) {
+			group.fundCapital.amountMillions += capital.amountMillions;
+		}
+	});
+
+	return [...groups.values()];
+}
+
+function getEtfGroupKey(etf) {
+	return cleanEtfName(etf.name).toLowerCase();
+}
+
+function cleanEtfName(name) {
+	return name
+		.replace(/\b(acc|dist|accumulating|distributing)\b/gi, "")
+		.replace(/\s+/g, " ")
+		.trim();
+}
+
+function getCapitalForCombining(etf) {
+	return etf.shareClassCapital || etf.fundCapital;
+}
+
+function mergeTickers(currentTicker, newTicker) {
+	const tickers = new Set(
+		[currentTicker, newTicker]
+			.join(" / ")
+			.split("/")
+			.map(ticker => ticker.trim())
+			.filter(Boolean)
+	);
+
+	return [...tickers].join(" / ");
+}
+
 function getFlagUrl(code) {
 	return `https://flagcdn.com/24x18/${code.toLowerCase()}.png`;
 }
@@ -162,11 +227,16 @@ function formatNumber(number) {
 function formatPercent(number) {
 	if (number === null || number === undefined) return "Nerasta";
 
-	return number.toFixed(2).replace(".", ",") + " %";
+	return number.toFixed(2).replace(".", ",") + "%";
 }
 
 function formatFundCapital(fundCapital) {
-	return fundCapital?.label || "Nerasta";
+	if (!fundCapital?.amountMillions) return "Nerasta";
+
+	const amountBillions = fundCapital.amountMillions / 1000;
+	const currency = fundCapital.currency === "USD" ? "$" : "";
+
+	return currency + amountBillions.toFixed(1) + "B";
 }
 
 loadEtfs();
