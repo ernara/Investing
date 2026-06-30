@@ -29,7 +29,10 @@ function renderEtfs(etfs) {
 }
 
 function renderEtfCard(etf) {
-	const usa = etf.countries.find(country => country.code === "US");
+	const usa = etf.countries.find(country => country.code === "US") || {
+	companies: 0,
+	weightPercent: 0
+	};
 
 	return `
 		<article class="etf-card">
@@ -120,11 +123,11 @@ function sortEtfs(etfs) {
 }
 
 function formatNumber(number) {
-	return number.toLocaleString("lt-LT");
+	return (number ?? 0).toLocaleString("lt-LT");
 }
 
 function formatPercent(number) {
-	return number.toFixed(2).replace(".", ",") + " %";
+	return (number ?? 0).toFixed(2).replace(".", ",") + " %";
 }
 
 loadEtfs();

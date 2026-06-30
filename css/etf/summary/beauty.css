@@ -11,10 +11,12 @@
 }
 
 .etf-cards {
-	display: flex;
-	flex-direction: column;
+	display: grid;
+	grid-template-rows: repeat(3, auto);
+	grid-auto-flow: column;
+	grid-auto-columns: var(--summary-width);
 	gap: 14px;
-	align-items: stretch;
+	align-items: start;
 }
 
 .etf-card {
