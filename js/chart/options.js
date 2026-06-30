@@ -1,6 +1,10 @@
+function formatChartAxisMoney(value) {
+	return formatMoney(value).replace(/[.,]00(?= €$)/, "");
+}
+
 function getChartOptions() {
 	const isDark = document.body.classList.contains("dark");
-	const chartTextColor = isDark ? "#d1d5db" : "#666";
+	const chartTextColor = isDark ? "#fafafa" : "#111827";
 	const chartGridColor = isDark ? "#374151" : "#ddd";
 
 	return {
@@ -30,7 +34,7 @@ function getChartOptions() {
 				},
 				ticks: {
 					color: chartTextColor,
-					callback: value => formatMoney(value)
+					callback: value => formatChartAxisMoney(value)
 				},
 				grid: {
 					color: chartGridColor
