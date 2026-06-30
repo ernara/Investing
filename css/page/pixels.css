@@ -16,6 +16,8 @@ textarea {
 :root {
 	--content-width: 70vw;
 	--chart-height: 50vh;
+	--summary-width: 520px;
+	--summary-top-gap: 0px;
 }
 
 #top-menu {

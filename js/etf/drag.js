@@ -1,47 +1,114 @@
 let draggedEtfCard = null;
-let etfCardsContainer = null;
+let dragOffsetX = 0;
+let dragOffsetY = 0;
 
 document.addEventListener("pointerdown", event => {
-	const handle = event.target.closest(".drag-handle");
+	const top = event.target.closest(".etf-card-top");
 
-	if (!handle) return;
+	if (!top) return;
 
-	draggedEtfCard = handle.closest(".etf-card");
-	etfCardsContainer = draggedEtfCard.parentElement;
+	initEtfFreeDrag();
 
-	if (!draggedEtfCard || !etfCardsContainer) return;
+	draggedEtfCard = top.closest(".etf-card");
+
+	if (!draggedEtfCard) return;
+
+	const rect = draggedEtfCard.getBoundingClientRect();
+
+	dragOffsetX = event.clientX - rect.left;
+	dragOffsetY = event.clientY - rect.top;
 
 	draggedEtfCard.classList.add("dragging");
 	document.body.classList.add("dragging-etf");
+	draggedEtfCard.style.zIndex = "1000";
 
 	event.preventDefault();
 });
 
 document.addEventListener("pointermove", event => {
-	if (!draggedEtfCard || !etfCardsContainer) return;
+	if (!draggedEtfCard) return;
+
+	const root = document.getElementById("etfSummary");
+	const rootRect = root.getBoundingClientRect();
+
+	const x = event.clientX - rootRect.left - dragOffsetX;
+	const y = event.clientY - rootRect.top - dragOffsetY;
+
+	draggedEtfCard.dataset.x = x;
+	draggedEtfCard.dataset.y = y;
+
+	draggedEtfCard.style.left = x + "px";
+	draggedEtfCard.style.top = y + "px";
+
+	updateEtfDragAreaHeight();
 
 	event.preventDefault();
-
-	const cards = [...etfCardsContainer.querySelectorAll(".etf-card:not(.dragging)")];
-
-	const nextCard = cards.find(card => {
-		const rect = card.getBoundingClientRect();
-
-		return event.clientY < rect.top + rect.height / 2;
-	});
-
-	etfCardsContainer.insertBefore(draggedEtfCard, nextCard || null);
 });
 
-document.addEventListener("pointerup", stopEtfDragging);
-document.addEventListener("pointercancel", stopEtfDragging);
+document.addEventListener("pointerup", stopEtfDrag);
+document.addEventListener("pointercancel", stopEtfDrag);
 
-function stopEtfDragging() {
+document.addEventListener("click", event => {
+	if (!event.target.closest(".country-button")) return;
+
+	setTimeout(updateEtfDragAreaHeight, 0);
+});
+
+function initEtfFreeDrag() {
+	const root = document.getElementById("etfSummary");
+
+	if (!root || root.dataset.freeDragReady) return;
+
+	const cards = [...root.querySelectorAll(".etf-card")];
+	const rootRect = root.getBoundingClientRect();
+
+	const positions = cards.map(card => {
+		const rect = card.getBoundingClientRect();
+
+		return {
+			card: card,
+			x: rect.left - rootRect.left,
+			y: rect.top - rootRect.top,
+			width: rect.width
+		};
+	});
+
+	positions.forEach(position => {
+		position.card.dataset.x = position.x;
+		position.card.dataset.y = position.y;
+
+		position.card.style.position = "absolute";
+		position.card.style.left = position.x + "px";
+		position.card.style.top = position.y + "px";
+		position.card.style.width = position.width + "px";
+	});
+
+	root.dataset.freeDragReady = "true";
+
+	updateEtfDragAreaHeight();
+}
+
+function updateEtfDragAreaHeight() {
+	const root = document.getElementById("etfSummary");
+	const cards = [...root.querySelectorAll(".etf-card")];
+
+	if (!root || !cards.length) return;
+
+	const maxBottom = Math.max(...cards.map(card => {
+		const y = Number(card.dataset.y || 0);
+
+		return y + card.offsetHeight;
+	}));
+
+	root.style.height = maxBottom + 30 + "px";
+}
+
+function stopEtfDrag() {
 	if (!draggedEtfCard) return;
 
 	draggedEtfCard.classList.remove("dragging");
 	document.body.classList.remove("dragging-etf");
+	draggedEtfCard.style.zIndex = "";
 
 	draggedEtfCard = null;
-	etfCardsContainer = null;
 }

@@ -11,16 +11,20 @@
 }
 
 .etf-cards {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+	display: flex;
+	flex-direction: column;
 	gap: 14px;
-	align-items: start;
+	align-items: stretch;
 }
 
 .etf-card {
+	width: 100%;
+	max-width: var(--summary-width);
+	margin: 0;
+	box-sizing: border-box;
+	padding: 12px;
 	border: 1px solid #e5e7eb;
 	border-radius: 14px;
-	padding: 12px;
 	background: white;
 	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
 }
@@ -32,10 +36,21 @@
 	margin-bottom: 10px;
 	cursor: grab;
 	user-select: none;
+	touch-action: none;
 }
 
 .etf-card-top:active {
 	cursor: grabbing;
+}
+
+body.dragging-etf,
+body.dragging-etf * {
+	cursor: grabbing;
+}
+
+.etf-card.dragging {
+	opacity: 0.95;
+	transform: scale(1.01);
 }
 
 .drag-handle {
@@ -93,86 +108,14 @@
 
 .country-panel {
 	margin-top: 10px;
-	max-height: 260px;
-	overflow: auto;
-	border-radius: 10px;
-	border: 1px solid #e5e7eb;
-}
-
-.country-table th {
-	position: sticky;
-	top: 0;
-	background: #f3f4f6;
-}
-
-.hidden {
-	display: none;
-}
-
-.dragging {
-	opacity: 0.45;
-	transform: scale(0.98);
-}
-
-.etf-error,
-.no-data {
-	padding: 12px;
-}
-
-
-
-.etf-card {
-	padding: 12px;
-	border-radius: 12px;
-}
-
-
-
-.etf-cards,
-#etfSummary.etf-cards {
-	display: flex !important;
-	flex-direction: column !important;
-	gap: 14px !important;
-}
-
-.etf-cards > .etf-card,
-#etfSummary.etf-cards > .etf-card {
-	width: 100% !important;
-	max-width: 520px;
-	margin: 0 auto;
-	box-sizing: border-box;
-}
-
-#etfSummary {
-	width: min(520px, calc(100vw - 32px));
-	margin: 70px auto 20px;
-}
-
-#etfSummary.etf-cards,
-#etfSummary .etf-cards {
-	display: flex !important;
-	flex-direction: column !important;
-	gap: 14px !important;
-}
-
-#etfSummary > .etf-card,
-#etfSummary .etf-cards > .etf-card {
-	width: 100% !important;
-	max-width: 520px;
-	margin: 0 auto;
-	box-sizing: border-box;
-}
-
-.hidden,
-.country-panel.hidden {
-	display: none !important;
-}
-
-.country-panel {
-	margin-top: 10px;
 	max-height: none;
 	overflow: visible;
 	border: none;
+}
+
+.country-panel.hidden,
+.hidden {
+	display: none;
 }
 
 .country-list {
@@ -208,4 +151,14 @@
 	height: 18px;
 	object-fit: cover;
 	border-radius: 2px;
+}
+
+.etf-error,
+.no-data {
+	padding: 12px;
+}
+
+#etfSummary {
+	position: relative;
+	overflow: visible;
 }
