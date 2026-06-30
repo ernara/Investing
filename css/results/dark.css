@@ -29,3 +29,8 @@ body.dark .summary-actions input {
 body.dark .summary-actions button:hover {
 	background: #374151;
 }
+
+body.dark .years-toggle {
+	background: white;
+	color: #111827;
+}
