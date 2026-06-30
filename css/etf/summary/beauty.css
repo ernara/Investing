@@ -196,3 +196,16 @@
 .country-row strong {
 	text-align: right;
 }
+
+.country-name {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.country-flag {
+	width: 24px;
+	height: 18px;
+	object-fit: cover;
+	border-radius: 2px;
+}

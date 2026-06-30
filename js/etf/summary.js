@@ -75,13 +75,20 @@ function renderCountryTable(countries) {
 		<div class="country-list">
 			${countries.map(country => `
 				<div class="country-row">
-					<span>${country.nameLt}</span>
+					<span class="country-name">
+						<img class="country-flag" src="${getFlagUrl(country.code)}" alt="">
+						<span>${country.nameLt}</span>
+					</span>
 					<span>${formatNumber(country.companies)}</span>
 					<strong>${formatPercent(country.weightPercent)}</strong>
 				</div>
 			`).join("")}
 		</div>
 	`;
+}
+
+function getFlagUrl(code) {
+	return `https://flagcdn.com/24x18/${code.toLowerCase()}.png`;
 }
 
 function setupCountryButtons() {
