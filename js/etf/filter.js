@@ -242,7 +242,7 @@ function initEtfFilterDrag() {
 	const panel = document.getElementById("etfFilters");
 	const handle = panel?.querySelector(".etf-filter-handle");
 
-	if (!panel || !handle || panel.dataset.dragReady) return;
+	if (!panel || !handle) return;
 
 	handle.addEventListener("pointerdown", event => {
 		const rect = panel.getBoundingClientRect();
@@ -260,8 +260,6 @@ function initEtfFilterDrag() {
 
 		event.preventDefault();
 	});
-
-	panel.dataset.dragReady = "true";
 }
 
 document.addEventListener("pointermove", event => {
