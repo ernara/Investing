@@ -250,3 +250,28 @@ body.dragging-etf * {
 .holding-weight {
 	text-align: right;
 }
+
+.etf-share-class-mode {
+	width: min(var(--summary-width), calc(100vw - 32px));
+	margin: 0 0 14px 0;
+	padding: 12px;
+	box-sizing: border-box;
+	border: 1px solid #e5e7eb;
+	border-radius: 14px;
+	background: white;
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+}
+
+.etf-share-class-mode label {
+	display: block;
+	margin-bottom: 5px;
+	font-size: 13px;
+	font-weight: 700;
+}
+
+.etf-share-class-mode select {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #d1d5db;
+	border-radius: 8px;
+}

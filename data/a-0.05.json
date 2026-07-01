@@ -314,46 +314,7 @@
 			}
 		],
 		"topHoldingsCount": 10,
-		"topHoldingsTotalWeightPercent": 28.48,
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "Amundi",
-		"indexName": "Solactive GBS Developed Markets Large & Mid Cap",
-		"region": "World",
-		"marketType": "Developed",
-		"hedgedToEur": false,
-		"fundCurrency": "USD",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "F50A"
-		},
-		"replication": {
-			"type": "Physical",
-			"usesSwap": false,
-			"estimated": true
-		},
-		"maxCountryCode": "US",
-		"maxCountryWeightPercent": 71.35,
-		"sectorWeights": [
-			{
-				"name": "Information Technology",
-				"weightPercent": 17.5,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 6.35,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Discretionary",
-				"weightPercent": 4.63,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 17.5
+		"topHoldingsTotalWeightPercent": 28.48
 	},
 	{
 		"id": "mwol",
@@ -674,46 +635,7 @@
 			}
 		],
 		"topHoldingsCount": 10,
-		"topHoldingsTotalWeightPercent": 28.48,
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "Amundi",
-		"indexName": "Solactive GBS Developed Markets Large & Mid Cap",
-		"region": "World",
-		"marketType": "Developed",
-		"hedgedToEur": false,
-		"fundCurrency": "USD",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "MWOL"
-		},
-		"replication": {
-			"type": "Physical",
-			"usesSwap": false,
-			"estimated": true
-		},
-		"maxCountryCode": "US",
-		"maxCountryWeightPercent": 71.35,
-		"sectorWeights": [
-			{
-				"name": "Information Technology",
-				"weightPercent": 17.5,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 6.35,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Discretionary",
-				"weightPercent": 4.63,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 17.5
+		"topHoldingsTotalWeightPercent": 28.48
 	},
 	{
 		"id": "p500",
@@ -847,46 +769,7 @@
 		],
 		"topHoldingsCount": 10,
 		"topHoldingsTotalWeightPercent": 39.25,
-		"notes": "Synthetic ETF; holdings shown as benchmark/index exposure.",
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "Invesco",
-		"indexName": "S&P 500",
-		"region": "USA",
-		"marketType": "Developed",
-		"hedgedToEur": false,
-		"fundCurrency": "USD",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "P500"
-		},
-		"replication": {
-			"type": "Synthetic",
-			"usesSwap": true,
-			"estimated": false
-		},
-		"maxCountryCode": "US",
-		"maxCountryWeightPercent": 100.0,
-		"sectorWeights": [
-			{
-				"name": "Information Technology",
-				"weightPercent": 25.04,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 8.25,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Discretionary",
-				"weightPercent": 5.96,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 25.04
+		"notes": "Synthetic ETF; holdings shown as benchmark/index exposure."
 	},
 	{
 		"id": "e500",
@@ -1020,46 +903,7 @@
 		],
 		"topHoldingsCount": 10,
 		"topHoldingsTotalWeightPercent": 39.25,
-		"notes": "EUR hedged; holdings shown as benchmark/index exposure.",
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "Invesco",
-		"indexName": "S&P 500",
-		"region": "USA",
-		"marketType": "Developed",
-		"hedgedToEur": true,
-		"fundCurrency": "EUR",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "E500"
-		},
-		"replication": {
-			"type": "Physical",
-			"usesSwap": false,
-			"estimated": true
-		},
-		"maxCountryCode": "US",
-		"maxCountryWeightPercent": 100.0,
-		"sectorWeights": [
-			{
-				"name": "Information Technology",
-				"weightPercent": 25.04,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 8.25,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Discretionary",
-				"weightPercent": 5.96,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 25.04
+		"notes": "EUR hedged; holdings shown as benchmark/index exposure."
 	},
 	{
 		"id": "sppe",
@@ -1193,46 +1037,7 @@
 		],
 		"topHoldingsCount": 10,
 		"topHoldingsTotalWeightPercent": 39.25,
-		"notes": "EUR hedged.",
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "State Street SPDR",
-		"indexName": "S&P 500",
-		"region": "USA",
-		"marketType": "Developed",
-		"hedgedToEur": true,
-		"fundCurrency": "EUR",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "SPPE"
-		},
-		"replication": {
-			"type": "Physical",
-			"usesSwap": false,
-			"estimated": true
-		},
-		"maxCountryCode": "US",
-		"maxCountryWeightPercent": 100.0,
-		"sectorWeights": [
-			{
-				"name": "Information Technology",
-				"weightPercent": 25.04,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 8.25,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Discretionary",
-				"weightPercent": 5.96,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 25.04
+		"notes": "EUR hedged."
 	},
 	{
 		"id": "ceb7",
@@ -1370,46 +1175,7 @@
 		],
 		"topHoldingsCount": 10,
 		"topHoldingsTotalWeightPercent": 39.25,
-		"notes": "Synthetic EUR hedged; holdings shown as benchmark/index exposure.",
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "iShares",
-		"indexName": "S&P 500",
-		"region": "USA",
-		"marketType": "Developed",
-		"hedgedToEur": true,
-		"fundCurrency": "EUR",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "CEB7"
-		},
-		"replication": {
-			"type": "Synthetic",
-			"usesSwap": true,
-			"estimated": false
-		},
-		"maxCountryCode": "US",
-		"maxCountryWeightPercent": 100.0,
-		"sectorWeights": [
-			{
-				"name": "Information Technology",
-				"weightPercent": 25.04,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 8.25,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Discretionary",
-				"weightPercent": 5.96,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 25.04
+		"notes": "Synthetic EUR hedged; holdings shown as benchmark/index exposure."
 	},
 	{
 		"id": "eded",
@@ -1543,46 +1309,7 @@
 		],
 		"topHoldingsCount": 10,
 		"topHoldingsTotalWeightPercent": 39.25,
-		"notes": "Synthetic ETF; holdings shown as benchmark/index exposure.",
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "BNP Paribas",
-		"indexName": "S&P 500",
-		"region": "USA",
-		"marketType": "Developed",
-		"hedgedToEur": false,
-		"fundCurrency": "EUR",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "EDED"
-		},
-		"replication": {
-			"type": "Synthetic",
-			"usesSwap": true,
-			"estimated": false
-		},
-		"maxCountryCode": "US",
-		"maxCountryWeightPercent": 100.0,
-		"sectorWeights": [
-			{
-				"name": "Information Technology",
-				"weightPercent": 25.04,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 8.25,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Discretionary",
-				"weightPercent": 5.96,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 25.04
+		"notes": "Synthetic ETF; holdings shown as benchmark/index exposure."
 	},
 	{
 		"id": "0use",
@@ -1716,46 +1443,7 @@
 		],
 		"topHoldingsCount": 10,
 		"topHoldingsTotalWeightPercent": 39.25,
-		"notes": "Synthetic ETF; holdings shown as benchmark/index exposure.",
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "Ossiam",
-		"indexName": "S&P 500",
-		"region": "USA",
-		"marketType": "Developed",
-		"hedgedToEur": false,
-		"fundCurrency": "EUR",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "0USE"
-		},
-		"replication": {
-			"type": "Synthetic",
-			"usesSwap": true,
-			"estimated": false
-		},
-		"maxCountryCode": "US",
-		"maxCountryWeightPercent": 100.0,
-		"sectorWeights": [
-			{
-				"name": "Information Technology",
-				"weightPercent": 25.04,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 8.25,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Discretionary",
-				"weightPercent": 5.96,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 25.04
+		"notes": "Synthetic ETF; holdings shown as benchmark/index exposure."
 	},
 	{
 		"id": "lyps",
@@ -1889,46 +1577,7 @@
 		],
 		"topHoldingsCount": 10,
 		"topHoldingsTotalWeightPercent": 39.25,
-		"notes": "Synthetic ETF; holdings shown as benchmark/index exposure.",
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "Amundi",
-		"indexName": "S&P 500",
-		"region": "USA",
-		"marketType": "Developed",
-		"hedgedToEur": false,
-		"fundCurrency": "EUR",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "LYPS"
-		},
-		"replication": {
-			"type": "Synthetic",
-			"usesSwap": true,
-			"estimated": false
-		},
-		"maxCountryCode": "US",
-		"maxCountryWeightPercent": 100.0,
-		"sectorWeights": [
-			{
-				"name": "Information Technology",
-				"weightPercent": 25.04,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 8.25,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Discretionary",
-				"weightPercent": 5.96,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 25.04
+		"notes": "Synthetic ETF; holdings shown as benchmark/index exposure."
 	},
 	{
 		"id": "etls",
@@ -2061,46 +1710,7 @@
 			}
 		],
 		"topHoldingsCount": 10,
-		"topHoldingsTotalWeightPercent": 39.6,
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "L&G",
-		"indexName": "Solactive Core United States Large & Mid Cap",
-		"region": "USA",
-		"marketType": "Developed",
-		"hedgedToEur": false,
-		"fundCurrency": "USD",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "ETLS"
-		},
-		"replication": {
-			"type": "Physical",
-			"usesSwap": false,
-			"estimated": true
-		},
-		"maxCountryCode": "US",
-		"maxCountryWeightPercent": 100.0,
-		"sectorWeights": [
-			{
-				"name": "Information Technology",
-				"weightPercent": 24.49,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 8.79,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Discretionary",
-				"weightPercent": 6.32,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 24.49
+		"topHoldingsTotalWeightPercent": 39.6
 	},
 	{
 		"id": "prau",
@@ -2234,46 +1844,7 @@
 		],
 		"topHoldingsCount": 10,
 		"topHoldingsTotalWeightPercent": 39.6,
-		"notes": "Small fund; holdings shown as Solactive US large/mid-cap exposure.",
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "Amundi",
-		"indexName": "Solactive GBS United States Large & Mid Cap",
-		"region": "USA",
-		"marketType": "Developed",
-		"hedgedToEur": false,
-		"fundCurrency": "USD",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "PRAU"
-		},
-		"replication": {
-			"type": "Physical",
-			"usesSwap": false,
-			"estimated": true
-		},
-		"maxCountryCode": "US",
-		"maxCountryWeightPercent": 100.0,
-		"sectorWeights": [
-			{
-				"name": "Information Technology",
-				"weightPercent": 24.49,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 8.79,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Discretionary",
-				"weightPercent": 6.32,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 24.49
+		"notes": "Small fund; holdings shown as Solactive US large/mid-cap exposure."
 	},
 	{
 		"id": "pr1u",
@@ -2407,46 +1978,7 @@
 		],
 		"topHoldingsCount": 10,
 		"topHoldingsTotalWeightPercent": 39.6,
-		"notes": "Small fund; holdings shown as Solactive US large/mid-cap exposure.",
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "Amundi",
-		"indexName": "Solactive GBS United States Large & Mid Cap",
-		"region": "USA",
-		"marketType": "Developed",
-		"hedgedToEur": false,
-		"fundCurrency": "USD",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "PR1U"
-		},
-		"replication": {
-			"type": "Physical",
-			"usesSwap": false,
-			"estimated": true
-		},
-		"maxCountryCode": "US",
-		"maxCountryWeightPercent": 100.0,
-		"sectorWeights": [
-			{
-				"name": "Information Technology",
-				"weightPercent": 24.49,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 8.79,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Discretionary",
-				"weightPercent": 6.32,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 24.49
+		"notes": "Small fund; holdings shown as Solactive US large/mid-cap exposure."
 	},
 	{
 		"id": "sc0j",
@@ -2764,46 +2296,7 @@
 		],
 		"topHoldingsCount": 10,
 		"topHoldingsTotalWeightPercent": 28.48,
-		"notes": "Synthetic ETF; country/company split estimated from developed-market index exposure.",
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "Invesco",
-		"indexName": "MSCI World",
-		"region": "World",
-		"marketType": "Developed",
-		"hedgedToEur": false,
-		"fundCurrency": "USD",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "SC0J"
-		},
-		"replication": {
-			"type": "Synthetic",
-			"usesSwap": true,
-			"estimated": false
-		},
-		"maxCountryCode": "US",
-		"maxCountryWeightPercent": 71.35,
-		"sectorWeights": [
-			{
-				"name": "Information Technology",
-				"weightPercent": 17.5,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 6.35,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Discretionary",
-				"weightPercent": 4.63,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 17.5
+		"notes": "Synthetic ETF; country/company split estimated from developed-market index exposure."
 	},
 	{
 		"id": "esan",
@@ -3121,46 +2614,7 @@
 		],
 		"topHoldingsCount": 10,
 		"topHoldingsTotalWeightPercent": 28.48,
-		"notes": "New physical ETF; country/company split estimated from developed-market index exposure.",
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "BNP Paribas",
-		"indexName": "MSCI World",
-		"region": "World",
-		"marketType": "Developed",
-		"hedgedToEur": false,
-		"fundCurrency": "EUR",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "ESAN"
-		},
-		"replication": {
-			"type": "Physical",
-			"usesSwap": false,
-			"estimated": true
-		},
-		"maxCountryCode": "US",
-		"maxCountryWeightPercent": 71.35,
-		"sectorWeights": [
-			{
-				"name": "Information Technology",
-				"weightPercent": 17.5,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 6.35,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Discretionary",
-				"weightPercent": 4.63,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 17.5
+		"notes": "New physical ETF; country/company split estimated from developed-market index exposure."
 	},
 	{
 		"id": "prae",
@@ -3405,61 +2859,7 @@
 			}
 		],
 		"topHoldingsCount": 10,
-		"topHoldingsTotalWeightPercent": 21.26,
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "Amundi",
-		"indexName": "Solactive GBS Developed Markets Europe Large & Mid Cap",
-		"region": "Europe",
-		"marketType": "Developed",
-		"hedgedToEur": false,
-		"fundCurrency": "EUR",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "PRAE"
-		},
-		"replication": {
-			"type": "Physical",
-			"usesSwap": false,
-			"estimated": true
-		},
-		"maxCountryCode": "GB",
-		"maxCountryWeightPercent": 19.75,
-		"sectorWeights": [
-			{
-				"name": "Health Care",
-				"weightPercent": 6.31,
-				"estimated": true
-			},
-			{
-				"name": "Information Technology",
-				"weightPercent": 5.82,
-				"estimated": true
-			},
-			{
-				"name": "Financials",
-				"weightPercent": 3.73,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Staples",
-				"weightPercent": 1.97,
-				"estimated": true
-			},
-			{
-				"name": "Energy",
-				"weightPercent": 1.73,
-				"estimated": true
-			},
-			{
-				"name": "Industrials",
-				"weightPercent": 1.7,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Health Care",
-		"topSectorWeightPercent": 6.31
+		"topHoldingsTotalWeightPercent": 21.26
 	},
 	{
 		"id": "pr1e",
@@ -3708,61 +3108,7 @@
 			}
 		],
 		"topHoldingsCount": 10,
-		"topHoldingsTotalWeightPercent": 21.26,
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "Amundi",
-		"indexName": "Solactive GBS Developed Markets Europe Large & Mid Cap",
-		"region": "Europe",
-		"marketType": "Developed",
-		"hedgedToEur": false,
-		"fundCurrency": "EUR",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "PR1E"
-		},
-		"replication": {
-			"type": "Physical",
-			"usesSwap": false,
-			"estimated": true
-		},
-		"maxCountryCode": "GB",
-		"maxCountryWeightPercent": 19.75,
-		"sectorWeights": [
-			{
-				"name": "Health Care",
-				"weightPercent": 6.31,
-				"estimated": true
-			},
-			{
-				"name": "Information Technology",
-				"weightPercent": 5.82,
-				"estimated": true
-			},
-			{
-				"name": "Financials",
-				"weightPercent": 3.73,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Staples",
-				"weightPercent": 1.97,
-				"estimated": true
-			},
-			{
-				"name": "Energy",
-				"weightPercent": 1.73,
-				"estimated": true
-			},
-			{
-				"name": "Industrials",
-				"weightPercent": 1.7,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Health Care",
-		"topSectorWeightPercent": 6.31
+		"topHoldingsTotalWeightPercent": 21.26
 	},
 	{
 		"id": "praj",
@@ -3903,56 +3249,7 @@
 			}
 		],
 		"topHoldingsCount": 10,
-		"topHoldingsTotalWeightPercent": 26.06,
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "Amundi",
-		"indexName": "Solactive GBS Japan Large & Mid Cap",
-		"region": "Japan",
-		"marketType": "Developed",
-		"hedgedToEur": false,
-		"fundCurrency": "JPY",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "PRAJ"
-		},
-		"replication": {
-			"type": "Physical",
-			"usesSwap": false,
-			"estimated": true
-		},
-		"maxCountryCode": "JP",
-		"maxCountryWeightPercent": 98.07,
-		"sectorWeights": [
-			{
-				"name": "Financials",
-				"weightPercent": 8.26,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Discretionary",
-				"weightPercent": 5.85,
-				"estimated": true
-			},
-			{
-				"name": "Information Technology",
-				"weightPercent": 4.81,
-				"estimated": true
-			},
-			{
-				"name": "Industrials",
-				"weightPercent": 4.28,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 2.86,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Financials",
-		"topSectorWeightPercent": 8.26
+		"topHoldingsTotalWeightPercent": 26.06
 	},
 	{
 		"id": "pr1j",
@@ -4093,56 +3390,7 @@
 			}
 		],
 		"topHoldingsCount": 10,
-		"topHoldingsTotalWeightPercent": 26.06,
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "Amundi",
-		"indexName": "Solactive GBS Japan Large & Mid Cap",
-		"region": "Japan",
-		"marketType": "Developed",
-		"hedgedToEur": false,
-		"fundCurrency": "JPY",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "PR1J"
-		},
-		"replication": {
-			"type": "Physical",
-			"usesSwap": false,
-			"estimated": true
-		},
-		"maxCountryCode": "JP",
-		"maxCountryWeightPercent": 98.07,
-		"sectorWeights": [
-			{
-				"name": "Financials",
-				"weightPercent": 8.26,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Discretionary",
-				"weightPercent": 5.85,
-				"estimated": true
-			},
-			{
-				"name": "Information Technology",
-				"weightPercent": 4.81,
-				"estimated": true
-			},
-			{
-				"name": "Industrials",
-				"weightPercent": 4.28,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 2.86,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Financials",
-		"topSectorWeightPercent": 8.26
+		"topHoldingsTotalWeightPercent": 26.06
 	},
 	{
 		"id": "pruk",
@@ -4307,66 +3555,7 @@
 			}
 		],
 		"topHoldingsCount": 10,
-		"topHoldingsTotalWeightPercent": 17.47,
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "Amundi",
-		"indexName": "Solactive UK Mid and Small Cap",
-		"region": "United Kingdom",
-		"marketType": "Developed",
-		"hedgedToEur": false,
-		"fundCurrency": "GBP",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "PRUK"
-		},
-		"replication": {
-			"type": "Physical",
-			"usesSwap": false,
-			"estimated": true
-		},
-		"maxCountryCode": "GB",
-		"maxCountryWeightPercent": 90.78,
-		"sectorWeights": [
-			{
-				"name": "Financials",
-				"weightPercent": 4.11,
-				"estimated": true
-			},
-			{
-				"name": "Industrials",
-				"weightPercent": 3.58,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 3.15,
-				"estimated": true
-			},
-			{
-				"name": "Materials",
-				"weightPercent": 1.96,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Staples",
-				"weightPercent": 1.59,
-				"estimated": true
-			},
-			{
-				"name": "Information Technology",
-				"weightPercent": 1.58,
-				"estimated": true
-			},
-			{
-				"name": "Utilities",
-				"weightPercent": 1.5,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Financials",
-		"topSectorWeightPercent": 4.11
+		"topHoldingsTotalWeightPercent": 17.47
 	},
 	{
 		"id": "sc0d",
@@ -4560,60 +3749,6 @@
 		],
 		"topHoldingsCount": 10,
 		"topHoldingsTotalWeightPercent": 42.2,
-		"notes": "EURO STOXX 50 country and top holding weights are estimated.",
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "Invesco",
-		"indexName": "EURO STOXX 50",
-		"region": "Europe",
-		"marketType": "Developed",
-		"hedgedToEur": false,
-		"fundCurrency": "EUR",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "SC0D"
-		},
-		"replication": {
-			"type": "Physical",
-			"usesSwap": false,
-			"estimated": true
-		},
-		"maxCountryCode": "FR",
-		"maxCountryWeightPercent": 35.0,
-		"sectorWeights": [
-			{
-				"name": "Information Technology",
-				"weightPercent": 14.5,
-				"estimated": true
-			},
-			{
-				"name": "Industrials",
-				"weightPercent": 11.0,
-				"estimated": true
-			},
-			{
-				"name": "Financials",
-				"weightPercent": 7.3,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Discretionary",
-				"weightPercent": 3.6,
-				"estimated": true
-			},
-			{
-				"name": "Energy",
-				"weightPercent": 3.0,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 2.8,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 14.5
+		"notes": "EURO STOXX 50 country and top holding weights are estimated."
 	}
 ]

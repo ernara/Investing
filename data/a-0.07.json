@@ -446,46 +446,7 @@
 			}
 		],
 		"topHoldingsCount": 10,
-		"topHoldingsTotalWeightPercent": 25.3,
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "Amundi",
-		"indexName": "Solactive GBS Global Markets Large & Mid Cap",
-		"region": "World",
-		"marketType": "Developed + Emerging",
-		"hedgedToEur": false,
-		"fundCurrency": "USD",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "WEBN"
-		},
-		"replication": {
-			"type": "Physical",
-			"usesSwap": false,
-			"estimated": true
-		},
-		"maxCountryCode": "US",
-		"maxCountryWeightPercent": 61.87,
-		"sectorWeights": [
-			{
-				"name": "Information Technology",
-				"weightPercent": 15.91,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 5.47,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Discretionary",
-				"weightPercent": 3.92,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 15.91
+		"topHoldingsTotalWeightPercent": 25.3
 	},
 	{
 		"id": "webg",
@@ -934,46 +895,7 @@
 			}
 		],
 		"topHoldingsCount": 10,
-		"topHoldingsTotalWeightPercent": 25.3,
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "Amundi",
-		"indexName": "Solactive GBS Global Markets Large & Mid Cap",
-		"region": "World",
-		"marketType": "Developed + Emerging",
-		"hedgedToEur": false,
-		"fundCurrency": "USD",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "WEBG"
-		},
-		"replication": {
-			"type": "Physical",
-			"usesSwap": false,
-			"estimated": true
-		},
-		"maxCountryCode": "US",
-		"maxCountryWeightPercent": 61.87,
-		"sectorWeights": [
-			{
-				"name": "Information Technology",
-				"weightPercent": 15.91,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 5.47,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Discretionary",
-				"weightPercent": 3.92,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 15.91
+		"topHoldingsTotalWeightPercent": 25.3
 	},
 	{
 		"id": "sxr8",
@@ -1106,46 +1028,7 @@
 			}
 		],
 		"topHoldingsCount": 10,
-		"topHoldingsTotalWeightPercent": 39.16,
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "iShares",
-		"indexName": "S&P 500",
-		"region": "USA",
-		"marketType": "Developed",
-		"hedgedToEur": false,
-		"fundCurrency": "USD",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "SXR8"
-		},
-		"replication": {
-			"type": "Physical",
-			"usesSwap": false,
-			"estimated": true
-		},
-		"maxCountryCode": "US",
-		"maxCountryWeightPercent": 100.0,
-		"sectorWeights": [
-			{
-				"name": "Information Technology",
-				"weightPercent": 24.99,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 8.23,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Discretionary",
-				"weightPercent": 5.94,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 24.99
+		"topHoldingsTotalWeightPercent": 39.16
 	},
 	{
 		"id": "iusa",
@@ -1282,46 +1165,7 @@
 			}
 		],
 		"topHoldingsCount": 10,
-		"topHoldingsTotalWeightPercent": 39.16,
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "iShares",
-		"indexName": "S&P 500",
-		"region": "USA",
-		"marketType": "Developed",
-		"hedgedToEur": false,
-		"fundCurrency": "USD",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "IUSA"
-		},
-		"replication": {
-			"type": "Physical",
-			"usesSwap": false,
-			"estimated": true
-		},
-		"maxCountryCode": "US",
-		"maxCountryWeightPercent": 100.0,
-		"sectorWeights": [
-			{
-				"name": "Information Technology",
-				"weightPercent": 24.99,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 8.23,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Discretionary",
-				"weightPercent": 5.94,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 24.99
+		"topHoldingsTotalWeightPercent": 39.16
 	},
 	{
 		"id": "vuaa",
@@ -1454,46 +1298,7 @@
 			}
 		],
 		"topHoldingsCount": 10,
-		"topHoldingsTotalWeightPercent": 39.12,
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "Vanguard",
-		"indexName": "S&P 500",
-		"region": "USA",
-		"marketType": "Developed",
-		"hedgedToEur": false,
-		"fundCurrency": "USD",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "VUAA"
-		},
-		"replication": {
-			"type": "Physical",
-			"usesSwap": false,
-			"estimated": true
-		},
-		"maxCountryCode": "US",
-		"maxCountryWeightPercent": 100.0,
-		"sectorWeights": [
-			{
-				"name": "Information Technology",
-				"weightPercent": 24.96,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 8.22,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Discretionary",
-				"weightPercent": 5.94,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 24.96
+		"topHoldingsTotalWeightPercent": 39.12
 	},
 	{
 		"id": "vusa",
@@ -1626,46 +1431,7 @@
 			}
 		],
 		"topHoldingsCount": 10,
-		"topHoldingsTotalWeightPercent": 39.12,
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "Vanguard",
-		"indexName": "S&P 500",
-		"region": "USA",
-		"marketType": "Developed",
-		"hedgedToEur": false,
-		"fundCurrency": "USD",
-		"primaryEurListing": {
-			"exchange": "Borsa Italiana",
-			"ticker": "VUSA"
-		},
-		"replication": {
-			"type": "Physical",
-			"usesSwap": false,
-			"estimated": true
-		},
-		"maxCountryCode": "US",
-		"maxCountryWeightPercent": 100.0,
-		"sectorWeights": [
-			{
-				"name": "Information Technology",
-				"weightPercent": 24.96,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 8.22,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Discretionary",
-				"weightPercent": 5.94,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 24.96
+		"topHoldingsTotalWeightPercent": 39.12
 	},
 	{
 		"id": "sxrw",
@@ -1798,61 +1564,7 @@
 			}
 		],
 		"topHoldingsCount": 10,
-		"topHoldingsTotalWeightPercent": 48.68,
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "iShares",
-		"indexName": "FTSE 100",
-		"region": "United Kingdom",
-		"marketType": "Developed",
-		"hedgedToEur": false,
-		"fundCurrency": "GBP",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "SXRW"
-		},
-		"replication": {
-			"type": "Physical",
-			"usesSwap": false,
-			"estimated": true
-		},
-		"maxCountryCode": "GB",
-		"maxCountryWeightPercent": 100.0,
-		"sectorWeights": [
-			{
-				"name": "Financials",
-				"weightPercent": 12.02,
-				"estimated": true
-			},
-			{
-				"name": "Health Care",
-				"weightPercent": 11.19,
-				"estimated": true
-			},
-			{
-				"name": "Energy",
-				"weightPercent": 10.29,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Staples",
-				"weightPercent": 7.41,
-				"estimated": true
-			},
-			{
-				"name": "Industrials",
-				"weightPercent": 4.5,
-				"estimated": true
-			},
-			{
-				"name": "Materials",
-				"weightPercent": 3.27,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Financials",
-		"topSectorWeightPercent": 12.02
+		"topHoldingsTotalWeightPercent": 48.68
 	},
 	{
 		"id": "iusz",
@@ -1985,61 +1697,7 @@
 			}
 		],
 		"topHoldingsCount": 10,
-		"topHoldingsTotalWeightPercent": 48.68,
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "iShares",
-		"indexName": "FTSE 100",
-		"region": "United Kingdom",
-		"marketType": "Developed",
-		"hedgedToEur": false,
-		"fundCurrency": "GBP",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "IUSZ"
-		},
-		"replication": {
-			"type": "Physical",
-			"usesSwap": false,
-			"estimated": true
-		},
-		"maxCountryCode": "GB",
-		"maxCountryWeightPercent": 100.0,
-		"sectorWeights": [
-			{
-				"name": "Financials",
-				"weightPercent": 12.02,
-				"estimated": true
-			},
-			{
-				"name": "Health Care",
-				"weightPercent": 11.19,
-				"estimated": true
-			},
-			{
-				"name": "Energy",
-				"weightPercent": 10.29,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Staples",
-				"weightPercent": 7.41,
-				"estimated": true
-			},
-			{
-				"name": "Industrials",
-				"weightPercent": 4.5,
-				"estimated": true
-			},
-			{
-				"name": "Materials",
-				"weightPercent": 3.27,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Financials",
-		"topSectorWeightPercent": 12.02
+		"topHoldingsTotalWeightPercent": 48.68
 	},
 	{
 		"id": "zpa5",
@@ -2172,51 +1830,7 @@
 			}
 		],
 		"topHoldingsCount": 10,
-		"topHoldingsTotalWeightPercent": 40.37,
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "Amundi",
-		"indexName": "S&P 500 Net Zero 2050 Paris-Aligned ESG",
-		"region": "USA",
-		"marketType": "Developed",
-		"hedgedToEur": false,
-		"fundCurrency": "USD",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "ZPA5"
-		},
-		"replication": {
-			"type": "Physical",
-			"usesSwap": false,
-			"estimated": true
-		},
-		"maxCountryCode": "US",
-		"maxCountryWeightPercent": 100.0,
-		"sectorWeights": [
-			{
-				"name": "Information Technology",
-				"weightPercent": 24.76,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Discretionary",
-				"weightPercent": 6.51,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 6.31,
-				"estimated": true
-			},
-			{
-				"name": "Financials",
-				"weightPercent": 2.79,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 24.76
+		"topHoldingsTotalWeightPercent": 40.37
 	},
 	{
 		"id": "web2",
@@ -2349,46 +1963,7 @@
 			}
 		],
 		"topHoldingsCount": 10,
-		"topHoldingsTotalWeightPercent": 38.6,
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "Amundi",
-		"indexName": "MSCI USA ESG Broad CTB Select",
-		"region": "USA",
-		"marketType": "Developed",
-		"hedgedToEur": false,
-		"fundCurrency": "USD",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "WEB2"
-		},
-		"replication": {
-			"type": "Physical",
-			"usesSwap": false,
-			"estimated": true
-		},
-		"maxCountryCode": "US",
-		"maxCountryWeightPercent": 100.0,
-		"sectorWeights": [
-			{
-				"name": "Information Technology",
-				"weightPercent": 24.04,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 8.49,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Discretionary",
-				"weightPercent": 6.07,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 24.04
+		"topHoldingsTotalWeightPercent": 38.6
 	},
 	{
 		"id": "lyyb",
@@ -2521,45 +2096,6 @@
 			}
 		],
 		"topHoldingsCount": 10,
-		"topHoldingsTotalWeightPercent": 38.6,
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "Amundi",
-		"indexName": "MSCI USA ESG Broad CTB Select",
-		"region": "USA",
-		"marketType": "Developed",
-		"hedgedToEur": false,
-		"fundCurrency": "USD",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "LYYB"
-		},
-		"replication": {
-			"type": "Physical",
-			"usesSwap": false,
-			"estimated": true
-		},
-		"maxCountryCode": "US",
-		"maxCountryWeightPercent": 100.0,
-		"sectorWeights": [
-			{
-				"name": "Information Technology",
-				"weightPercent": 24.04,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 8.49,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Discretionary",
-				"weightPercent": 6.07,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 24.04
+		"topHoldingsTotalWeightPercent": 38.6
 	}
 ]

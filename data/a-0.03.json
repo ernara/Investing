@@ -134,46 +134,7 @@
 			}
 		],
 		"topHoldingsCount": 10,
-		"topHoldingsTotalWeightPercent": 39.25,
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "State Street SPDR",
-		"indexName": "S&P 500",
-		"region": "USA",
-		"marketType": "Developed",
-		"hedgedToEur": true,
-		"fundCurrency": "USD",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "SPY5"
-		},
-		"replication": {
-			"type": "Physical",
-			"usesSwap": false,
-			"estimated": true
-		},
-		"maxCountryCode": "US",
-		"maxCountryWeightPercent": 100.0,
-		"sectorWeights": [
-			{
-				"name": "Information Technology",
-				"weightPercent": 25.04,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 8.25,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Discretionary",
-				"weightPercent": 5.96,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 25.04
+		"topHoldingsTotalWeightPercent": 39.25
 	},
 	{
 		"id": "spyl",
@@ -310,46 +271,7 @@
 			}
 		],
 		"topHoldingsCount": 10,
-		"topHoldingsTotalWeightPercent": 39.25,
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "State Street SPDR",
-		"indexName": "S&P 500",
-		"region": "USA",
-		"marketType": "Developed",
-		"hedgedToEur": true,
-		"fundCurrency": "USD",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "SPYL"
-		},
-		"replication": {
-			"type": "Physical",
-			"usesSwap": false,
-			"estimated": true
-		},
-		"maxCountryCode": "US",
-		"maxCountryWeightPercent": 100.0,
-		"sectorWeights": [
-			{
-				"name": "Information Technology",
-				"weightPercent": 25.04,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 8.25,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Discretionary",
-				"weightPercent": 5.96,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 25.04
+		"topHoldingsTotalWeightPercent": 39.25
 	},
 	{
 		"id": "xd9u",
@@ -482,46 +404,7 @@
 			}
 		],
 		"topHoldingsCount": 10,
-		"topHoldingsTotalWeightPercent": 36.51,
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "Xtrackers",
-		"indexName": "MSCI USA",
-		"region": "USA",
-		"marketType": "Developed",
-		"hedgedToEur": false,
-		"fundCurrency": "USD",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "XD9U"
-		},
-		"replication": {
-			"type": "Physical",
-			"usesSwap": false,
-			"estimated": true
-		},
-		"maxCountryCode": "US",
-		"maxCountryWeightPercent": 100.0,
-		"sectorWeights": [
-			{
-				"name": "Information Technology",
-				"weightPercent": 23.23,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 7.89,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Discretionary",
-				"weightPercent": 5.39,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 23.23
+		"topHoldingsTotalWeightPercent": 36.51
 	},
 	{
 		"id": "xd9d",
@@ -654,51 +537,7 @@
 			}
 		],
 		"topHoldingsCount": 10,
-		"topHoldingsTotalWeightPercent": 37.9,
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "Xtrackers",
-		"indexName": "MSCI USA",
-		"region": "USA",
-		"marketType": "Developed",
-		"hedgedToEur": false,
-		"fundCurrency": "USD",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "XD9D"
-		},
-		"replication": {
-			"type": "Physical",
-			"usesSwap": false,
-			"estimated": true
-		},
-		"maxCountryCode": "US",
-		"maxCountryWeightPercent": 100.0,
-		"sectorWeights": [
-			{
-				"name": "Information Technology",
-				"weightPercent": 22.4,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 8.36,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Discretionary",
-				"weightPercent": 5.78,
-				"estimated": true
-			},
-			{
-				"name": "Financials",
-				"weightPercent": 1.36,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 22.4
+		"topHoldingsTotalWeightPercent": 37.9
 	},
 	{
 		"id": "sxr4",
@@ -831,46 +670,7 @@
 			}
 		],
 		"topHoldingsCount": 10,
-		"topHoldingsTotalWeightPercent": 38.2,
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "iShares",
-		"indexName": "MSCI USA",
-		"region": "USA",
-		"marketType": "Developed",
-		"hedgedToEur": false,
-		"fundCurrency": "USD",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "SXR4"
-		},
-		"replication": {
-			"type": "Physical",
-			"usesSwap": false,
-			"estimated": true
-		},
-		"maxCountryCode": "US",
-		"maxCountryWeightPercent": 100.0,
-		"sectorWeights": [
-			{
-				"name": "Information Technology",
-				"weightPercent": 24.12,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 8.19,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Discretionary",
-				"weightPercent": 5.89,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 24.12
+		"topHoldingsTotalWeightPercent": 38.2
 	},
 	{
 		"id": "webh",
@@ -1007,46 +807,7 @@
 			}
 		],
 		"topHoldingsCount": 10,
-		"topHoldingsTotalWeightPercent": 38.29,
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "Amundi",
-		"indexName": "MSCI USA",
-		"region": "USA",
-		"marketType": "Developed",
-		"hedgedToEur": false,
-		"fundCurrency": "USD",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "WEBH"
-		},
-		"replication": {
-			"type": "Physical",
-			"usesSwap": false,
-			"estimated": true
-		},
-		"maxCountryCode": "US",
-		"maxCountryWeightPercent": 100.0,
-		"sectorWeights": [
-			{
-				"name": "Information Technology",
-				"weightPercent": 23.91,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 8.46,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Discretionary",
-				"weightPercent": 5.92,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 23.91
+		"topHoldingsTotalWeightPercent": 38.29
 	},
 	{
 		"id": "webi",
@@ -1183,46 +944,7 @@
 			}
 		],
 		"topHoldingsCount": 10,
-		"topHoldingsTotalWeightPercent": 38.29,
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "Amundi",
-		"indexName": "MSCI USA",
-		"region": "USA",
-		"marketType": "Developed",
-		"hedgedToEur": false,
-		"fundCurrency": "USD",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "WEBI"
-		},
-		"replication": {
-			"type": "Physical",
-			"usesSwap": false,
-			"estimated": true
-		},
-		"maxCountryCode": "US",
-		"maxCountryWeightPercent": 100.0,
-		"sectorWeights": [
-			{
-				"name": "Information Technology",
-				"weightPercent": 23.91,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 8.46,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Discretionary",
-				"weightPercent": 5.92,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 23.91
+		"topHoldingsTotalWeightPercent": 38.29
 	},
 	{
 		"id": "4ubb",
@@ -1355,46 +1077,7 @@
 			}
 		],
 		"topHoldingsCount": 10,
-		"topHoldingsTotalWeightPercent": 38.22,
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "UBS",
-		"indexName": "MSCI USA",
-		"region": "USA",
-		"marketType": "Developed",
-		"hedgedToEur": false,
-		"fundCurrency": "USD",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "4UBB"
-		},
-		"replication": {
-			"type": "Physical",
-			"usesSwap": false,
-			"estimated": true
-		},
-		"maxCountryCode": "US",
-		"maxCountryWeightPercent": 100.0,
-		"sectorWeights": [
-			{
-				"name": "Information Technology",
-				"weightPercent": 24.21,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 8.21,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Discretionary",
-				"weightPercent": 5.8,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 24.21
+		"topHoldingsTotalWeightPercent": 38.22
 	},
 	{
 		"id": "ubu3",
@@ -1527,46 +1210,7 @@
 			}
 		],
 		"topHoldingsCount": 10,
-		"topHoldingsTotalWeightPercent": 38.22,
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "UBS",
-		"indexName": "MSCI USA",
-		"region": "USA",
-		"marketType": "Developed",
-		"hedgedToEur": false,
-		"fundCurrency": "USD",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "UBU3"
-		},
-		"replication": {
-			"type": "Physical",
-			"usesSwap": false,
-			"estimated": true
-		},
-		"maxCountryCode": "US",
-		"maxCountryWeightPercent": 100.0,
-		"sectorWeights": [
-			{
-				"name": "Information Technology",
-				"weightPercent": 24.21,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 8.21,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Discretionary",
-				"weightPercent": 5.8,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 24.21
+		"topHoldingsTotalWeightPercent": 38.22
 	},
 	{
 		"id": "bcft",
@@ -1699,46 +1343,7 @@
 			}
 		],
 		"topHoldingsCount": 10,
-		"topHoldingsTotalWeightPercent": 38.94,
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "UBS",
-		"indexName": "S&P 500",
-		"region": "USA",
-		"marketType": "Developed",
-		"hedgedToEur": false,
-		"fundCurrency": "USD",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "BCFT"
-		},
-		"replication": {
-			"type": "Physical",
-			"usesSwap": false,
-			"estimated": true
-		},
-		"maxCountryCode": "US",
-		"maxCountryWeightPercent": 100.0,
-		"sectorWeights": [
-			{
-				"name": "Information Technology",
-				"weightPercent": 24.85,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 8.18,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Discretionary",
-				"weightPercent": 5.91,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 24.85
+		"topHoldingsTotalWeightPercent": 38.94
 	},
 	{
 		"id": "ubu9",
@@ -1871,46 +1476,7 @@
 			}
 		],
 		"topHoldingsCount": 10,
-		"topHoldingsTotalWeightPercent": 38.94,
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "UBS",
-		"indexName": "S&P 500",
-		"region": "USA",
-		"marketType": "Developed",
-		"hedgedToEur": false,
-		"fundCurrency": "USD",
-		"primaryEurListing": {
-			"exchange": "Frankfurt",
-			"ticker": "UBU9"
-		},
-		"replication": {
-			"type": "Physical",
-			"usesSwap": false,
-			"estimated": true
-		},
-		"maxCountryCode": "US",
-		"maxCountryWeightPercent": 100.0,
-		"sectorWeights": [
-			{
-				"name": "Information Technology",
-				"weightPercent": 24.85,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 8.18,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Discretionary",
-				"weightPercent": 5.91,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 24.85
+		"topHoldingsTotalWeightPercent": 38.94
 	},
 	{
 		"id": "xdpu",
@@ -2043,46 +1609,7 @@
 			}
 		],
 		"topHoldingsCount": 10,
-		"topHoldingsTotalWeightPercent": 37.48,
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "Xtrackers",
-		"indexName": "S&P 500",
-		"region": "USA",
-		"marketType": "Developed",
-		"hedgedToEur": false,
-		"fundCurrency": "USD",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "XDPU"
-		},
-		"replication": {
-			"type": "Physical",
-			"usesSwap": false,
-			"estimated": true
-		},
-		"maxCountryCode": "US",
-		"maxCountryWeightPercent": 100.0,
-		"sectorWeights": [
-			{
-				"name": "Information Technology",
-				"weightPercent": 24.04,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 7.99,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Discretionary",
-				"weightPercent": 5.45,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 24.04
+		"topHoldingsTotalWeightPercent": 37.48
 	},
 	{
 		"id": "x5sp",
@@ -2215,46 +1742,7 @@
 			}
 		],
 		"topHoldingsCount": 10,
-		"topHoldingsTotalWeightPercent": 37.48,
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "Xtrackers",
-		"indexName": "S&P 500",
-		"region": "USA",
-		"marketType": "Developed",
-		"hedgedToEur": false,
-		"fundCurrency": "USD",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "X5SP"
-		},
-		"replication": {
-			"type": "Physical",
-			"usesSwap": false,
-			"estimated": true
-		},
-		"maxCountryCode": "US",
-		"maxCountryWeightPercent": 100.0,
-		"sectorWeights": [
-			{
-				"name": "Information Technology",
-				"weightPercent": 24.04,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 7.99,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Discretionary",
-				"weightPercent": 5.45,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 24.04
+		"topHoldingsTotalWeightPercent": 37.48
 	},
 	{
 		"id": "sppy",
@@ -2391,55 +1879,6 @@
 			}
 		],
 		"topHoldingsCount": 10,
-		"topHoldingsTotalWeightPercent": 41.36,
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "State Street SPDR",
-		"indexName": "S&P 500 ESG Leaders",
-		"region": "USA",
-		"marketType": "Developed",
-		"hedgedToEur": true,
-		"fundCurrency": "USD",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "SPPY"
-		},
-		"replication": {
-			"type": "Physical",
-			"usesSwap": false,
-			"estimated": true
-		},
-		"maxCountryCode": "US",
-		"maxCountryWeightPercent": 100.0,
-		"sectorWeights": [
-			{
-				"name": "Information Technology",
-				"weightPercent": 24.98,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 9.46,
-				"estimated": true
-			},
-			{
-				"name": "Financials",
-				"weightPercent": 3.52,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Staples",
-				"weightPercent": 1.85,
-				"estimated": true
-			},
-			{
-				"name": "Health Care",
-				"weightPercent": 1.55,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 24.98
+		"topHoldingsTotalWeightPercent": 41.36
 	}
 ]

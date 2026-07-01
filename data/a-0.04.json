@@ -130,46 +130,7 @@
 			}
 		],
 		"topHoldingsCount": 10,
-		"topHoldingsTotalWeightPercent": 39.16,
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "Xtrackers",
-		"indexName": "S&P 500",
-		"region": "USA",
-		"marketType": "Developed",
-		"hedgedToEur": false,
-		"fundCurrency": "USD",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "X500"
-		},
-		"replication": {
-			"type": "Synthetic",
-			"usesSwap": true,
-			"estimated": false
-		},
-		"maxCountryCode": "US",
-		"maxCountryWeightPercent": 100.0,
-		"sectorWeights": [
-			{
-				"name": "Information Technology",
-				"weightPercent": 24.99,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 8.23,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Discretionary",
-				"weightPercent": 5.94,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 24.99
+		"topHoldingsTotalWeightPercent": 39.16
 	},
 	{
 		"id": "xisp",
@@ -302,46 +263,7 @@
 			}
 		],
 		"topHoldingsCount": 10,
-		"topHoldingsTotalWeightPercent": 39.16,
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "Xtrackers",
-		"indexName": "S&P 500",
-		"region": "USA",
-		"marketType": "Developed",
-		"hedgedToEur": false,
-		"fundCurrency": "USD",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "XISP"
-		},
-		"replication": {
-			"type": "Synthetic",
-			"usesSwap": true,
-			"estimated": false
-		},
-		"maxCountryCode": "US",
-		"maxCountryWeightPercent": 100.0,
-		"sectorWeights": [
-			{
-				"name": "Information Technology",
-				"weightPercent": 24.99,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 8.23,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Discretionary",
-				"weightPercent": 5.94,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 24.99
+		"topHoldingsTotalWeightPercent": 39.16
 	},
 	{
 		"id": "xius",
@@ -474,46 +396,7 @@
 			}
 		],
 		"topHoldingsCount": 10,
-		"topHoldingsTotalWeightPercent": 36.51,
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "Xtrackers",
-		"indexName": "MSCI USA",
-		"region": "USA",
-		"marketType": "Developed",
-		"hedgedToEur": false,
-		"fundCurrency": "USD",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "XIUS"
-		},
-		"replication": {
-			"type": "Synthetic",
-			"usesSwap": true,
-			"estimated": false
-		},
-		"maxCountryCode": "US",
-		"maxCountryWeightPercent": 100.0,
-		"sectorWeights": [
-			{
-				"name": "Information Technology",
-				"weightPercent": 23.23,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 7.89,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Discretionary",
-				"weightPercent": 5.39,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 23.23
+		"topHoldingsTotalWeightPercent": 36.51
 	},
 	{
 		"id": "usoa",
@@ -642,46 +525,7 @@
 			}
 		],
 		"topHoldingsCount": 10,
-		"topHoldingsTotalWeightPercent": 36.51,
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "Xtrackers",
-		"indexName": "MSCI USA",
-		"region": "USA",
-		"marketType": "Developed",
-		"hedgedToEur": false,
-		"fundCurrency": "USD",
-		"primaryEurListing": {
-			"exchange": "Borsa Italiana",
-			"ticker": "USOA"
-		},
-		"replication": {
-			"type": "Synthetic",
-			"usesSwap": true,
-			"estimated": false
-		},
-		"maxCountryCode": "US",
-		"maxCountryWeightPercent": 100.0,
-		"sectorWeights": [
-			{
-				"name": "Information Technology",
-				"weightPercent": 23.23,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 7.89,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Discretionary",
-				"weightPercent": 5.39,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 23.23
+		"topHoldingsTotalWeightPercent": 36.51
 	},
 	{
 		"id": "esar",
@@ -814,46 +658,7 @@
 			}
 		],
 		"topHoldingsCount": 10,
-		"topHoldingsTotalWeightPercent": 36.51,
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "BNP Paribas",
-		"indexName": "MSCI USA",
-		"region": "USA",
-		"marketType": "Developed",
-		"hedgedToEur": false,
-		"fundCurrency": "EUR",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "ESAR"
-		},
-		"replication": {
-			"type": "Physical",
-			"usesSwap": false,
-			"estimated": true
-		},
-		"maxCountryCode": "US",
-		"maxCountryWeightPercent": 100.0,
-		"sectorWeights": [
-			{
-				"name": "Information Technology",
-				"weightPercent": 23.23,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 7.89,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Discretionary",
-				"weightPercent": 5.39,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 23.23
+		"topHoldingsTotalWeightPercent": 36.51
 	},
 	{
 		"id": "bbus",
@@ -982,46 +787,7 @@
 			}
 		],
 		"topHoldingsCount": 10,
-		"topHoldingsTotalWeightPercent": 38.94,
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "JPMorgan",
-		"indexName": "Solactive Core United States Large & Mid Cap",
-		"region": "USA",
-		"marketType": "Developed",
-		"hedgedToEur": false,
-		"fundCurrency": "USD",
-		"primaryEurListing": {
-			"exchange": "Borsa Italiana",
-			"ticker": "BBUS"
-		},
-		"replication": {
-			"type": "Physical",
-			"usesSwap": false,
-			"estimated": true
-		},
-		"maxCountryCode": "US",
-		"maxCountryWeightPercent": 100.0,
-		"sectorWeights": [
-			{
-				"name": "Information Technology",
-				"weightPercent": 24.56,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 8.43,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Discretionary",
-				"weightPercent": 5.95,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 24.56
+		"topHoldingsTotalWeightPercent": 38.94
 	},
 	{
 		"id": "lcuk",
@@ -1158,61 +924,7 @@
 			}
 		],
 		"topHoldingsCount": 10,
-		"topHoldingsTotalWeightPercent": 46.78,
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "Amundi",
-		"indexName": "Morningstar UK Index",
-		"region": "United Kingdom",
-		"marketType": "Developed",
-		"hedgedToEur": false,
-		"fundCurrency": "GBP",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "LCUK"
-		},
-		"replication": {
-			"type": "Physical",
-			"usesSwap": false,
-			"estimated": true
-		},
-		"maxCountryCode": "GB",
-		"maxCountryWeightPercent": 100.0,
-		"sectorWeights": [
-			{
-				"name": "Financials",
-				"weightPercent": 11.46,
-				"estimated": true
-			},
-			{
-				"name": "Health Care",
-				"weightPercent": 11.07,
-				"estimated": true
-			},
-			{
-				"name": "Energy",
-				"weightPercent": 9.59,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Staples",
-				"weightPercent": 7.44,
-				"estimated": true
-			},
-			{
-				"name": "Industrials",
-				"weightPercent": 4.04,
-				"estimated": true
-			},
-			{
-				"name": "Materials",
-				"weightPercent": 3.18,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Financials",
-		"topSectorWeightPercent": 11.46
+		"topHoldingsTotalWeightPercent": 46.78
 	},
 	{
 		"id": "xctw",
@@ -1377,46 +1089,7 @@
 			}
 		],
 		"topHoldingsCount": 10,
-		"topHoldingsTotalWeightPercent": 26.72,
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "Xtrackers",
-		"indexName": "MSCI World Climate Change CTB Select",
-		"region": "World",
-		"marketType": "Developed",
-		"hedgedToEur": false,
-		"fundCurrency": "USD",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "XCTW"
-		},
-		"replication": {
-			"type": "Physical",
-			"usesSwap": false,
-			"estimated": true
-		},
-		"maxCountryCode": "US",
-		"maxCountryWeightPercent": 67.13,
-		"sectorWeights": [
-			{
-				"name": "Information Technology",
-				"weightPercent": 17.02,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 5.72,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Discretionary",
-				"weightPercent": 3.98,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 17.02
+		"topHoldingsTotalWeightPercent": 26.72
 	},
 	{
 		"id": "xect",
@@ -1581,56 +1254,7 @@
 			}
 		],
 		"topHoldingsCount": 10,
-		"topHoldingsTotalWeightPercent": 22.33,
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "Xtrackers",
-		"indexName": "MSCI Europe Climate Change CTB Select",
-		"region": "Europe",
-		"marketType": "Developed",
-		"hedgedToEur": false,
-		"fundCurrency": "EUR",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "XECT"
-		},
-		"replication": {
-			"type": "Physical",
-			"usesSwap": false,
-			"estimated": true
-		},
-		"maxCountryCode": null,
-		"maxCountryWeightPercent": 44.46,
-		"sectorWeights": [
-			{
-				"name": "Health Care",
-				"weightPercent": 6.55,
-				"estimated": true
-			},
-			{
-				"name": "Information Technology",
-				"weightPercent": 5.62,
-				"estimated": true
-			},
-			{
-				"name": "Industrials",
-				"weightPercent": 4.75,
-				"estimated": true
-			},
-			{
-				"name": "Financials",
-				"weightPercent": 3.94,
-				"estimated": true
-			},
-			{
-				"name": "Energy",
-				"weightPercent": 1.47,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Health Care",
-		"topSectorWeightPercent": 6.55
+		"topHoldingsTotalWeightPercent": 22.33
 	},
 	{
 		"id": "xcjd",
@@ -1763,55 +1387,6 @@
 			}
 		],
 		"topHoldingsCount": 10,
-		"topHoldingsTotalWeightPercent": 38.02,
-		"assetClass": "Equity",
-		"equityExposurePercent": 100,
-		"ucits": true,
-		"issuer": "Xtrackers",
-		"indexName": "MSCI Japan Climate Change CTB Select",
-		"region": "Japan",
-		"marketType": "Developed",
-		"hedgedToEur": false,
-		"fundCurrency": "JPY",
-		"primaryEurListing": {
-			"exchange": "XETRA",
-			"ticker": "XCJD"
-		},
-		"replication": {
-			"type": "Physical",
-			"usesSwap": false,
-			"estimated": true
-		},
-		"maxCountryCode": "JP",
-		"maxCountryWeightPercent": 100.0,
-		"sectorWeights": [
-			{
-				"name": "Information Technology",
-				"weightPercent": 19.82,
-				"estimated": true
-			},
-			{
-				"name": "Financials",
-				"weightPercent": 7.93,
-				"estimated": true
-			},
-			{
-				"name": "Consumer Discretionary",
-				"weightPercent": 3.8,
-				"estimated": true
-			},
-			{
-				"name": "Communication Services",
-				"weightPercent": 3.48,
-				"estimated": true
-			},
-			{
-				"name": "Industrials",
-				"weightPercent": 2.99,
-				"estimated": true
-			}
-		],
-		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 19.82
+		"topHoldingsTotalWeightPercent": 38.02
 	}
 ]

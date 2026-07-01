@@ -67,3 +67,15 @@ body.dark .top-holdings-row {
 body.dark .top-holdings-header {
 	color: #e5e7eb;
 }
+
+body.dark .etf-share-class-mode {
+	background: #111827;
+	border-color: #263244;
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+
+body.dark .etf-share-class-mode select {
+	background: #1f2937;
+	border-color: #374151;
+	color: #f9fafb;
+}

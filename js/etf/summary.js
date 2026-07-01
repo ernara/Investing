@@ -1,16 +1,13 @@
 let allDisplayEtfs = [];
 
+let allRawEtfs = [];
+
 async function loadEtfs() {
 	try {
-		const etfs = await loadTerEtfFiles(3, 10);
+		allRawEtfs = await loadTerEtfFiles(3, 10);
 
-		allDisplayEtfs = prepareEtfsForDisplay(etfs, {
-			combineShareClasses: true
-		});
-
-		allDisplayEtfs = sortEtfs(allDisplayEtfs);
-
-		initEtfFilters(allDisplayEtfs, renderEtfs);
+		renderEtfShareClassControls();
+		renderEtfsByShareClassMode();
 	} catch (error) {
 		document.getElementById("etfSummary").innerHTML = `
 			<p class="etf-error">Nepavyko įkelti ETF duomenų.</p>
@@ -18,6 +15,13 @@ async function loadEtfs() {
 
 		console.error(error);
 	}
+}
+
+function renderEtfsByShareClassMode() {
+	const displayEtfs = prepareEtfsForDisplay(allRawEtfs);
+	const sortedEtfs = sortEtfs(displayEtfs);
+
+	initEtfFilters(sortedEtfs, renderEtfs);
 }
 
 async function loadTerEtfFiles(fromTer, toTer) {
@@ -165,75 +169,6 @@ function renderFlag(code) {
 			onerror="this.outerHTML='<span class=&quot;country-flag country-flag-missing&quot;>?</span>'"
 		>
 	`;
-}
-
-function prepareEtfsForDisplay(etfs, options = {}) {
-	if (!options.combineShareClasses) return etfs;
-
-	return combineEtfShareClasses(etfs);
-}
-
-function combineEtfShareClasses(etfs) {
-	const groups = new Map();
-
-	etfs.forEach(etf => {
-		const key = getEtfGroupKey(etf);
-		const capital = getCapitalForCombining(etf);
-
-		if (!groups.has(key)) {
-			groups.set(key, {
-				...etf,
-				ticker: etf.ticker,
-				name: cleanEtfName(etf.name),
-				fundCapital: {
-					amountMillions: 0,
-					currency: capital?.currency || etf.fundCapital?.currency || "USD",
-					estimated: Boolean(capital?.estimated || etf.fundCapital?.estimated),
-					sourceName: capital?.sourceName || etf.fundCapital?.sourceName || "",
-					asOf: capital?.asOf || etf.fundCapital?.asOf || null
-				},
-				shareClasses: []
-			});
-		}
-
-		const group = groups.get(key);
-
-		group.shareClasses.push(etf);
-		group.ticker = mergeTickers(group.ticker, etf.ticker);
-
-		if (capital?.amountMillions) {
-			group.fundCapital.amountMillions += capital.amountMillions;
-		}
-	});
-
-	return [...groups.values()];
-}
-
-function getEtfGroupKey(etf) {
-	return cleanEtfName(etf.name).toLowerCase();
-}
-
-function cleanEtfName(name) {
-	return name
-		.replace(/\b(acc|dist|accumulating|distributing)\b/gi, "")
-		.replace(/\s+/g, " ")
-		.trim();
-}
-
-function getCapitalForCombining(etf) {
-	return etf.shareClassCapital || etf.fundCapital;
-}
-
-function mergeTickers(currentTicker, newTicker) {
-	const tickers = new Set(
-		[currentTicker, newTicker]
-			.join(" / ")
-			.split("/")
-			.map(ticker => ticker.trim())
-			.filter(Boolean)
-	);
-
-	return [...tickers].join(" / ");
 }
 
 function getFlagUrl(code) {
