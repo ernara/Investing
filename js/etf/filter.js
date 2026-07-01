@@ -127,6 +127,8 @@ function renderEtfFilters(filters) {
 					<option value="capitalAsc">ETF kapitalas: mažiausias</option>
 					<option value="companiesDesc">Įmonių skaičius: didžiausias</option>
 					<option value="companiesAsc">Įmonių skaičius: mažiausias</option>
+					<option value="countryCountDesc">Šalių skaičius: didžiausias</option>
+					<option value="countryCountAsc">Šalių skaičius: mažiausias</option>
 					<option value="topHoldingsAsc">TOP10 dalis: mažiausia</option>
 					<option value="topHoldingsDesc">TOP10 dalis: didžiausia</option>
 				</select>
@@ -136,7 +138,7 @@ function renderEtfFilters(filters) {
 			${renderRangeFilter("terPercent", "Valdymo mokestis", "%", filters.terPercent, "0.01")}
 			${renderRangeFilter("companies", "Įmonių skaičius", "", filters.companies, "1")}
 			${renderRangeFilter("countryCount", "Šalių skaičius", "", filters.countryCount, "1")}
-			${renderRangeFilter("topHoldingsWeightPercent", "TOP pozicijų dalis", "%", filters.topHoldingsWeightPercent, "0.01")}
+			${renderRangeFilter("topHoldingsWeightPercent", "TOP10 pozicijų dalis", "%", filters.topHoldingsWeightPercent, "0.01")}
 			${renderRangeFilter("maxCountryWeightPercent", "Vienos šalies max dalis", "%", filters.maxCountryWeightPercent, "0.01")}
 		</div>
 
@@ -247,6 +249,9 @@ function sortFilteredEtfs(etfs) {
 
 		if (mode === "companiesAsc") return compareNumbers(a.totalCompanies, b.totalCompanies, "asc");
 		if (mode === "companiesDesc") return compareNumbers(a.totalCompanies, b.totalCompanies, "desc");
+
+		if (mode === "countryCountAsc") return compareNumbers(getEtfCountryCount(a), getEtfCountryCount(b), "asc");
+		if (mode === "countryCountDesc") return compareNumbers(getEtfCountryCount(a), getEtfCountryCount(b), "desc");
 
 		if (mode === "topHoldingsAsc") {
 			return compareNumbers(a.topHoldingsTotalWeightPercent, b.topHoldingsTotalWeightPercent, "asc");
