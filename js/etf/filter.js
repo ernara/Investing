@@ -28,7 +28,7 @@ function getEmptyEtfFilters() {
 		companies: { min: null, max: null },
 		countryCount: { min: null, max: null },
 		topHoldingsWeightPercent: { min: null, max: null },
-		usaWeightPercent: { min: null, max: null }
+		maxCountryWeightPercent: { min: null, max: null }
 	};
 }
 
@@ -39,7 +39,7 @@ function getEtfFilterBounds(etfs) {
 		companies: getRange(etfs, etf => etf.totalCompanies),
 		countryCount: getRange(etfs, getEtfCountryCount),
 		topHoldingsWeightPercent: getRange(etfs, etf => etf.topHoldingsTotalWeightPercent),
-		usaWeightPercent: { min: 0, max: 100 }
+		maxCountryWeightPercent: getRange(etfs, getMaxCountryWeightPercent)
 	};
 }
 
@@ -137,7 +137,7 @@ function renderEtfFilters(filters) {
 			${renderRangeFilter("companies", "Įmonių skaičius", "", filters.companies, "1")}
 			${renderRangeFilter("countryCount", "Šalių skaičius", "", filters.countryCount, "1")}
 			${renderRangeFilter("topHoldingsWeightPercent", "TOP pozicijų dalis", "%", filters.topHoldingsWeightPercent, "0.01")}
-			${renderRangeFilter("usaWeightPercent", "JAV dalis", "%", filters.usaWeightPercent, "0.01")}
+			${renderRangeFilter("maxCountryWeightPercent", "Vienos šalies max dalis", "%", filters.maxCountryWeightPercent, "0.01")}
 		</div>
 
 		<div class="etf-filter-bottom">
@@ -283,7 +283,7 @@ function etfPassesFilters(etf, filters) {
 		passesRange(etf.totalCompanies, filters.companies, defaultEtfFilters.companies) &&
 		passesRange(getEtfCountryCount(etf), filters.countryCount, defaultEtfFilters.countryCount) &&
 		passesRange(etf.topHoldingsTotalWeightPercent, filters.topHoldingsWeightPercent, defaultEtfFilters.topHoldingsWeightPercent) &&
-		passesRange(getUsaWeightPercent(etf), filters.usaWeightPercent, defaultEtfFilters.usaWeightPercent)
+		passesRange(getMaxCountryWeightPercent(etf), filters.maxCountryWeightPercent, defaultEtfFilters.maxCountryWeightPercent)
 	);
 }
 
@@ -350,24 +350,16 @@ function getEtfCountryCount(etf) {
 	}).length;
 }
 
-function getUsaWeightPercent(etf) {
+function getMaxCountryWeightPercent(etf) {
 	if (!Array.isArray(etf.countries)) return null;
 
-	const usa = etf.countries.find(country => {
-		const code = String(country.code || country.countryCode || "").toUpperCase();
-		const name = String(country.name || country.nameLt || country.nameEn || "").toLowerCase();
+	const weights = etf.countries
+		.map(country => parseEtfNumber(country.weightPercent))
+		.filter(weight => weight !== null);
 
-		return (
-			code === "US" ||
-			code === "USA" ||
-			name === "jav" ||
-			name.includes("united states") ||
-			name.includes("jungtinės amerikos valstijos") ||
-			name.includes("amerika")
-		);
-	});
+	if (!weights.length) return null;
 
-	return parseEtfNumber(usa?.weightPercent) ?? 0;
+	return Math.max(...weights);
 }
 
 function updateEtfFilterCount(visibleCount, totalCount) {
