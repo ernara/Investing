@@ -26,6 +26,7 @@ function getEmptyEtfFilters() {
 		capitalBillions: { min: null, max: null },
 		terPercent: { min: null, max: null },
 		companies: { min: null, max: null },
+		countryCount: { min: null, max: null },
 		topHoldingsWeightPercent: { min: null, max: null },
 		usaWeightPercent: { min: null, max: null }
 	};
@@ -36,6 +37,7 @@ function getEtfFilterBounds(etfs) {
 		capitalBillions: getRange(etfs, getEtfCapitalBillions),
 		terPercent: getRange(etfs, etf => etf.terPercent),
 		companies: getRange(etfs, etf => etf.totalCompanies),
+		countryCount: getRange(etfs, getEtfCountryCount),
 		topHoldingsWeightPercent: getRange(etfs, etf => etf.topHoldingsTotalWeightPercent),
 		usaWeightPercent: { min: 0, max: 100 }
 	};
@@ -133,6 +135,7 @@ function renderEtfFilters(filters) {
 			${renderRangeFilter("capitalBillions", "ETF kapitalas", "B", filters.capitalBillions, "0.1")}
 			${renderRangeFilter("terPercent", "Valdymo mokestis", "%", filters.terPercent, "0.01")}
 			${renderRangeFilter("companies", "Įmonių skaičius", "", filters.companies, "1")}
+			${renderRangeFilter("countryCount", "Šalių skaičius", "", filters.countryCount, "1")}
 			${renderRangeFilter("topHoldingsWeightPercent", "TOP pozicijų dalis", "%", filters.topHoldingsWeightPercent, "0.01")}
 			${renderRangeFilter("usaWeightPercent", "JAV dalis", "%", filters.usaWeightPercent, "0.01")}
 		</div>
@@ -278,6 +281,7 @@ function etfPassesFilters(etf, filters) {
 		passesRange(getEtfCapitalBillions(etf), filters.capitalBillions, defaultEtfFilters.capitalBillions) &&
 		passesRange(etf.terPercent, filters.terPercent, defaultEtfFilters.terPercent) &&
 		passesRange(etf.totalCompanies, filters.companies, defaultEtfFilters.companies) &&
+		passesRange(getEtfCountryCount(etf), filters.countryCount, defaultEtfFilters.countryCount) &&
 		passesRange(etf.topHoldingsTotalWeightPercent, filters.topHoldingsWeightPercent, defaultEtfFilters.topHoldingsWeightPercent) &&
 		passesRange(getUsaWeightPercent(etf), filters.usaWeightPercent, defaultEtfFilters.usaWeightPercent)
 	);
@@ -336,6 +340,14 @@ function getEtfCapitalBillions(etf) {
 	if (amountMillions === null) return null;
 
 	return amountMillions / 1000;
+}
+
+function getEtfCountryCount(etf) {
+	if (!Array.isArray(etf.countries)) return null;
+
+	return etf.countries.filter(country => {
+		return country && (country.code || country.countryCode || country.name || country.nameLt || country.nameEn);
+	}).length;
 }
 
 function getUsaWeightPercent(etf) {
