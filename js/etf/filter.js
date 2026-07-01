@@ -1,4 +1,5 @@
 const etfFiltersStorageKey = "etfFilters";
+const etfSortModeStorageKey = "etfSortMode";
 
 let defaultEtfFilters = getEmptyEtfFilters();
 let activeEtfFilters = getEmptyEtfFilters();
@@ -43,7 +44,8 @@ function getEtfFilterBounds(etfs) {
 function getRange(items, getValue) {
 	const values = items
 		.map(getValue)
-		.filter(value => value !== null && value !== undefined && !Number.isNaN(value));
+		.map(parseEtfNumber)
+		.filter(value => value !== null);
 
 	if (!values.length) {
 		return { min: null, max: null };
@@ -78,6 +80,14 @@ function saveEtfFilters() {
 	localStorage.setItem(etfFiltersStorageKey, JSON.stringify(activeEtfFilters));
 }
 
+function getEtfSortMode() {
+	return localStorage.getItem(etfSortModeStorageKey) || "terAsc";
+}
+
+function setEtfSortMode(mode) {
+	localStorage.setItem(etfSortModeStorageKey, mode);
+}
+
 function renderEtfFilters(filters) {
 	const summary = document.getElementById("etfSummary");
 
@@ -105,6 +115,21 @@ function renderEtfFilters(filters) {
 				</select>
 			</div>
 
+			<div class="etf-filter">
+				<label>Rūšiavimas</label>
+
+				<select id="etfSortModeSelect">
+					<option value="terAsc">Valdymo mokestis: mažiausias</option>
+					<option value="terDesc">Valdymo mokestis: didžiausias</option>
+					<option value="capitalDesc">ETF kapitalas: didžiausias</option>
+					<option value="capitalAsc">ETF kapitalas: mažiausias</option>
+					<option value="companiesDesc">Įmonių skaičius: didžiausias</option>
+					<option value="companiesAsc">Įmonių skaičius: mažiausias</option>
+					<option value="topHoldingsAsc">TOP10 dalis: mažiausia</option>
+					<option value="topHoldingsDesc">TOP10 dalis: didžiausia</option>
+				</select>
+			</div>
+
 			${renderRangeFilter("capitalBillions", "ETF kapitalas", "B", filters.capitalBillions, "0.1")}
 			${renderRangeFilter("terPercent", "Valdymo mokestis", "%", filters.terPercent, "0.01")}
 			${renderRangeFilter("companies", "Įmonių skaičius", "", filters.companies, "1")}
@@ -120,6 +145,7 @@ function renderEtfFilters(filters) {
 
 	setupEtfFilterInputs();
 	setupEtfShareClassSelect();
+	setupEtfSortSelect();
 	initEtfFilterDrag();
 }
 
@@ -175,13 +201,76 @@ function setupEtfShareClassSelect() {
 	});
 }
 
+function setupEtfSortSelect() {
+	const select = document.getElementById("etfSortModeSelect");
+
+	if (!select) return;
+
+	const savedSortMode = getEtfSortMode();
+	const optionExists = [...select.options].some(option => option.value === savedSortMode);
+
+	if (!optionExists) {
+		setEtfSortMode("terAsc");
+	}
+
+	select.value = optionExists ? savedSortMode : "terAsc";
+
+	select.addEventListener("change", () => {
+		setEtfSortMode(select.value);
+		renderCurrentFilteredEtfs();
+	});
+}
+
 function renderCurrentFilteredEtfs() {
 	const filteredEtfs = etfFilterSource.filter(etf => {
 		return etfPassesFilters(etf, activeEtfFilters);
 	});
 
-	renderEtfFilterResult(filteredEtfs);
-	updateEtfFilterCount(filteredEtfs.length, etfFilterSource.length);
+	const sortedEtfs = sortFilteredEtfs(filteredEtfs);
+
+	renderEtfFilterResult(sortedEtfs);
+	updateEtfFilterCount(sortedEtfs.length, etfFilterSource.length);
+}
+
+function sortFilteredEtfs(etfs) {
+	const mode = getEtfSortMode();
+
+	return [...etfs].sort((a, b) => {
+		if (mode === "terAsc") return compareNumbers(a.terPercent, b.terPercent, "asc");
+		if (mode === "terDesc") return compareNumbers(a.terPercent, b.terPercent, "desc");
+
+		if (mode === "capitalAsc") return compareNumbers(getEtfCapitalBillions(a), getEtfCapitalBillions(b), "asc");
+		if (mode === "capitalDesc") return compareNumbers(getEtfCapitalBillions(a), getEtfCapitalBillions(b), "desc");
+
+		if (mode === "companiesAsc") return compareNumbers(a.totalCompanies, b.totalCompanies, "asc");
+		if (mode === "companiesDesc") return compareNumbers(a.totalCompanies, b.totalCompanies, "desc");
+
+		if (mode === "topHoldingsAsc") {
+			return compareNumbers(a.topHoldingsTotalWeightPercent, b.topHoldingsTotalWeightPercent, "asc");
+		}
+
+		if (mode === "topHoldingsDesc") {
+			return compareNumbers(a.topHoldingsTotalWeightPercent, b.topHoldingsTotalWeightPercent, "desc");
+		}
+
+		return compareNumbers(a.terPercent, b.terPercent, "asc");
+	});
+}
+
+function compareNumbers(a, b, direction) {
+	const numberA = parseEtfNumber(a);
+	const numberB = parseEtfNumber(b);
+
+	const aMissing = numberA === null;
+	const bMissing = numberB === null;
+
+	if (aMissing && bMissing) return 0;
+	if (aMissing) return 1;
+	if (bMissing) return -1;
+
+	if (direction === "desc") return numberB - numberA;
+
+	return numberA - numberB;
 }
 
 function etfPassesFilters(etf, filters) {
@@ -195,12 +284,14 @@ function etfPassesFilters(etf, filters) {
 }
 
 function passesRange(value, range, defaultRange) {
-	if (value === null || value === undefined || Number.isNaN(value)) {
+	const number = parseEtfNumber(value);
+
+	if (number === null) {
 		return !isRangeNarrowed(range, defaultRange);
 	}
 
-	if (range.min !== null && value < range.min) return false;
-	if (range.max !== null && value > range.max) return false;
+	if (range.min !== null && number < range.min) return false;
+	if (range.max !== null && number > range.max) return false;
 
 	return true;
 }
@@ -217,20 +308,54 @@ function isRangeNarrowed(range, defaultRange) {
 	return false;
 }
 
-function getEtfCapitalBillions(etf) {
-	if (!etf.fundCapital?.amountMillions) return null;
+function parseEtfNumber(value) {
+	if (value === null || value === undefined) return null;
 
-	return etf.fundCapital.amountMillions / 1000;
+	if (typeof value === "number") {
+		return Number.isNaN(value) ? null : value;
+	}
+
+	if (typeof value !== "string") return null;
+
+	const cleanedValue = value
+		.replace(",", ".")
+		.replace("%", "")
+		.replace(/\s/g, "")
+		.replace(/[^\d.-]/g, "");
+
+	if (cleanedValue === "") return null;
+
+	const number = Number(cleanedValue);
+
+	return Number.isNaN(number) ? null : number;
+}
+
+function getEtfCapitalBillions(etf) {
+	const amountMillions = parseEtfNumber(etf.fundCapital?.amountMillions);
+
+	if (amountMillions === null) return null;
+
+	return amountMillions / 1000;
 }
 
 function getUsaWeightPercent(etf) {
 	if (!Array.isArray(etf.countries)) return null;
 
 	const usa = etf.countries.find(country => {
-		return country.code === "US" || country.countryCode === "US";
+		const code = String(country.code || country.countryCode || "").toUpperCase();
+		const name = String(country.name || country.nameLt || country.nameEn || "").toLowerCase();
+
+		return (
+			code === "US" ||
+			code === "USA" ||
+			name === "jav" ||
+			name.includes("united states") ||
+			name.includes("jungtinės amerikos valstijos") ||
+			name.includes("amerika")
+		);
 	});
 
-	return usa?.weightPercent ?? 0;
+	return parseEtfNumber(usa?.weightPercent) ?? 0;
 }
 
 function updateEtfFilterCount(visibleCount, totalCount) {
