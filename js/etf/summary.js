@@ -1,12 +1,16 @@
+let allDisplayEtfs = [];
+
 async function loadEtfs() {
 	try {
 		const etfs = await loadTerEtfFiles(3, 10);
 
-		const displayEtfs = prepareEtfsForDisplay(etfs, {
+		allDisplayEtfs = prepareEtfsForDisplay(etfs, {
 			combineShareClasses: true
 		});
 
-		renderEtfs(sortEtfs(displayEtfs));
+		allDisplayEtfs = sortEtfs(allDisplayEtfs);
+
+		initEtfFilters(allDisplayEtfs, renderEtfs);
 	} catch (error) {
 		document.getElementById("etfSummary").innerHTML = `
 			<p class="etf-error">Nepavyko įkelti ETF duomenų.</p>
@@ -81,7 +85,7 @@ function renderEtfCard(etf) {
 					</tr>
 
 					<tr>
-						<th>TOP pozicijų dalis</th>
+						<th>TOP10 pozicijų dalis</th>
 						<td>${formatPercent(etf.topHoldingsTotalWeightPercent)}</td>
 					</tr>
 
