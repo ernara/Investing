@@ -1,29 +1,49 @@
 async function loadEtfs() {
-	const root = document.getElementById("etfSummary");
-
-	if (!root) return;
-
 	try {
-		const response = await fetch("data/ter-0.07.json");
-
-		if (!response.ok) throw new Error("data/ter-0.07.json not found");
-
-		const etfs = await response.json();
+		const etfs = await loadTerEtfFiles(3, 10);
 
 		const displayEtfs = prepareEtfsForDisplay(etfs, {
-		combineShareClasses: true
+			combineShareClasses: true
 		});
 
 		renderEtfs(sortEtfs(displayEtfs));
-		setupCountryButtons();
-
 	} catch (error) {
-		console.error(error);
-
-		root.innerHTML = `
-			<p class="etf-error">Nepavyko užkrauti ETF duomenų.</p>
+		document.getElementById("etfSummary").innerHTML = `
+			<p class="etf-error">Nepavyko įkelti ETF duomenų.</p>
 		`;
+
+		console.error(error);
 	}
+}
+
+async function loadTerEtfFiles(fromTer, toTer) {
+	const filePromises = [];
+
+	for (let ter = fromTer; ter <= toTer; ter++) {
+		const fileName = `data/ter-0.${String(ter).padStart(2, "0")}.json`;
+
+		filePromises.push(loadJsonFileIfExists(fileName));
+	}
+
+	const files = await Promise.all(filePromises);
+
+	return files
+		.filter(Boolean)
+		.flatMap(file => Array.isArray(file) ? file : file.etfs || []);
+}
+
+async function loadJsonFileIfExists(fileName) {
+	const response = await fetch(fileName);
+
+	if (response.status === 404) {
+		return null;
+	}
+
+	if (!response.ok) {
+		throw new Error(`Nepavyko įkelti: ${fileName}`);
+	}
+
+	return response.json();
 }
 
 function renderEtfs(etfs) {
@@ -62,13 +82,11 @@ function renderEtfCard(etf) {
 				</tbody>
 			</table>
 
-			<button class="country-button" type="button">
-				Rodyti šalis
-			</button>
+				<button type="button" class="country-button">Rodyti šalis</button>
 
-			<div class="country-panel hidden">
-				${renderCountryTable(etf.countries)}
-			</div>
+				<div class="country-panel hidden">
+					${renderCountryTable(etf.countries)}
+				</div>
 		</article>
 	`;
 }
@@ -110,19 +128,7 @@ function getFlagUrl(code) {
 	return `https://flagcdn.com/24x18/${code.toLowerCase()}.png`;
 }
 
-function setupCountryButtons() {
-	document.querySelectorAll(".country-button").forEach(button => {
-		button.addEventListener("click", () => {
-			const panel = button.nextElementSibling;
 
-			panel.classList.toggle("hidden");
-
-			button.textContent = panel.classList.contains("hidden")
-				? "Rodyti šalis"
-				: "Slėpti šalis";
-		});
-	});
-}
 
 function renderFlag(code) {
 	if (!code || code.length !== 2) {
@@ -238,5 +244,24 @@ function formatFundCapital(fundCapital) {
 
 	return currency + amountBillions.toFixed(1) + "B";
 }
+
+document.addEventListener("click", event => {
+	const button = event.target.closest(".country-button");
+
+	if (!button) return;
+
+	const card = button.closest(".etf-card");
+	const panel = card.querySelector(".country-panel");
+
+	if (!panel) return;
+
+	const isHidden = panel.classList.toggle("hidden");
+
+	button.textContent = isHidden ? "Rodyti šalis" : "Slėpti šalis";
+
+	if (typeof updateEtfDragAreaHeight === "function") {
+		setTimeout(updateEtfDragAreaHeight, 0);
+	}
+});
 
 loadEtfs();

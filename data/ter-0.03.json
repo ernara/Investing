@@ -1,0 +1,568 @@
+[
+	{
+		"id": "spy5",
+		"ticker": "SPY5",
+		"name": "State Street SPDR S&P 500 UCITS ETF USD Unhedged Dist",
+		"terPercent": 0.03,
+		"totalCompanies": 503,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Dist",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "SPY5"
+			},
+			{
+				"exchange": "Euronext Paris",
+				"ticker": "SPY5"
+			},
+			{
+				"exchange": "gettex",
+				"ticker": "SPY5"
+			}
+		],
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 503,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 18031,
+			"currency": "EUR",
+			"label": "€18 031M",
+			"asOf": "2026-06",
+			"sourceName": "justETF",
+			"estimated": false
+		}
+	},
+	{
+		"id": "spyl",
+		"ticker": "SPYL",
+		"name": "State Street SPDR S&P 500 UCITS ETF USD Unhedged Acc",
+		"terPercent": 0.03,
+		"totalCompanies": 503,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Acc",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "SPYL"
+			},
+			{
+				"exchange": "gettex",
+				"ticker": "SPYL"
+			},
+			{
+				"exchange": "Borsa Italiana",
+				"ticker": "SPYL"
+			}
+		],
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 503,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 15468,
+			"currency": "EUR",
+			"label": "€15 468M",
+			"asOf": "2026-06",
+			"sourceName": "justETF",
+			"estimated": false
+		}
+	},
+	{
+		"id": "xd9u",
+		"ticker": "XD9U",
+		"name": "Xtrackers MSCI USA UCITS ETF 1C",
+		"terPercent": 0.03,
+		"totalCompanies": 527,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Acc",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "XD9U"
+			},
+			{
+				"exchange": "gettex",
+				"ticker": "XD9U"
+			}
+		],
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 527,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 11023,
+			"currency": "EUR",
+			"label": "€11 023M",
+			"asOf": "2026-06",
+			"sourceName": "justETF",
+			"estimated": false
+		}
+	},
+	{
+		"id": "xd9d",
+		"ticker": "XD9D",
+		"name": "Xtrackers MSCI USA UCITS ETF 1D",
+		"terPercent": 0.03,
+		"totalCompanies": 527,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Dist",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "XD9D"
+			},
+			{
+				"exchange": "gettex",
+				"ticker": "XD9D"
+			}
+		],
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 527,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 277,
+			"currency": "EUR",
+			"label": "€277M",
+			"asOf": "2026-06",
+			"sourceName": "justETF",
+			"estimated": false
+		}
+	},
+	{
+		"id": "sxr4",
+		"ticker": "SXR4",
+		"name": "iShares MSCI USA UCITS ETF Acc",
+		"terPercent": 0.03,
+		"totalCompanies": 527,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Acc",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "SXR4"
+			},
+			{
+				"exchange": "gettex",
+				"ticker": "SXR4"
+			}
+		],
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 527,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 4236,
+			"currency": "EUR",
+			"label": "€4 236M",
+			"asOf": "2026-06",
+			"sourceName": "justETF",
+			"estimated": false
+		}
+	},
+	{
+		"id": "webh",
+		"ticker": "WEBH",
+		"name": "Amundi Core MSCI USA UCITS ETF Acc",
+		"terPercent": 0.03,
+		"totalCompanies": 531,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Acc",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "WEBH"
+			},
+			{
+				"exchange": "Frankfurt",
+				"ticker": "WEBH"
+			},
+			{
+				"exchange": "Euronext Milan",
+				"ticker": "ETFUSA"
+			}
+		],
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 531,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 3616,
+			"currency": "EUR",
+			"label": "€3 616M",
+			"asOf": "2026-06",
+			"sourceName": "justETF",
+			"estimated": false
+		}
+	},
+	{
+		"id": "webi",
+		"ticker": "WEBI",
+		"name": "Amundi Core MSCI USA UCITS ETF Dist",
+		"terPercent": 0.03,
+		"totalCompanies": 531,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Dist",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "WEBI"
+			},
+			{
+				"exchange": "Frankfurt",
+				"ticker": "WEBI"
+			},
+			{
+				"exchange": "Euronext Milan",
+				"ticker": "ETFUSA"
+			}
+		],
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 531,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 1049,
+			"currency": "EUR",
+			"label": "€1 049M",
+			"asOf": "2026-06",
+			"sourceName": "justETF",
+			"estimated": false
+		}
+	},
+	{
+		"id": "4ubb",
+		"ticker": "4UBB",
+		"name": "UBS Core MSCI USA UCITS ETF USD Acc",
+		"terPercent": 0.03,
+		"totalCompanies": 536,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Acc",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "4UBB"
+			},
+			{
+				"exchange": "Borsa Italiana",
+				"ticker": "USAUSW"
+			}
+		],
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 536,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 2698,
+			"currency": "EUR",
+			"label": "€2 698M",
+			"asOf": "2026-06",
+			"sourceName": "justETF",
+			"estimated": false
+		}
+	},
+	{
+		"id": "ubu3",
+		"ticker": "UBU3",
+		"name": "UBS Core MSCI USA UCITS ETF USD Dis",
+		"terPercent": 0.03,
+		"totalCompanies": 536,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Dist",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "UBU3"
+			},
+			{
+				"exchange": "Borsa Italiana",
+				"ticker": "UBU3"
+			}
+		],
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 536,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 1253,
+			"currency": "EUR",
+			"label": "€1 253M",
+			"asOf": "2026-06",
+			"sourceName": "justETF",
+			"estimated": false
+		}
+	},
+	{
+		"id": "bcft",
+		"ticker": "BCFT",
+		"name": "UBS Core S&P 500 UCITS ETF USD Acc",
+		"terPercent": 0.03,
+		"totalCompanies": 504,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Acc",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "BCFT"
+			},
+			{
+				"exchange": "Frankfurt",
+				"ticker": "BCFT"
+			}
+		],
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 504,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 1435,
+			"currency": "EUR",
+			"label": "€1 435M",
+			"asOf": "2026-06",
+			"sourceName": "justETF",
+			"estimated": false
+		}
+	},
+	{
+		"id": "ubu9",
+		"ticker": "UBU9",
+		"name": "UBS Core S&P 500 UCITS ETF USD Dis",
+		"terPercent": 0.03,
+		"totalCompanies": 504,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Dist",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "Euronext Amsterdam",
+				"ticker": "UBU9"
+			},
+			{
+				"exchange": "Frankfurt",
+				"ticker": "UBU9"
+			}
+		],
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 504,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 1028,
+			"currency": "EUR",
+			"label": "€1 028M",
+			"asOf": "2026-06",
+			"sourceName": "justETF",
+			"estimated": false
+		}
+	},
+	{
+		"id": "xdpu",
+		"ticker": "XDPU",
+		"name": "Xtrackers S&P 500 UCITS ETF 4C",
+		"terPercent": 0.03,
+		"totalCompanies": 504,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Acc",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "XDPU"
+			},
+			{
+				"exchange": "gettex",
+				"ticker": "XDPU"
+			}
+		],
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 504,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 1141,
+			"currency": "EUR",
+			"label": "€1 141M",
+			"asOf": "2026-06",
+			"sourceName": "justETF",
+			"estimated": false
+		}
+	},
+	{
+		"id": "x5sp",
+		"ticker": "X5SP",
+		"name": "Xtrackers S&P 500 UCITS ETF 4D",
+		"terPercent": 0.03,
+		"totalCompanies": 504,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Dist",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "X5SP"
+			},
+			{
+				"exchange": "gettex",
+				"ticker": "X5SP"
+			}
+		],
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 504,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 1,
+			"currency": "EUR",
+			"label": "€1M",
+			"asOf": "2026-06",
+			"sourceName": "justETF",
+			"estimated": false
+		}
+	},
+	{
+		"id": "sppy",
+		"ticker": "SPPY",
+		"name": "State Street SPDR S&P 500 Leaders UCITS ETF USD Unhedged Acc",
+		"terPercent": 0.03,
+		"totalCompanies": 229,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Acc",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "SPPY"
+			},
+			{
+				"exchange": "Euronext Amsterdam",
+				"ticker": "SPPY"
+			},
+			{
+				"exchange": "gettex",
+				"ticker": "SPPY"
+			}
+		],
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 229,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 4381,
+			"currency": "EUR",
+			"label": "€4 381M",
+			"asOf": "2026-06",
+			"sourceName": "justETF",
+			"estimated": false
+		}
+	}
+]
