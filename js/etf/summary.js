@@ -79,14 +79,32 @@ function renderEtfCard(etf) {
 						<th>Iš viso įmonių</th>
 						<td>${formatNumber(etf.totalCompanies)}</td>
 					</tr>
+
+					<tr>
+						<th>TOP pozicijų dalis</th>
+						<td>${formatPercent(etf.topHoldingsTotalWeightPercent)}</td>
+					</tr>
+
 				</tbody>
 			</table>
 
-				<button type="button" class="country-button">Rodyti šalis</button>
+		<div class="etf-actions">
+			<button type="button" class="country-button etf-panel-button" data-panel="countries">
+				Rodyti šalis
+			</button>
 
-				<div class="country-panel hidden">
-					${renderCountryTable(etf.countries)}
-				</div>
+			<button type="button" class="country-button etf-panel-button" data-panel="topHoldings">
+				Rodyti TOP10 pozicijas
+			</button>
+		</div>
+
+		<div class="country-panel hidden" data-panel-content="countries">
+			${renderCountryTable(etf.countries)}
+		</div>
+
+		<div class="country-panel hidden" data-panel-content="topHoldings">
+			${renderTopHoldingsTable(etf.topHoldings || [])}
+		</div>
 		</article>
 	`;
 }
@@ -246,22 +264,89 @@ function formatFundCapital(fundCapital) {
 }
 
 document.addEventListener("click", event => {
-	const button = event.target.closest(".country-button");
+	const button = event.target.closest(".etf-panel-button");
 
 	if (!button) return;
 
 	const card = button.closest(".etf-card");
-	const panel = card.querySelector(".country-panel");
+	const panelName = button.dataset.panel;
+	const panel = card.querySelector(`[data-panel-content="${panelName}"]`);
 
 	if (!panel) return;
 
-	const isHidden = panel.classList.toggle("hidden");
+	const wasOpen = !panel.classList.contains("hidden");
 
-	button.textContent = isHidden ? "Rodyti šalis" : "Slėpti šalis";
+	card.querySelectorAll(".country-panel").forEach(panel => {
+		panel.classList.add("hidden");
+	});
+
+	card.querySelectorAll(".etf-panel-button").forEach(button => {
+		button.classList.remove("active");
+		resetPanelButtonText(button);
+	});
+
+	if (!wasOpen) {
+		panel.classList.remove("hidden");
+		button.classList.add("active");
+		button.textContent = getHideText(panelName);
+	}
 
 	if (typeof updateEtfDragAreaHeight === "function") {
 		setTimeout(updateEtfDragAreaHeight, 0);
 	}
 });
+
+function renderTopHoldingsTable(topHoldings) {
+	if (!topHoldings.length) {
+		return `<p class="no-data">Nėra TOP pozicijų duomenų.</p>`;
+	}
+
+	return `
+		<div class="country-list">
+			<div class="top-holdings-header">
+				<span>Įmonė</span>
+				<span>Sektorius</span>
+				<span>ETF dalis</span>
+			</div>
+
+			${topHoldings.map(holding => `
+				<div class="top-holdings-row">
+					<span class="holding-name">
+						${renderFlag(holding.countryCode)}
+						<span>
+							<strong>${holding.name}</strong>
+							<small>${holding.ticker || ""}</small>
+						</span>
+					</span>
+
+					<span class="holding-sector">
+						${holding.sector || "Nerasta"}
+					</span>
+
+					<strong class="holding-weight">
+						${formatPercent(holding.weightPercent)}
+					</strong>
+				</div>
+			`).join("")}
+		</div>
+	`;
+}
+
+function resetPanelButtonText(button) {
+	if (button.dataset.panel === "countries") {
+		button.textContent = "Rodyti šalis";
+	}
+
+	if (button.dataset.panel === "topHoldings") {
+		button.textContent = "Rodyti TOP10 pozicijas";
+	}
+}
+
+function getHideText(panelName) {
+	if (panelName === "countries") return "Slėpti šalis";
+	if (panelName === "topHoldings") return "Slėpti TOP10 pozicijas";
+
+	return "Slėpti";
+}
 
 loadEtfs();

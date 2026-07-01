@@ -352,7 +352,101 @@
 			"asOf": "2026-06",
 			"sourceName": "justETF + previous project country-count table",
 			"estimated": false
-		}
+		},
+		"topHoldings": [
+			{
+				"name": "NVIDIA Corp.",
+				"ticker": "NVDA",
+				"countryCode": "US",
+				"weightPercent": 4.94,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US67066G1040"
+			},
+			{
+				"name": "Apple",
+				"ticker": "AAPL",
+				"countryCode": "US",
+				"weightPercent": 4.34,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US0378331005"
+			},
+			{
+				"name": "Microsoft",
+				"ticker": "MSFT",
+				"countryCode": "US",
+				"weightPercent": 3.0,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US5949181045"
+			},
+			{
+				"name": "Amazon.com, Inc.",
+				"ticker": "AMZN",
+				"countryCode": "US",
+				"weightPercent": 2.5,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US0231351067"
+			},
+			{
+				"name": "Alphabet, Inc. A",
+				"ticker": "GOOGL",
+				"countryCode": "US",
+				"weightPercent": 2.23,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K3059"
+			},
+			{
+				"name": "Broadcom Inc.",
+				"ticker": "AVGO",
+				"countryCode": "US",
+				"weightPercent": 1.93,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US11135F1012"
+			},
+			{
+				"name": "Alphabet, Inc. C",
+				"ticker": "GOOG",
+				"countryCode": "US",
+				"weightPercent": 1.92,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K1079"
+			},
+			{
+				"name": "Taiwan Semiconductor Manufacturing Co., Ltd.",
+				"ticker": "TSM",
+				"countryCode": "TW",
+				"weightPercent": 1.7,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "TW0002330008"
+			},
+			{
+				"name": "Tesla",
+				"ticker": "TSLA",
+				"countryCode": "US",
+				"weightPercent": 1.42,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US88160R1014"
+			},
+			{
+				"name": "Meta Platforms",
+				"ticker": "META",
+				"countryCode": "US",
+				"weightPercent": 1.32,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US30303M1027"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 25.3
 	},
 	{
 		"id": "webg",
@@ -707,7 +801,101 @@
 			"asOf": "2026-06",
 			"sourceName": "justETF + previous project country-count table",
 			"estimated": false
-		}
+		},
+		"topHoldings": [
+			{
+				"name": "NVIDIA Corp.",
+				"ticker": "NVDA",
+				"countryCode": "US",
+				"weightPercent": 4.94,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US67066G1040"
+			},
+			{
+				"name": "Apple",
+				"ticker": "AAPL",
+				"countryCode": "US",
+				"weightPercent": 4.34,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US0378331005"
+			},
+			{
+				"name": "Microsoft",
+				"ticker": "MSFT",
+				"countryCode": "US",
+				"weightPercent": 3.0,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US5949181045"
+			},
+			{
+				"name": "Amazon.com, Inc.",
+				"ticker": "AMZN",
+				"countryCode": "US",
+				"weightPercent": 2.5,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US0231351067"
+			},
+			{
+				"name": "Alphabet, Inc. A",
+				"ticker": "GOOGL",
+				"countryCode": "US",
+				"weightPercent": 2.23,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K3059"
+			},
+			{
+				"name": "Broadcom Inc.",
+				"ticker": "AVGO",
+				"countryCode": "US",
+				"weightPercent": 1.93,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US11135F1012"
+			},
+			{
+				"name": "Alphabet, Inc. C",
+				"ticker": "GOOG",
+				"countryCode": "US",
+				"weightPercent": 1.92,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K1079"
+			},
+			{
+				"name": "Taiwan Semiconductor Manufacturing Co., Ltd.",
+				"ticker": "TSM",
+				"countryCode": "TW",
+				"weightPercent": 1.7,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "TW0002330008"
+			},
+			{
+				"name": "Tesla",
+				"ticker": "TSLA",
+				"countryCode": "US",
+				"weightPercent": 1.42,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US88160R1014"
+			},
+			{
+				"name": "Meta Platforms",
+				"ticker": "META",
+				"countryCode": "US",
+				"weightPercent": 1.32,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US30303M1027"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 25.3
 	},
 	{
 		"id": "sxr8",
@@ -746,7 +934,101 @@
 			"asOf": "2026-06",
 			"sourceName": "justETF",
 			"estimated": false
-		}
+		},
+		"topHoldings": [
+			{
+				"name": "NVIDIA Corp.",
+				"ticker": "NVDA",
+				"countryCode": "US",
+				"weightPercent": 7.88,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US67066G1040"
+			},
+			{
+				"name": "Apple",
+				"ticker": "AAPL",
+				"countryCode": "US",
+				"weightPercent": 7.04,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US0378331005"
+			},
+			{
+				"name": "Microsoft",
+				"ticker": "MSFT",
+				"countryCode": "US",
+				"weightPercent": 5.14,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US5949181045"
+			},
+			{
+				"name": "Amazon.com, Inc.",
+				"ticker": "AMZN",
+				"countryCode": "US",
+				"weightPercent": 4.06,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US0231351067"
+			},
+			{
+				"name": "Alphabet, Inc. A",
+				"ticker": "GOOGL",
+				"countryCode": "US",
+				"weightPercent": 3.4,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K3059"
+			},
+			{
+				"name": "Broadcom Inc.",
+				"ticker": "AVGO",
+				"countryCode": "US",
+				"weightPercent": 3.25,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US11135F1012"
+			},
+			{
+				"name": "Alphabet, Inc. C",
+				"ticker": "GOOG",
+				"countryCode": "US",
+				"weightPercent": 2.7,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K1079"
+			},
+			{
+				"name": "Meta Platforms",
+				"ticker": "META",
+				"countryCode": "US",
+				"weightPercent": 2.13,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US30303M1027"
+			},
+			{
+				"name": "Tesla",
+				"ticker": "TSLA",
+				"countryCode": "US",
+				"weightPercent": 1.88,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US88160R1014"
+			},
+			{
+				"name": "Micron Technology",
+				"ticker": "MU",
+				"countryCode": "US",
+				"weightPercent": 1.68,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US5951121038"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 39.16
 	},
 	{
 		"id": "iusa",
@@ -789,7 +1071,101 @@
 			"asOf": "2026-06",
 			"sourceName": "justETF",
 			"estimated": false
-		}
+		},
+		"topHoldings": [
+			{
+				"name": "NVIDIA Corp.",
+				"ticker": "NVDA",
+				"countryCode": "US",
+				"weightPercent": 7.88,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US67066G1040"
+			},
+			{
+				"name": "Apple",
+				"ticker": "AAPL",
+				"countryCode": "US",
+				"weightPercent": 7.04,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US0378331005"
+			},
+			{
+				"name": "Microsoft",
+				"ticker": "MSFT",
+				"countryCode": "US",
+				"weightPercent": 5.14,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US5949181045"
+			},
+			{
+				"name": "Amazon.com, Inc.",
+				"ticker": "AMZN",
+				"countryCode": "US",
+				"weightPercent": 4.06,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US0231351067"
+			},
+			{
+				"name": "Alphabet, Inc. A",
+				"ticker": "GOOGL",
+				"countryCode": "US",
+				"weightPercent": 3.4,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K3059"
+			},
+			{
+				"name": "Broadcom Inc.",
+				"ticker": "AVGO",
+				"countryCode": "US",
+				"weightPercent": 3.25,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US11135F1012"
+			},
+			{
+				"name": "Alphabet, Inc. C",
+				"ticker": "GOOG",
+				"countryCode": "US",
+				"weightPercent": 2.7,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K1079"
+			},
+			{
+				"name": "Meta Platforms",
+				"ticker": "META",
+				"countryCode": "US",
+				"weightPercent": 2.13,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US30303M1027"
+			},
+			{
+				"name": "Tesla",
+				"ticker": "TSLA",
+				"countryCode": "US",
+				"weightPercent": 1.88,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US88160R1014"
+			},
+			{
+				"name": "Micron Technology",
+				"ticker": "MU",
+				"countryCode": "US",
+				"weightPercent": 1.68,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US5951121038"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 39.16
 	},
 	{
 		"id": "vuaa",
@@ -828,7 +1204,101 @@
 			"asOf": "2026-06",
 			"sourceName": "justETF",
 			"estimated": false
-		}
+		},
+		"topHoldings": [
+			{
+				"name": "NVIDIA Corp.",
+				"ticker": "NVDA",
+				"countryCode": "US",
+				"weightPercent": 7.87,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US67066G1040"
+			},
+			{
+				"name": "Apple",
+				"ticker": "AAPL",
+				"countryCode": "US",
+				"weightPercent": 7.03,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US0378331005"
+			},
+			{
+				"name": "Microsoft",
+				"ticker": "MSFT",
+				"countryCode": "US",
+				"weightPercent": 5.13,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US5949181045"
+			},
+			{
+				"name": "Amazon.com, Inc.",
+				"ticker": "AMZN",
+				"countryCode": "US",
+				"weightPercent": 4.06,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US0231351067"
+			},
+			{
+				"name": "Alphabet, Inc. A",
+				"ticker": "GOOGL",
+				"countryCode": "US",
+				"weightPercent": 3.39,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K3059"
+			},
+			{
+				"name": "Broadcom Inc.",
+				"ticker": "AVGO",
+				"countryCode": "US",
+				"weightPercent": 3.25,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US11135F1012"
+			},
+			{
+				"name": "Alphabet, Inc. C",
+				"ticker": "GOOG",
+				"countryCode": "US",
+				"weightPercent": 2.71,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K1079"
+			},
+			{
+				"name": "Meta Platforms",
+				"ticker": "META",
+				"countryCode": "US",
+				"weightPercent": 2.12,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US30303M1027"
+			},
+			{
+				"name": "Tesla",
+				"ticker": "TSLA",
+				"countryCode": "US",
+				"weightPercent": 1.88,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US88160R1014"
+			},
+			{
+				"name": "Micron Technology",
+				"ticker": "MU",
+				"countryCode": "US",
+				"weightPercent": 1.68,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US5951121038"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 39.12
 	},
 	{
 		"id": "vusa",
@@ -867,7 +1337,101 @@
 			"asOf": "2026-06",
 			"sourceName": "justETF",
 			"estimated": false
-		}
+		},
+		"topHoldings": [
+			{
+				"name": "NVIDIA Corp.",
+				"ticker": "NVDA",
+				"countryCode": "US",
+				"weightPercent": 7.87,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US67066G1040"
+			},
+			{
+				"name": "Apple",
+				"ticker": "AAPL",
+				"countryCode": "US",
+				"weightPercent": 7.03,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US0378331005"
+			},
+			{
+				"name": "Microsoft",
+				"ticker": "MSFT",
+				"countryCode": "US",
+				"weightPercent": 5.13,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US5949181045"
+			},
+			{
+				"name": "Amazon.com, Inc.",
+				"ticker": "AMZN",
+				"countryCode": "US",
+				"weightPercent": 4.06,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US0231351067"
+			},
+			{
+				"name": "Alphabet, Inc. A",
+				"ticker": "GOOGL",
+				"countryCode": "US",
+				"weightPercent": 3.39,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K3059"
+			},
+			{
+				"name": "Broadcom Inc.",
+				"ticker": "AVGO",
+				"countryCode": "US",
+				"weightPercent": 3.25,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US11135F1012"
+			},
+			{
+				"name": "Alphabet, Inc. C",
+				"ticker": "GOOG",
+				"countryCode": "US",
+				"weightPercent": 2.71,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K1079"
+			},
+			{
+				"name": "Meta Platforms",
+				"ticker": "META",
+				"countryCode": "US",
+				"weightPercent": 2.12,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US30303M1027"
+			},
+			{
+				"name": "Tesla",
+				"ticker": "TSLA",
+				"countryCode": "US",
+				"weightPercent": 1.88,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US88160R1014"
+			},
+			{
+				"name": "Micron Technology",
+				"ticker": "MU",
+				"countryCode": "US",
+				"weightPercent": 1.68,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US5951121038"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 39.12
 	},
 	{
 		"id": "sxrw",
@@ -906,7 +1470,101 @@
 			"asOf": "2026-06",
 			"sourceName": "justETF",
 			"estimated": false
-		}
+		},
+		"topHoldings": [
+			{
+				"name": "HSBC Holdings Plc",
+				"ticker": "HSBA",
+				"countryCode": "GB",
+				"weightPercent": 9.49,
+				"estimated": false,
+				"sector": "Financials",
+				"isin": "GB0005405286"
+			},
+			{
+				"name": "AstraZeneca PLC",
+				"ticker": "AZN",
+				"countryCode": "GB",
+				"weightPercent": 8.21,
+				"estimated": false,
+				"sector": "Health Care",
+				"isin": "GB0009895292"
+			},
+			{
+				"name": "Shell Plc",
+				"ticker": "SHEL",
+				"countryCode": "GB",
+				"weightPercent": 7.04,
+				"estimated": false,
+				"sector": "Energy",
+				"isin": "GB00BP6MXD84"
+			},
+			{
+				"name": "Rolls-Royce Holdings",
+				"ticker": "RR",
+				"countryCode": "GB",
+				"weightPercent": 4.5,
+				"estimated": false,
+				"sector": "Industrials",
+				"isin": "GB00B63H8491"
+			},
+			{
+				"name": "British American Tobacco plc",
+				"ticker": "BATS",
+				"countryCode": "GB",
+				"weightPercent": 3.83,
+				"estimated": false,
+				"sector": "Consumer Staples",
+				"isin": "GB0002875804"
+			},
+			{
+				"name": "Unilever Plc",
+				"ticker": "ULVR",
+				"countryCode": "GB",
+				"weightPercent": 3.58,
+				"estimated": false,
+				"sector": "Consumer Staples",
+				"isin": "GB00B10RZP78"
+			},
+			{
+				"name": "Rio Tinto Plc",
+				"ticker": "RIO",
+				"countryCode": "GB",
+				"weightPercent": 3.27,
+				"estimated": false,
+				"sector": "Materials",
+				"isin": "GB0007188757"
+			},
+			{
+				"name": "BP Plc",
+				"ticker": "BP",
+				"countryCode": "GB",
+				"weightPercent": 3.25,
+				"estimated": false,
+				"sector": "Energy",
+				"isin": "GB0007980591"
+			},
+			{
+				"name": "GSK Plc",
+				"ticker": "GSK",
+				"countryCode": "GB",
+				"weightPercent": 2.98,
+				"estimated": false,
+				"sector": "Health Care",
+				"isin": "GB00BN7SWP63"
+			},
+			{
+				"name": "Barclays PLC",
+				"ticker": "BARC",
+				"countryCode": "GB",
+				"weightPercent": 2.53,
+				"estimated": false,
+				"sector": "Financials",
+				"isin": "GB0031348658"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 48.68
 	},
 	{
 		"id": "iusz",
@@ -945,7 +1603,101 @@
 			"asOf": "2026-06",
 			"sourceName": "justETF",
 			"estimated": false
-		}
+		},
+		"topHoldings": [
+			{
+				"name": "HSBC Holdings Plc",
+				"ticker": "HSBA",
+				"countryCode": "GB",
+				"weightPercent": 9.49,
+				"estimated": false,
+				"sector": "Financials",
+				"isin": "GB0005405286"
+			},
+			{
+				"name": "AstraZeneca PLC",
+				"ticker": "AZN",
+				"countryCode": "GB",
+				"weightPercent": 8.21,
+				"estimated": false,
+				"sector": "Health Care",
+				"isin": "GB0009895292"
+			},
+			{
+				"name": "Shell Plc",
+				"ticker": "SHEL",
+				"countryCode": "GB",
+				"weightPercent": 7.04,
+				"estimated": false,
+				"sector": "Energy",
+				"isin": "GB00BP6MXD84"
+			},
+			{
+				"name": "Rolls-Royce Holdings",
+				"ticker": "RR",
+				"countryCode": "GB",
+				"weightPercent": 4.5,
+				"estimated": false,
+				"sector": "Industrials",
+				"isin": "GB00B63H8491"
+			},
+			{
+				"name": "British American Tobacco plc",
+				"ticker": "BATS",
+				"countryCode": "GB",
+				"weightPercent": 3.83,
+				"estimated": false,
+				"sector": "Consumer Staples",
+				"isin": "GB0002875804"
+			},
+			{
+				"name": "Unilever Plc",
+				"ticker": "ULVR",
+				"countryCode": "GB",
+				"weightPercent": 3.58,
+				"estimated": false,
+				"sector": "Consumer Staples",
+				"isin": "GB00B10RZP78"
+			},
+			{
+				"name": "Rio Tinto Plc",
+				"ticker": "RIO",
+				"countryCode": "GB",
+				"weightPercent": 3.27,
+				"estimated": false,
+				"sector": "Materials",
+				"isin": "GB0007188757"
+			},
+			{
+				"name": "BP Plc",
+				"ticker": "BP",
+				"countryCode": "GB",
+				"weightPercent": 3.25,
+				"estimated": false,
+				"sector": "Energy",
+				"isin": "GB0007980591"
+			},
+			{
+				"name": "GSK Plc",
+				"ticker": "GSK",
+				"countryCode": "GB",
+				"weightPercent": 2.98,
+				"estimated": false,
+				"sector": "Health Care",
+				"isin": "GB00BN7SWP63"
+			},
+			{
+				"name": "Barclays PLC",
+				"ticker": "BARC",
+				"countryCode": "GB",
+				"weightPercent": 2.53,
+				"estimated": false,
+				"sector": "Financials",
+				"isin": "GB0031348658"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 48.68
 	},
 	{
 		"id": "zpa5",
@@ -984,7 +1736,101 @@
 			"asOf": "2026-06",
 			"sourceName": "justETF",
 			"estimated": false
-		}
+		},
+		"topHoldings": [
+			{
+				"name": "NVIDIA Corp.",
+				"ticker": "NVDA",
+				"countryCode": "US",
+				"weightPercent": 8.05,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US67066G1040"
+			},
+			{
+				"name": "Apple",
+				"ticker": "AAPL",
+				"countryCode": "US",
+				"weightPercent": 7.11,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US0378331005"
+			},
+			{
+				"name": "Microsoft",
+				"ticker": "MSFT",
+				"countryCode": "US",
+				"weightPercent": 4.59,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US5949181045"
+			},
+			{
+				"name": "Alphabet, Inc. A",
+				"ticker": "GOOGL",
+				"countryCode": "US",
+				"weightPercent": 3.52,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K3059"
+			},
+			{
+				"name": "Tesla",
+				"ticker": "TSLA",
+				"countryCode": "US",
+				"weightPercent": 3.28,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US88160R1014"
+			},
+			{
+				"name": "Amazon.com, Inc.",
+				"ticker": "AMZN",
+				"countryCode": "US",
+				"weightPercent": 3.23,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US0231351067"
+			},
+			{
+				"name": "Alphabet, Inc. C",
+				"ticker": "GOOG",
+				"countryCode": "US",
+				"weightPercent": 2.79,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K1079"
+			},
+			{
+				"name": "Visa, Inc.",
+				"ticker": "V",
+				"countryCode": "US",
+				"weightPercent": 2.79,
+				"estimated": false,
+				"sector": "Financials",
+				"isin": "US92826C8394"
+			},
+			{
+				"name": "Broadcom Inc.",
+				"ticker": "AVGO",
+				"countryCode": "US",
+				"weightPercent": 2.57,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US11135F1012"
+			},
+			{
+				"name": "Cisco Systems, Inc.",
+				"ticker": "CSCO",
+				"countryCode": "US",
+				"weightPercent": 2.44,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US17275R1023"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 40.37
 	},
 	{
 		"id": "web2",
@@ -1023,7 +1869,101 @@
 			"asOf": "2026-06",
 			"sourceName": "justETF",
 			"estimated": false
-		}
+		},
+		"topHoldings": [
+			{
+				"name": "NVIDIA Corp.",
+				"ticker": "NVDA",
+				"countryCode": "US",
+				"weightPercent": 7.95,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US67066G1040"
+			},
+			{
+				"name": "Apple",
+				"ticker": "AAPL",
+				"countryCode": "US",
+				"weightPercent": 7.07,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US0378331005"
+			},
+			{
+				"name": "Alphabet, Inc. C",
+				"ticker": "GOOG",
+				"countryCode": "US",
+				"weightPercent": 4.95,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K1079"
+			},
+			{
+				"name": "Microsoft",
+				"ticker": "MSFT",
+				"countryCode": "US",
+				"weightPercent": 4.5,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US5949181045"
+			},
+			{
+				"name": "Amazon.com, Inc.",
+				"ticker": "AMZN",
+				"countryCode": "US",
+				"weightPercent": 4.13,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US0231351067"
+			},
+			{
+				"name": "Broadcom Inc.",
+				"ticker": "AVGO",
+				"countryCode": "US",
+				"weightPercent": 2.96,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US11135F1012"
+			},
+			{
+				"name": "Meta Platforms",
+				"ticker": "META",
+				"countryCode": "US",
+				"weightPercent": 2.05,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US30303M1027"
+			},
+			{
+				"name": "Tesla",
+				"ticker": "TSLA",
+				"countryCode": "US",
+				"weightPercent": 1.94,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US88160R1014"
+			},
+			{
+				"name": "Micron Technology",
+				"ticker": "MU",
+				"countryCode": "US",
+				"weightPercent": 1.56,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US5951121038"
+			},
+			{
+				"name": "Alphabet, Inc. A",
+				"ticker": "GOOGL",
+				"countryCode": "US",
+				"weightPercent": 1.49,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K3059"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 38.6
 	},
 	{
 		"id": "lyyb",
@@ -1062,6 +2002,100 @@
 			"asOf": "2026-06",
 			"sourceName": "justETF",
 			"estimated": false
-		}
+		},
+		"topHoldings": [
+			{
+				"name": "NVIDIA Corp.",
+				"ticker": "NVDA",
+				"countryCode": "US",
+				"weightPercent": 7.95,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US67066G1040"
+			},
+			{
+				"name": "Apple",
+				"ticker": "AAPL",
+				"countryCode": "US",
+				"weightPercent": 7.07,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US0378331005"
+			},
+			{
+				"name": "Alphabet, Inc. C",
+				"ticker": "GOOG",
+				"countryCode": "US",
+				"weightPercent": 4.95,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K1079"
+			},
+			{
+				"name": "Microsoft",
+				"ticker": "MSFT",
+				"countryCode": "US",
+				"weightPercent": 4.5,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US5949181045"
+			},
+			{
+				"name": "Amazon.com, Inc.",
+				"ticker": "AMZN",
+				"countryCode": "US",
+				"weightPercent": 4.13,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US0231351067"
+			},
+			{
+				"name": "Broadcom Inc.",
+				"ticker": "AVGO",
+				"countryCode": "US",
+				"weightPercent": 2.96,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US11135F1012"
+			},
+			{
+				"name": "Meta Platforms",
+				"ticker": "META",
+				"countryCode": "US",
+				"weightPercent": 2.05,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US30303M1027"
+			},
+			{
+				"name": "Tesla",
+				"ticker": "TSLA",
+				"countryCode": "US",
+				"weightPercent": 1.94,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US88160R1014"
+			},
+			{
+				"name": "Micron Technology",
+				"ticker": "MU",
+				"countryCode": "US",
+				"weightPercent": 1.56,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US5951121038"
+			},
+			{
+				"name": "Alphabet, Inc. A",
+				"ticker": "GOOGL",
+				"countryCode": "US",
+				"weightPercent": 1.49,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K3059"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 38.6
 	}
 ]

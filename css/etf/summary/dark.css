@@ -58,3 +58,12 @@ body.dark .country-flag-missing {
 	background: #4b5563;
 	color: white;
 }
+
+body.dark .top-holdings-row {
+	background: #374151;
+	color: #f9fafb;
+}
+
+body.dark .top-holdings-header {
+	color: #e5e7eb;
+}
