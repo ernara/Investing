@@ -55,6 +55,14 @@ function renderEtfs(etfs) {
 	const root = document.getElementById("etfSummary");
 
 	root.innerHTML = etfs.map(renderEtfCard).join("");
+
+	if (typeof initEtfSummaryDrag === "function") {
+		initEtfSummaryDrag();
+	}
+
+	if (typeof updateEtfDragAreaHeight === "function") {
+		setTimeout(updateEtfDragAreaHeight, 0);
+	}
 }
 
 function renderEtfCard(etf) {

@@ -1,9 +1,9 @@
 .etf-filters {
 	position: fixed;
-	top: 50%;
-	left: 50%;
+	top: 5px;
+	left: calc(var(--summary-width) + 24px);
 	right: auto;
-	transform: translate(-50%, -50%);
+	transform: none;
 	z-index: 90;
 	width: 300px;
 	padding: 12px;
@@ -27,7 +27,8 @@
 	gap: 8px;
 }
 
-.etf-filter input {
+.etf-filter input,
+.etf-filter select {
 	padding: 7px 8px;
 }
 

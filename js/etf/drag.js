@@ -36,6 +36,9 @@ document.addEventListener("pointermove", event => {
 	if (!draggedEtfCard) return;
 
 	const root = document.getElementById("etfSummary");
+
+	if (!root) return;
+
 	const rootRect = root.getBoundingClientRect();
 
 	const x = event.clientX - rootRect.left - dragOffsetX;
@@ -61,10 +64,18 @@ document.addEventListener("click", event => {
 	setTimeout(updateEtfDragAreaHeight, 0);
 });
 
+document.addEventListener("click", event => {
+	const card = event.target.closest(".etf-card");
+
+	if (!card) return;
+
+	bringEtfCardToFront(card);
+});
+
 function initEtfFreeDrag() {
 	const root = document.getElementById("etfSummary");
 
-	if (!root || root.dataset.freeDragReady) return;
+	if (!root) return;
 
 	const cards = [...root.querySelectorAll(".etf-card")];
 	const rootRect = root.getBoundingClientRect();
@@ -90,16 +101,17 @@ function initEtfFreeDrag() {
 		position.card.style.width = position.width + "px";
 	});
 
-	root.dataset.freeDragReady = "true";
-
 	updateEtfDragAreaHeight();
 }
 
 function updateEtfDragAreaHeight() {
 	const root = document.getElementById("etfSummary");
+
+	if (!root) return;
+
 	const cards = [...root.querySelectorAll(".etf-card")];
 
-	if (!root || !cards.length) return;
+	if (!cards.length) return;
 
 	const maxBottom = Math.max(...cards.map(card => {
 		const y = Number(card.dataset.y || 0);
@@ -118,11 +130,3 @@ function stopEtfDrag() {
 
 	draggedEtfCard = null;
 }
-
-document.addEventListener("click", event => {
-	const card = event.target.closest(".etf-card");
-
-	if (!card) return;
-
-	bringEtfCardToFront(card);
-});
