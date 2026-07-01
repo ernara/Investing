@@ -1,12 +1,9 @@
-let allDisplayEtfs = [];
-
 let allRawEtfs = [];
 
 async function loadEtfs() {
 	try {
 		allRawEtfs = await loadTerEtfFiles(3, 10);
 
-		renderEtfShareClassControls();
 		renderEtfsByShareClassMode();
 	} catch (error) {
 		document.getElementById("etfSummary").innerHTML = `
@@ -62,8 +59,8 @@ function renderEtfs(etfs) {
 
 function renderEtfCard(etf) {
 	const usa = etf.countries.find(country => country.code === "US") || {
-	companies: null,
-	weightPercent: null
+		companies: null,
+		weightPercent: null
 	};
 
 	return `
@@ -87,32 +84,30 @@ function renderEtfCard(etf) {
 						<th>Iš viso įmonių</th>
 						<td>${formatNumber(etf.totalCompanies)}</td>
 					</tr>
-
 					<tr>
 						<th>TOP10 pozicijų dalis</th>
 						<td>${formatPercent(etf.topHoldingsTotalWeightPercent)}</td>
 					</tr>
-
 				</tbody>
 			</table>
 
-		<div class="etf-actions">
-			<button type="button" class="country-button etf-panel-button" data-panel="countries">
-				Rodyti šalis
-			</button>
+			<div class="etf-actions">
+				<button type="button" class="country-button etf-panel-button" data-panel="countries">
+					Rodyti šalis
+				</button>
 
-			<button type="button" class="country-button etf-panel-button" data-panel="topHoldings">
-				Rodyti TOP10 pozicijas
-			</button>
-		</div>
+				<button type="button" class="country-button etf-panel-button" data-panel="topHoldings">
+					Rodyti TOP10 pozicijas
+				</button>
+			</div>
 
-		<div class="country-panel hidden" data-panel-content="countries">
-			${renderCountryTable(etf.countries)}
-		</div>
+			<div class="country-panel hidden" data-panel-content="countries">
+				${renderCountryTable(etf.countries || [])}
+			</div>
 
-		<div class="country-panel hidden" data-panel-content="topHoldings">
-			${renderTopHoldingsTable(etf.topHoldings || [])}
-		</div>
+			<div class="country-panel hidden" data-panel-content="topHoldings">
+				${renderTopHoldingsTable(etf.topHoldings || [])}
+			</div>
 		</article>
 	`;
 }
@@ -150,11 +145,41 @@ function renderCountryTable(countries) {
 	`;
 }
 
-function getFlagUrl(code) {
-	return `https://flagcdn.com/24x18/${code.toLowerCase()}.png`;
+function renderTopHoldingsTable(topHoldings) {
+	if (!topHoldings.length) {
+		return `<p class="no-data">Nėra TOP pozicijų duomenų.</p>`;
+	}
+
+	return `
+		<div class="country-list">
+			<div class="top-holdings-header">
+				<span>Įmonė</span>
+				<span>Sektorius</span>
+				<span>ETF dalis</span>
+			</div>
+
+			${topHoldings.map(holding => `
+				<div class="top-holdings-row">
+					<span class="holding-name">
+						${renderFlag(holding.countryCode)}
+						<span>
+							<strong>${holding.name}</strong>
+							<small>${holding.ticker || ""}</small>
+						</span>
+					</span>
+
+					<span class="holding-sector">
+						${holding.sector || "Nerasta"}
+					</span>
+
+					<strong class="holding-weight">
+						${formatPercent(holding.weightPercent)}
+					</strong>
+				</div>
+			`).join("")}
+		</div>
+	`;
 }
-
-
 
 function renderFlag(code) {
 	if (!code || code.length !== 2) {
@@ -174,8 +199,6 @@ function renderFlag(code) {
 function getFlagUrl(code) {
 	return `https://flagcdn.com/24x18/${code.toLowerCase()}.png`;
 }
-
-
 
 function sortEtfs(etfs) {
 	return [...etfs].sort((a, b) => a.terPercent - b.terPercent);
@@ -234,42 +257,6 @@ document.addEventListener("click", event => {
 		setTimeout(updateEtfDragAreaHeight, 0);
 	}
 });
-
-function renderTopHoldingsTable(topHoldings) {
-	if (!topHoldings.length) {
-		return `<p class="no-data">Nėra TOP pozicijų duomenų.</p>`;
-	}
-
-	return `
-		<div class="country-list">
-			<div class="top-holdings-header">
-				<span>Įmonė</span>
-				<span>Sektorius</span>
-				<span>ETF dalis</span>
-			</div>
-
-			${topHoldings.map(holding => `
-				<div class="top-holdings-row">
-					<span class="holding-name">
-						${renderFlag(holding.countryCode)}
-						<span>
-							<strong>${holding.name}</strong>
-							<small>${holding.ticker || ""}</small>
-						</span>
-					</span>
-
-					<span class="holding-sector">
-						${holding.sector || "Nerasta"}
-					</span>
-
-					<strong class="holding-weight">
-						${formatPercent(holding.weightPercent)}
-					</strong>
-				</div>
-			`).join("")}
-		</div>
-	`;
-}
 
 function resetPanelButtonText(button) {
 	if (button.dataset.panel === "countries") {

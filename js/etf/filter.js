@@ -5,7 +5,9 @@ let activeEtfFilters = getEmptyEtfFilters();
 let etfFilterSource = [];
 let renderEtfFilterResult = null;
 
-
+let draggedFilterPanel = null;
+let filterDragOffsetX = 0;
+let filterDragOffsetY = 0;
 
 function initEtfFilters(etfs, renderCallback) {
 	etfFilterSource = etfs;
@@ -61,7 +63,6 @@ function roundFilterMax(value) {
 	return Math.ceil(value * 100) / 100;
 }
 
-
 function loadSavedEtfFilters(defaultFilters) {
 	const savedFilters = JSON.parse(localStorage.getItem(etfFiltersStorageKey) || "null");
 
@@ -86,22 +87,41 @@ function renderEtfFilters(filters) {
 		`);
 	}
 
-	document.getElementById("etfFilters").innerHTML = `
-		<div class="etf-filter-grid">
-			${renderRangeFilter("capitalBillions", "ETF kapitalas", "B", filters.capitalBillions, "0.1")}
-			${renderRangeFilter("terPercent", "Valdymo mokestis", "%", filters.terPercent, "0.01")}
-			${renderRangeFilter("companies", "Įmonių skaičius", "", filters.companies, "1")}
-			${renderRangeFilter("topHoldingsWeightPercent", "TOP pozicijų dalis", "%", filters.topHoldingsWeightPercent, "0.01")}
-			${renderRangeFilter("usaWeightPercent", "JAV dalis", "%", filters.usaWeightPercent, "0.01")}
-		</div>
+document.getElementById("etfFilters").innerHTML = `
+	<div class="etf-filter-handle">
+		<span>Filtrai</span>
+		<span class="etf-filter-dots">⋮⋮</span>
+	</div>
 
-		<div class="etf-filter-bottom">
-			<span id="etfFilterCount"></span>
-			<button type="button" id="resetEtfFilters">Atstatyti filtrus</button>
-		</div>
-	`;
+	<div class="etf-filter-grid">
+
+		<div class="etf-filter">
+	<label>ETF versija</label>
+
+	<select id="etfShareClassModeSelect">
+		<option value="combined">Acc + Dist kartu</option>
+		<option value="separated">Rodyti atskirai</option>
+		<option value="acc">Tik Acc</option>
+		<option value="dist">Tik Dist</option>
+	</select>
+</div>
+
+		${renderRangeFilter("capitalBillions", "ETF kapitalas", "B", filters.capitalBillions, "0.1")}
+		${renderRangeFilter("terPercent", "Valdymo mokestis", "%", filters.terPercent, "0.01")}
+		${renderRangeFilter("companies", "Įmonių skaičius", "", filters.companies, "1")}
+		${renderRangeFilter("topHoldingsWeightPercent", "TOP pozicijų dalis", "%", filters.topHoldingsWeightPercent, "0.01")}
+		${renderRangeFilter("usaWeightPercent", "JAV dalis", "%", filters.usaWeightPercent, "0.01")}
+	</div>
+
+	<div class="etf-filter-bottom">
+		<span id="etfFilterCount"></span>
+		<button type="button" id="resetEtfFilters">Atstatyti</button>
+	</div>
+`;
 
 	setupEtfFilterInputs();
+	setupEtfShareClassSelect();
+	initEtfFilterDrag();
 }
 
 function renderRangeFilter(key, label, unit, range, step) {
@@ -110,23 +130,8 @@ function renderRangeFilter(key, label, unit, range, step) {
 			<label>${label}${unit ? ` (${unit})` : ""}</label>
 
 			<div class="etf-filter-inputs">
-				<input
-					type="number"
-					step="${step}"
-					data-filter="${key}"
-					data-side="min"
-					placeholder="Nuo"
-					value="${range.min ?? ""}"
-				>
-
-				<input
-					type="number"
-					step="${step}"
-					data-filter="${key}"
-					data-side="max"
-					placeholder="Iki"
-					value="${range.max ?? ""}"
-				>
+				<input type="number" step="${step}" data-filter="${key}" data-side="min" placeholder="Nuo" value="${range.min ?? ""}">
+				<input type="number" step="${step}" data-filter="${key}" data-side="max" placeholder="Iki" value="${range.max ?? ""}">
 			</div>
 		</div>
 	`;
@@ -146,13 +151,29 @@ function setupEtfFilterInputs() {
 	});
 
 	document.getElementById("resetEtfFilters").addEventListener("click", () => {
-	activeEtfFilters = structuredClone(defaultEtfFilters);
+		activeEtfFilters = structuredClone(defaultEtfFilters);
 
-	localStorage.removeItem(etfFiltersStorageKey);
+		localStorage.removeItem(etfFiltersStorageKey);
 
-	renderEtfFilters(activeEtfFilters);
-	renderCurrentFilteredEtfs();
-    });
+		renderEtfFilters(activeEtfFilters);
+		renderCurrentFilteredEtfs();
+	});
+}
+
+function setupEtfShareClassSelect() {
+	const select = document.getElementById("etfShareClassModeSelect");
+
+	if (!select) return;
+
+	select.value = getEtfShareClassMode();
+
+	select.addEventListener("change", () => {
+		setEtfShareClassMode(select.value);
+
+		if (typeof renderEtfsByShareClassMode === "function") {
+			renderEtfsByShareClassMode();
+		}
+	});
 }
 
 function renderCurrentFilteredEtfs() {
@@ -215,4 +236,49 @@ function updateEtfFilterCount(visibleCount, totalCount) {
 	if (!count) return;
 
 	count.textContent = `Rodoma: ${visibleCount} iš ${totalCount}`;
+}
+
+function initEtfFilterDrag() {
+	const panel = document.getElementById("etfFilters");
+	const handle = panel?.querySelector(".etf-filter-handle");
+
+	if (!panel || !handle || panel.dataset.dragReady) return;
+
+	handle.addEventListener("pointerdown", event => {
+		const rect = panel.getBoundingClientRect();
+
+		draggedFilterPanel = panel;
+		filterDragOffsetX = event.clientX - rect.left;
+		filterDragOffsetY = event.clientY - rect.top;
+
+		panel.style.left = rect.left + "px";
+		panel.style.top = rect.top + "px";
+		panel.style.right = "auto";
+		panel.style.transform = "none";
+
+		document.body.classList.add("dragging-filter");
+
+		event.preventDefault();
+	});
+
+	panel.dataset.dragReady = "true";
+}
+
+document.addEventListener("pointermove", event => {
+	if (!draggedFilterPanel) return;
+
+	draggedFilterPanel.style.left = event.clientX - filterDragOffsetX + "px";
+	draggedFilterPanel.style.top = event.clientY - filterDragOffsetY + "px";
+
+	event.preventDefault();
+});
+
+document.addEventListener("pointerup", stopFilterDrag);
+document.addEventListener("pointercancel", stopFilterDrag);
+
+function stopFilterDrag() {
+	if (!draggedFilterPanel) return;
+
+	document.body.classList.remove("dragging-filter");
+	draggedFilterPanel = null;
 }

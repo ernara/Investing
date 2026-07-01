@@ -1,0 +1,42 @@
+.etf-filters {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	right: auto;
+	transform: translate(-50%, -50%);
+	z-index: 90;
+	width: 300px;
+	padding: 12px;
+}
+
+.etf-filter-handle {
+	margin: -4px -4px 12px;
+	padding: 8px 10px;
+}
+
+.etf-filter-grid {
+	gap: 10px;
+}
+
+.etf-filter label {
+	margin-bottom: 5px;
+	font-size: 13px;
+}
+
+.etf-filter-inputs {
+	gap: 8px;
+}
+
+.etf-filter input {
+	padding: 7px 8px;
+}
+
+.etf-filter-bottom {
+	gap: 10px;
+	margin-top: 12px;
+	font-size: 13px;
+}
+
+#resetEtfFilters {
+	padding: 8px 10px;
+}

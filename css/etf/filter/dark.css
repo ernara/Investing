@@ -1,0 +1,21 @@
+body.dark .etf-filters {
+	background: #111827;
+	border-color: #263244;
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+
+body.dark .etf-filter-handle {
+	background: #1f2937;
+	color: #f9fafb;
+}
+
+body.dark .etf-filter input {
+	background: #1f2937;
+	border-color: #374151;
+	color: #f9fafb;
+}
+
+body.dark #resetEtfFilters {
+	background: white;
+	color: #111827;
+}

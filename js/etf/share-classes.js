@@ -1,7 +1,7 @@
 const etfShareClassModeStorageKey = "etfShareClassMode";
 
 function getEtfShareClassMode() {
-	return localStorage.getItem(etfShareClassModeStorageKey) || "combined";
+	return localStorage.getItem(etfShareClassModeStorageKey) || "separated";
 }
 
 function setEtfShareClassMode(mode) {
@@ -112,35 +112,4 @@ function mergeTickers(currentTicker, newTicker) {
 	);
 
 	return [...tickers].join(" / ");
-}
-
-function renderEtfShareClassControls() {
-	const summary = document.getElementById("etfSummary");
-
-	if (!document.getElementById("etfShareClassMode")) {
-		summary.insertAdjacentHTML("beforebegin", `
-			<section id="etfShareClassMode" class="etf-share-class-mode">
-				<label>ETF versija</label>
-
-				<select id="etfShareClassModeSelect">
-					<option value="combined">Acc + Dist kartu</option>
-	                <option value="separated">Rodyti atskirai</option>
-	                <option value="acc">Tik Acc</option>
-	                <option value="dist">Tik Dist</option>
-				</select>
-			</section>
-		`);
-	}
-
-	const select = document.getElementById("etfShareClassModeSelect");
-
-	select.value = getEtfShareClassMode();
-
-	select.addEventListener("change", () => {
-		setEtfShareClassMode(select.value);
-
-		if (typeof renderEtfsByShareClassMode === "function") {
-			renderEtfsByShareClassMode();
-		}
-	});
 }

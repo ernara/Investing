@@ -1,0 +1,68 @@
+.etf-filters {
+	box-sizing: border-box;
+	border: 1px solid #e5e7eb;
+	border-radius: 14px;
+	background: white;
+	box-shadow: 0 12px 28px rgba(0, 0, 0, 0.14);
+}
+
+.etf-filter-handle {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 10px;
+	background: #f3f4f6;
+	font-weight: 800;
+	cursor: grab;
+	user-select: none;
+	touch-action: none;
+}
+
+.etf-filter-handle:active,
+body.dragging-filter,
+body.dragging-filter * {
+	cursor: grabbing !important;
+}
+
+.etf-filter-dots {
+	opacity: 0.55;
+	letter-spacing: -4px;
+}
+
+.etf-filter-grid {
+	display: flex;
+	flex-direction: column;
+}
+
+.etf-filter label {
+	display: block;
+	font-weight: 700;
+}
+
+.etf-filter-inputs {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.etf-filter input {
+	width: 100%;
+	box-sizing: border-box;
+	border: 1px solid #d1d5db;
+	border-radius: 8px;
+}
+
+.etf-filter-bottom {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-weight: 700;
+}
+
+#resetEtfFilters {
+	border: 0;
+	border-radius: 10px;
+	cursor: pointer;
+	font-weight: 700;
+	background: #111827;
+	color: white;
+}
