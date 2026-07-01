@@ -87,37 +87,36 @@ function renderEtfFilters(filters) {
 		`);
 	}
 
-document.getElementById("etfFilters").innerHTML = `
-	<div class="etf-filter-handle">
-		<span>Filtrai</span>
-		<span class="etf-filter-dots">⋮⋮</span>
-	</div>
+	document.getElementById("etfFilters").innerHTML = `
+		<div class="etf-filter-handle">
+			<span>Filtrai</span>
+			<span class="etf-filter-dots">⋮⋮</span>
+		</div>
 
-	<div class="etf-filter-grid">
+		<div class="etf-filter-grid">
+			<div class="etf-filter">
+				<label>ETF versija</label>
 
-		<div class="etf-filter">
-	<label>ETF versija</label>
+				<select id="etfShareClassModeSelect">
+					<option value="combined">Acc + Dist kartu</option>
+					<option value="separated">Rodyti atskirai</option>
+					<option value="acc">Tik Acc</option>
+					<option value="dist">Tik Dist</option>
+				</select>
+			</div>
 
-	<select id="etfShareClassModeSelect">
-		<option value="combined">Acc + Dist kartu</option>
-		<option value="separated">Rodyti atskirai</option>
-		<option value="acc">Tik Acc</option>
-		<option value="dist">Tik Dist</option>
-	</select>
-</div>
+			${renderRangeFilter("capitalBillions", "ETF kapitalas", "B", filters.capitalBillions, "0.1")}
+			${renderRangeFilter("terPercent", "Valdymo mokestis", "%", filters.terPercent, "0.01")}
+			${renderRangeFilter("companies", "Įmonių skaičius", "", filters.companies, "1")}
+			${renderRangeFilter("topHoldingsWeightPercent", "TOP pozicijų dalis", "%", filters.topHoldingsWeightPercent, "0.01")}
+			${renderRangeFilter("usaWeightPercent", "JAV dalis", "%", filters.usaWeightPercent, "0.01")}
+		</div>
 
-		${renderRangeFilter("capitalBillions", "ETF kapitalas", "B", filters.capitalBillions, "0.1")}
-		${renderRangeFilter("terPercent", "Valdymo mokestis", "%", filters.terPercent, "0.01")}
-		${renderRangeFilter("companies", "Įmonių skaičius", "", filters.companies, "1")}
-		${renderRangeFilter("topHoldingsWeightPercent", "TOP pozicijų dalis", "%", filters.topHoldingsWeightPercent, "0.01")}
-		${renderRangeFilter("usaWeightPercent", "JAV dalis", "%", filters.usaWeightPercent, "0.01")}
-	</div>
-
-	<div class="etf-filter-bottom">
-		<span id="etfFilterCount"></span>
-		<button type="button" id="resetEtfFilters">Atstatyti</button>
-	</div>
-`;
+		<div class="etf-filter-bottom">
+			<span id="etfFilterCount"></span>
+			<button type="button" id="resetEtfFilters">Atstatyti</button>
+		</div>
+	`;
 
 	setupEtfFilterInputs();
 	setupEtfShareClassSelect();
@@ -225,9 +224,13 @@ function getEtfCapitalBillions(etf) {
 }
 
 function getUsaWeightPercent(etf) {
-	const usa = etf.countries?.find(country => country.code === "US");
+	if (!Array.isArray(etf.countries)) return null;
 
-	return usa?.weightPercent ?? null;
+	const usa = etf.countries.find(country => {
+		return country.code === "US" || country.countryCode === "US";
+	});
+
+	return usa?.weightPercent ?? 0;
 }
 
 function updateEtfFilterCount(visibleCount, totalCount) {
