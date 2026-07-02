@@ -212,7 +212,7 @@ function setupEtfFilterInputs() {
 		nameText: "",
 		capitalBillions: {
 			...defaultEtfFilters.capitalBillions,
-			min: 0.5
+			min: 0.1
 		},
 		terPercent: {
 			...defaultEtfFilters.terPercent,
@@ -220,7 +220,7 @@ function setupEtfFilterInputs() {
 		},
 		companies: {
 			...defaultEtfFilters.companies,
-			min: 500
+			min: 100
 		},
 		countryCount: {
 			...defaultEtfFilters.countryCount,
