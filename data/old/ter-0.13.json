@@ -72,18 +72,7 @@
 				"code": "US",
 				"companies": 95,
 				"weightPercent": 96.0,
-				"estimated": true,
-				"continent": "North America",
-				"continentLt": "Šiaurės Amerika",
-				"subRegion": "Northern America",
-				"subRegionLt": "Šiaurės Amerika",
-				"marketType": "Developed",
-				"currency": "USD",
-				"currencyName": "US dollar",
-				"currencyNameLt": "JAV doleris",
-				"euMember": false,
-				"countryWeightRank": 1,
-				"isTopCountry": true
+				"estimated": true
 			},
 			{
 				"name": "Netherlands",
@@ -91,18 +80,7 @@
 				"code": "NL",
 				"companies": 1,
 				"weightPercent": 1.2,
-				"estimated": true,
-				"continent": "Europe",
-				"continentLt": "Europa",
-				"subRegion": "Western Europe",
-				"subRegionLt": "Vakarų Europa",
-				"marketType": "Developed",
-				"currency": "EUR",
-				"currencyName": "Euro",
-				"currencyNameLt": "Euras",
-				"euMember": true,
-				"countryWeightRank": 2,
-				"isTopCountry": false
+				"estimated": true
 			},
 			{
 				"name": "Ireland",
@@ -110,18 +88,7 @@
 				"code": "IE",
 				"companies": 1,
 				"weightPercent": 1.0,
-				"estimated": true,
-				"continent": "Europe",
-				"continentLt": "Europa",
-				"subRegion": "Northern Europe",
-				"subRegionLt": "Šiaurės Europa",
-				"marketType": "Developed",
-				"currency": "EUR",
-				"currencyName": "Euro",
-				"currencyNameLt": "Euras",
-				"euMember": true,
-				"countryWeightRank": 3,
-				"isTopCountry": false
+				"estimated": true
 			},
 			{
 				"name": "United Kingdom",
@@ -129,18 +96,7 @@
 				"code": "GB",
 				"companies": 1,
 				"weightPercent": 0.8,
-				"estimated": true,
-				"continent": "Europe",
-				"continentLt": "Europa",
-				"subRegion": "Northern Europe",
-				"subRegionLt": "Šiaurės Europa",
-				"marketType": "Developed",
-				"currency": "GBP",
-				"currencyName": "Pound sterling",
-				"currencyNameLt": "Svaras sterlingų",
-				"euMember": false,
-				"countryWeightRank": 4,
-				"isTopCountry": false
+				"estimated": true
 			},
 			{
 				"name": "Other countries",
@@ -148,18 +104,7 @@
 				"code": null,
 				"companies": 2,
 				"weightPercent": 1.0,
-				"estimated": true,
-				"continent": "Other/Mixed",
-				"continentLt": "Kita / mišru",
-				"subRegion": "Other/Mixed",
-				"subRegionLt": "Kita / mišru",
-				"marketType": "Mixed",
-				"currency": "Mixed",
-				"currencyName": "Mixed currencies",
-				"currencyNameLt": "Mišrios valiutos",
-				"euMember": false,
-				"countryWeightRank": 5,
-				"isTopCountry": false
+				"estimated": true
 			}
 		],
 		"fundCapital": {
@@ -267,57 +212,7 @@
 		"sourceUrls": [
 			"https://www.justetf.com/en/etf-profile.html?isin=IE000SB4G4I4"
 		],
-		"notes": "Directly checked TER, holdings count, fund size, EUR listings. Country/top holdings estimated.",
-		"continentWeights": [
-			{
-				"name": "North America",
-				"nameLt": "Šiaurės Amerika",
-				"companies": 95,
-				"weightPercent": 96.0,
-				"estimated": true
-			},
-			{
-				"name": "Europe",
-				"nameLt": "Europa",
-				"companies": 3,
-				"weightPercent": 3.0,
-				"estimated": true
-			},
-			{
-				"name": "Other/Mixed",
-				"nameLt": "Kita / mišru",
-				"companies": 2,
-				"weightPercent": 1.0,
-				"estimated": true
-			}
-		],
-		"marketTypeWeights": [
-			{
-				"name": "Developed",
-				"companies": 98,
-				"weightPercent": 99.0,
-				"estimated": true
-			},
-			{
-				"name": "Mixed",
-				"companies": 2,
-				"weightPercent": 1.0,
-				"estimated": true
-			}
-		],
-		"countryCount": 5,
-		"continentCount": 3,
-		"strategyType": "Country",
-		"strategyTags": [
-			"Country"
-		],
-		"dataQuality": "estimated",
-		"dataQualityDetails": {
-			"countriesEstimated": true,
-			"topHoldingsEstimated": true,
-			"fundCapitalKnown": true,
-			"replicationEstimated": false
-		}
+		"notes": "Directly checked TER, holdings count, fund size, EUR listings. Country/top holdings estimated."
 	},
 	{
 		"id": "s5sg",
@@ -397,18 +292,7 @@
 				"code": "US",
 				"companies": 310,
 				"weightPercent": 95.0,
-				"estimated": true,
-				"continent": "North America",
-				"continentLt": "Šiaurės Amerika",
-				"subRegion": "Northern America",
-				"subRegionLt": "Šiaurės Amerika",
-				"marketType": "Developed",
-				"currency": "USD",
-				"currencyName": "US dollar",
-				"currencyNameLt": "JAV doleris",
-				"euMember": false,
-				"countryWeightRank": 1,
-				"isTopCountry": true
+				"estimated": true
 			},
 			{
 				"name": "Ireland",
@@ -416,18 +300,7 @@
 				"code": "IE",
 				"companies": 6,
 				"weightPercent": 2.0,
-				"estimated": true,
-				"continent": "Europe",
-				"continentLt": "Europa",
-				"subRegion": "Northern Europe",
-				"subRegionLt": "Šiaurės Europa",
-				"marketType": "Developed",
-				"currency": "EUR",
-				"currencyName": "Euro",
-				"currencyNameLt": "Euras",
-				"euMember": true,
-				"countryWeightRank": 2,
-				"isTopCountry": false
+				"estimated": true
 			},
 			{
 				"name": "Other countries",
@@ -435,18 +308,7 @@
 				"code": null,
 				"companies": 14,
 				"weightPercent": 3.0,
-				"estimated": true,
-				"continent": "Other/Mixed",
-				"continentLt": "Kita / mišru",
-				"subRegion": "Other/Mixed",
-				"subRegionLt": "Kita / mišru",
-				"marketType": "Mixed",
-				"currency": "Mixed",
-				"currencyName": "Mixed currencies",
-				"currencyNameLt": "Mišrios valiutos",
-				"euMember": false,
-				"countryWeightRank": 3,
-				"isTopCountry": false
+				"estimated": true
 			}
 		],
 		"fundCapital": {
@@ -554,58 +416,7 @@
 		"sourceUrls": [
 			"https://www.justetf.com/en/etf-profile.html?isin=IE00BHXMHQ65"
 		],
-		"notes": "Directly checked TER, holdings count, fund size, EUR hedged. Country/top holdings estimated.",
-		"continentWeights": [
-			{
-				"name": "North America",
-				"nameLt": "Šiaurės Amerika",
-				"companies": 310,
-				"weightPercent": 95.0,
-				"estimated": true
-			},
-			{
-				"name": "Other/Mixed",
-				"nameLt": "Kita / mišru",
-				"companies": 14,
-				"weightPercent": 3.0,
-				"estimated": true
-			},
-			{
-				"name": "Europe",
-				"nameLt": "Europa",
-				"companies": 6,
-				"weightPercent": 2.0,
-				"estimated": true
-			}
-		],
-		"marketTypeWeights": [
-			{
-				"name": "Developed",
-				"companies": 316,
-				"weightPercent": 97.0,
-				"estimated": true
-			},
-			{
-				"name": "Mixed",
-				"companies": 14,
-				"weightPercent": 3.0,
-				"estimated": true
-			}
-		],
-		"countryCount": 3,
-		"continentCount": 3,
-		"strategyType": "Country",
-		"strategyTags": [
-			"Country",
-			"Hedged"
-		],
-		"dataQuality": "estimated",
-		"dataQualityDetails": {
-			"countriesEstimated": true,
-			"topHoldingsEstimated": true,
-			"fundCapitalKnown": true,
-			"replicationEstimated": false
-		}
+		"notes": "Directly checked TER, holdings count, fund size, EUR hedged. Country/top holdings estimated."
 	},
 	{
 		"id": "esaa",
@@ -685,18 +496,7 @@
 				"code": "US",
 				"companies": 282,
 				"weightPercent": 95.0,
-				"estimated": true,
-				"continent": "North America",
-				"continentLt": "Šiaurės Amerika",
-				"subRegion": "Northern America",
-				"subRegionLt": "Šiaurės Amerika",
-				"marketType": "Developed",
-				"currency": "USD",
-				"currencyName": "US dollar",
-				"currencyNameLt": "JAV doleris",
-				"euMember": false,
-				"countryWeightRank": 1,
-				"isTopCountry": true
+				"estimated": true
 			},
 			{
 				"name": "Ireland",
@@ -704,18 +504,7 @@
 				"code": "IE",
 				"companies": 5,
 				"weightPercent": 2.0,
-				"estimated": true,
-				"continent": "Europe",
-				"continentLt": "Europa",
-				"subRegion": "Northern Europe",
-				"subRegionLt": "Šiaurės Europa",
-				"marketType": "Developed",
-				"currency": "EUR",
-				"currencyName": "Euro",
-				"currencyNameLt": "Euras",
-				"euMember": true,
-				"countryWeightRank": 2,
-				"isTopCountry": false
+				"estimated": true
 			},
 			{
 				"name": "Other countries",
@@ -723,18 +512,7 @@
 				"code": null,
 				"companies": 13,
 				"weightPercent": 3.0,
-				"estimated": true,
-				"continent": "Other/Mixed",
-				"continentLt": "Kita / mišru",
-				"subRegion": "Other/Mixed",
-				"subRegionLt": "Kita / mišru",
-				"marketType": "Mixed",
-				"currency": "Mixed",
-				"currencyName": "Mixed currencies",
-				"currencyNameLt": "Mišrios valiutos",
-				"euMember": false,
-				"countryWeightRank": 3,
-				"isTopCountry": false
+				"estimated": true
 			}
 		],
 		"fundCapital": {
@@ -842,58 +620,7 @@
 		"sourceUrls": [
 			"https://www.justetf.com/en/etf-profile.html?isin=IE000Q6C8036"
 		],
-		"notes": "Directly checked TER, fund size, full replication, EUR hedged. Holdings count/country split estimated.",
-		"continentWeights": [
-			{
-				"name": "North America",
-				"nameLt": "Šiaurės Amerika",
-				"companies": 282,
-				"weightPercent": 95.0,
-				"estimated": true
-			},
-			{
-				"name": "Other/Mixed",
-				"nameLt": "Kita / mišru",
-				"companies": 13,
-				"weightPercent": 3.0,
-				"estimated": true
-			},
-			{
-				"name": "Europe",
-				"nameLt": "Europa",
-				"companies": 5,
-				"weightPercent": 2.0,
-				"estimated": true
-			}
-		],
-		"marketTypeWeights": [
-			{
-				"name": "Developed",
-				"companies": 287,
-				"weightPercent": 97.0,
-				"estimated": true
-			},
-			{
-				"name": "Mixed",
-				"companies": 13,
-				"weightPercent": 3.0,
-				"estimated": true
-			}
-		],
-		"countryCount": 3,
-		"continentCount": 3,
-		"strategyType": "Country",
-		"strategyTags": [
-			"Country",
-			"Hedged"
-		],
-		"dataQuality": "estimated",
-		"dataQualityDetails": {
-			"countriesEstimated": true,
-			"topHoldingsEstimated": true,
-			"fundCapitalKnown": true,
-			"replicationEstimated": false
-		}
+		"notes": "Directly checked TER, fund size, full replication, EUR hedged. Holdings count/country split estimated."
 	},
 	{
 		"id": "vjpe",
@@ -977,18 +704,7 @@
 				"code": "JP",
 				"companies": 476,
 				"weightPercent": 100.0,
-				"estimated": 0,
-				"continent": "Asia",
-				"continentLt": "Azija",
-				"subRegion": "Eastern Asia",
-				"subRegionLt": "Rytų Azija",
-				"marketType": "Developed",
-				"currency": "JPY",
-				"currencyName": "Japanese yen",
-				"currencyNameLt": "Japonijos jena",
-				"euMember": false,
-				"countryWeightRank": 1,
-				"isTopCountry": true
+				"estimated": 0
 			}
 		],
 		"fundCapital": {
@@ -1096,37 +812,6 @@
 		"sourceUrls": [
 			"https://www.justetf.com/en/etf-profile.html?isin=IE00BFMXYY33"
 		],
-		"notes": "Directly checked TER, holdings count, fund size, full replication, EUR hedge, EUR listings.",
-		"continentWeights": [
-			{
-				"name": "Asia",
-				"nameLt": "Azija",
-				"companies": 476,
-				"weightPercent": 100.0,
-				"estimated": false
-			}
-		],
-		"marketTypeWeights": [
-			{
-				"name": "Developed",
-				"companies": 476,
-				"weightPercent": 100.0,
-				"estimated": false
-			}
-		],
-		"countryCount": 1,
-		"continentCount": 1,
-		"strategyType": "Country",
-		"strategyTags": [
-			"Country",
-			"Hedged"
-		],
-		"dataQuality": "estimated",
-		"dataQualityDetails": {
-			"countriesEstimated": false,
-			"topHoldingsEstimated": true,
-			"fundCapitalKnown": true,
-			"replicationEstimated": false
-		}
+		"notes": "Directly checked TER, holdings count, fund size, full replication, EUR hedge, EUR listings."
 	}
 ]

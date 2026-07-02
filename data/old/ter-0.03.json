@@ -30,18 +30,7 @@
 				"code": "US",
 				"companies": 503,
 				"weightPercent": 100.0,
-				"estimated": true,
-				"continent": "North America",
-				"continentLt": "Šiaurės Amerika",
-				"subRegion": "Northern America",
-				"subRegionLt": "Šiaurės Amerika",
-				"marketType": "Developed",
-				"currency": "USD",
-				"currencyName": "US dollar",
-				"currencyNameLt": "JAV doleris",
-				"euMember": false,
-				"countryWeightRank": 1,
-				"isTopCountry": true
+				"estimated": true
 			}
 		],
 		"fundCapital": {
@@ -184,38 +173,7 @@
 			}
 		],
 		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 25.04,
-		"continentWeights": [
-			{
-				"name": "North America",
-				"nameLt": "Šiaurės Amerika",
-				"companies": 503,
-				"weightPercent": 100.0,
-				"estimated": true
-			}
-		],
-		"marketTypeWeights": [
-			{
-				"name": "Developed",
-				"companies": 503,
-				"weightPercent": 100.0,
-				"estimated": true
-			}
-		],
-		"countryCount": 1,
-		"continentCount": 1,
-		"strategyType": "Country",
-		"strategyTags": [
-			"Country",
-			"Hedged"
-		],
-		"dataQuality": "partial",
-		"dataQualityDetails": {
-			"countriesEstimated": true,
-			"topHoldingsEstimated": false,
-			"fundCapitalKnown": true,
-			"replicationEstimated": true
-		}
+		"topSectorWeightPercent": 25.04
 	},
 	{
 		"id": "spyl",
@@ -248,18 +206,7 @@
 				"code": "US",
 				"companies": 503,
 				"weightPercent": 100.0,
-				"estimated": true,
-				"continent": "North America",
-				"continentLt": "Šiaurės Amerika",
-				"subRegion": "Northern America",
-				"subRegionLt": "Šiaurės Amerika",
-				"marketType": "Developed",
-				"currency": "USD",
-				"currencyName": "US dollar",
-				"currencyNameLt": "JAV doleris",
-				"euMember": false,
-				"countryWeightRank": 1,
-				"isTopCountry": true
+				"estimated": true
 			}
 		],
 		"fundCapital": {
@@ -402,38 +349,7 @@
 			}
 		],
 		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 25.04,
-		"continentWeights": [
-			{
-				"name": "North America",
-				"nameLt": "Šiaurės Amerika",
-				"companies": 503,
-				"weightPercent": 100.0,
-				"estimated": true
-			}
-		],
-		"marketTypeWeights": [
-			{
-				"name": "Developed",
-				"companies": 503,
-				"weightPercent": 100.0,
-				"estimated": true
-			}
-		],
-		"countryCount": 1,
-		"continentCount": 1,
-		"strategyType": "Country",
-		"strategyTags": [
-			"Country",
-			"Hedged"
-		],
-		"dataQuality": "partial",
-		"dataQualityDetails": {
-			"countriesEstimated": true,
-			"topHoldingsEstimated": false,
-			"fundCapitalKnown": true,
-			"replicationEstimated": true
-		}
+		"topSectorWeightPercent": 25.04
 	},
 	{
 		"id": "xd9u",
@@ -462,18 +378,7 @@
 				"code": "US",
 				"companies": 527,
 				"weightPercent": 100.0,
-				"estimated": true,
-				"continent": "North America",
-				"continentLt": "Šiaurės Amerika",
-				"subRegion": "Northern America",
-				"subRegionLt": "Šiaurės Amerika",
-				"marketType": "Developed",
-				"currency": "USD",
-				"currencyName": "US dollar",
-				"currencyNameLt": "JAV doleris",
-				"euMember": false,
-				"countryWeightRank": 1,
-				"isTopCountry": true
+				"estimated": true
 			}
 		],
 		"fundCapital": {
@@ -616,37 +521,7 @@
 			}
 		],
 		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 23.23,
-		"continentWeights": [
-			{
-				"name": "North America",
-				"nameLt": "Šiaurės Amerika",
-				"companies": 527,
-				"weightPercent": 100.0,
-				"estimated": true
-			}
-		],
-		"marketTypeWeights": [
-			{
-				"name": "Developed",
-				"companies": 527,
-				"weightPercent": 100.0,
-				"estimated": true
-			}
-		],
-		"countryCount": 1,
-		"continentCount": 1,
-		"strategyType": "Country",
-		"strategyTags": [
-			"Country"
-		],
-		"dataQuality": "partial",
-		"dataQualityDetails": {
-			"countriesEstimated": true,
-			"topHoldingsEstimated": false,
-			"fundCapitalKnown": true,
-			"replicationEstimated": true
-		}
+		"topSectorWeightPercent": 23.23
 	},
 	{
 		"id": "xd9d",
@@ -675,18 +550,7 @@
 				"code": "US",
 				"companies": 527,
 				"weightPercent": 100.0,
-				"estimated": true,
-				"continent": "North America",
-				"continentLt": "Šiaurės Amerika",
-				"subRegion": "Northern America",
-				"subRegionLt": "Šiaurės Amerika",
-				"marketType": "Developed",
-				"currency": "USD",
-				"currencyName": "US dollar",
-				"currencyNameLt": "JAV doleris",
-				"euMember": false,
-				"countryWeightRank": 1,
-				"isTopCountry": true
+				"estimated": true
 			}
 		],
 		"fundCapital": {
@@ -834,37 +698,7 @@
 			}
 		],
 		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 22.4,
-		"continentWeights": [
-			{
-				"name": "North America",
-				"nameLt": "Šiaurės Amerika",
-				"companies": 527,
-				"weightPercent": 100.0,
-				"estimated": true
-			}
-		],
-		"marketTypeWeights": [
-			{
-				"name": "Developed",
-				"companies": 527,
-				"weightPercent": 100.0,
-				"estimated": true
-			}
-		],
-		"countryCount": 1,
-		"continentCount": 1,
-		"strategyType": "Country",
-		"strategyTags": [
-			"Country"
-		],
-		"dataQuality": "partial",
-		"dataQualityDetails": {
-			"countriesEstimated": true,
-			"topHoldingsEstimated": false,
-			"fundCapitalKnown": true,
-			"replicationEstimated": true
-		}
+		"topSectorWeightPercent": 22.4
 	},
 	{
 		"id": "sxr4",
@@ -893,18 +727,7 @@
 				"code": "US",
 				"companies": 527,
 				"weightPercent": 100.0,
-				"estimated": true,
-				"continent": "North America",
-				"continentLt": "Šiaurės Amerika",
-				"subRegion": "Northern America",
-				"subRegionLt": "Šiaurės Amerika",
-				"marketType": "Developed",
-				"currency": "USD",
-				"currencyName": "US dollar",
-				"currencyNameLt": "JAV doleris",
-				"euMember": false,
-				"countryWeightRank": 1,
-				"isTopCountry": true
+				"estimated": true
 			}
 		],
 		"fundCapital": {
@@ -1047,37 +870,7 @@
 			}
 		],
 		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 24.12,
-		"continentWeights": [
-			{
-				"name": "North America",
-				"nameLt": "Šiaurės Amerika",
-				"companies": 527,
-				"weightPercent": 100.0,
-				"estimated": true
-			}
-		],
-		"marketTypeWeights": [
-			{
-				"name": "Developed",
-				"companies": 527,
-				"weightPercent": 100.0,
-				"estimated": true
-			}
-		],
-		"countryCount": 1,
-		"continentCount": 1,
-		"strategyType": "Country",
-		"strategyTags": [
-			"Country"
-		],
-		"dataQuality": "partial",
-		"dataQualityDetails": {
-			"countriesEstimated": true,
-			"topHoldingsEstimated": false,
-			"fundCapitalKnown": true,
-			"replicationEstimated": true
-		}
+		"topSectorWeightPercent": 24.12
 	},
 	{
 		"id": "webh",
@@ -1110,18 +903,7 @@
 				"code": "US",
 				"companies": 531,
 				"weightPercent": 100.0,
-				"estimated": true,
-				"continent": "North America",
-				"continentLt": "Šiaurės Amerika",
-				"subRegion": "Northern America",
-				"subRegionLt": "Šiaurės Amerika",
-				"marketType": "Developed",
-				"currency": "USD",
-				"currencyName": "US dollar",
-				"currencyNameLt": "JAV doleris",
-				"euMember": false,
-				"countryWeightRank": 1,
-				"isTopCountry": true
+				"estimated": true
 			}
 		],
 		"fundCapital": {
@@ -1264,37 +1046,7 @@
 			}
 		],
 		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 23.91,
-		"continentWeights": [
-			{
-				"name": "North America",
-				"nameLt": "Šiaurės Amerika",
-				"companies": 531,
-				"weightPercent": 100.0,
-				"estimated": true
-			}
-		],
-		"marketTypeWeights": [
-			{
-				"name": "Developed",
-				"companies": 531,
-				"weightPercent": 100.0,
-				"estimated": true
-			}
-		],
-		"countryCount": 1,
-		"continentCount": 1,
-		"strategyType": "Country",
-		"strategyTags": [
-			"Country"
-		],
-		"dataQuality": "partial",
-		"dataQualityDetails": {
-			"countriesEstimated": true,
-			"topHoldingsEstimated": false,
-			"fundCapitalKnown": true,
-			"replicationEstimated": true
-		}
+		"topSectorWeightPercent": 23.91
 	},
 	{
 		"id": "webi",
@@ -1327,18 +1079,7 @@
 				"code": "US",
 				"companies": 531,
 				"weightPercent": 100.0,
-				"estimated": true,
-				"continent": "North America",
-				"continentLt": "Šiaurės Amerika",
-				"subRegion": "Northern America",
-				"subRegionLt": "Šiaurės Amerika",
-				"marketType": "Developed",
-				"currency": "USD",
-				"currencyName": "US dollar",
-				"currencyNameLt": "JAV doleris",
-				"euMember": false,
-				"countryWeightRank": 1,
-				"isTopCountry": true
+				"estimated": true
 			}
 		],
 		"fundCapital": {
@@ -1481,37 +1222,7 @@
 			}
 		],
 		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 23.91,
-		"continentWeights": [
-			{
-				"name": "North America",
-				"nameLt": "Šiaurės Amerika",
-				"companies": 531,
-				"weightPercent": 100.0,
-				"estimated": true
-			}
-		],
-		"marketTypeWeights": [
-			{
-				"name": "Developed",
-				"companies": 531,
-				"weightPercent": 100.0,
-				"estimated": true
-			}
-		],
-		"countryCount": 1,
-		"continentCount": 1,
-		"strategyType": "Country",
-		"strategyTags": [
-			"Country"
-		],
-		"dataQuality": "partial",
-		"dataQualityDetails": {
-			"countriesEstimated": true,
-			"topHoldingsEstimated": false,
-			"fundCapitalKnown": true,
-			"replicationEstimated": true
-		}
+		"topSectorWeightPercent": 23.91
 	},
 	{
 		"id": "4ubb",
@@ -1540,18 +1251,7 @@
 				"code": "US",
 				"companies": 536,
 				"weightPercent": 100.0,
-				"estimated": true,
-				"continent": "North America",
-				"continentLt": "Šiaurės Amerika",
-				"subRegion": "Northern America",
-				"subRegionLt": "Šiaurės Amerika",
-				"marketType": "Developed",
-				"currency": "USD",
-				"currencyName": "US dollar",
-				"currencyNameLt": "JAV doleris",
-				"euMember": false,
-				"countryWeightRank": 1,
-				"isTopCountry": true
+				"estimated": true
 			}
 		],
 		"fundCapital": {
@@ -1694,37 +1394,7 @@
 			}
 		],
 		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 24.21,
-		"continentWeights": [
-			{
-				"name": "North America",
-				"nameLt": "Šiaurės Amerika",
-				"companies": 536,
-				"weightPercent": 100.0,
-				"estimated": true
-			}
-		],
-		"marketTypeWeights": [
-			{
-				"name": "Developed",
-				"companies": 536,
-				"weightPercent": 100.0,
-				"estimated": true
-			}
-		],
-		"countryCount": 1,
-		"continentCount": 1,
-		"strategyType": "Country",
-		"strategyTags": [
-			"Country"
-		],
-		"dataQuality": "partial",
-		"dataQualityDetails": {
-			"countriesEstimated": true,
-			"topHoldingsEstimated": false,
-			"fundCapitalKnown": true,
-			"replicationEstimated": true
-		}
+		"topSectorWeightPercent": 24.21
 	},
 	{
 		"id": "ubu3",
@@ -1753,18 +1423,7 @@
 				"code": "US",
 				"companies": 536,
 				"weightPercent": 100.0,
-				"estimated": true,
-				"continent": "North America",
-				"continentLt": "Šiaurės Amerika",
-				"subRegion": "Northern America",
-				"subRegionLt": "Šiaurės Amerika",
-				"marketType": "Developed",
-				"currency": "USD",
-				"currencyName": "US dollar",
-				"currencyNameLt": "JAV doleris",
-				"euMember": false,
-				"countryWeightRank": 1,
-				"isTopCountry": true
+				"estimated": true
 			}
 		],
 		"fundCapital": {
@@ -1907,37 +1566,7 @@
 			}
 		],
 		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 24.21,
-		"continentWeights": [
-			{
-				"name": "North America",
-				"nameLt": "Šiaurės Amerika",
-				"companies": 536,
-				"weightPercent": 100.0,
-				"estimated": true
-			}
-		],
-		"marketTypeWeights": [
-			{
-				"name": "Developed",
-				"companies": 536,
-				"weightPercent": 100.0,
-				"estimated": true
-			}
-		],
-		"countryCount": 1,
-		"continentCount": 1,
-		"strategyType": "Country",
-		"strategyTags": [
-			"Country"
-		],
-		"dataQuality": "partial",
-		"dataQualityDetails": {
-			"countriesEstimated": true,
-			"topHoldingsEstimated": false,
-			"fundCapitalKnown": true,
-			"replicationEstimated": true
-		}
+		"topSectorWeightPercent": 24.21
 	},
 	{
 		"id": "bcft",
@@ -1966,18 +1595,7 @@
 				"code": "US",
 				"companies": 504,
 				"weightPercent": 100.0,
-				"estimated": true,
-				"continent": "North America",
-				"continentLt": "Šiaurės Amerika",
-				"subRegion": "Northern America",
-				"subRegionLt": "Šiaurės Amerika",
-				"marketType": "Developed",
-				"currency": "USD",
-				"currencyName": "US dollar",
-				"currencyNameLt": "JAV doleris",
-				"euMember": false,
-				"countryWeightRank": 1,
-				"isTopCountry": true
+				"estimated": true
 			}
 		],
 		"fundCapital": {
@@ -2120,37 +1738,7 @@
 			}
 		],
 		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 24.85,
-		"continentWeights": [
-			{
-				"name": "North America",
-				"nameLt": "Šiaurės Amerika",
-				"companies": 504,
-				"weightPercent": 100.0,
-				"estimated": true
-			}
-		],
-		"marketTypeWeights": [
-			{
-				"name": "Developed",
-				"companies": 504,
-				"weightPercent": 100.0,
-				"estimated": true
-			}
-		],
-		"countryCount": 1,
-		"continentCount": 1,
-		"strategyType": "Country",
-		"strategyTags": [
-			"Country"
-		],
-		"dataQuality": "partial",
-		"dataQualityDetails": {
-			"countriesEstimated": true,
-			"topHoldingsEstimated": false,
-			"fundCapitalKnown": true,
-			"replicationEstimated": true
-		}
+		"topSectorWeightPercent": 24.85
 	},
 	{
 		"id": "ubu9",
@@ -2179,18 +1767,7 @@
 				"code": "US",
 				"companies": 504,
 				"weightPercent": 100.0,
-				"estimated": true,
-				"continent": "North America",
-				"continentLt": "Šiaurės Amerika",
-				"subRegion": "Northern America",
-				"subRegionLt": "Šiaurės Amerika",
-				"marketType": "Developed",
-				"currency": "USD",
-				"currencyName": "US dollar",
-				"currencyNameLt": "JAV doleris",
-				"euMember": false,
-				"countryWeightRank": 1,
-				"isTopCountry": true
+				"estimated": true
 			}
 		],
 		"fundCapital": {
@@ -2333,37 +1910,7 @@
 			}
 		],
 		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 24.85,
-		"continentWeights": [
-			{
-				"name": "North America",
-				"nameLt": "Šiaurės Amerika",
-				"companies": 504,
-				"weightPercent": 100.0,
-				"estimated": true
-			}
-		],
-		"marketTypeWeights": [
-			{
-				"name": "Developed",
-				"companies": 504,
-				"weightPercent": 100.0,
-				"estimated": true
-			}
-		],
-		"countryCount": 1,
-		"continentCount": 1,
-		"strategyType": "Country",
-		"strategyTags": [
-			"Country"
-		],
-		"dataQuality": "partial",
-		"dataQualityDetails": {
-			"countriesEstimated": true,
-			"topHoldingsEstimated": false,
-			"fundCapitalKnown": true,
-			"replicationEstimated": true
-		}
+		"topSectorWeightPercent": 24.85
 	},
 	{
 		"id": "xdpu",
@@ -2392,18 +1939,7 @@
 				"code": "US",
 				"companies": 504,
 				"weightPercent": 100.0,
-				"estimated": true,
-				"continent": "North America",
-				"continentLt": "Šiaurės Amerika",
-				"subRegion": "Northern America",
-				"subRegionLt": "Šiaurės Amerika",
-				"marketType": "Developed",
-				"currency": "USD",
-				"currencyName": "US dollar",
-				"currencyNameLt": "JAV doleris",
-				"euMember": false,
-				"countryWeightRank": 1,
-				"isTopCountry": true
+				"estimated": true
 			}
 		],
 		"fundCapital": {
@@ -2546,37 +2082,7 @@
 			}
 		],
 		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 24.04,
-		"continentWeights": [
-			{
-				"name": "North America",
-				"nameLt": "Šiaurės Amerika",
-				"companies": 504,
-				"weightPercent": 100.0,
-				"estimated": true
-			}
-		],
-		"marketTypeWeights": [
-			{
-				"name": "Developed",
-				"companies": 504,
-				"weightPercent": 100.0,
-				"estimated": true
-			}
-		],
-		"countryCount": 1,
-		"continentCount": 1,
-		"strategyType": "Country",
-		"strategyTags": [
-			"Country"
-		],
-		"dataQuality": "partial",
-		"dataQualityDetails": {
-			"countriesEstimated": true,
-			"topHoldingsEstimated": false,
-			"fundCapitalKnown": true,
-			"replicationEstimated": true
-		}
+		"topSectorWeightPercent": 24.04
 	},
 	{
 		"id": "x5sp",
@@ -2605,18 +2111,7 @@
 				"code": "US",
 				"companies": 504,
 				"weightPercent": 100.0,
-				"estimated": true,
-				"continent": "North America",
-				"continentLt": "Šiaurės Amerika",
-				"subRegion": "Northern America",
-				"subRegionLt": "Šiaurės Amerika",
-				"marketType": "Developed",
-				"currency": "USD",
-				"currencyName": "US dollar",
-				"currencyNameLt": "JAV doleris",
-				"euMember": false,
-				"countryWeightRank": 1,
-				"isTopCountry": true
+				"estimated": true
 			}
 		],
 		"fundCapital": {
@@ -2759,37 +2254,7 @@
 			}
 		],
 		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 24.04,
-		"continentWeights": [
-			{
-				"name": "North America",
-				"nameLt": "Šiaurės Amerika",
-				"companies": 504,
-				"weightPercent": 100.0,
-				"estimated": true
-			}
-		],
-		"marketTypeWeights": [
-			{
-				"name": "Developed",
-				"companies": 504,
-				"weightPercent": 100.0,
-				"estimated": true
-			}
-		],
-		"countryCount": 1,
-		"continentCount": 1,
-		"strategyType": "Country",
-		"strategyTags": [
-			"Country"
-		],
-		"dataQuality": "partial",
-		"dataQualityDetails": {
-			"countriesEstimated": true,
-			"topHoldingsEstimated": false,
-			"fundCapitalKnown": true,
-			"replicationEstimated": true
-		}
+		"topSectorWeightPercent": 24.04
 	},
 	{
 		"id": "sppy",
@@ -2822,18 +2287,7 @@
 				"code": "US",
 				"companies": 229,
 				"weightPercent": 100.0,
-				"estimated": true,
-				"continent": "North America",
-				"continentLt": "Šiaurės Amerika",
-				"subRegion": "Northern America",
-				"subRegionLt": "Šiaurės Amerika",
-				"marketType": "Developed",
-				"currency": "USD",
-				"currencyName": "US dollar",
-				"currencyNameLt": "JAV doleris",
-				"euMember": false,
-				"countryWeightRank": 1,
-				"isTopCountry": true
+				"estimated": true
 			}
 		],
 		"fundCapital": {
@@ -2986,38 +2440,6 @@
 			}
 		],
 		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 24.98,
-		"continentWeights": [
-			{
-				"name": "North America",
-				"nameLt": "Šiaurės Amerika",
-				"companies": 229,
-				"weightPercent": 100.0,
-				"estimated": true
-			}
-		],
-		"marketTypeWeights": [
-			{
-				"name": "Developed",
-				"companies": 229,
-				"weightPercent": 100.0,
-				"estimated": true
-			}
-		],
-		"countryCount": 1,
-		"continentCount": 1,
-		"strategyType": "Country",
-		"strategyTags": [
-			"Country",
-			"ESG",
-			"Hedged"
-		],
-		"dataQuality": "partial",
-		"dataQualityDetails": {
-			"countriesEstimated": true,
-			"topHoldingsEstimated": false,
-			"fundCapitalKnown": true,
-			"replicationEstimated": true
-		}
+		"topSectorWeightPercent": 24.98
 	}
 ]

@@ -81,18 +81,7 @@
 				"code": "FR",
 				"companies": 28,
 				"weightPercent": 24.01,
-				"estimated": 0,
-				"continent": "Europe",
-				"continentLt": "Europa",
-				"subRegion": "Western Europe",
-				"subRegionLt": "Vakarų Europa",
-				"marketType": "Developed",
-				"currency": "EUR",
-				"currencyName": "Euro",
-				"currencyNameLt": "Euras",
-				"euMember": true,
-				"countryWeightRank": 1,
-				"isTopCountry": true
+				"estimated": 0
 			},
 			{
 				"name": "Germany",
@@ -100,18 +89,7 @@
 				"code": "DE",
 				"companies": 26,
 				"weightPercent": 22.47,
-				"estimated": 0,
-				"continent": "Europe",
-				"continentLt": "Europa",
-				"subRegion": "Western Europe",
-				"subRegionLt": "Vakarų Europa",
-				"marketType": "Developed",
-				"currency": "EUR",
-				"currencyName": "Euro",
-				"currencyNameLt": "Euras",
-				"euMember": true,
-				"countryWeightRank": 2,
-				"isTopCountry": false
+				"estimated": 0
 			},
 			{
 				"name": "Netherlands",
@@ -119,18 +97,7 @@
 				"code": "NL",
 				"companies": 21,
 				"weightPercent": 18.15,
-				"estimated": 0,
-				"continent": "Europe",
-				"continentLt": "Europa",
-				"subRegion": "Western Europe",
-				"subRegionLt": "Vakarų Europa",
-				"marketType": "Developed",
-				"currency": "EUR",
-				"currencyName": "Euro",
-				"currencyNameLt": "Euras",
-				"euMember": true,
-				"countryWeightRank": 3,
-				"isTopCountry": false
+				"estimated": 0
 			},
 			{
 				"name": "Spain",
@@ -138,18 +105,7 @@
 				"code": "ES",
 				"companies": 11,
 				"weightPercent": 9.41,
-				"estimated": 0,
-				"continent": "Europe",
-				"continentLt": "Europa",
-				"subRegion": "Southern Europe",
-				"subRegionLt": "Pietų Europa",
-				"marketType": "Developed",
-				"currency": "EUR",
-				"currencyName": "Euro",
-				"currencyNameLt": "Euras",
-				"euMember": true,
-				"countryWeightRank": 4,
-				"isTopCountry": false
+				"estimated": 0
 			},
 			{
 				"name": "Other countries",
@@ -157,18 +113,7 @@
 				"code": null,
 				"companies": 31,
 				"weightPercent": 25.96,
-				"estimated": 1,
-				"continent": "Other/Mixed",
-				"continentLt": "Kita / mišru",
-				"subRegion": "Other/Mixed",
-				"subRegionLt": "Kita / mišru",
-				"marketType": "Mixed",
-				"currency": "Mixed",
-				"currencyName": "Mixed currencies",
-				"currencyNameLt": "Mišrios valiutos",
-				"euMember": false,
-				"countryWeightRank": 5,
-				"isTopCountry": false
+				"estimated": 1
 			}
 		],
 		"fundCapital": {
@@ -276,51 +221,7 @@
 		"sourceUrls": [
 			"https://www.justetf.com/en-be/etf-profile.html?isin=IE00BN4Q0L55"
 		],
-		"notes": "Directly checked TER, holdings count, country weights, top holdings, fund size, replication, EUR listings.",
-		"continentWeights": [
-			{
-				"name": "Europe",
-				"nameLt": "Europa",
-				"companies": 86,
-				"weightPercent": 74.04,
-				"estimated": false
-			},
-			{
-				"name": "Other/Mixed",
-				"nameLt": "Kita / mišru",
-				"companies": 31,
-				"weightPercent": 25.96,
-				"estimated": true
-			}
-		],
-		"marketTypeWeights": [
-			{
-				"name": "Developed",
-				"companies": 86,
-				"weightPercent": 74.04,
-				"estimated": false
-			},
-			{
-				"name": "Mixed",
-				"companies": 31,
-				"weightPercent": 25.96,
-				"estimated": true
-			}
-		],
-		"countryCount": 5,
-		"continentCount": 2,
-		"strategyType": "Regional",
-		"strategyTags": [
-			"Regional",
-			"Climate"
-		],
-		"dataQuality": "estimated",
-		"dataQualityDetails": {
-			"countriesEstimated": true,
-			"topHoldingsEstimated": false,
-			"fundCapitalKnown": true,
-			"replicationEstimated": false
-		}
+		"notes": "Directly checked TER, holdings count, country weights, top holdings, fund size, replication, EUR listings."
 	},
 	{
 		"id": "esdd",
@@ -400,18 +301,7 @@
 				"code": "US",
 				"companies": 500,
 				"weightPercent": 100.0,
-				"estimated": 1,
-				"continent": "North America",
-				"continentLt": "Šiaurės Amerika",
-				"subRegion": "Northern America",
-				"subRegionLt": "Šiaurės Amerika",
-				"marketType": "Developed",
-				"currency": "USD",
-				"currencyName": "US dollar",
-				"currencyNameLt": "JAV doleris",
-				"euMember": false,
-				"countryWeightRank": 1,
-				"isTopCountry": true
+				"estimated": 1
 			}
 		],
 		"fundCapital": {
@@ -519,38 +409,7 @@
 		"sourceUrls": [
 			"https://www.justetf.com/en-be/etf-list-overview.html"
 		],
-		"notes": "Screener line showed BNP Paribas Easy S&P 500 0.14% TER, €173M, swap based. Full profile should be rechecked.",
-		"continentWeights": [
-			{
-				"name": "North America",
-				"nameLt": "Šiaurės Amerika",
-				"companies": 500,
-				"weightPercent": 100.0,
-				"estimated": true
-			}
-		],
-		"marketTypeWeights": [
-			{
-				"name": "Developed",
-				"companies": 500,
-				"weightPercent": 100.0,
-				"estimated": true
-			}
-		],
-		"countryCount": 1,
-		"continentCount": 1,
-		"strategyType": "Country",
-		"strategyTags": [
-			"Country",
-			"Synthetic"
-		],
-		"dataQuality": "risky",
-		"dataQualityDetails": {
-			"countriesEstimated": true,
-			"topHoldingsEstimated": true,
-			"fundCapitalKnown": true,
-			"replicationEstimated": false
-		}
+		"notes": "Screener line showed BNP Paribas Easy S&P 500 0.14% TER, €173M, swap based. Full profile should be rechecked."
 	},
 	{
 		"id": "ubem",
@@ -630,18 +489,7 @@
 				"code": "CN",
 				"companies": 520,
 				"weightPercent": 27.0,
-				"estimated": true,
-				"continent": "Asia",
-				"continentLt": "Azija",
-				"subRegion": "Eastern Asia",
-				"subRegionLt": "Rytų Azija",
-				"marketType": "Emerging",
-				"currency": "CNY",
-				"currencyName": "Chinese yuan",
-				"currencyNameLt": "Kinijos juanis",
-				"euMember": false,
-				"countryWeightRank": 1,
-				"isTopCountry": true
+				"estimated": true
 			},
 			{
 				"name": "India",
@@ -649,18 +497,7 @@
 				"code": "IN",
 				"companies": 235,
 				"weightPercent": 20.0,
-				"estimated": true,
-				"continent": "Asia",
-				"continentLt": "Azija",
-				"subRegion": "Southern Asia",
-				"subRegionLt": "Pietų Azija",
-				"marketType": "Emerging",
-				"currency": "INR",
-				"currencyName": "Indian rupee",
-				"currencyNameLt": "Indijos rupija",
-				"euMember": false,
-				"countryWeightRank": 2,
-				"isTopCountry": false
+				"estimated": true
 			},
 			{
 				"name": "Taiwan",
@@ -668,18 +505,7 @@
 				"code": "TW",
 				"companies": 100,
 				"weightPercent": 18.0,
-				"estimated": true,
-				"continent": "Asia",
-				"continentLt": "Azija",
-				"subRegion": "Eastern Asia",
-				"subRegionLt": "Rytų Azija",
-				"marketType": "Emerging",
-				"currency": "TWD",
-				"currencyName": "New Taiwan dollar",
-				"currencyNameLt": "Naujasis Taivano doleris",
-				"euMember": false,
-				"countryWeightRank": 3,
-				"isTopCountry": false
+				"estimated": true
 			},
 			{
 				"name": "South Korea",
@@ -687,18 +513,7 @@
 				"code": "KR",
 				"companies": 120,
 				"weightPercent": 11.0,
-				"estimated": true,
-				"continent": "Asia",
-				"continentLt": "Azija",
-				"subRegion": "Eastern Asia",
-				"subRegionLt": "Rytų Azija",
-				"marketType": "Emerging",
-				"currency": "KRW",
-				"currencyName": "South Korean won",
-				"currencyNameLt": "Pietų Korėjos vonas",
-				"euMember": false,
-				"countryWeightRank": 4,
-				"isTopCountry": false
+				"estimated": true
 			},
 			{
 				"name": "Brazil",
@@ -706,18 +521,7 @@
 				"code": "BR",
 				"companies": 45,
 				"weightPercent": 5.0,
-				"estimated": true,
-				"continent": "South America",
-				"continentLt": "Pietų Amerika",
-				"subRegion": "South America",
-				"subRegionLt": "Pietų Amerika",
-				"marketType": "Emerging",
-				"currency": "BRL",
-				"currencyName": "Brazilian real",
-				"currencyNameLt": "Brazilijos realas",
-				"euMember": false,
-				"countryWeightRank": 5,
-				"isTopCountry": false
+				"estimated": true
 			},
 			{
 				"name": "Other countries",
@@ -725,18 +529,7 @@
 				"code": null,
 				"companies": 280,
 				"weightPercent": 19.0,
-				"estimated": true,
-				"continent": "Other/Mixed",
-				"continentLt": "Kita / mišru",
-				"subRegion": "Other/Mixed",
-				"subRegionLt": "Kita / mišru",
-				"marketType": "Mixed",
-				"currency": "Mixed",
-				"currencyName": "Mixed currencies",
-				"currencyNameLt": "Mišrios valiutos",
-				"euMember": false,
-				"countryWeightRank": 6,
-				"isTopCountry": false
+				"estimated": true
 			}
 		],
 		"fundCapital": {
@@ -844,58 +637,7 @@
 		"sourceUrls": [
 			"https://www.justetf.com/en/how-to/invest-in-emerging-markets.html"
 		],
-		"notes": "Included from Emerging Markets comparison list: 0.14% TER, swap-based. Ticker/listing/country split should be rechecked.",
-		"continentWeights": [
-			{
-				"name": "Asia",
-				"nameLt": "Azija",
-				"companies": 975,
-				"weightPercent": 76.0,
-				"estimated": true
-			},
-			{
-				"name": "Other/Mixed",
-				"nameLt": "Kita / mišru",
-				"companies": 280,
-				"weightPercent": 19.0,
-				"estimated": true
-			},
-			{
-				"name": "South America",
-				"nameLt": "Pietų Amerika",
-				"companies": 45,
-				"weightPercent": 5.0,
-				"estimated": true
-			}
-		],
-		"marketTypeWeights": [
-			{
-				"name": "Emerging",
-				"companies": 1020,
-				"weightPercent": 81.0,
-				"estimated": true
-			},
-			{
-				"name": "Mixed",
-				"companies": 280,
-				"weightPercent": 19.0,
-				"estimated": true
-			}
-		],
-		"countryCount": 6,
-		"continentCount": 3,
-		"strategyType": "Regional",
-		"strategyTags": [
-			"Regional",
-			"Synthetic"
-		],
-		"dataQuality": "risky",
-		"dataQualityDetails": {
-			"countriesEstimated": true,
-			"topHoldingsEstimated": true,
-			"fundCapitalKnown": true,
-			"replicationEstimated": false
-		}
+		"notes": "Included from Emerging Markets comparison list: 0.14% TER, swap-based. Ticker/listing/country split should be rechecked."
 	},
 	{
 		"id": "emsx",
@@ -975,18 +717,7 @@
 				"code": "CN",
 				"companies": 520,
 				"weightPercent": 27.0,
-				"estimated": true,
-				"continent": "Asia",
-				"continentLt": "Azija",
-				"subRegion": "Eastern Asia",
-				"subRegionLt": "Rytų Azija",
-				"marketType": "Emerging",
-				"currency": "CNY",
-				"currencyName": "Chinese yuan",
-				"currencyNameLt": "Kinijos juanis",
-				"euMember": false,
-				"countryWeightRank": 1,
-				"isTopCountry": true
+				"estimated": true
 			},
 			{
 				"name": "India",
@@ -994,18 +725,7 @@
 				"code": "IN",
 				"companies": 235,
 				"weightPercent": 20.0,
-				"estimated": true,
-				"continent": "Asia",
-				"continentLt": "Azija",
-				"subRegion": "Southern Asia",
-				"subRegionLt": "Pietų Azija",
-				"marketType": "Emerging",
-				"currency": "INR",
-				"currencyName": "Indian rupee",
-				"currencyNameLt": "Indijos rupija",
-				"euMember": false,
-				"countryWeightRank": 2,
-				"isTopCountry": false
+				"estimated": true
 			},
 			{
 				"name": "Taiwan",
@@ -1013,18 +733,7 @@
 				"code": "TW",
 				"companies": 100,
 				"weightPercent": 18.0,
-				"estimated": true,
-				"continent": "Asia",
-				"continentLt": "Azija",
-				"subRegion": "Eastern Asia",
-				"subRegionLt": "Rytų Azija",
-				"marketType": "Emerging",
-				"currency": "TWD",
-				"currencyName": "New Taiwan dollar",
-				"currencyNameLt": "Naujasis Taivano doleris",
-				"euMember": false,
-				"countryWeightRank": 3,
-				"isTopCountry": false
+				"estimated": true
 			},
 			{
 				"name": "South Korea",
@@ -1032,18 +741,7 @@
 				"code": "KR",
 				"companies": 120,
 				"weightPercent": 11.0,
-				"estimated": true,
-				"continent": "Asia",
-				"continentLt": "Azija",
-				"subRegion": "Eastern Asia",
-				"subRegionLt": "Rytų Azija",
-				"marketType": "Emerging",
-				"currency": "KRW",
-				"currencyName": "South Korean won",
-				"currencyNameLt": "Pietų Korėjos vonas",
-				"euMember": false,
-				"countryWeightRank": 4,
-				"isTopCountry": false
+				"estimated": true
 			},
 			{
 				"name": "Brazil",
@@ -1051,18 +749,7 @@
 				"code": "BR",
 				"companies": 45,
 				"weightPercent": 5.0,
-				"estimated": true,
-				"continent": "South America",
-				"continentLt": "Pietų Amerika",
-				"subRegion": "South America",
-				"subRegionLt": "Pietų Amerika",
-				"marketType": "Emerging",
-				"currency": "BRL",
-				"currencyName": "Brazilian real",
-				"currencyNameLt": "Brazilijos realas",
-				"euMember": false,
-				"countryWeightRank": 5,
-				"isTopCountry": false
+				"estimated": true
 			},
 			{
 				"name": "Other countries",
@@ -1070,18 +757,7 @@
 				"code": null,
 				"companies": 280,
 				"weightPercent": 19.0,
-				"estimated": true,
-				"continent": "Other/Mixed",
-				"continentLt": "Kita / mišru",
-				"subRegion": "Other/Mixed",
-				"subRegionLt": "Kita / mišru",
-				"marketType": "Mixed",
-				"currency": "Mixed",
-				"currencyName": "Mixed currencies",
-				"currencyNameLt": "Mišrios valiutos",
-				"euMember": false,
-				"countryWeightRank": 6,
-				"isTopCountry": false
+				"estimated": true
 			}
 		],
 		"fundCapital": {
@@ -1189,57 +865,6 @@
 		"sourceUrls": [
 			"https://www.justetf.com/en/how-to/invest-in-emerging-markets.html"
 		],
-		"notes": "Included from Emerging Markets comparison list: 0.14% TER, unfunded swap. Ticker/listing/country split should be rechecked.",
-		"continentWeights": [
-			{
-				"name": "Asia",
-				"nameLt": "Azija",
-				"companies": 975,
-				"weightPercent": 76.0,
-				"estimated": true
-			},
-			{
-				"name": "Other/Mixed",
-				"nameLt": "Kita / mišru",
-				"companies": 280,
-				"weightPercent": 19.0,
-				"estimated": true
-			},
-			{
-				"name": "South America",
-				"nameLt": "Pietų Amerika",
-				"companies": 45,
-				"weightPercent": 5.0,
-				"estimated": true
-			}
-		],
-		"marketTypeWeights": [
-			{
-				"name": "Emerging",
-				"companies": 1020,
-				"weightPercent": 81.0,
-				"estimated": true
-			},
-			{
-				"name": "Mixed",
-				"companies": 280,
-				"weightPercent": 19.0,
-				"estimated": true
-			}
-		],
-		"countryCount": 6,
-		"continentCount": 3,
-		"strategyType": "Regional",
-		"strategyTags": [
-			"Regional",
-			"Synthetic"
-		],
-		"dataQuality": "risky",
-		"dataQualityDetails": {
-			"countriesEstimated": true,
-			"topHoldingsEstimated": true,
-			"fundCapitalKnown": true,
-			"replicationEstimated": false
-		}
+		"notes": "Included from Emerging Markets comparison list: 0.14% TER, unfunded swap. Ticker/listing/country split should be rechecked."
 	}
 ]

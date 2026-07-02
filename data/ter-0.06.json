@@ -30,7 +30,18 @@
 				"code": "US",
 				"companies": 536,
 				"weightPercent": 72.45,
-				"estimated": true
+				"estimated": true,
+				"continent": "North America",
+				"continentLt": "Šiaurės Amerika",
+				"subRegion": "Northern America",
+				"subRegionLt": "Šiaurės Amerika",
+				"marketType": "Developed",
+				"currency": "USD",
+				"currencyName": "US dollar",
+				"currencyNameLt": "JAV doleris",
+				"euMember": false,
+				"countryWeightRank": 1,
+				"isTopCountry": true
 			},
 			{
 				"name": "Japan",
@@ -38,7 +49,18 @@
 				"code": "JP",
 				"companies": 180,
 				"weightPercent": 5.84,
-				"estimated": true
+				"estimated": true,
+				"continent": "Asia",
+				"continentLt": "Azija",
+				"subRegion": "Eastern Asia",
+				"subRegionLt": "Rytų Azija",
+				"marketType": "Developed",
+				"currency": "JPY",
+				"currencyName": "Japanese yen",
+				"currencyNameLt": "Japonijos jena",
+				"euMember": false,
+				"countryWeightRank": 2,
+				"isTopCountry": false
 			},
 			{
 				"name": "United Kingdom",
@@ -46,7 +68,18 @@
 				"code": "GB",
 				"companies": 72,
 				"weightPercent": 3.61,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Northern Europe",
+				"subRegionLt": "Šiaurės Europa",
+				"marketType": "Developed",
+				"currency": "GBP",
+				"currencyName": "Pound sterling",
+				"currencyNameLt": "Svaras sterlingų",
+				"euMember": false,
+				"countryWeightRank": 3,
+				"isTopCountry": false
 			},
 			{
 				"name": "Canada",
@@ -54,7 +87,18 @@
 				"code": "CA",
 				"companies": 83,
 				"weightPercent": 3.24,
-				"estimated": true
+				"estimated": true,
+				"continent": "North America",
+				"continentLt": "Šiaurės Amerika",
+				"subRegion": "Northern America",
+				"subRegionLt": "Šiaurės Amerika",
+				"marketType": "Developed",
+				"currency": "CAD",
+				"currencyName": "Canadian dollar",
+				"currencyNameLt": "Kanados doleris",
+				"euMember": false,
+				"countryWeightRank": 4,
+				"isTopCountry": false
 			},
 			{
 				"name": "France",
@@ -62,7 +106,18 @@
 				"code": "FR",
 				"companies": 35,
 				"weightPercent": 2.61,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Western Europe",
+				"subRegionLt": "Vakarų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 5,
+				"isTopCountry": false
 			},
 			{
 				"name": "Switzerland",
@@ -70,7 +125,18 @@
 				"code": "CH",
 				"companies": 41,
 				"weightPercent": 2.43,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Western Europe",
+				"subRegionLt": "Vakarų Europa",
+				"marketType": "Developed",
+				"currency": "CHF",
+				"currencyName": "Swiss franc",
+				"currencyNameLt": "Šveicarijos frankas",
+				"euMember": false,
+				"countryWeightRank": 6,
+				"isTopCountry": false
 			},
 			{
 				"name": "Germany",
@@ -78,7 +144,18 @@
 				"code": "DE",
 				"companies": 44,
 				"weightPercent": 2.26,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Western Europe",
+				"subRegionLt": "Vakarų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 7,
+				"isTopCountry": false
 			},
 			{
 				"name": "Australia",
@@ -86,7 +163,18 @@
 				"code": "AU",
 				"companies": 58,
 				"weightPercent": 1.8,
-				"estimated": true
+				"estimated": true,
+				"continent": "Oceania",
+				"continentLt": "Okeanija",
+				"subRegion": "Australia and New Zealand",
+				"subRegionLt": "Australija ir Naujoji Zelandija",
+				"marketType": "Developed",
+				"currency": "AUD",
+				"currencyName": "Australian dollar",
+				"currencyNameLt": "Australijos doleris",
+				"euMember": false,
+				"countryWeightRank": 8,
+				"isTopCountry": false
 			},
 			{
 				"name": "Netherlands",
@@ -94,7 +182,18 @@
 				"code": "NL",
 				"companies": 19,
 				"weightPercent": 1.45,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Western Europe",
+				"subRegionLt": "Vakarų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 9,
+				"isTopCountry": false
 			},
 			{
 				"name": "Sweden",
@@ -102,7 +201,18 @@
 				"code": "SE",
 				"companies": 35,
 				"weightPercent": 0.83,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Northern Europe",
+				"subRegionLt": "Šiaurės Europa",
+				"marketType": "Developed",
+				"currency": "SEK",
+				"currencyName": "Swedish krona",
+				"currencyNameLt": "Švedijos krona",
+				"euMember": true,
+				"countryWeightRank": 10,
+				"isTopCountry": false
 			},
 			{
 				"name": "Denmark",
@@ -110,7 +220,18 @@
 				"code": "DK",
 				"companies": 14,
 				"weightPercent": 0.73,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Northern Europe",
+				"subRegionLt": "Šiaurės Europa",
+				"marketType": "Developed",
+				"currency": "DKK",
+				"currencyName": "Danish krone",
+				"currencyNameLt": "Danijos krona",
+				"euMember": true,
+				"countryWeightRank": 11,
+				"isTopCountry": false
 			},
 			{
 				"name": "Italy",
@@ -118,7 +239,18 @@
 				"code": "IT",
 				"companies": 20,
 				"weightPercent": 0.7,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Southern Europe",
+				"subRegionLt": "Pietų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 12,
+				"isTopCountry": false
 			},
 			{
 				"name": "Spain",
@@ -126,7 +258,18 @@
 				"code": "ES",
 				"companies": 16,
 				"weightPercent": 0.69,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Southern Europe",
+				"subRegionLt": "Pietų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 13,
+				"isTopCountry": false
 			},
 			{
 				"name": "Hong Kong",
@@ -134,7 +277,18 @@
 				"code": "HK",
 				"companies": 34,
 				"weightPercent": 0.5,
-				"estimated": true
+				"estimated": true,
+				"continent": "Asia",
+				"continentLt": "Azija",
+				"subRegion": "Eastern Asia",
+				"subRegionLt": "Rytų Azija",
+				"marketType": "Developed",
+				"currency": "HKD",
+				"currencyName": "Hong Kong dollar",
+				"currencyNameLt": "Honkongo doleris",
+				"euMember": false,
+				"countryWeightRank": 14,
+				"isTopCountry": false
 			},
 			{
 				"name": "Singapore",
@@ -142,7 +296,18 @@
 				"code": "SG",
 				"companies": 19,
 				"weightPercent": 0.44,
-				"estimated": true
+				"estimated": true,
+				"continent": "Asia",
+				"continentLt": "Azija",
+				"subRegion": "South-eastern Asia",
+				"subRegionLt": "Pietryčių Azija",
+				"marketType": "Developed",
+				"currency": "SGD",
+				"currencyName": "Singapore dollar",
+				"currencyNameLt": "Singapūro doleris",
+				"euMember": false,
+				"countryWeightRank": 15,
+				"isTopCountry": false
 			},
 			{
 				"name": "Finland",
@@ -150,7 +315,18 @@
 				"code": "FI",
 				"companies": 11,
 				"weightPercent": 0.31,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Northern Europe",
+				"subRegionLt": "Šiaurės Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 16,
+				"isTopCountry": false
 			},
 			{
 				"name": "Belgium",
@@ -158,7 +334,18 @@
 				"code": "BE",
 				"companies": 11,
 				"weightPercent": 0.27,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Western Europe",
+				"subRegionLt": "Vakarų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 17,
+				"isTopCountry": false
 			},
 			{
 				"name": "Israel",
@@ -166,7 +353,18 @@
 				"code": "IL",
 				"companies": 10,
 				"weightPercent": 0.22,
-				"estimated": true
+				"estimated": true,
+				"continent": "Asia",
+				"continentLt": "Azija",
+				"subRegion": "Western Asia",
+				"subRegionLt": "Vakarų Azija",
+				"marketType": "Developed",
+				"currency": "ILS",
+				"currencyName": "Israeli new shekel",
+				"currencyNameLt": "Izraelio šekelis",
+				"euMember": false,
+				"countryWeightRank": 18,
+				"isTopCountry": false
 			},
 			{
 				"name": "Norway",
@@ -174,7 +372,18 @@
 				"code": "NO",
 				"companies": 9,
 				"weightPercent": 0.18,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Northern Europe",
+				"subRegionLt": "Šiaurės Europa",
+				"marketType": "Developed",
+				"currency": "NOK",
+				"currencyName": "Norwegian krone",
+				"currencyNameLt": "Norvegijos krona",
+				"euMember": false,
+				"countryWeightRank": 19,
+				"isTopCountry": false
 			},
 			{
 				"name": "Ireland",
@@ -182,7 +391,18 @@
 				"code": "IE",
 				"companies": 6,
 				"weightPercent": 0.15,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Northern Europe",
+				"subRegionLt": "Šiaurės Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 20,
+				"isTopCountry": false
 			},
 			{
 				"name": "Austria",
@@ -190,7 +410,18 @@
 				"code": "AT",
 				"companies": 5,
 				"weightPercent": 0.13,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Western Europe",
+				"subRegionLt": "Vakarų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 21,
+				"isTopCountry": false
 			},
 			{
 				"name": "New Zealand",
@@ -198,7 +429,18 @@
 				"code": "NZ",
 				"companies": 7,
 				"weightPercent": 0.09,
-				"estimated": true
+				"estimated": true,
+				"continent": "Oceania",
+				"continentLt": "Okeanija",
+				"subRegion": "Australia and New Zealand",
+				"subRegionLt": "Australija ir Naujoji Zelandija",
+				"marketType": "Developed",
+				"currency": "NZD",
+				"currencyName": "New Zealand dollar",
+				"currencyNameLt": "Naujosios Zelandijos doleris",
+				"euMember": false,
+				"countryWeightRank": 22,
+				"isTopCountry": false
 			},
 			{
 				"name": "Portugal",
@@ -206,7 +448,18 @@
 				"code": "PT",
 				"companies": 3,
 				"weightPercent": 0.07,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Southern Europe",
+				"subRegionLt": "Pietų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 23,
+				"isTopCountry": false
 			},
 			{
 				"name": "Other countries",
@@ -214,7 +467,18 @@
 				"code": null,
 				"companies": 40,
 				"weightPercent": 0.0,
-				"estimated": true
+				"estimated": true,
+				"continent": "Other/Mixed",
+				"continentLt": "Kita / mišru",
+				"subRegion": "Other/Mixed",
+				"subRegionLt": "Kita / mišru",
+				"marketType": "Mixed",
+				"currency": "Mixed",
+				"currencyName": "Mixed currencies",
+				"currencyNameLt": "Mišrios valiutos",
+				"euMember": false,
+				"countryWeightRank": 24,
+				"isTopCountry": false
 			}
 		],
 		"fundCapital": {
@@ -363,7 +627,71 @@
 			}
 		],
 		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 16.31
+		"topSectorWeightPercent": 16.31,
+		"continentWeights": [
+			{
+				"name": "North America",
+				"nameLt": "Šiaurės Amerika",
+				"companies": 619,
+				"weightPercent": 75.69,
+				"estimated": true
+			},
+			{
+				"name": "Europe",
+				"nameLt": "Europa",
+				"companies": 341,
+				"weightPercent": 16.42,
+				"estimated": true
+			},
+			{
+				"name": "Asia",
+				"nameLt": "Azija",
+				"companies": 243,
+				"weightPercent": 7.0,
+				"estimated": true
+			},
+			{
+				"name": "Oceania",
+				"nameLt": "Okeanija",
+				"companies": 65,
+				"weightPercent": 1.89,
+				"estimated": true
+			},
+			{
+				"name": "Other/Mixed",
+				"nameLt": "Kita / mišru",
+				"companies": 40,
+				"weightPercent": 0.0,
+				"estimated": true
+			}
+		],
+		"marketTypeWeights": [
+			{
+				"name": "Developed",
+				"companies": 1268,
+				"weightPercent": 101.0,
+				"estimated": true
+			},
+			{
+				"name": "Mixed",
+				"companies": 40,
+				"weightPercent": 0.0,
+				"estimated": true
+			}
+		],
+		"countryCount": 24,
+		"continentCount": 5,
+		"strategyType": "Broad market",
+		"strategyTags": [
+			"Broad market"
+		],
+		"dataQuality": "partial",
+		"dataQualityDetails": {
+			"countriesEstimated": true,
+			"topHoldingsEstimated": false,
+			"fundCapitalKnown": true,
+			"replicationEstimated": true
+		}
 	},
 	{
 		"id": "ubu7",
@@ -396,7 +724,18 @@
 				"code": "US",
 				"companies": 536,
 				"weightPercent": 72.45,
-				"estimated": true
+				"estimated": true,
+				"continent": "North America",
+				"continentLt": "Šiaurės Amerika",
+				"subRegion": "Northern America",
+				"subRegionLt": "Šiaurės Amerika",
+				"marketType": "Developed",
+				"currency": "USD",
+				"currencyName": "US dollar",
+				"currencyNameLt": "JAV doleris",
+				"euMember": false,
+				"countryWeightRank": 1,
+				"isTopCountry": true
 			},
 			{
 				"name": "Japan",
@@ -404,7 +743,18 @@
 				"code": "JP",
 				"companies": 180,
 				"weightPercent": 5.84,
-				"estimated": true
+				"estimated": true,
+				"continent": "Asia",
+				"continentLt": "Azija",
+				"subRegion": "Eastern Asia",
+				"subRegionLt": "Rytų Azija",
+				"marketType": "Developed",
+				"currency": "JPY",
+				"currencyName": "Japanese yen",
+				"currencyNameLt": "Japonijos jena",
+				"euMember": false,
+				"countryWeightRank": 2,
+				"isTopCountry": false
 			},
 			{
 				"name": "United Kingdom",
@@ -412,7 +762,18 @@
 				"code": "GB",
 				"companies": 72,
 				"weightPercent": 3.61,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Northern Europe",
+				"subRegionLt": "Šiaurės Europa",
+				"marketType": "Developed",
+				"currency": "GBP",
+				"currencyName": "Pound sterling",
+				"currencyNameLt": "Svaras sterlingų",
+				"euMember": false,
+				"countryWeightRank": 3,
+				"isTopCountry": false
 			},
 			{
 				"name": "Canada",
@@ -420,7 +781,18 @@
 				"code": "CA",
 				"companies": 83,
 				"weightPercent": 3.24,
-				"estimated": true
+				"estimated": true,
+				"continent": "North America",
+				"continentLt": "Šiaurės Amerika",
+				"subRegion": "Northern America",
+				"subRegionLt": "Šiaurės Amerika",
+				"marketType": "Developed",
+				"currency": "CAD",
+				"currencyName": "Canadian dollar",
+				"currencyNameLt": "Kanados doleris",
+				"euMember": false,
+				"countryWeightRank": 4,
+				"isTopCountry": false
 			},
 			{
 				"name": "France",
@@ -428,7 +800,18 @@
 				"code": "FR",
 				"companies": 35,
 				"weightPercent": 2.61,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Western Europe",
+				"subRegionLt": "Vakarų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 5,
+				"isTopCountry": false
 			},
 			{
 				"name": "Switzerland",
@@ -436,7 +819,18 @@
 				"code": "CH",
 				"companies": 41,
 				"weightPercent": 2.43,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Western Europe",
+				"subRegionLt": "Vakarų Europa",
+				"marketType": "Developed",
+				"currency": "CHF",
+				"currencyName": "Swiss franc",
+				"currencyNameLt": "Šveicarijos frankas",
+				"euMember": false,
+				"countryWeightRank": 6,
+				"isTopCountry": false
 			},
 			{
 				"name": "Germany",
@@ -444,7 +838,18 @@
 				"code": "DE",
 				"companies": 44,
 				"weightPercent": 2.26,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Western Europe",
+				"subRegionLt": "Vakarų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 7,
+				"isTopCountry": false
 			},
 			{
 				"name": "Australia",
@@ -452,7 +857,18 @@
 				"code": "AU",
 				"companies": 58,
 				"weightPercent": 1.8,
-				"estimated": true
+				"estimated": true,
+				"continent": "Oceania",
+				"continentLt": "Okeanija",
+				"subRegion": "Australia and New Zealand",
+				"subRegionLt": "Australija ir Naujoji Zelandija",
+				"marketType": "Developed",
+				"currency": "AUD",
+				"currencyName": "Australian dollar",
+				"currencyNameLt": "Australijos doleris",
+				"euMember": false,
+				"countryWeightRank": 8,
+				"isTopCountry": false
 			},
 			{
 				"name": "Netherlands",
@@ -460,7 +876,18 @@
 				"code": "NL",
 				"companies": 19,
 				"weightPercent": 1.45,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Western Europe",
+				"subRegionLt": "Vakarų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 9,
+				"isTopCountry": false
 			},
 			{
 				"name": "Sweden",
@@ -468,7 +895,18 @@
 				"code": "SE",
 				"companies": 35,
 				"weightPercent": 0.83,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Northern Europe",
+				"subRegionLt": "Šiaurės Europa",
+				"marketType": "Developed",
+				"currency": "SEK",
+				"currencyName": "Swedish krona",
+				"currencyNameLt": "Švedijos krona",
+				"euMember": true,
+				"countryWeightRank": 10,
+				"isTopCountry": false
 			},
 			{
 				"name": "Denmark",
@@ -476,7 +914,18 @@
 				"code": "DK",
 				"companies": 14,
 				"weightPercent": 0.73,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Northern Europe",
+				"subRegionLt": "Šiaurės Europa",
+				"marketType": "Developed",
+				"currency": "DKK",
+				"currencyName": "Danish krone",
+				"currencyNameLt": "Danijos krona",
+				"euMember": true,
+				"countryWeightRank": 11,
+				"isTopCountry": false
 			},
 			{
 				"name": "Italy",
@@ -484,7 +933,18 @@
 				"code": "IT",
 				"companies": 20,
 				"weightPercent": 0.7,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Southern Europe",
+				"subRegionLt": "Pietų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 12,
+				"isTopCountry": false
 			},
 			{
 				"name": "Spain",
@@ -492,7 +952,18 @@
 				"code": "ES",
 				"companies": 16,
 				"weightPercent": 0.69,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Southern Europe",
+				"subRegionLt": "Pietų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 13,
+				"isTopCountry": false
 			},
 			{
 				"name": "Hong Kong",
@@ -500,7 +971,18 @@
 				"code": "HK",
 				"companies": 34,
 				"weightPercent": 0.5,
-				"estimated": true
+				"estimated": true,
+				"continent": "Asia",
+				"continentLt": "Azija",
+				"subRegion": "Eastern Asia",
+				"subRegionLt": "Rytų Azija",
+				"marketType": "Developed",
+				"currency": "HKD",
+				"currencyName": "Hong Kong dollar",
+				"currencyNameLt": "Honkongo doleris",
+				"euMember": false,
+				"countryWeightRank": 14,
+				"isTopCountry": false
 			},
 			{
 				"name": "Singapore",
@@ -508,7 +990,18 @@
 				"code": "SG",
 				"companies": 19,
 				"weightPercent": 0.44,
-				"estimated": true
+				"estimated": true,
+				"continent": "Asia",
+				"continentLt": "Azija",
+				"subRegion": "South-eastern Asia",
+				"subRegionLt": "Pietryčių Azija",
+				"marketType": "Developed",
+				"currency": "SGD",
+				"currencyName": "Singapore dollar",
+				"currencyNameLt": "Singapūro doleris",
+				"euMember": false,
+				"countryWeightRank": 15,
+				"isTopCountry": false
 			},
 			{
 				"name": "Finland",
@@ -516,7 +1009,18 @@
 				"code": "FI",
 				"companies": 11,
 				"weightPercent": 0.31,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Northern Europe",
+				"subRegionLt": "Šiaurės Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 16,
+				"isTopCountry": false
 			},
 			{
 				"name": "Belgium",
@@ -524,7 +1028,18 @@
 				"code": "BE",
 				"companies": 11,
 				"weightPercent": 0.27,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Western Europe",
+				"subRegionLt": "Vakarų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 17,
+				"isTopCountry": false
 			},
 			{
 				"name": "Israel",
@@ -532,7 +1047,18 @@
 				"code": "IL",
 				"companies": 10,
 				"weightPercent": 0.22,
-				"estimated": true
+				"estimated": true,
+				"continent": "Asia",
+				"continentLt": "Azija",
+				"subRegion": "Western Asia",
+				"subRegionLt": "Vakarų Azija",
+				"marketType": "Developed",
+				"currency": "ILS",
+				"currencyName": "Israeli new shekel",
+				"currencyNameLt": "Izraelio šekelis",
+				"euMember": false,
+				"countryWeightRank": 18,
+				"isTopCountry": false
 			},
 			{
 				"name": "Norway",
@@ -540,7 +1066,18 @@
 				"code": "NO",
 				"companies": 9,
 				"weightPercent": 0.18,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Northern Europe",
+				"subRegionLt": "Šiaurės Europa",
+				"marketType": "Developed",
+				"currency": "NOK",
+				"currencyName": "Norwegian krone",
+				"currencyNameLt": "Norvegijos krona",
+				"euMember": false,
+				"countryWeightRank": 19,
+				"isTopCountry": false
 			},
 			{
 				"name": "Ireland",
@@ -548,7 +1085,18 @@
 				"code": "IE",
 				"companies": 6,
 				"weightPercent": 0.15,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Northern Europe",
+				"subRegionLt": "Šiaurės Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 20,
+				"isTopCountry": false
 			},
 			{
 				"name": "Austria",
@@ -556,7 +1104,18 @@
 				"code": "AT",
 				"companies": 5,
 				"weightPercent": 0.13,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Western Europe",
+				"subRegionLt": "Vakarų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 21,
+				"isTopCountry": false
 			},
 			{
 				"name": "New Zealand",
@@ -564,7 +1123,18 @@
 				"code": "NZ",
 				"companies": 7,
 				"weightPercent": 0.09,
-				"estimated": true
+				"estimated": true,
+				"continent": "Oceania",
+				"continentLt": "Okeanija",
+				"subRegion": "Australia and New Zealand",
+				"subRegionLt": "Australija ir Naujoji Zelandija",
+				"marketType": "Developed",
+				"currency": "NZD",
+				"currencyName": "New Zealand dollar",
+				"currencyNameLt": "Naujosios Zelandijos doleris",
+				"euMember": false,
+				"countryWeightRank": 22,
+				"isTopCountry": false
 			},
 			{
 				"name": "Portugal",
@@ -572,7 +1142,18 @@
 				"code": "PT",
 				"companies": 3,
 				"weightPercent": 0.07,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Southern Europe",
+				"subRegionLt": "Pietų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 23,
+				"isTopCountry": false
 			},
 			{
 				"name": "Other countries",
@@ -580,7 +1161,18 @@
 				"code": null,
 				"companies": 40,
 				"weightPercent": 0.0,
-				"estimated": true
+				"estimated": true,
+				"continent": "Other/Mixed",
+				"continentLt": "Kita / mišru",
+				"subRegion": "Other/Mixed",
+				"subRegionLt": "Kita / mišru",
+				"marketType": "Mixed",
+				"currency": "Mixed",
+				"currencyName": "Mixed currencies",
+				"currencyNameLt": "Mišrios valiutos",
+				"euMember": false,
+				"countryWeightRank": 24,
+				"isTopCountry": false
 			}
 		],
 		"fundCapital": {
@@ -729,7 +1321,71 @@
 			}
 		],
 		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 16.31
+		"topSectorWeightPercent": 16.31,
+		"continentWeights": [
+			{
+				"name": "North America",
+				"nameLt": "Šiaurės Amerika",
+				"companies": 619,
+				"weightPercent": 75.69,
+				"estimated": true
+			},
+			{
+				"name": "Europe",
+				"nameLt": "Europa",
+				"companies": 341,
+				"weightPercent": 16.42,
+				"estimated": true
+			},
+			{
+				"name": "Asia",
+				"nameLt": "Azija",
+				"companies": 243,
+				"weightPercent": 7.0,
+				"estimated": true
+			},
+			{
+				"name": "Oceania",
+				"nameLt": "Okeanija",
+				"companies": 65,
+				"weightPercent": 1.89,
+				"estimated": true
+			},
+			{
+				"name": "Other/Mixed",
+				"nameLt": "Kita / mišru",
+				"companies": 40,
+				"weightPercent": 0.0,
+				"estimated": true
+			}
+		],
+		"marketTypeWeights": [
+			{
+				"name": "Developed",
+				"companies": 1268,
+				"weightPercent": 101.0,
+				"estimated": true
+			},
+			{
+				"name": "Mixed",
+				"companies": 40,
+				"weightPercent": 0.0,
+				"estimated": true
+			}
+		],
+		"countryCount": 24,
+		"continentCount": 5,
+		"strategyType": "Broad market",
+		"strategyTags": [
+			"Broad market"
+		],
+		"dataQuality": "partial",
+		"dataQualityDetails": {
+			"countriesEstimated": true,
+			"topHoldingsEstimated": false,
+			"fundCapitalKnown": true,
+			"replicationEstimated": true
+		}
 	},
 	{
 		"id": "chsu",
@@ -758,7 +1414,18 @@
 				"code": "GB",
 				"companies": 78,
 				"weightPercent": 22.3,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Northern Europe",
+				"subRegionLt": "Šiaurės Europa",
+				"marketType": "Developed",
+				"currency": "GBP",
+				"currencyName": "Pound sterling",
+				"currencyNameLt": "Svaras sterlingų",
+				"euMember": false,
+				"countryWeightRank": 1,
+				"isTopCountry": true
 			},
 			{
 				"name": "France",
@@ -766,7 +1433,18 @@
 				"code": "FR",
 				"companies": 70,
 				"weightPercent": 17.85,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Western Europe",
+				"subRegionLt": "Vakarų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 2,
+				"isTopCountry": false
 			},
 			{
 				"name": "Switzerland",
@@ -774,7 +1452,18 @@
 				"code": "CH",
 				"companies": 48,
 				"weightPercent": 14.96,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Western Europe",
+				"subRegionLt": "Vakarų Europa",
+				"marketType": "Developed",
+				"currency": "CHF",
+				"currencyName": "Swiss franc",
+				"currencyNameLt": "Šveicarijos frankas",
+				"euMember": false,
+				"countryWeightRank": 3,
+				"isTopCountry": false
 			},
 			{
 				"name": "Germany",
@@ -782,7 +1471,18 @@
 				"code": "DE",
 				"companies": 57,
 				"weightPercent": 13.72,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Western Europe",
+				"subRegionLt": "Vakarų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 4,
+				"isTopCountry": false
 			},
 			{
 				"name": "Netherlands",
@@ -790,7 +1490,18 @@
 				"code": "NL",
 				"companies": 28,
 				"weightPercent": 8.16,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Western Europe",
+				"subRegionLt": "Vakarų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 5,
+				"isTopCountry": false
 			},
 			{
 				"name": "Denmark",
@@ -798,7 +1509,18 @@
 				"code": "DK",
 				"companies": 15,
 				"weightPercent": 4.45,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Northern Europe",
+				"subRegionLt": "Šiaurės Europa",
+				"marketType": "Developed",
+				"currency": "DKK",
+				"currencyName": "Danish krone",
+				"currencyNameLt": "Danijos krona",
+				"euMember": true,
+				"countryWeightRank": 6,
+				"isTopCountry": false
 			},
 			{
 				"name": "Spain",
@@ -806,7 +1528,18 @@
 				"code": "ES",
 				"companies": 18,
 				"weightPercent": 4.13,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Southern Europe",
+				"subRegionLt": "Pietų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 7,
+				"isTopCountry": false
 			},
 			{
 				"name": "Italy",
@@ -814,7 +1547,18 @@
 				"code": "IT",
 				"companies": 24,
 				"weightPercent": 4.02,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Southern Europe",
+				"subRegionLt": "Pietų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 8,
+				"isTopCountry": false
 			},
 			{
 				"name": "Sweden",
@@ -822,7 +1566,18 @@
 				"code": "SE",
 				"companies": 34,
 				"weightPercent": 3.84,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Northern Europe",
+				"subRegionLt": "Šiaurės Europa",
+				"marketType": "Developed",
+				"currency": "SEK",
+				"currencyName": "Swedish krona",
+				"currencyNameLt": "Švedijos krona",
+				"euMember": true,
+				"countryWeightRank": 9,
+				"isTopCountry": false
 			},
 			{
 				"name": "Finland",
@@ -830,7 +1585,18 @@
 				"code": "FI",
 				"companies": 11,
 				"weightPercent": 1.49,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Northern Europe",
+				"subRegionLt": "Šiaurės Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 10,
+				"isTopCountry": false
 			},
 			{
 				"name": "Belgium",
@@ -838,7 +1604,18 @@
 				"code": "BE",
 				"companies": 9,
 				"weightPercent": 1.32,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Western Europe",
+				"subRegionLt": "Vakarų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 11,
+				"isTopCountry": false
 			},
 			{
 				"name": "Norway",
@@ -846,7 +1623,18 @@
 				"code": "NO",
 				"companies": 8,
 				"weightPercent": 1.03,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Northern Europe",
+				"subRegionLt": "Šiaurės Europa",
+				"marketType": "Developed",
+				"currency": "NOK",
+				"currencyName": "Norwegian krone",
+				"currencyNameLt": "Norvegijos krona",
+				"euMember": false,
+				"countryWeightRank": 12,
+				"isTopCountry": false
 			},
 			{
 				"name": "Ireland",
@@ -854,7 +1642,18 @@
 				"code": "IE",
 				"companies": 4,
 				"weightPercent": 0.88,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Northern Europe",
+				"subRegionLt": "Šiaurės Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 13,
+				"isTopCountry": false
 			},
 			{
 				"name": "Austria",
@@ -862,7 +1661,18 @@
 				"code": "AT",
 				"companies": 3,
 				"weightPercent": 0.45,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Western Europe",
+				"subRegionLt": "Vakarų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 14,
+				"isTopCountry": false
 			},
 			{
 				"name": "Portugal",
@@ -870,7 +1680,18 @@
 				"code": "PT",
 				"companies": 3,
 				"weightPercent": 0.3,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Southern Europe",
+				"subRegionLt": "Pietų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 15,
+				"isTopCountry": false
 			},
 			{
 				"name": "Other countries",
@@ -878,7 +1699,18 @@
 				"code": null,
 				"companies": 3,
 				"weightPercent": 1.1,
-				"estimated": true
+				"estimated": true,
+				"continent": "Other/Mixed",
+				"continentLt": "Kita / mišru",
+				"subRegion": "Other/Mixed",
+				"subRegionLt": "Kita / mišru",
+				"marketType": "Mixed",
+				"currency": "Mixed",
+				"currencyName": "Mixed currencies",
+				"currencyNameLt": "Mišrios valiutos",
+				"euMember": false,
+				"countryWeightRank": 16,
+				"isTopCountry": false
 			}
 		],
 		"fundCapital": {
@@ -1037,7 +1869,50 @@
 			}
 		],
 		"topSectorName": "Health Care",
-		"topSectorWeightPercent": 8.52
+		"topSectorWeightPercent": 8.52,
+		"continentWeights": [
+			{
+				"name": "Europe",
+				"nameLt": "Europa",
+				"companies": 410,
+				"weightPercent": 98.9,
+				"estimated": true
+			},
+			{
+				"name": "Other/Mixed",
+				"nameLt": "Kita / mišru",
+				"companies": 3,
+				"weightPercent": 1.1,
+				"estimated": true
+			}
+		],
+		"marketTypeWeights": [
+			{
+				"name": "Developed",
+				"companies": 410,
+				"weightPercent": 98.9,
+				"estimated": true
+			},
+			{
+				"name": "Mixed",
+				"companies": 3,
+				"weightPercent": 1.1,
+				"estimated": true
+			}
+		],
+		"countryCount": 16,
+		"continentCount": 2,
+		"strategyType": "Regional",
+		"strategyTags": [
+			"Regional"
+		],
+		"dataQuality": "partial",
+		"dataQualityDetails": {
+			"countriesEstimated": true,
+			"topHoldingsEstimated": false,
+			"fundCapitalKnown": true,
+			"replicationEstimated": true
+		}
 	},
 	{
 		"id": "uima",
@@ -1070,7 +1945,18 @@
 				"code": "GB",
 				"companies": 78,
 				"weightPercent": 22.3,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Northern Europe",
+				"subRegionLt": "Šiaurės Europa",
+				"marketType": "Developed",
+				"currency": "GBP",
+				"currencyName": "Pound sterling",
+				"currencyNameLt": "Svaras sterlingų",
+				"euMember": false,
+				"countryWeightRank": 1,
+				"isTopCountry": true
 			},
 			{
 				"name": "France",
@@ -1078,7 +1964,18 @@
 				"code": "FR",
 				"companies": 70,
 				"weightPercent": 17.85,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Western Europe",
+				"subRegionLt": "Vakarų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 2,
+				"isTopCountry": false
 			},
 			{
 				"name": "Switzerland",
@@ -1086,7 +1983,18 @@
 				"code": "CH",
 				"companies": 48,
 				"weightPercent": 14.96,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Western Europe",
+				"subRegionLt": "Vakarų Europa",
+				"marketType": "Developed",
+				"currency": "CHF",
+				"currencyName": "Swiss franc",
+				"currencyNameLt": "Šveicarijos frankas",
+				"euMember": false,
+				"countryWeightRank": 3,
+				"isTopCountry": false
 			},
 			{
 				"name": "Germany",
@@ -1094,7 +2002,18 @@
 				"code": "DE",
 				"companies": 57,
 				"weightPercent": 13.72,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Western Europe",
+				"subRegionLt": "Vakarų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 4,
+				"isTopCountry": false
 			},
 			{
 				"name": "Netherlands",
@@ -1102,7 +2021,18 @@
 				"code": "NL",
 				"companies": 28,
 				"weightPercent": 8.16,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Western Europe",
+				"subRegionLt": "Vakarų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 5,
+				"isTopCountry": false
 			},
 			{
 				"name": "Denmark",
@@ -1110,7 +2040,18 @@
 				"code": "DK",
 				"companies": 15,
 				"weightPercent": 4.45,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Northern Europe",
+				"subRegionLt": "Šiaurės Europa",
+				"marketType": "Developed",
+				"currency": "DKK",
+				"currencyName": "Danish krone",
+				"currencyNameLt": "Danijos krona",
+				"euMember": true,
+				"countryWeightRank": 6,
+				"isTopCountry": false
 			},
 			{
 				"name": "Spain",
@@ -1118,7 +2059,18 @@
 				"code": "ES",
 				"companies": 18,
 				"weightPercent": 4.13,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Southern Europe",
+				"subRegionLt": "Pietų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 7,
+				"isTopCountry": false
 			},
 			{
 				"name": "Italy",
@@ -1126,7 +2078,18 @@
 				"code": "IT",
 				"companies": 24,
 				"weightPercent": 4.02,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Southern Europe",
+				"subRegionLt": "Pietų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 8,
+				"isTopCountry": false
 			},
 			{
 				"name": "Sweden",
@@ -1134,7 +2097,18 @@
 				"code": "SE",
 				"companies": 34,
 				"weightPercent": 3.84,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Northern Europe",
+				"subRegionLt": "Šiaurės Europa",
+				"marketType": "Developed",
+				"currency": "SEK",
+				"currencyName": "Swedish krona",
+				"currencyNameLt": "Švedijos krona",
+				"euMember": true,
+				"countryWeightRank": 9,
+				"isTopCountry": false
 			},
 			{
 				"name": "Finland",
@@ -1142,7 +2116,18 @@
 				"code": "FI",
 				"companies": 11,
 				"weightPercent": 1.49,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Northern Europe",
+				"subRegionLt": "Šiaurės Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 10,
+				"isTopCountry": false
 			},
 			{
 				"name": "Belgium",
@@ -1150,7 +2135,18 @@
 				"code": "BE",
 				"companies": 9,
 				"weightPercent": 1.32,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Western Europe",
+				"subRegionLt": "Vakarų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 11,
+				"isTopCountry": false
 			},
 			{
 				"name": "Norway",
@@ -1158,7 +2154,18 @@
 				"code": "NO",
 				"companies": 8,
 				"weightPercent": 1.03,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Northern Europe",
+				"subRegionLt": "Šiaurės Europa",
+				"marketType": "Developed",
+				"currency": "NOK",
+				"currencyName": "Norwegian krone",
+				"currencyNameLt": "Norvegijos krona",
+				"euMember": false,
+				"countryWeightRank": 12,
+				"isTopCountry": false
 			},
 			{
 				"name": "Ireland",
@@ -1166,7 +2173,18 @@
 				"code": "IE",
 				"companies": 4,
 				"weightPercent": 0.88,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Northern Europe",
+				"subRegionLt": "Šiaurės Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 13,
+				"isTopCountry": false
 			},
 			{
 				"name": "Austria",
@@ -1174,7 +2192,18 @@
 				"code": "AT",
 				"companies": 3,
 				"weightPercent": 0.45,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Western Europe",
+				"subRegionLt": "Vakarų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 14,
+				"isTopCountry": false
 			},
 			{
 				"name": "Portugal",
@@ -1182,7 +2211,18 @@
 				"code": "PT",
 				"companies": 3,
 				"weightPercent": 0.3,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Southern Europe",
+				"subRegionLt": "Pietų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 15,
+				"isTopCountry": false
 			},
 			{
 				"name": "Other countries",
@@ -1190,7 +2230,18 @@
 				"code": null,
 				"companies": 3,
 				"weightPercent": 1.1,
-				"estimated": true
+				"estimated": true,
+				"continent": "Other/Mixed",
+				"continentLt": "Kita / mišru",
+				"subRegion": "Other/Mixed",
+				"subRegionLt": "Kita / mišru",
+				"marketType": "Mixed",
+				"currency": "Mixed",
+				"currencyName": "Mixed currencies",
+				"currencyNameLt": "Mišrios valiutos",
+				"euMember": false,
+				"countryWeightRank": 16,
+				"isTopCountry": false
 			}
 		],
 		"fundCapital": {
@@ -1349,7 +2400,50 @@
 			}
 		],
 		"topSectorName": "Health Care",
-		"topSectorWeightPercent": 8.52
+		"topSectorWeightPercent": 8.52,
+		"continentWeights": [
+			{
+				"name": "Europe",
+				"nameLt": "Europa",
+				"companies": 410,
+				"weightPercent": 98.9,
+				"estimated": true
+			},
+			{
+				"name": "Other/Mixed",
+				"nameLt": "Kita / mišru",
+				"companies": 3,
+				"weightPercent": 1.1,
+				"estimated": true
+			}
+		],
+		"marketTypeWeights": [
+			{
+				"name": "Developed",
+				"companies": 410,
+				"weightPercent": 98.9,
+				"estimated": true
+			},
+			{
+				"name": "Mixed",
+				"companies": 3,
+				"weightPercent": 1.1,
+				"estimated": true
+			}
+		],
+		"countryCount": 16,
+		"continentCount": 2,
+		"strategyType": "Regional",
+		"strategyTags": [
+			"Regional"
+		],
+		"dataQuality": "partial",
+		"dataQualityDetails": {
+			"countriesEstimated": true,
+			"topHoldingsEstimated": false,
+			"fundCapitalKnown": true,
+			"replicationEstimated": true
+		}
 	},
 	{
 		"id": "uim1",
@@ -1382,7 +2476,18 @@
 				"code": "FR",
 				"companies": 18,
 				"weightPercent": 36.4,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Western Europe",
+				"subRegionLt": "Vakarų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 1,
+				"isTopCountry": true
 			},
 			{
 				"name": "Germany",
@@ -1390,7 +2495,18 @@
 				"code": "DE",
 				"companies": 15,
 				"weightPercent": 26.75,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Western Europe",
+				"subRegionLt": "Vakarų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 2,
+				"isTopCountry": false
 			},
 			{
 				"name": "Netherlands",
@@ -1398,7 +2514,18 @@
 				"code": "NL",
 				"companies": 5,
 				"weightPercent": 14.85,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Western Europe",
+				"subRegionLt": "Vakarų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 3,
+				"isTopCountry": false
 			},
 			{
 				"name": "Spain",
@@ -1406,7 +2533,18 @@
 				"code": "ES",
 				"companies": 5,
 				"weightPercent": 8.24,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Southern Europe",
+				"subRegionLt": "Pietų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 4,
+				"isTopCountry": false
 			},
 			{
 				"name": "Italy",
@@ -1414,7 +2552,18 @@
 				"code": "IT",
 				"companies": 4,
 				"weightPercent": 7.11,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Southern Europe",
+				"subRegionLt": "Pietų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 5,
+				"isTopCountry": false
 			},
 			{
 				"name": "Finland",
@@ -1422,7 +2571,18 @@
 				"code": "FI",
 				"companies": 1,
 				"weightPercent": 2.52,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Northern Europe",
+				"subRegionLt": "Šiaurės Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 6,
+				"isTopCountry": false
 			},
 			{
 				"name": "Belgium",
@@ -1430,7 +2590,18 @@
 				"code": "BE",
 				"companies": 1,
 				"weightPercent": 2.15,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Western Europe",
+				"subRegionLt": "Vakarų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 7,
+				"isTopCountry": false
 			},
 			{
 				"name": "Ireland",
@@ -1438,7 +2609,18 @@
 				"code": "IE",
 				"companies": 1,
 				"weightPercent": 1.98,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Northern Europe",
+				"subRegionLt": "Šiaurės Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 8,
+				"isTopCountry": false
 			}
 		],
 		"fundCapital": {
@@ -1597,7 +2779,37 @@
 			}
 		],
 		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 18.68
+		"topSectorWeightPercent": 18.68,
+		"continentWeights": [
+			{
+				"name": "Europe",
+				"nameLt": "Europa",
+				"companies": 50,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"marketTypeWeights": [
+			{
+				"name": "Developed",
+				"companies": 50,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"countryCount": 8,
+		"continentCount": 1,
+		"strategyType": "Regional",
+		"strategyTags": [
+			"Regional"
+		],
+		"dataQuality": "partial",
+		"dataQualityDetails": {
+			"countriesEstimated": true,
+			"topHoldingsEstimated": false,
+			"fundCapitalKnown": true,
+			"replicationEstimated": true
+		}
 	},
 	{
 		"id": "ueqd",
@@ -1626,7 +2838,18 @@
 				"code": "US",
 				"companies": 504,
 				"weightPercent": 100.0,
-				"estimated": true
+				"estimated": true,
+				"continent": "North America",
+				"continentLt": "Šiaurės Amerika",
+				"subRegion": "Northern America",
+				"subRegionLt": "Šiaurės Amerika",
+				"marketType": "Developed",
+				"currency": "USD",
+				"currencyName": "US dollar",
+				"currencyNameLt": "JAV doleris",
+				"euMember": false,
+				"countryWeightRank": 1,
+				"isTopCountry": true
 			}
 		],
 		"fundCapital": {
@@ -1770,7 +2993,38 @@
 			}
 		],
 		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 24.99
+		"topSectorWeightPercent": 24.99,
+		"continentWeights": [
+			{
+				"name": "North America",
+				"nameLt": "Šiaurės Amerika",
+				"companies": 504,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"marketTypeWeights": [
+			{
+				"name": "Developed",
+				"companies": 504,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"countryCount": 1,
+		"continentCount": 1,
+		"strategyType": "Country",
+		"strategyTags": [
+			"Country",
+			"Hedged"
+		],
+		"dataQuality": "partial",
+		"dataQualityDetails": {
+			"countriesEstimated": true,
+			"topHoldingsEstimated": false,
+			"fundCapitalKnown": true,
+			"replicationEstimated": true
+		}
 	},
 	{
 		"id": "eeag",
@@ -1799,7 +3053,18 @@
 				"code": "FR",
 				"companies": 70,
 				"weightPercent": 34.8,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Western Europe",
+				"subRegionLt": "Vakarų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 1,
+				"isTopCountry": true
 			},
 			{
 				"name": "Germany",
@@ -1807,7 +3072,18 @@
 				"code": "DE",
 				"companies": 53,
 				"weightPercent": 25.7,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Western Europe",
+				"subRegionLt": "Vakarų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 2,
+				"isTopCountry": false
 			},
 			{
 				"name": "Netherlands",
@@ -1815,7 +3091,18 @@
 				"code": "NL",
 				"companies": 24,
 				"weightPercent": 12.9,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Western Europe",
+				"subRegionLt": "Vakarų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 3,
+				"isTopCountry": false
 			},
 			{
 				"name": "Spain",
@@ -1823,7 +3110,18 @@
 				"code": "ES",
 				"companies": 19,
 				"weightPercent": 8.4,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Southern Europe",
+				"subRegionLt": "Pietų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 4,
+				"isTopCountry": false
 			},
 			{
 				"name": "Italy",
@@ -1831,7 +3129,18 @@
 				"code": "IT",
 				"companies": 22,
 				"weightPercent": 7.6,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Southern Europe",
+				"subRegionLt": "Pietų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 5,
+				"isTopCountry": false
 			},
 			{
 				"name": "Finland",
@@ -1839,7 +3148,18 @@
 				"code": "FI",
 				"companies": 8,
 				"weightPercent": 3.0,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Northern Europe",
+				"subRegionLt": "Šiaurės Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 6,
+				"isTopCountry": false
 			},
 			{
 				"name": "Belgium",
@@ -1847,7 +3167,18 @@
 				"code": "BE",
 				"companies": 8,
 				"weightPercent": 2.6,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Western Europe",
+				"subRegionLt": "Vakarų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 7,
+				"isTopCountry": false
 			},
 			{
 				"name": "Ireland",
@@ -1855,7 +3186,18 @@
 				"code": "IE",
 				"companies": 5,
 				"weightPercent": 2.4,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Northern Europe",
+				"subRegionLt": "Šiaurės Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 8,
+				"isTopCountry": false
 			},
 			{
 				"name": "Austria",
@@ -1863,7 +3205,18 @@
 				"code": "AT",
 				"companies": 4,
 				"weightPercent": 1.4,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Western Europe",
+				"subRegionLt": "Vakarų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 9,
+				"isTopCountry": false
 			},
 			{
 				"name": "Portugal",
@@ -1871,7 +3224,18 @@
 				"code": "PT",
 				"companies": 2,
 				"weightPercent": 1.2,
-				"estimated": true
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Southern Europe",
+				"subRegionLt": "Pietų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 10,
+				"isTopCountry": false
 			}
 		],
 		"fundCapital": {
@@ -2030,6 +3394,36 @@
 			}
 		],
 		"topSectorName": "Information Technology",
-		"topSectorWeightPercent": 15.05
+		"topSectorWeightPercent": 15.05,
+		"continentWeights": [
+			{
+				"name": "Europe",
+				"nameLt": "Europa",
+				"companies": 215,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"marketTypeWeights": [
+			{
+				"name": "Developed",
+				"companies": 215,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"countryCount": 10,
+		"continentCount": 1,
+		"strategyType": "Regional",
+		"strategyTags": [
+			"Regional"
+		],
+		"dataQuality": "partial",
+		"dataQualityDetails": {
+			"countriesEstimated": true,
+			"topHoldingsEstimated": false,
+			"fundCapitalKnown": true,
+			"replicationEstimated": true
+		}
 	}
 ]

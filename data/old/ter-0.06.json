@@ -1,0 +1,2035 @@
+[
+	{
+		"id": "uetw",
+		"ticker": "UETW",
+		"name": "UBS Core MSCI World UCITS ETF USD Acc",
+		"terPercent": 0.06,
+		"totalCompanies": 1308,
+		"totalWeightPercent": 101.0,
+		"estimated": true,
+		"distribution": "Acc",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "UETW"
+			},
+			{
+				"exchange": "gettex",
+				"ticker": "UETW"
+			},
+			{
+				"exchange": "Borsa Italiana",
+				"ticker": "UETW"
+			}
+		],
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 536,
+				"weightPercent": 72.45,
+				"estimated": true
+			},
+			{
+				"name": "Japan",
+				"nameLt": "Japonija",
+				"code": "JP",
+				"companies": 180,
+				"weightPercent": 5.84,
+				"estimated": true
+			},
+			{
+				"name": "United Kingdom",
+				"nameLt": "Jungtinė Karalystė",
+				"code": "GB",
+				"companies": 72,
+				"weightPercent": 3.61,
+				"estimated": true
+			},
+			{
+				"name": "Canada",
+				"nameLt": "Kanada",
+				"code": "CA",
+				"companies": 83,
+				"weightPercent": 3.24,
+				"estimated": true
+			},
+			{
+				"name": "France",
+				"nameLt": "Prancūzija",
+				"code": "FR",
+				"companies": 35,
+				"weightPercent": 2.61,
+				"estimated": true
+			},
+			{
+				"name": "Switzerland",
+				"nameLt": "Šveicarija",
+				"code": "CH",
+				"companies": 41,
+				"weightPercent": 2.43,
+				"estimated": true
+			},
+			{
+				"name": "Germany",
+				"nameLt": "Vokietija",
+				"code": "DE",
+				"companies": 44,
+				"weightPercent": 2.26,
+				"estimated": true
+			},
+			{
+				"name": "Australia",
+				"nameLt": "Australija",
+				"code": "AU",
+				"companies": 58,
+				"weightPercent": 1.8,
+				"estimated": true
+			},
+			{
+				"name": "Netherlands",
+				"nameLt": "Nyderlandai",
+				"code": "NL",
+				"companies": 19,
+				"weightPercent": 1.45,
+				"estimated": true
+			},
+			{
+				"name": "Sweden",
+				"nameLt": "Švedija",
+				"code": "SE",
+				"companies": 35,
+				"weightPercent": 0.83,
+				"estimated": true
+			},
+			{
+				"name": "Denmark",
+				"nameLt": "Danija",
+				"code": "DK",
+				"companies": 14,
+				"weightPercent": 0.73,
+				"estimated": true
+			},
+			{
+				"name": "Italy",
+				"nameLt": "Italija",
+				"code": "IT",
+				"companies": 20,
+				"weightPercent": 0.7,
+				"estimated": true
+			},
+			{
+				"name": "Spain",
+				"nameLt": "Ispanija",
+				"code": "ES",
+				"companies": 16,
+				"weightPercent": 0.69,
+				"estimated": true
+			},
+			{
+				"name": "Hong Kong",
+				"nameLt": "Hong Kongas",
+				"code": "HK",
+				"companies": 34,
+				"weightPercent": 0.5,
+				"estimated": true
+			},
+			{
+				"name": "Singapore",
+				"nameLt": "Singapūras",
+				"code": "SG",
+				"companies": 19,
+				"weightPercent": 0.44,
+				"estimated": true
+			},
+			{
+				"name": "Finland",
+				"nameLt": "Suomija",
+				"code": "FI",
+				"companies": 11,
+				"weightPercent": 0.31,
+				"estimated": true
+			},
+			{
+				"name": "Belgium",
+				"nameLt": "Belgija",
+				"code": "BE",
+				"companies": 11,
+				"weightPercent": 0.27,
+				"estimated": true
+			},
+			{
+				"name": "Israel",
+				"nameLt": "Izraelis",
+				"code": "IL",
+				"companies": 10,
+				"weightPercent": 0.22,
+				"estimated": true
+			},
+			{
+				"name": "Norway",
+				"nameLt": "Norvegija",
+				"code": "NO",
+				"companies": 9,
+				"weightPercent": 0.18,
+				"estimated": true
+			},
+			{
+				"name": "Ireland",
+				"nameLt": "Airija",
+				"code": "IE",
+				"companies": 6,
+				"weightPercent": 0.15,
+				"estimated": true
+			},
+			{
+				"name": "Austria",
+				"nameLt": "Austrija",
+				"code": "AT",
+				"companies": 5,
+				"weightPercent": 0.13,
+				"estimated": true
+			},
+			{
+				"name": "New Zealand",
+				"nameLt": "Naujoji Zelandija",
+				"code": "NZ",
+				"companies": 7,
+				"weightPercent": 0.09,
+				"estimated": true
+			},
+			{
+				"name": "Portugal",
+				"nameLt": "Portugalija",
+				"code": "PT",
+				"companies": 3,
+				"weightPercent": 0.07,
+				"estimated": true
+			},
+			{
+				"name": "Other countries",
+				"nameLt": "Kitos šalys",
+				"code": null,
+				"companies": 40,
+				"weightPercent": 0.0,
+				"estimated": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 9638,
+			"currency": "EUR",
+			"label": "€9 638M",
+			"asOf": "2026-06",
+			"sourceName": "justETF",
+			"estimated": false
+		},
+		"topHoldings": [
+			{
+				"name": "NVIDIA Corp.",
+				"ticker": "NVDA",
+				"countryCode": "US",
+				"weightPercent": 5.65,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US67066G1040"
+			},
+			{
+				"name": "Apple Inc.",
+				"ticker": "AAPL",
+				"countryCode": "US",
+				"weightPercent": 5.02,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US0378331005"
+			},
+			{
+				"name": "Microsoft Corp.",
+				"ticker": "MSFT",
+				"countryCode": "US",
+				"weightPercent": 3.41,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US5949181045"
+			},
+			{
+				"name": "Amazon.com Inc.",
+				"ticker": "AMZN",
+				"countryCode": "US",
+				"weightPercent": 2.95,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US0231351067"
+			},
+			{
+				"name": "Alphabet Inc. Class A",
+				"ticker": "GOOGL",
+				"countryCode": "US",
+				"weightPercent": 2.55,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K3059"
+			},
+			{
+				"name": "Broadcom Inc.",
+				"ticker": "AVGO",
+				"countryCode": "US",
+				"weightPercent": 2.23,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US11135F1012"
+			},
+			{
+				"name": "Alphabet Inc. Class C",
+				"ticker": "GOOG",
+				"countryCode": "US",
+				"weightPercent": 2.2,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K1079"
+			},
+			{
+				"name": "Meta Platforms Inc.",
+				"ticker": "META",
+				"countryCode": "US",
+				"weightPercent": 1.6,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US30303M1027"
+			},
+			{
+				"name": "Tesla Inc.",
+				"ticker": "TSLA",
+				"countryCode": "US",
+				"weightPercent": 1.58,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US88160R1014"
+			},
+			{
+				"name": "JPMorgan Chase & Co.",
+				"ticker": "JPM",
+				"countryCode": "US",
+				"weightPercent": 1.18,
+				"estimated": false,
+				"sector": "Financials",
+				"isin": "US46625H1005"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 28.37,
+		"notes": "Country/company split is estimated from MSCI World exposure and previous project data; TER/fund size from justETF.",
+		"assetClass": "Equity",
+		"equityExposurePercent": 100,
+		"ucits": true,
+		"issuer": "UBS",
+		"indexName": "MSCI World",
+		"region": "World",
+		"marketType": "Developed",
+		"hedgedToEur": false,
+		"fundCurrency": "USD",
+		"primaryEurListing": {
+			"exchange": "XETRA",
+			"ticker": "UETW"
+		},
+		"replication": {
+			"type": "Physical",
+			"usesSwap": false,
+			"estimated": true
+		},
+		"maxCountryCode": "US",
+		"maxCountryWeightPercent": 72.45,
+		"sectorWeights": [
+			{
+				"name": "Information Technology",
+				"weightPercent": 16.31,
+				"estimated": true
+			},
+			{
+				"name": "Communication Services",
+				"weightPercent": 6.35,
+				"estimated": true
+			},
+			{
+				"name": "Consumer Discretionary",
+				"weightPercent": 4.53,
+				"estimated": true
+			},
+			{
+				"name": "Financials",
+				"weightPercent": 1.18,
+				"estimated": true
+			}
+		],
+		"topSectorName": "Information Technology",
+		"topSectorWeightPercent": 16.31
+	},
+	{
+		"id": "ubu7",
+		"ticker": "UBU7",
+		"name": "UBS Core MSCI World UCITS ETF USD Dis",
+		"terPercent": 0.06,
+		"totalCompanies": 1308,
+		"totalWeightPercent": 101.0,
+		"estimated": true,
+		"distribution": "Dist",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "Frankfurt",
+				"ticker": "UBU7"
+			},
+			{
+				"exchange": "Borsa Italiana",
+				"ticker": "UBU7"
+			},
+			{
+				"exchange": "Euronext Amsterdam",
+				"ticker": "UBU7"
+			}
+		],
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 536,
+				"weightPercent": 72.45,
+				"estimated": true
+			},
+			{
+				"name": "Japan",
+				"nameLt": "Japonija",
+				"code": "JP",
+				"companies": 180,
+				"weightPercent": 5.84,
+				"estimated": true
+			},
+			{
+				"name": "United Kingdom",
+				"nameLt": "Jungtinė Karalystė",
+				"code": "GB",
+				"companies": 72,
+				"weightPercent": 3.61,
+				"estimated": true
+			},
+			{
+				"name": "Canada",
+				"nameLt": "Kanada",
+				"code": "CA",
+				"companies": 83,
+				"weightPercent": 3.24,
+				"estimated": true
+			},
+			{
+				"name": "France",
+				"nameLt": "Prancūzija",
+				"code": "FR",
+				"companies": 35,
+				"weightPercent": 2.61,
+				"estimated": true
+			},
+			{
+				"name": "Switzerland",
+				"nameLt": "Šveicarija",
+				"code": "CH",
+				"companies": 41,
+				"weightPercent": 2.43,
+				"estimated": true
+			},
+			{
+				"name": "Germany",
+				"nameLt": "Vokietija",
+				"code": "DE",
+				"companies": 44,
+				"weightPercent": 2.26,
+				"estimated": true
+			},
+			{
+				"name": "Australia",
+				"nameLt": "Australija",
+				"code": "AU",
+				"companies": 58,
+				"weightPercent": 1.8,
+				"estimated": true
+			},
+			{
+				"name": "Netherlands",
+				"nameLt": "Nyderlandai",
+				"code": "NL",
+				"companies": 19,
+				"weightPercent": 1.45,
+				"estimated": true
+			},
+			{
+				"name": "Sweden",
+				"nameLt": "Švedija",
+				"code": "SE",
+				"companies": 35,
+				"weightPercent": 0.83,
+				"estimated": true
+			},
+			{
+				"name": "Denmark",
+				"nameLt": "Danija",
+				"code": "DK",
+				"companies": 14,
+				"weightPercent": 0.73,
+				"estimated": true
+			},
+			{
+				"name": "Italy",
+				"nameLt": "Italija",
+				"code": "IT",
+				"companies": 20,
+				"weightPercent": 0.7,
+				"estimated": true
+			},
+			{
+				"name": "Spain",
+				"nameLt": "Ispanija",
+				"code": "ES",
+				"companies": 16,
+				"weightPercent": 0.69,
+				"estimated": true
+			},
+			{
+				"name": "Hong Kong",
+				"nameLt": "Hong Kongas",
+				"code": "HK",
+				"companies": 34,
+				"weightPercent": 0.5,
+				"estimated": true
+			},
+			{
+				"name": "Singapore",
+				"nameLt": "Singapūras",
+				"code": "SG",
+				"companies": 19,
+				"weightPercent": 0.44,
+				"estimated": true
+			},
+			{
+				"name": "Finland",
+				"nameLt": "Suomija",
+				"code": "FI",
+				"companies": 11,
+				"weightPercent": 0.31,
+				"estimated": true
+			},
+			{
+				"name": "Belgium",
+				"nameLt": "Belgija",
+				"code": "BE",
+				"companies": 11,
+				"weightPercent": 0.27,
+				"estimated": true
+			},
+			{
+				"name": "Israel",
+				"nameLt": "Izraelis",
+				"code": "IL",
+				"companies": 10,
+				"weightPercent": 0.22,
+				"estimated": true
+			},
+			{
+				"name": "Norway",
+				"nameLt": "Norvegija",
+				"code": "NO",
+				"companies": 9,
+				"weightPercent": 0.18,
+				"estimated": true
+			},
+			{
+				"name": "Ireland",
+				"nameLt": "Airija",
+				"code": "IE",
+				"companies": 6,
+				"weightPercent": 0.15,
+				"estimated": true
+			},
+			{
+				"name": "Austria",
+				"nameLt": "Austrija",
+				"code": "AT",
+				"companies": 5,
+				"weightPercent": 0.13,
+				"estimated": true
+			},
+			{
+				"name": "New Zealand",
+				"nameLt": "Naujoji Zelandija",
+				"code": "NZ",
+				"companies": 7,
+				"weightPercent": 0.09,
+				"estimated": true
+			},
+			{
+				"name": "Portugal",
+				"nameLt": "Portugalija",
+				"code": "PT",
+				"companies": 3,
+				"weightPercent": 0.07,
+				"estimated": true
+			},
+			{
+				"name": "Other countries",
+				"nameLt": "Kitos šalys",
+				"code": null,
+				"companies": 40,
+				"weightPercent": 0.0,
+				"estimated": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 1870,
+			"currency": "EUR",
+			"label": "€1 870M",
+			"asOf": "2026-06",
+			"sourceName": "justETF / FT Markets conversion",
+			"estimated": true
+		},
+		"topHoldings": [
+			{
+				"name": "NVIDIA Corp.",
+				"ticker": "NVDA",
+				"countryCode": "US",
+				"weightPercent": 5.65,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US67066G1040"
+			},
+			{
+				"name": "Apple Inc.",
+				"ticker": "AAPL",
+				"countryCode": "US",
+				"weightPercent": 5.02,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US0378331005"
+			},
+			{
+				"name": "Microsoft Corp.",
+				"ticker": "MSFT",
+				"countryCode": "US",
+				"weightPercent": 3.41,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US5949181045"
+			},
+			{
+				"name": "Amazon.com Inc.",
+				"ticker": "AMZN",
+				"countryCode": "US",
+				"weightPercent": 2.95,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US0231351067"
+			},
+			{
+				"name": "Alphabet Inc. Class A",
+				"ticker": "GOOGL",
+				"countryCode": "US",
+				"weightPercent": 2.55,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K3059"
+			},
+			{
+				"name": "Broadcom Inc.",
+				"ticker": "AVGO",
+				"countryCode": "US",
+				"weightPercent": 2.23,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US11135F1012"
+			},
+			{
+				"name": "Alphabet Inc. Class C",
+				"ticker": "GOOG",
+				"countryCode": "US",
+				"weightPercent": 2.2,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K1079"
+			},
+			{
+				"name": "Meta Platforms Inc.",
+				"ticker": "META",
+				"countryCode": "US",
+				"weightPercent": 1.6,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US30303M1027"
+			},
+			{
+				"name": "Tesla Inc.",
+				"ticker": "TSLA",
+				"countryCode": "US",
+				"weightPercent": 1.58,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US88160R1014"
+			},
+			{
+				"name": "JPMorgan Chase & Co.",
+				"ticker": "JPM",
+				"countryCode": "US",
+				"weightPercent": 1.18,
+				"estimated": false,
+				"sector": "Financials",
+				"isin": "US46625H1005"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 28.37,
+		"notes": "Fund size converted/estimated from GBP/USD class data; same underlying MSCI World exposure as UETW.",
+		"assetClass": "Equity",
+		"equityExposurePercent": 100,
+		"ucits": true,
+		"issuer": "UBS",
+		"indexName": "MSCI World",
+		"region": "World",
+		"marketType": "Developed",
+		"hedgedToEur": false,
+		"fundCurrency": "USD",
+		"primaryEurListing": {
+			"exchange": "Frankfurt",
+			"ticker": "UBU7"
+		},
+		"replication": {
+			"type": "Physical",
+			"usesSwap": false,
+			"estimated": true
+		},
+		"maxCountryCode": "US",
+		"maxCountryWeightPercent": 72.45,
+		"sectorWeights": [
+			{
+				"name": "Information Technology",
+				"weightPercent": 16.31,
+				"estimated": true
+			},
+			{
+				"name": "Communication Services",
+				"weightPercent": 6.35,
+				"estimated": true
+			},
+			{
+				"name": "Consumer Discretionary",
+				"weightPercent": 4.53,
+				"estimated": true
+			},
+			{
+				"name": "Financials",
+				"weightPercent": 1.18,
+				"estimated": true
+			}
+		],
+		"topSectorName": "Information Technology",
+		"topSectorWeightPercent": 16.31
+	},
+	{
+		"id": "chsu",
+		"ticker": "CHSU",
+		"name": "UBS Core MSCI Europe UCITS ETF EUR Acc",
+		"terPercent": 0.06,
+		"totalCompanies": 413,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Acc",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "CHSU"
+			},
+			{
+				"exchange": "gettex",
+				"ticker": "CHSU"
+			}
+		],
+		"countries": [
+			{
+				"name": "United Kingdom",
+				"nameLt": "Jungtinė Karalystė",
+				"code": "GB",
+				"companies": 78,
+				"weightPercent": 22.3,
+				"estimated": true
+			},
+			{
+				"name": "France",
+				"nameLt": "Prancūzija",
+				"code": "FR",
+				"companies": 70,
+				"weightPercent": 17.85,
+				"estimated": true
+			},
+			{
+				"name": "Switzerland",
+				"nameLt": "Šveicarija",
+				"code": "CH",
+				"companies": 48,
+				"weightPercent": 14.96,
+				"estimated": true
+			},
+			{
+				"name": "Germany",
+				"nameLt": "Vokietija",
+				"code": "DE",
+				"companies": 57,
+				"weightPercent": 13.72,
+				"estimated": true
+			},
+			{
+				"name": "Netherlands",
+				"nameLt": "Nyderlandai",
+				"code": "NL",
+				"companies": 28,
+				"weightPercent": 8.16,
+				"estimated": true
+			},
+			{
+				"name": "Denmark",
+				"nameLt": "Danija",
+				"code": "DK",
+				"companies": 15,
+				"weightPercent": 4.45,
+				"estimated": true
+			},
+			{
+				"name": "Spain",
+				"nameLt": "Ispanija",
+				"code": "ES",
+				"companies": 18,
+				"weightPercent": 4.13,
+				"estimated": true
+			},
+			{
+				"name": "Italy",
+				"nameLt": "Italija",
+				"code": "IT",
+				"companies": 24,
+				"weightPercent": 4.02,
+				"estimated": true
+			},
+			{
+				"name": "Sweden",
+				"nameLt": "Švedija",
+				"code": "SE",
+				"companies": 34,
+				"weightPercent": 3.84,
+				"estimated": true
+			},
+			{
+				"name": "Finland",
+				"nameLt": "Suomija",
+				"code": "FI",
+				"companies": 11,
+				"weightPercent": 1.49,
+				"estimated": true
+			},
+			{
+				"name": "Belgium",
+				"nameLt": "Belgija",
+				"code": "BE",
+				"companies": 9,
+				"weightPercent": 1.32,
+				"estimated": true
+			},
+			{
+				"name": "Norway",
+				"nameLt": "Norvegija",
+				"code": "NO",
+				"companies": 8,
+				"weightPercent": 1.03,
+				"estimated": true
+			},
+			{
+				"name": "Ireland",
+				"nameLt": "Airija",
+				"code": "IE",
+				"companies": 4,
+				"weightPercent": 0.88,
+				"estimated": true
+			},
+			{
+				"name": "Austria",
+				"nameLt": "Austrija",
+				"code": "AT",
+				"companies": 3,
+				"weightPercent": 0.45,
+				"estimated": true
+			},
+			{
+				"name": "Portugal",
+				"nameLt": "Portugalija",
+				"code": "PT",
+				"companies": 3,
+				"weightPercent": 0.3,
+				"estimated": true
+			},
+			{
+				"name": "Other countries",
+				"nameLt": "Kitos šalys",
+				"code": null,
+				"companies": 3,
+				"weightPercent": 1.1,
+				"estimated": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 364,
+			"currency": "EUR",
+			"label": "€364M",
+			"asOf": "2026-06",
+			"sourceName": "justETF",
+			"estimated": false
+		},
+		"topHoldings": [
+			{
+				"name": "ASML Holding NV",
+				"ticker": "ASML",
+				"countryCode": "NL",
+				"weightPercent": 4.86,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "NL0010273215"
+			},
+			{
+				"name": "HSBC Holdings Plc",
+				"ticker": "HSBA",
+				"countryCode": "GB",
+				"weightPercent": 2.74,
+				"estimated": false,
+				"sector": "Financials",
+				"isin": "GB0005405286"
+			},
+			{
+				"name": "Roche Holding AG",
+				"ticker": "ROG",
+				"countryCode": "CH",
+				"weightPercent": 2.42,
+				"estimated": false,
+				"sector": "Health Care",
+				"isin": "CH0012032048"
+			},
+			{
+				"name": "Novartis AG",
+				"ticker": "NOVN",
+				"countryCode": "CH",
+				"weightPercent": 2.32,
+				"estimated": false,
+				"sector": "Health Care",
+				"isin": "CH0012005267"
+			},
+			{
+				"name": "AstraZeneca PLC",
+				"ticker": "AZN",
+				"countryCode": "GB",
+				"weightPercent": 2.19,
+				"estimated": false,
+				"sector": "Health Care",
+				"isin": "GB0009895292"
+			},
+			{
+				"name": "Nestlé SA",
+				"ticker": "NESN",
+				"countryCode": "CH",
+				"weightPercent": 2.08,
+				"estimated": false,
+				"sector": "Consumer Staples",
+				"isin": "CH0038863350"
+			},
+			{
+				"name": "SAP SE",
+				"ticker": "SAP",
+				"countryCode": "DE",
+				"weightPercent": 1.95,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "DE0007164600"
+			},
+			{
+				"name": "Shell Plc",
+				"ticker": "SHEL",
+				"countryCode": "GB",
+				"weightPercent": 1.89,
+				"estimated": false,
+				"sector": "Energy",
+				"isin": "GB00BP6MXD84"
+			},
+			{
+				"name": "Siemens AG",
+				"ticker": "SIE",
+				"countryCode": "DE",
+				"weightPercent": 1.76,
+				"estimated": false,
+				"sector": "Industrials",
+				"isin": "DE0007236101"
+			},
+			{
+				"name": "Novo Nordisk A/S",
+				"ticker": "NOVO B",
+				"countryCode": "DK",
+				"weightPercent": 1.59,
+				"estimated": false,
+				"sector": "Health Care",
+				"isin": "DK0062498333"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 23.8,
+		"notes": "New accumulating share class; country/company split estimated from MSCI Europe exposure.",
+		"assetClass": "Equity",
+		"equityExposurePercent": 100,
+		"ucits": true,
+		"issuer": "UBS",
+		"indexName": "MSCI Europe",
+		"region": "Europe",
+		"marketType": "Developed",
+		"hedgedToEur": false,
+		"fundCurrency": "EUR",
+		"primaryEurListing": {
+			"exchange": "XETRA",
+			"ticker": "CHSU"
+		},
+		"replication": {
+			"type": "Physical",
+			"usesSwap": false,
+			"estimated": true
+		},
+		"maxCountryCode": "GB",
+		"maxCountryWeightPercent": 22.3,
+		"sectorWeights": [
+			{
+				"name": "Health Care",
+				"weightPercent": 8.52,
+				"estimated": true
+			},
+			{
+				"name": "Information Technology",
+				"weightPercent": 6.81,
+				"estimated": true
+			},
+			{
+				"name": "Financials",
+				"weightPercent": 2.74,
+				"estimated": true
+			},
+			{
+				"name": "Consumer Staples",
+				"weightPercent": 2.08,
+				"estimated": true
+			},
+			{
+				"name": "Energy",
+				"weightPercent": 1.89,
+				"estimated": true
+			},
+			{
+				"name": "Industrials",
+				"weightPercent": 1.76,
+				"estimated": true
+			}
+		],
+		"topSectorName": "Health Care",
+		"topSectorWeightPercent": 8.52
+	},
+	{
+		"id": "uima",
+		"ticker": "UIMA",
+		"name": "UBS Core MSCI Europe UCITS ETF EUR Dis",
+		"terPercent": 0.06,
+		"totalCompanies": 413,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Dist",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "UIMA"
+			},
+			{
+				"exchange": "gettex",
+				"ticker": "UIMA"
+			},
+			{
+				"exchange": "Borsa Italiana",
+				"ticker": "UIMA"
+			}
+		],
+		"countries": [
+			{
+				"name": "United Kingdom",
+				"nameLt": "Jungtinė Karalystė",
+				"code": "GB",
+				"companies": 78,
+				"weightPercent": 22.3,
+				"estimated": true
+			},
+			{
+				"name": "France",
+				"nameLt": "Prancūzija",
+				"code": "FR",
+				"companies": 70,
+				"weightPercent": 17.85,
+				"estimated": true
+			},
+			{
+				"name": "Switzerland",
+				"nameLt": "Šveicarija",
+				"code": "CH",
+				"companies": 48,
+				"weightPercent": 14.96,
+				"estimated": true
+			},
+			{
+				"name": "Germany",
+				"nameLt": "Vokietija",
+				"code": "DE",
+				"companies": 57,
+				"weightPercent": 13.72,
+				"estimated": true
+			},
+			{
+				"name": "Netherlands",
+				"nameLt": "Nyderlandai",
+				"code": "NL",
+				"companies": 28,
+				"weightPercent": 8.16,
+				"estimated": true
+			},
+			{
+				"name": "Denmark",
+				"nameLt": "Danija",
+				"code": "DK",
+				"companies": 15,
+				"weightPercent": 4.45,
+				"estimated": true
+			},
+			{
+				"name": "Spain",
+				"nameLt": "Ispanija",
+				"code": "ES",
+				"companies": 18,
+				"weightPercent": 4.13,
+				"estimated": true
+			},
+			{
+				"name": "Italy",
+				"nameLt": "Italija",
+				"code": "IT",
+				"companies": 24,
+				"weightPercent": 4.02,
+				"estimated": true
+			},
+			{
+				"name": "Sweden",
+				"nameLt": "Švedija",
+				"code": "SE",
+				"companies": 34,
+				"weightPercent": 3.84,
+				"estimated": true
+			},
+			{
+				"name": "Finland",
+				"nameLt": "Suomija",
+				"code": "FI",
+				"companies": 11,
+				"weightPercent": 1.49,
+				"estimated": true
+			},
+			{
+				"name": "Belgium",
+				"nameLt": "Belgija",
+				"code": "BE",
+				"companies": 9,
+				"weightPercent": 1.32,
+				"estimated": true
+			},
+			{
+				"name": "Norway",
+				"nameLt": "Norvegija",
+				"code": "NO",
+				"companies": 8,
+				"weightPercent": 1.03,
+				"estimated": true
+			},
+			{
+				"name": "Ireland",
+				"nameLt": "Airija",
+				"code": "IE",
+				"companies": 4,
+				"weightPercent": 0.88,
+				"estimated": true
+			},
+			{
+				"name": "Austria",
+				"nameLt": "Austrija",
+				"code": "AT",
+				"companies": 3,
+				"weightPercent": 0.45,
+				"estimated": true
+			},
+			{
+				"name": "Portugal",
+				"nameLt": "Portugalija",
+				"code": "PT",
+				"companies": 3,
+				"weightPercent": 0.3,
+				"estimated": true
+			},
+			{
+				"name": "Other countries",
+				"nameLt": "Kitos šalys",
+				"code": null,
+				"companies": 3,
+				"weightPercent": 1.1,
+				"estimated": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 1332,
+			"currency": "EUR",
+			"label": "€1 332M",
+			"asOf": "2026-06",
+			"sourceName": "justETF",
+			"estimated": false
+		},
+		"topHoldings": [
+			{
+				"name": "ASML Holding NV",
+				"ticker": "ASML",
+				"countryCode": "NL",
+				"weightPercent": 4.86,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "NL0010273215"
+			},
+			{
+				"name": "HSBC Holdings Plc",
+				"ticker": "HSBA",
+				"countryCode": "GB",
+				"weightPercent": 2.74,
+				"estimated": false,
+				"sector": "Financials",
+				"isin": "GB0005405286"
+			},
+			{
+				"name": "Roche Holding AG",
+				"ticker": "ROG",
+				"countryCode": "CH",
+				"weightPercent": 2.42,
+				"estimated": false,
+				"sector": "Health Care",
+				"isin": "CH0012032048"
+			},
+			{
+				"name": "Novartis AG",
+				"ticker": "NOVN",
+				"countryCode": "CH",
+				"weightPercent": 2.32,
+				"estimated": false,
+				"sector": "Health Care",
+				"isin": "CH0012005267"
+			},
+			{
+				"name": "AstraZeneca PLC",
+				"ticker": "AZN",
+				"countryCode": "GB",
+				"weightPercent": 2.19,
+				"estimated": false,
+				"sector": "Health Care",
+				"isin": "GB0009895292"
+			},
+			{
+				"name": "Nestlé SA",
+				"ticker": "NESN",
+				"countryCode": "CH",
+				"weightPercent": 2.08,
+				"estimated": false,
+				"sector": "Consumer Staples",
+				"isin": "CH0038863350"
+			},
+			{
+				"name": "SAP SE",
+				"ticker": "SAP",
+				"countryCode": "DE",
+				"weightPercent": 1.95,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "DE0007164600"
+			},
+			{
+				"name": "Shell Plc",
+				"ticker": "SHEL",
+				"countryCode": "GB",
+				"weightPercent": 1.89,
+				"estimated": false,
+				"sector": "Energy",
+				"isin": "GB00BP6MXD84"
+			},
+			{
+				"name": "Siemens AG",
+				"ticker": "SIE",
+				"countryCode": "DE",
+				"weightPercent": 1.76,
+				"estimated": false,
+				"sector": "Industrials",
+				"isin": "DE0007236101"
+			},
+			{
+				"name": "Novo Nordisk A/S",
+				"ticker": "NOVO B",
+				"countryCode": "DK",
+				"weightPercent": 1.59,
+				"estimated": false,
+				"sector": "Health Care",
+				"isin": "DK0062498333"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 23.8,
+		"notes": "Country/company split estimated from MSCI Europe exposure.",
+		"assetClass": "Equity",
+		"equityExposurePercent": 100,
+		"ucits": true,
+		"issuer": "UBS",
+		"indexName": "MSCI Europe",
+		"region": "Europe",
+		"marketType": "Developed",
+		"hedgedToEur": false,
+		"fundCurrency": "EUR",
+		"primaryEurListing": {
+			"exchange": "XETRA",
+			"ticker": "UIMA"
+		},
+		"replication": {
+			"type": "Physical",
+			"usesSwap": false,
+			"estimated": true
+		},
+		"maxCountryCode": "GB",
+		"maxCountryWeightPercent": 22.3,
+		"sectorWeights": [
+			{
+				"name": "Health Care",
+				"weightPercent": 8.52,
+				"estimated": true
+			},
+			{
+				"name": "Information Technology",
+				"weightPercent": 6.81,
+				"estimated": true
+			},
+			{
+				"name": "Financials",
+				"weightPercent": 2.74,
+				"estimated": true
+			},
+			{
+				"name": "Consumer Staples",
+				"weightPercent": 2.08,
+				"estimated": true
+			},
+			{
+				"name": "Energy",
+				"weightPercent": 1.89,
+				"estimated": true
+			},
+			{
+				"name": "Industrials",
+				"weightPercent": 1.76,
+				"estimated": true
+			}
+		],
+		"topSectorName": "Health Care",
+		"topSectorWeightPercent": 8.52
+	},
+	{
+		"id": "uim1",
+		"ticker": "UIM1",
+		"name": "UBS Core EURO STOXX 50 UCITS ETF EUR Dis",
+		"terPercent": 0.06,
+		"totalCompanies": 50,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Dist",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "UIM1"
+			},
+			{
+				"exchange": "gettex",
+				"ticker": "UIM1"
+			},
+			{
+				"exchange": "Borsa Italiana",
+				"ticker": "UIM1"
+			}
+		],
+		"countries": [
+			{
+				"name": "France",
+				"nameLt": "Prancūzija",
+				"code": "FR",
+				"companies": 18,
+				"weightPercent": 36.4,
+				"estimated": true
+			},
+			{
+				"name": "Germany",
+				"nameLt": "Vokietija",
+				"code": "DE",
+				"companies": 15,
+				"weightPercent": 26.75,
+				"estimated": true
+			},
+			{
+				"name": "Netherlands",
+				"nameLt": "Nyderlandai",
+				"code": "NL",
+				"companies": 5,
+				"weightPercent": 14.85,
+				"estimated": true
+			},
+			{
+				"name": "Spain",
+				"nameLt": "Ispanija",
+				"code": "ES",
+				"companies": 5,
+				"weightPercent": 8.24,
+				"estimated": true
+			},
+			{
+				"name": "Italy",
+				"nameLt": "Italija",
+				"code": "IT",
+				"companies": 4,
+				"weightPercent": 7.11,
+				"estimated": true
+			},
+			{
+				"name": "Finland",
+				"nameLt": "Suomija",
+				"code": "FI",
+				"companies": 1,
+				"weightPercent": 2.52,
+				"estimated": true
+			},
+			{
+				"name": "Belgium",
+				"nameLt": "Belgija",
+				"code": "BE",
+				"companies": 1,
+				"weightPercent": 2.15,
+				"estimated": true
+			},
+			{
+				"name": "Ireland",
+				"nameLt": "Airija",
+				"code": "IE",
+				"companies": 1,
+				"weightPercent": 1.98,
+				"estimated": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 766,
+			"currency": "EUR",
+			"label": "€766M",
+			"asOf": "2026-06",
+			"sourceName": "justETF",
+			"estimated": false
+		},
+		"topHoldings": [
+			{
+				"name": "ASML Holding NV",
+				"ticker": "ASML",
+				"countryCode": "NL",
+				"weightPercent": 12.83,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "NL0010273215"
+			},
+			{
+				"name": "SAP SE",
+				"ticker": "SAP",
+				"countryCode": "DE",
+				"weightPercent": 5.85,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "DE0007164600"
+			},
+			{
+				"name": "Siemens AG",
+				"ticker": "SIE",
+				"countryCode": "DE",
+				"weightPercent": 4.45,
+				"estimated": false,
+				"sector": "Industrials",
+				"isin": "DE0007236101"
+			},
+			{
+				"name": "Allianz SE",
+				"ticker": "ALV",
+				"countryCode": "DE",
+				"weightPercent": 4.05,
+				"estimated": false,
+				"sector": "Financials",
+				"isin": "DE0008404005"
+			},
+			{
+				"name": "Schneider Electric SE",
+				"ticker": "SU",
+				"countryCode": "FR",
+				"weightPercent": 3.74,
+				"estimated": false,
+				"sector": "Industrials",
+				"isin": "FR0000121972"
+			},
+			{
+				"name": "LVMH Moët Hennessy Louis Vuitton SE",
+				"ticker": "MC",
+				"countryCode": "FR",
+				"weightPercent": 3.56,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "FR0000121014"
+			},
+			{
+				"name": "Banco Santander SA",
+				"ticker": "SAN",
+				"countryCode": "ES",
+				"weightPercent": 3.32,
+				"estimated": false,
+				"sector": "Financials",
+				"isin": "ES0113900J37"
+			},
+			{
+				"name": "Airbus SE",
+				"ticker": "AIR",
+				"countryCode": "NL",
+				"weightPercent": 3.14,
+				"estimated": false,
+				"sector": "Industrials",
+				"isin": "NL0000235190"
+			},
+			{
+				"name": "TotalEnergies SE",
+				"ticker": "TTE",
+				"countryCode": "FR",
+				"weightPercent": 3.02,
+				"estimated": false,
+				"sector": "Energy",
+				"isin": "FR0000120271"
+			},
+			{
+				"name": "Deutsche Telekom AG",
+				"ticker": "DTE",
+				"countryCode": "DE",
+				"weightPercent": 2.84,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "DE0005557508"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 46.8,
+		"notes": "EURO STOXX 50 country weights are estimated; ASML top weight cross-checked with Swiss Fund Data.",
+		"assetClass": "Equity",
+		"equityExposurePercent": 100,
+		"ucits": true,
+		"issuer": "UBS",
+		"indexName": "EURO STOXX 50",
+		"region": "Europe",
+		"marketType": "Developed",
+		"hedgedToEur": false,
+		"fundCurrency": "EUR",
+		"primaryEurListing": {
+			"exchange": "XETRA",
+			"ticker": "UIM1"
+		},
+		"replication": {
+			"type": "Physical",
+			"usesSwap": false,
+			"estimated": true
+		},
+		"maxCountryCode": "FR",
+		"maxCountryWeightPercent": 36.4,
+		"sectorWeights": [
+			{
+				"name": "Information Technology",
+				"weightPercent": 18.68,
+				"estimated": true
+			},
+			{
+				"name": "Industrials",
+				"weightPercent": 11.33,
+				"estimated": true
+			},
+			{
+				"name": "Financials",
+				"weightPercent": 7.37,
+				"estimated": true
+			},
+			{
+				"name": "Consumer Discretionary",
+				"weightPercent": 3.56,
+				"estimated": true
+			},
+			{
+				"name": "Energy",
+				"weightPercent": 3.02,
+				"estimated": true
+			},
+			{
+				"name": "Communication Services",
+				"weightPercent": 2.84,
+				"estimated": true
+			}
+		],
+		"topSectorName": "Information Technology",
+		"topSectorWeightPercent": 18.68
+	},
+	{
+		"id": "ueqd",
+		"ticker": "UEQD",
+		"name": "UBS Core S&P 500 UCITS ETF hEUR Acc",
+		"terPercent": 0.06,
+		"totalCompanies": 504,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Acc",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "UEQD"
+			},
+			{
+				"exchange": "gettex",
+				"ticker": "UEQD"
+			}
+		],
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 504,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 194,
+			"currency": "EUR",
+			"label": "€194M",
+			"asOf": "2026-06",
+			"sourceName": "justETF",
+			"estimated": false
+		},
+		"topHoldings": [
+			{
+				"name": "NVIDIA Corp.",
+				"ticker": "NVDA",
+				"countryCode": "US",
+				"weightPercent": 7.88,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US67066G1040"
+			},
+			{
+				"name": "Apple Inc.",
+				"ticker": "AAPL",
+				"countryCode": "US",
+				"weightPercent": 7.04,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US0378331005"
+			},
+			{
+				"name": "Microsoft Corp.",
+				"ticker": "MSFT",
+				"countryCode": "US",
+				"weightPercent": 5.14,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US5949181045"
+			},
+			{
+				"name": "Amazon.com Inc.",
+				"ticker": "AMZN",
+				"countryCode": "US",
+				"weightPercent": 4.06,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US0231351067"
+			},
+			{
+				"name": "Alphabet Inc. Class A",
+				"ticker": "GOOGL",
+				"countryCode": "US",
+				"weightPercent": 3.4,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K3059"
+			},
+			{
+				"name": "Broadcom Inc.",
+				"ticker": "AVGO",
+				"countryCode": "US",
+				"weightPercent": 3.25,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US11135F1012"
+			},
+			{
+				"name": "Alphabet Inc. Class C",
+				"ticker": "GOOG",
+				"countryCode": "US",
+				"weightPercent": 2.7,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K1079"
+			},
+			{
+				"name": "Meta Platforms Inc.",
+				"ticker": "META",
+				"countryCode": "US",
+				"weightPercent": 2.13,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US30303M1027"
+			},
+			{
+				"name": "Tesla Inc.",
+				"ticker": "TSLA",
+				"countryCode": "US",
+				"weightPercent": 1.88,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US88160R1014"
+			},
+			{
+				"name": "Micron Technology Inc.",
+				"ticker": "MU",
+				"countryCode": "US",
+				"weightPercent": 1.68,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US5951121038"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 39.16,
+		"notes": "EUR hedged share class; holdings shown as S&P 500 index exposure.",
+		"assetClass": "Equity",
+		"equityExposurePercent": 100,
+		"ucits": true,
+		"issuer": "UBS",
+		"indexName": "S&P 500",
+		"region": "USA",
+		"marketType": "Developed",
+		"hedgedToEur": true,
+		"fundCurrency": "USD",
+		"primaryEurListing": {
+			"exchange": "XETRA",
+			"ticker": "UEQD"
+		},
+		"replication": {
+			"type": "Physical",
+			"usesSwap": false,
+			"estimated": true
+		},
+		"maxCountryCode": "US",
+		"maxCountryWeightPercent": 100.0,
+		"sectorWeights": [
+			{
+				"name": "Information Technology",
+				"weightPercent": 24.99,
+				"estimated": true
+			},
+			{
+				"name": "Communication Services",
+				"weightPercent": 8.23,
+				"estimated": true
+			},
+			{
+				"name": "Consumer Discretionary",
+				"weightPercent": 5.94,
+				"estimated": true
+			}
+		],
+		"topSectorName": "Information Technology",
+		"topSectorWeightPercent": 24.99
+	},
+	{
+		"id": "eeag",
+		"ticker": "EEAG",
+		"name": "BNP Paribas Easy MSCI EMU UCITS ETF Acc",
+		"terPercent": 0.06,
+		"totalCompanies": 215,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Acc",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "EEAG"
+			},
+			{
+				"exchange": "Euronext Paris",
+				"ticker": "EEAG"
+			}
+		],
+		"countries": [
+			{
+				"name": "France",
+				"nameLt": "Prancūzija",
+				"code": "FR",
+				"companies": 70,
+				"weightPercent": 34.8,
+				"estimated": true
+			},
+			{
+				"name": "Germany",
+				"nameLt": "Vokietija",
+				"code": "DE",
+				"companies": 53,
+				"weightPercent": 25.7,
+				"estimated": true
+			},
+			{
+				"name": "Netherlands",
+				"nameLt": "Nyderlandai",
+				"code": "NL",
+				"companies": 24,
+				"weightPercent": 12.9,
+				"estimated": true
+			},
+			{
+				"name": "Spain",
+				"nameLt": "Ispanija",
+				"code": "ES",
+				"companies": 19,
+				"weightPercent": 8.4,
+				"estimated": true
+			},
+			{
+				"name": "Italy",
+				"nameLt": "Italija",
+				"code": "IT",
+				"companies": 22,
+				"weightPercent": 7.6,
+				"estimated": true
+			},
+			{
+				"name": "Finland",
+				"nameLt": "Suomija",
+				"code": "FI",
+				"companies": 8,
+				"weightPercent": 3.0,
+				"estimated": true
+			},
+			{
+				"name": "Belgium",
+				"nameLt": "Belgija",
+				"code": "BE",
+				"companies": 8,
+				"weightPercent": 2.6,
+				"estimated": true
+			},
+			{
+				"name": "Ireland",
+				"nameLt": "Airija",
+				"code": "IE",
+				"companies": 5,
+				"weightPercent": 2.4,
+				"estimated": true
+			},
+			{
+				"name": "Austria",
+				"nameLt": "Austrija",
+				"code": "AT",
+				"companies": 4,
+				"weightPercent": 1.4,
+				"estimated": true
+			},
+			{
+				"name": "Portugal",
+				"nameLt": "Portugalija",
+				"code": "PT",
+				"companies": 2,
+				"weightPercent": 1.2,
+				"estimated": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 43,
+			"currency": "EUR",
+			"label": "€43M",
+			"asOf": "2026-06",
+			"sourceName": "justETF",
+			"estimated": false
+		},
+		"topHoldings": [
+			{
+				"name": "ASML Holding NV",
+				"ticker": "ASML",
+				"countryCode": "NL",
+				"weightPercent": 9.1,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "NL0010273215"
+			},
+			{
+				"name": "SAP SE",
+				"ticker": "SAP",
+				"countryCode": "DE",
+				"weightPercent": 5.95,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "DE0007164600"
+			},
+			{
+				"name": "Siemens AG",
+				"ticker": "SIE",
+				"countryCode": "DE",
+				"weightPercent": 4.51,
+				"estimated": false,
+				"sector": "Industrials",
+				"isin": "DE0007236101"
+			},
+			{
+				"name": "Allianz SE",
+				"ticker": "ALV",
+				"countryCode": "DE",
+				"weightPercent": 4.12,
+				"estimated": false,
+				"sector": "Financials",
+				"isin": "DE0008404005"
+			},
+			{
+				"name": "Schneider Electric SE",
+				"ticker": "SU",
+				"countryCode": "FR",
+				"weightPercent": 3.88,
+				"estimated": false,
+				"sector": "Industrials",
+				"isin": "FR0000121972"
+			},
+			{
+				"name": "LVMH Moët Hennessy Louis Vuitton SE",
+				"ticker": "MC",
+				"countryCode": "FR",
+				"weightPercent": 3.63,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "FR0000121014"
+			},
+			{
+				"name": "Banco Santander SA",
+				"ticker": "SAN",
+				"countryCode": "ES",
+				"weightPercent": 3.47,
+				"estimated": false,
+				"sector": "Financials",
+				"isin": "ES0113900J37"
+			},
+			{
+				"name": "Airbus SE",
+				"ticker": "AIR",
+				"countryCode": "NL",
+				"weightPercent": 3.19,
+				"estimated": false,
+				"sector": "Industrials",
+				"isin": "NL0000235190"
+			},
+			{
+				"name": "TotalEnergies SE",
+				"ticker": "TTE",
+				"countryCode": "FR",
+				"weightPercent": 3.11,
+				"estimated": false,
+				"sector": "Energy",
+				"isin": "FR0000120271"
+			},
+			{
+				"name": "Deutsche Telekom AG",
+				"ticker": "DTE",
+				"countryCode": "DE",
+				"weightPercent": 2.94,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "DE0005557508"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 43.9,
+		"notes": "Small/new fund; country/company split estimated from MSCI EMU exposure.",
+		"assetClass": "Equity",
+		"equityExposurePercent": 100,
+		"ucits": true,
+		"issuer": "BNP Paribas",
+		"indexName": "MSCI EMU",
+		"region": "Europe",
+		"marketType": "Developed",
+		"hedgedToEur": false,
+		"fundCurrency": "EUR",
+		"primaryEurListing": {
+			"exchange": "XETRA",
+			"ticker": "EEAG"
+		},
+		"replication": {
+			"type": "Physical",
+			"usesSwap": false,
+			"estimated": true
+		},
+		"maxCountryCode": "FR",
+		"maxCountryWeightPercent": 34.8,
+		"sectorWeights": [
+			{
+				"name": "Information Technology",
+				"weightPercent": 15.05,
+				"estimated": true
+			},
+			{
+				"name": "Industrials",
+				"weightPercent": 11.58,
+				"estimated": true
+			},
+			{
+				"name": "Financials",
+				"weightPercent": 7.59,
+				"estimated": true
+			},
+			{
+				"name": "Consumer Discretionary",
+				"weightPercent": 3.63,
+				"estimated": true
+			},
+			{
+				"name": "Energy",
+				"weightPercent": 3.11,
+				"estimated": true
+			},
+			{
+				"name": "Communication Services",
+				"weightPercent": 2.94,
+				"estimated": true
+			}
+		],
+		"topSectorName": "Information Technology",
+		"topSectorWeightPercent": 15.05
+	}
+]

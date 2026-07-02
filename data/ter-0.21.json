@@ -1,0 +1,2141 @@
+[
+	{
+		"id": "acwe",
+		"ticker": "ACWE",
+		"isin": "IE00BYM11K57",
+		"name": "UBS MSCI ACWI SF UCITS ETF hEUR acc",
+		"terPercent": 0.21,
+		"terBucket": "0.21",
+		"totalCompanies": 2379,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Acc",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "ACWE"
+			},
+			{
+				"exchange": "gettex",
+				"ticker": "ACWE"
+			}
+		],
+		"assetClass": "Equity",
+		"equityExposurePercent": 100,
+		"ucits": true,
+		"issuer": "UBS",
+		"indexName": "MSCI ACWI EUR Hedged",
+		"region": "World",
+		"marketType": "Developed + Emerging",
+		"hedgedToEur": true,
+		"fundCurrency": "EUR",
+		"primaryEurListing": {
+			"exchange": "XETRA",
+			"ticker": "ACWE"
+		},
+		"replication": {
+			"type": "Synthetic",
+			"usesSwap": true,
+			"estimated": false
+		},
+		"maxCountryCode": "US",
+		"maxCountryWeightPercent": 63.68,
+		"sectorWeights": [
+			{
+				"name": "Information Technology",
+				"weightPercent": 15.2,
+				"estimated": true
+			},
+			{
+				"name": "Consumer Discretionary",
+				"weightPercent": 3.8,
+				"estimated": true
+			},
+			{
+				"name": "Communication Services",
+				"weightPercent": 3.6,
+				"estimated": true
+			},
+			{
+				"name": "Financials",
+				"weightPercent": 0.9,
+				"estimated": true
+			}
+		],
+		"topSectorName": "Information Technology",
+		"topSectorWeightPercent": 15.2,
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 528,
+				"weightPercent": 63.68,
+				"estimated": true,
+				"continent": "North America",
+				"continentLt": "Šiaurės Amerika",
+				"subRegion": "Northern America",
+				"subRegionLt": "Šiaurės Amerika",
+				"marketType": "Developed",
+				"currency": "USD",
+				"currencyName": "US dollar",
+				"currencyNameLt": "JAV doleris",
+				"euMember": false,
+				"countryWeightRank": 1,
+				"isTopCountry": true
+			},
+			{
+				"name": "Japan",
+				"nameLt": "Japonija",
+				"code": "JP",
+				"companies": 168,
+				"weightPercent": 5.03,
+				"estimated": true,
+				"continent": "Asia",
+				"continentLt": "Azija",
+				"subRegion": "Eastern Asia",
+				"subRegionLt": "Rytų Azija",
+				"marketType": "Developed",
+				"currency": "JPY",
+				"currencyName": "Japanese yen",
+				"currencyNameLt": "Japonijos jena",
+				"euMember": false,
+				"countryWeightRank": 2,
+				"isTopCountry": false
+			},
+			{
+				"name": "Taiwan",
+				"nameLt": "Taivanas",
+				"code": "TW",
+				"companies": 77,
+				"weightPercent": 3.23,
+				"estimated": true,
+				"continent": "Asia",
+				"continentLt": "Azija",
+				"subRegion": "Eastern Asia",
+				"subRegionLt": "Rytų Azija",
+				"marketType": "Emerging",
+				"currency": "TWD",
+				"currencyName": "New Taiwan dollar",
+				"currencyNameLt": "Naujasis Taivano doleris",
+				"euMember": false,
+				"countryWeightRank": 3,
+				"isTopCountry": false
+			},
+			{
+				"name": "United Kingdom",
+				"nameLt": "Jungtinė Karalystė",
+				"code": "GB",
+				"companies": 67,
+				"weightPercent": 3.1,
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Northern Europe",
+				"subRegionLt": "Šiaurės Europa",
+				"marketType": "Developed",
+				"currency": "GBP",
+				"currencyName": "Pound sterling",
+				"currencyNameLt": "Svaras sterlingų",
+				"euMember": false,
+				"countryWeightRank": 4,
+				"isTopCountry": false
+			},
+			{
+				"name": "Canada",
+				"nameLt": "Kanada",
+				"code": "CA",
+				"companies": 83,
+				"weightPercent": 2.98,
+				"estimated": true,
+				"continent": "North America",
+				"continentLt": "Šiaurės Amerika",
+				"subRegion": "Northern America",
+				"subRegionLt": "Šiaurės Amerika",
+				"marketType": "Developed",
+				"currency": "CAD",
+				"currencyName": "Canadian dollar",
+				"currencyNameLt": "Kanados doleris",
+				"euMember": false,
+				"countryWeightRank": 5,
+				"isTopCountry": false
+			},
+			{
+				"name": "South Korea",
+				"nameLt": "Pietų Korėja",
+				"code": "KR",
+				"companies": 92,
+				"weightPercent": 1.78,
+				"estimated": true,
+				"continent": "Asia",
+				"continentLt": "Azija",
+				"subRegion": "Eastern Asia",
+				"subRegionLt": "Rytų Azija",
+				"marketType": "Emerging",
+				"currency": "KRW",
+				"currencyName": "South Korean won",
+				"currencyNameLt": "Pietų Korėjos vonas",
+				"euMember": false,
+				"countryWeightRank": 6,
+				"isTopCountry": false
+			},
+			{
+				"name": "France",
+				"nameLt": "Prancūzija",
+				"code": "FR",
+				"companies": 70,
+				"weightPercent": 2.51,
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Western Europe",
+				"subRegionLt": "Vakarų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 7,
+				"isTopCountry": false
+			},
+			{
+				"name": "Other countries",
+				"nameLt": "Kitos šalys",
+				"code": null,
+				"companies": 1294,
+				"weightPercent": 17.69,
+				"estimated": true,
+				"continent": "Other/Mixed",
+				"continentLt": "Kita / mišru",
+				"subRegion": "Other/Mixed",
+				"subRegionLt": "Kita / mišru",
+				"marketType": "Mixed",
+				"currency": "Mixed",
+				"currencyName": "Mixed currencies",
+				"currencyNameLt": "Mišrios valiutos",
+				"euMember": false,
+				"countryWeightRank": 8,
+				"isTopCountry": false
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 1707,
+			"currency": "EUR",
+			"label": "€1 707M",
+			"asOf": "2026-07-02",
+			"sourceName": "justETF / issuer",
+			"estimated": false
+		},
+		"topHoldings": [
+			{
+				"name": "NVIDIA Corp.",
+				"ticker": "NVDA",
+				"countryCode": "US",
+				"weightPercent": 4.9,
+				"estimated": true,
+				"sector": "Information Technology",
+				"isin": "US67066G1040"
+			},
+			{
+				"name": "Apple Inc.",
+				"ticker": "AAPL",
+				"countryCode": "US",
+				"weightPercent": 4.4,
+				"estimated": true,
+				"sector": "Information Technology",
+				"isin": "US0378331005"
+			},
+			{
+				"name": "Microsoft Corp.",
+				"ticker": "MSFT",
+				"countryCode": "US",
+				"weightPercent": 3.0,
+				"estimated": true,
+				"sector": "Information Technology",
+				"isin": "US5949181045"
+			},
+			{
+				"name": "Amazon.com Inc.",
+				"ticker": "AMZN",
+				"countryCode": "US",
+				"weightPercent": 2.5,
+				"estimated": true,
+				"sector": "Consumer Discretionary",
+				"isin": "US0231351067"
+			},
+			{
+				"name": "Alphabet Inc. Class A",
+				"ticker": "GOOGL",
+				"countryCode": "US",
+				"weightPercent": 2.2,
+				"estimated": true,
+				"sector": "Communication Services",
+				"isin": "US02079K3059"
+			},
+			{
+				"name": "Broadcom Inc.",
+				"ticker": "AVGO",
+				"countryCode": "US",
+				"weightPercent": 1.9,
+				"estimated": true,
+				"sector": "Information Technology",
+				"isin": "US11135F1012"
+			},
+			{
+				"name": "Meta Platforms Inc.",
+				"ticker": "META",
+				"countryCode": "US",
+				"weightPercent": 1.4,
+				"estimated": true,
+				"sector": "Communication Services",
+				"isin": "US30303M1027"
+			},
+			{
+				"name": "Tesla Inc.",
+				"ticker": "TSLA",
+				"countryCode": "US",
+				"weightPercent": 1.3,
+				"estimated": true,
+				"sector": "Consumer Discretionary",
+				"isin": "US88160R1014"
+			},
+			{
+				"name": "Taiwan Semiconductor Manufacturing Co.",
+				"ticker": "2330",
+				"countryCode": "TW",
+				"weightPercent": 1.0,
+				"estimated": true,
+				"sector": "Information Technology",
+				"isin": "TW0002330008"
+			},
+			{
+				"name": "JPMorgan Chase & Co.",
+				"ticker": "JPM",
+				"countryCode": "US",
+				"weightPercent": 0.9,
+				"estimated": true,
+				"sector": "Financials",
+				"isin": "US46625H1005"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 23.5,
+		"sourceUrls": [
+			"https://www.justetf.com/en/etf-profile.html?isin=IE00BYM11K57"
+		],
+		"notes": "Directly checked: 0.21 TER, MSCI ACWI EUR hedged, synthetic swap. Countries/top holdings represent index exposure.",
+		"continentWeights": [
+			{
+				"name": "North America",
+				"nameLt": "Šiaurės Amerika",
+				"companies": 611,
+				"weightPercent": 66.66,
+				"estimated": true
+			},
+			{
+				"name": "Other/Mixed",
+				"nameLt": "Kita / mišru",
+				"companies": 1294,
+				"weightPercent": 17.69,
+				"estimated": true
+			},
+			{
+				"name": "Asia",
+				"nameLt": "Azija",
+				"companies": 337,
+				"weightPercent": 10.04,
+				"estimated": true
+			},
+			{
+				"name": "Europe",
+				"nameLt": "Europa",
+				"companies": 137,
+				"weightPercent": 5.61,
+				"estimated": true
+			}
+		],
+		"marketTypeWeights": [
+			{
+				"name": "Developed",
+				"companies": 916,
+				"weightPercent": 77.3,
+				"estimated": true
+			},
+			{
+				"name": "Mixed",
+				"companies": 1294,
+				"weightPercent": 17.69,
+				"estimated": true
+			},
+			{
+				"name": "Emerging",
+				"companies": 169,
+				"weightPercent": 5.01,
+				"estimated": true
+			}
+		],
+		"countryCount": 8,
+		"continentCount": 4,
+		"strategyType": "Broad market",
+		"strategyTags": [
+			"Broad market",
+			"Hedged",
+			"Synthetic"
+		],
+		"dataQuality": "estimated",
+		"dataQualityDetails": {
+			"countriesEstimated": true,
+			"topHoldingsEstimated": true,
+			"fundCapitalKnown": true,
+			"replicationEstimated": false
+		}
+	},
+	{
+		"id": "acwukd",
+		"ticker": "ACWUKD",
+		"isin": "IE00BJXFZ989",
+		"name": "UBS MSCI ACWI SF UCITS ETF USD Ukdis",
+		"terPercent": 0.21,
+		"terBucket": "0.21",
+		"totalCompanies": 2379,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Dist",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "ACWUKD"
+			},
+			{
+				"exchange": "gettex",
+				"ticker": "ACWUKD"
+			}
+		],
+		"assetClass": "Equity",
+		"equityExposurePercent": 100,
+		"ucits": true,
+		"issuer": "UBS",
+		"indexName": "MSCI ACWI",
+		"region": "World",
+		"marketType": "Developed + Emerging",
+		"hedgedToEur": false,
+		"fundCurrency": "USD",
+		"primaryEurListing": {
+			"exchange": "XETRA",
+			"ticker": "ACWUKD"
+		},
+		"replication": {
+			"type": "Synthetic",
+			"usesSwap": true,
+			"estimated": false
+		},
+		"maxCountryCode": "US",
+		"maxCountryWeightPercent": 63.68,
+		"sectorWeights": [
+			{
+				"name": "Information Technology",
+				"weightPercent": 15.2,
+				"estimated": true
+			},
+			{
+				"name": "Consumer Discretionary",
+				"weightPercent": 3.8,
+				"estimated": true
+			},
+			{
+				"name": "Communication Services",
+				"weightPercent": 3.6,
+				"estimated": true
+			},
+			{
+				"name": "Financials",
+				"weightPercent": 0.9,
+				"estimated": true
+			}
+		],
+		"topSectorName": "Information Technology",
+		"topSectorWeightPercent": 15.2,
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 528,
+				"weightPercent": 63.68,
+				"estimated": true,
+				"continent": "North America",
+				"continentLt": "Šiaurės Amerika",
+				"subRegion": "Northern America",
+				"subRegionLt": "Šiaurės Amerika",
+				"marketType": "Developed",
+				"currency": "USD",
+				"currencyName": "US dollar",
+				"currencyNameLt": "JAV doleris",
+				"euMember": false,
+				"countryWeightRank": 1,
+				"isTopCountry": true
+			},
+			{
+				"name": "Japan",
+				"nameLt": "Japonija",
+				"code": "JP",
+				"companies": 168,
+				"weightPercent": 5.03,
+				"estimated": true,
+				"continent": "Asia",
+				"continentLt": "Azija",
+				"subRegion": "Eastern Asia",
+				"subRegionLt": "Rytų Azija",
+				"marketType": "Developed",
+				"currency": "JPY",
+				"currencyName": "Japanese yen",
+				"currencyNameLt": "Japonijos jena",
+				"euMember": false,
+				"countryWeightRank": 2,
+				"isTopCountry": false
+			},
+			{
+				"name": "Taiwan",
+				"nameLt": "Taivanas",
+				"code": "TW",
+				"companies": 77,
+				"weightPercent": 3.23,
+				"estimated": true,
+				"continent": "Asia",
+				"continentLt": "Azija",
+				"subRegion": "Eastern Asia",
+				"subRegionLt": "Rytų Azija",
+				"marketType": "Emerging",
+				"currency": "TWD",
+				"currencyName": "New Taiwan dollar",
+				"currencyNameLt": "Naujasis Taivano doleris",
+				"euMember": false,
+				"countryWeightRank": 3,
+				"isTopCountry": false
+			},
+			{
+				"name": "United Kingdom",
+				"nameLt": "Jungtinė Karalystė",
+				"code": "GB",
+				"companies": 67,
+				"weightPercent": 3.1,
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Northern Europe",
+				"subRegionLt": "Šiaurės Europa",
+				"marketType": "Developed",
+				"currency": "GBP",
+				"currencyName": "Pound sterling",
+				"currencyNameLt": "Svaras sterlingų",
+				"euMember": false,
+				"countryWeightRank": 4,
+				"isTopCountry": false
+			},
+			{
+				"name": "Canada",
+				"nameLt": "Kanada",
+				"code": "CA",
+				"companies": 83,
+				"weightPercent": 2.98,
+				"estimated": true,
+				"continent": "North America",
+				"continentLt": "Šiaurės Amerika",
+				"subRegion": "Northern America",
+				"subRegionLt": "Šiaurės Amerika",
+				"marketType": "Developed",
+				"currency": "CAD",
+				"currencyName": "Canadian dollar",
+				"currencyNameLt": "Kanados doleris",
+				"euMember": false,
+				"countryWeightRank": 5,
+				"isTopCountry": false
+			},
+			{
+				"name": "South Korea",
+				"nameLt": "Pietų Korėja",
+				"code": "KR",
+				"companies": 92,
+				"weightPercent": 1.78,
+				"estimated": true,
+				"continent": "Asia",
+				"continentLt": "Azija",
+				"subRegion": "Eastern Asia",
+				"subRegionLt": "Rytų Azija",
+				"marketType": "Emerging",
+				"currency": "KRW",
+				"currencyName": "South Korean won",
+				"currencyNameLt": "Pietų Korėjos vonas",
+				"euMember": false,
+				"countryWeightRank": 6,
+				"isTopCountry": false
+			},
+			{
+				"name": "France",
+				"nameLt": "Prancūzija",
+				"code": "FR",
+				"companies": 70,
+				"weightPercent": 2.51,
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Western Europe",
+				"subRegionLt": "Vakarų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 7,
+				"isTopCountry": false
+			},
+			{
+				"name": "Other countries",
+				"nameLt": "Kitos šalys",
+				"code": null,
+				"companies": 1294,
+				"weightPercent": 17.69,
+				"estimated": true,
+				"continent": "Other/Mixed",
+				"continentLt": "Kita / mišru",
+				"subRegion": "Other/Mixed",
+				"subRegionLt": "Kita / mišru",
+				"marketType": "Mixed",
+				"currency": "Mixed",
+				"currencyName": "Mixed currencies",
+				"currencyNameLt": "Mišrios valiutos",
+				"euMember": false,
+				"countryWeightRank": 8,
+				"isTopCountry": false
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 273,
+			"currency": "EUR",
+			"label": "€273M",
+			"asOf": "2026-07-02",
+			"sourceName": "justETF / issuer",
+			"estimated": false
+		},
+		"topHoldings": [
+			{
+				"name": "NVIDIA Corp.",
+				"ticker": "NVDA",
+				"countryCode": "US",
+				"weightPercent": 4.9,
+				"estimated": true,
+				"sector": "Information Technology",
+				"isin": "US67066G1040"
+			},
+			{
+				"name": "Apple Inc.",
+				"ticker": "AAPL",
+				"countryCode": "US",
+				"weightPercent": 4.4,
+				"estimated": true,
+				"sector": "Information Technology",
+				"isin": "US0378331005"
+			},
+			{
+				"name": "Microsoft Corp.",
+				"ticker": "MSFT",
+				"countryCode": "US",
+				"weightPercent": 3.0,
+				"estimated": true,
+				"sector": "Information Technology",
+				"isin": "US5949181045"
+			},
+			{
+				"name": "Amazon.com Inc.",
+				"ticker": "AMZN",
+				"countryCode": "US",
+				"weightPercent": 2.5,
+				"estimated": true,
+				"sector": "Consumer Discretionary",
+				"isin": "US0231351067"
+			},
+			{
+				"name": "Alphabet Inc. Class A",
+				"ticker": "GOOGL",
+				"countryCode": "US",
+				"weightPercent": 2.2,
+				"estimated": true,
+				"sector": "Communication Services",
+				"isin": "US02079K3059"
+			},
+			{
+				"name": "Broadcom Inc.",
+				"ticker": "AVGO",
+				"countryCode": "US",
+				"weightPercent": 1.9,
+				"estimated": true,
+				"sector": "Information Technology",
+				"isin": "US11135F1012"
+			},
+			{
+				"name": "Meta Platforms Inc.",
+				"ticker": "META",
+				"countryCode": "US",
+				"weightPercent": 1.4,
+				"estimated": true,
+				"sector": "Communication Services",
+				"isin": "US30303M1027"
+			},
+			{
+				"name": "Tesla Inc.",
+				"ticker": "TSLA",
+				"countryCode": "US",
+				"weightPercent": 1.3,
+				"estimated": true,
+				"sector": "Consumer Discretionary",
+				"isin": "US88160R1014"
+			},
+			{
+				"name": "Taiwan Semiconductor Manufacturing Co.",
+				"ticker": "2330",
+				"countryCode": "TW",
+				"weightPercent": 1.0,
+				"estimated": true,
+				"sector": "Information Technology",
+				"isin": "TW0002330008"
+			},
+			{
+				"name": "JPMorgan Chase & Co.",
+				"ticker": "JPM",
+				"countryCode": "US",
+				"weightPercent": 0.9,
+				"estimated": true,
+				"sector": "Financials",
+				"isin": "US46625H1005"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 23.5,
+		"sourceUrls": [
+			"https://www.justetf.com/en/etf-profile.html?isin=IE00BJXFZ989"
+		],
+		"notes": "Directly checked: 0.21 TER, MSCI ACWI, synthetic swap. Countries/top holdings represent index exposure.",
+		"continentWeights": [
+			{
+				"name": "North America",
+				"nameLt": "Šiaurės Amerika",
+				"companies": 611,
+				"weightPercent": 66.66,
+				"estimated": true
+			},
+			{
+				"name": "Other/Mixed",
+				"nameLt": "Kita / mišru",
+				"companies": 1294,
+				"weightPercent": 17.69,
+				"estimated": true
+			},
+			{
+				"name": "Asia",
+				"nameLt": "Azija",
+				"companies": 337,
+				"weightPercent": 10.04,
+				"estimated": true
+			},
+			{
+				"name": "Europe",
+				"nameLt": "Europa",
+				"companies": 137,
+				"weightPercent": 5.61,
+				"estimated": true
+			}
+		],
+		"marketTypeWeights": [
+			{
+				"name": "Developed",
+				"companies": 916,
+				"weightPercent": 77.3,
+				"estimated": true
+			},
+			{
+				"name": "Mixed",
+				"companies": 1294,
+				"weightPercent": 17.69,
+				"estimated": true
+			},
+			{
+				"name": "Emerging",
+				"companies": 169,
+				"weightPercent": 5.01,
+				"estimated": true
+			}
+		],
+		"countryCount": 8,
+		"continentCount": 4,
+		"strategyType": "Broad market",
+		"strategyTags": [
+			"Broad market",
+			"Synthetic"
+		],
+		"dataQuality": "estimated",
+		"dataQualityDetails": {
+			"countriesEstimated": true,
+			"topHoldingsEstimated": true,
+			"fundCapitalKnown": true,
+			"replicationEstimated": false
+		}
+	},
+	{
+		"id": "esgw",
+		"ticker": "ESGW",
+		"isin": "IE000629MKR4",
+		"name": "BNP Paribas Easy ESG Enhanced World UCITS ETF USD Acc",
+		"terPercent": 0.21,
+		"terBucket": "0.21",
+		"totalCompanies": 800,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Acc",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "ESGW"
+			},
+			{
+				"exchange": "gettex",
+				"ticker": "ESGW"
+			}
+		],
+		"assetClass": "Equity",
+		"equityExposurePercent": 100,
+		"ucits": true,
+		"issuer": "BNP Paribas",
+		"indexName": "BNP Paribas Easy ESG Enhanced World",
+		"region": "World",
+		"marketType": "Developed",
+		"hedgedToEur": false,
+		"fundCurrency": "USD",
+		"primaryEurListing": {
+			"exchange": "XETRA",
+			"ticker": "ESGW"
+		},
+		"replication": {
+			"type": "Physical",
+			"usesSwap": false,
+			"estimated": false
+		},
+		"maxCountryCode": "US",
+		"maxCountryWeightPercent": 68.0,
+		"sectorWeights": [
+			{
+				"name": "Information Technology",
+				"weightPercent": 15.9,
+				"estimated": true
+			},
+			{
+				"name": "Consumer Discretionary",
+				"weightPercent": 4.7,
+				"estimated": true
+			},
+			{
+				"name": "Consumer Staples",
+				"weightPercent": 2.9,
+				"estimated": true
+			},
+			{
+				"name": "Health Care",
+				"weightPercent": 2.0,
+				"estimated": true
+			}
+		],
+		"topSectorName": "Information Technology",
+		"topSectorWeightPercent": 15.9,
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 380,
+				"weightPercent": 68.0,
+				"estimated": true,
+				"continent": "North America",
+				"continentLt": "Šiaurės Amerika",
+				"subRegion": "Northern America",
+				"subRegionLt": "Šiaurės Amerika",
+				"marketType": "Developed",
+				"currency": "USD",
+				"currencyName": "US dollar",
+				"currencyNameLt": "JAV doleris",
+				"euMember": false,
+				"countryWeightRank": 1,
+				"isTopCountry": true
+			},
+			{
+				"name": "Japan",
+				"nameLt": "Japonija",
+				"code": "JP",
+				"companies": 90,
+				"weightPercent": 6.5,
+				"estimated": true,
+				"continent": "Asia",
+				"continentLt": "Azija",
+				"subRegion": "Eastern Asia",
+				"subRegionLt": "Rytų Azija",
+				"marketType": "Developed",
+				"currency": "JPY",
+				"currencyName": "Japanese yen",
+				"currencyNameLt": "Japonijos jena",
+				"euMember": false,
+				"countryWeightRank": 2,
+				"isTopCountry": false
+			},
+			{
+				"name": "United Kingdom",
+				"nameLt": "Jungtinė Karalystė",
+				"code": "GB",
+				"companies": 55,
+				"weightPercent": 4.5,
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Northern Europe",
+				"subRegionLt": "Šiaurės Europa",
+				"marketType": "Developed",
+				"currency": "GBP",
+				"currencyName": "Pound sterling",
+				"currencyNameLt": "Svaras sterlingų",
+				"euMember": false,
+				"countryWeightRank": 3,
+				"isTopCountry": false
+			},
+			{
+				"name": "Canada",
+				"nameLt": "Kanada",
+				"code": "CA",
+				"companies": 45,
+				"weightPercent": 3.5,
+				"estimated": true,
+				"continent": "North America",
+				"continentLt": "Šiaurės Amerika",
+				"subRegion": "Northern America",
+				"subRegionLt": "Šiaurės Amerika",
+				"marketType": "Developed",
+				"currency": "CAD",
+				"currencyName": "Canadian dollar",
+				"currencyNameLt": "Kanados doleris",
+				"euMember": false,
+				"countryWeightRank": 4,
+				"isTopCountry": false
+			},
+			{
+				"name": "France",
+				"nameLt": "Prancūzija",
+				"code": "FR",
+				"companies": 35,
+				"weightPercent": 3.0,
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Western Europe",
+				"subRegionLt": "Vakarų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 5,
+				"isTopCountry": false
+			},
+			{
+				"name": "Switzerland",
+				"nameLt": "Šveicarija",
+				"code": "CH",
+				"companies": 35,
+				"weightPercent": 3.0,
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Western Europe",
+				"subRegionLt": "Vakarų Europa",
+				"marketType": "Developed",
+				"currency": "CHF",
+				"currencyName": "Swiss franc",
+				"currencyNameLt": "Šveicarijos frankas",
+				"euMember": false,
+				"countryWeightRank": 6,
+				"isTopCountry": false
+			},
+			{
+				"name": "Other countries",
+				"nameLt": "Kitos šalys",
+				"code": null,
+				"companies": 160,
+				"weightPercent": 11.5,
+				"estimated": true,
+				"continent": "Other/Mixed",
+				"continentLt": "Kita / mišru",
+				"subRegion": "Other/Mixed",
+				"subRegionLt": "Kita / mišru",
+				"marketType": "Mixed",
+				"currency": "Mixed",
+				"currencyName": "Mixed currencies",
+				"currencyNameLt": "Mišrios valiutos",
+				"euMember": false,
+				"countryWeightRank": 7,
+				"isTopCountry": false
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 16,
+			"currency": "EUR",
+			"label": "€16M",
+			"asOf": "2026-07-02",
+			"sourceName": "justETF / issuer",
+			"estimated": false
+		},
+		"topHoldings": [
+			{
+				"name": "NVIDIA Corp.",
+				"ticker": "NVDA",
+				"countryCode": "US",
+				"weightPercent": 5.4,
+				"estimated": true,
+				"sector": "Information Technology",
+				"isin": "US67066G1040"
+			},
+			{
+				"name": "Microsoft Corp.",
+				"ticker": "MSFT",
+				"countryCode": "US",
+				"weightPercent": 5.0,
+				"estimated": true,
+				"sector": "Information Technology",
+				"isin": "US5949181045"
+			},
+			{
+				"name": "Tesla Inc.",
+				"ticker": "TSLA",
+				"countryCode": "US",
+				"weightPercent": 3.0,
+				"estimated": true,
+				"sector": "Consumer Discretionary",
+				"isin": "US88160R1014"
+			},
+			{
+				"name": "ASML Holding NV",
+				"ticker": "ASML",
+				"countryCode": "NL",
+				"weightPercent": 2.4,
+				"estimated": true,
+				"sector": "Information Technology",
+				"isin": "NL0010273215"
+			},
+			{
+				"name": "Novo Nordisk A/S",
+				"ticker": "NOVO B",
+				"countryCode": "DK",
+				"weightPercent": 2.0,
+				"estimated": true,
+				"sector": "Health Care",
+				"isin": "DK0062498333"
+			},
+			{
+				"name": "Adobe Inc.",
+				"ticker": "ADBE",
+				"countryCode": "US",
+				"weightPercent": 1.8,
+				"estimated": true,
+				"sector": "Information Technology",
+				"isin": "US00724F1012"
+			},
+			{
+				"name": "Home Depot Inc.",
+				"ticker": "HD",
+				"countryCode": "US",
+				"weightPercent": 1.7,
+				"estimated": true,
+				"sector": "Consumer Discretionary",
+				"isin": "US4370761029"
+			},
+			{
+				"name": "Coca-Cola Co.",
+				"ticker": "KO",
+				"countryCode": "US",
+				"weightPercent": 1.5,
+				"estimated": true,
+				"sector": "Consumer Staples",
+				"isin": "US1912161007"
+			},
+			{
+				"name": "PepsiCo Inc.",
+				"ticker": "PEP",
+				"countryCode": "US",
+				"weightPercent": 1.4,
+				"estimated": true,
+				"sector": "Consumer Staples",
+				"isin": "US7134481081"
+			},
+			{
+				"name": "Accenture Plc",
+				"ticker": "ACN",
+				"countryCode": "IE",
+				"weightPercent": 1.3,
+				"estimated": true,
+				"sector": "Information Technology",
+				"isin": "IE00B4BNMY34"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 25.5,
+		"sourceUrls": [
+			"https://www.justetf.com/en/etf-profile.html?isin=IE000629MKR4"
+		],
+		"notes": "Directly checked: 0.21 TER, equity world ESG, full replication. Countries/top holdings estimated.",
+		"continentWeights": [
+			{
+				"name": "North America",
+				"nameLt": "Šiaurės Amerika",
+				"companies": 425,
+				"weightPercent": 71.5,
+				"estimated": true
+			},
+			{
+				"name": "Other/Mixed",
+				"nameLt": "Kita / mišru",
+				"companies": 160,
+				"weightPercent": 11.5,
+				"estimated": true
+			},
+			{
+				"name": "Europe",
+				"nameLt": "Europa",
+				"companies": 125,
+				"weightPercent": 10.5,
+				"estimated": true
+			},
+			{
+				"name": "Asia",
+				"nameLt": "Azija",
+				"companies": 90,
+				"weightPercent": 6.5,
+				"estimated": true
+			}
+		],
+		"marketTypeWeights": [
+			{
+				"name": "Developed",
+				"companies": 640,
+				"weightPercent": 88.5,
+				"estimated": true
+			},
+			{
+				"name": "Mixed",
+				"companies": 160,
+				"weightPercent": 11.5,
+				"estimated": true
+			}
+		],
+		"countryCount": 7,
+		"continentCount": 4,
+		"strategyType": "Broad market",
+		"strategyTags": [
+			"Broad market",
+			"ESG",
+			"Factor"
+		],
+		"dataQuality": "estimated",
+		"dataQualityDetails": {
+			"countriesEstimated": true,
+			"topHoldingsEstimated": true,
+			"fundCapitalKnown": true,
+			"replicationEstimated": false
+		}
+	},
+	{
+		"id": "lm9d",
+		"ticker": "LM9D",
+		"isin": "IE0000LVTJ08",
+		"name": "BNP Paribas Easy ESG Enhanced US UCITS ETF EUR Acc",
+		"terPercent": 0.21,
+		"terBucket": "0.21",
+		"totalCompanies": 251,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Acc",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "LM9D"
+			},
+			{
+				"exchange": "gettex",
+				"ticker": "LM9D"
+			}
+		],
+		"assetClass": "Equity",
+		"equityExposurePercent": 100,
+		"ucits": true,
+		"issuer": "BNP Paribas",
+		"indexName": "BNP Paribas Easy ESG Enhanced US",
+		"region": "USA",
+		"marketType": "Developed",
+		"hedgedToEur": false,
+		"fundCurrency": "EUR",
+		"primaryEurListing": {
+			"exchange": "XETRA",
+			"ticker": "LM9D"
+		},
+		"replication": {
+			"type": "Physical",
+			"usesSwap": false,
+			"estimated": false
+		},
+		"maxCountryCode": "US",
+		"maxCountryWeightPercent": 96.0,
+		"sectorWeights": [
+			{
+				"name": "Information Technology",
+				"weightPercent": 22.65,
+				"estimated": true
+			},
+			{
+				"name": "Communication Services",
+				"weightPercent": 7.86,
+				"estimated": true
+			},
+			{
+				"name": "Consumer Discretionary",
+				"weightPercent": 5.26,
+				"estimated": true
+			},
+			{
+				"name": "Health Care",
+				"weightPercent": 1.35,
+				"estimated": true
+			}
+		],
+		"topSectorName": "Information Technology",
+		"topSectorWeightPercent": 22.65,
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 240,
+				"weightPercent": 96.0,
+				"estimated": true,
+				"continent": "North America",
+				"continentLt": "Šiaurės Amerika",
+				"subRegion": "Northern America",
+				"subRegionLt": "Šiaurės Amerika",
+				"marketType": "Developed",
+				"currency": "USD",
+				"currencyName": "US dollar",
+				"currencyNameLt": "JAV doleris",
+				"euMember": false,
+				"countryWeightRank": 1,
+				"isTopCountry": true
+			},
+			{
+				"name": "Ireland",
+				"nameLt": "Airija",
+				"code": "IE",
+				"companies": 3,
+				"weightPercent": 1.5,
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Northern Europe",
+				"subRegionLt": "Šiaurės Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 2,
+				"isTopCountry": false
+			},
+			{
+				"name": "Netherlands",
+				"nameLt": "Nyderlandai",
+				"code": "NL",
+				"companies": 1,
+				"weightPercent": 0.5,
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Western Europe",
+				"subRegionLt": "Vakarų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 3,
+				"isTopCountry": false
+			},
+			{
+				"name": "Other countries",
+				"nameLt": "Kitos šalys",
+				"code": null,
+				"companies": 7,
+				"weightPercent": 2.0,
+				"estimated": true,
+				"continent": "Other/Mixed",
+				"continentLt": "Kita / mišru",
+				"subRegion": "Other/Mixed",
+				"subRegionLt": "Kita / mišru",
+				"marketType": "Mixed",
+				"currency": "Mixed",
+				"currencyName": "Mixed currencies",
+				"currencyNameLt": "Mišrios valiutos",
+				"euMember": false,
+				"countryWeightRank": 4,
+				"isTopCountry": false
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 419,
+			"currency": "EUR",
+			"label": "€419M",
+			"asOf": "2026-07-02",
+			"sourceName": "justETF / issuer",
+			"estimated": false
+		},
+		"topHoldings": [
+			{
+				"name": "NVIDIA Corp.",
+				"ticker": "NVDA",
+				"countryCode": "US",
+				"weightPercent": 7.81,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US67066G1040"
+			},
+			{
+				"name": "Apple Inc.",
+				"ticker": "AAPL",
+				"countryCode": "US",
+				"weightPercent": 6.78,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US0378331005"
+			},
+			{
+				"name": "Microsoft Corp.",
+				"ticker": "MSFT",
+				"countryCode": "US",
+				"weightPercent": 5.41,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US5949181045"
+			},
+			{
+				"name": "Amazon.com Inc.",
+				"ticker": "AMZN",
+				"countryCode": "US",
+				"weightPercent": 3.33,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US0231351067"
+			},
+			{
+				"name": "Alphabet Inc. Class A",
+				"ticker": "GOOGL",
+				"countryCode": "US",
+				"weightPercent": 3.08,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K3059"
+			},
+			{
+				"name": "Broadcom Inc.",
+				"ticker": "AVGO",
+				"countryCode": "US",
+				"weightPercent": 2.65,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US11135F1012"
+			},
+			{
+				"name": "Alphabet Inc. Class C",
+				"ticker": "GOOG",
+				"countryCode": "US",
+				"weightPercent": 2.47,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K1079"
+			},
+			{
+				"name": "Meta Platforms Inc.",
+				"ticker": "META",
+				"countryCode": "US",
+				"weightPercent": 2.31,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US30303M1027"
+			},
+			{
+				"name": "Tesla Inc.",
+				"ticker": "TSLA",
+				"countryCode": "US",
+				"weightPercent": 1.93,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US88160R1014"
+			},
+			{
+				"name": "Eli Lilly & Co.",
+				"ticker": "LLY",
+				"countryCode": "US",
+				"weightPercent": 1.35,
+				"estimated": false,
+				"sector": "Health Care",
+				"isin": "US5324571083"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 37.12,
+		"sourceUrls": [
+			"https://www.justetf.com/en/etf-profile.html?isin=IE0000LVTJ08"
+		],
+		"notes": "Directly checked: 0.21 TER, US stocks, 251 holdings/top 10 visible, full replication.",
+		"continentWeights": [
+			{
+				"name": "North America",
+				"nameLt": "Šiaurės Amerika",
+				"companies": 240,
+				"weightPercent": 96.0,
+				"estimated": true
+			},
+			{
+				"name": "Europe",
+				"nameLt": "Europa",
+				"companies": 4,
+				"weightPercent": 2.0,
+				"estimated": true
+			},
+			{
+				"name": "Other/Mixed",
+				"nameLt": "Kita / mišru",
+				"companies": 7,
+				"weightPercent": 2.0,
+				"estimated": true
+			}
+		],
+		"marketTypeWeights": [
+			{
+				"name": "Developed",
+				"companies": 244,
+				"weightPercent": 98.0,
+				"estimated": true
+			},
+			{
+				"name": "Mixed",
+				"companies": 7,
+				"weightPercent": 2.0,
+				"estimated": true
+			}
+		],
+		"countryCount": 4,
+		"continentCount": 3,
+		"strategyType": "Country",
+		"strategyTags": [
+			"Country",
+			"ESG",
+			"Factor"
+		],
+		"dataQuality": "estimated",
+		"dataQualityDetails": {
+			"countriesEstimated": true,
+			"topHoldingsEstimated": false,
+			"fundCapitalKnown": true,
+			"replicationEstimated": false
+		}
+	},
+	{
+		"id": "exv1",
+		"ticker": "EXV1",
+		"isin": "DE0005933980",
+		"name": "iShares STOXX Europe Large 200 UCITS ETF DE",
+		"terPercent": 0.21,
+		"terBucket": "0.21",
+		"totalCompanies": 200,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Dist",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "EXV1"
+			},
+			{
+				"exchange": "gettex",
+				"ticker": "EXV1"
+			}
+		],
+		"assetClass": "Equity",
+		"equityExposurePercent": 100,
+		"ucits": true,
+		"issuer": "iShares",
+		"indexName": "STOXX Europe Large 200",
+		"region": "Europe",
+		"marketType": "Developed",
+		"hedgedToEur": false,
+		"fundCurrency": "EUR",
+		"primaryEurListing": {
+			"exchange": "XETRA",
+			"ticker": "EXV1"
+		},
+		"replication": {
+			"type": "Physical",
+			"usesSwap": false,
+			"estimated": false
+		},
+		"maxCountryCode": "GB",
+		"maxCountryWeightPercent": 23.0,
+		"sectorWeights": [
+			{
+				"name": "Health Care",
+				"weightPercent": 5.9,
+				"estimated": true
+			},
+			{
+				"name": "Information Technology",
+				"weightPercent": 5.6,
+				"estimated": true
+			},
+			{
+				"name": "Financials",
+				"weightPercent": 3.4,
+				"estimated": true
+			},
+			{
+				"name": "Consumer Staples",
+				"weightPercent": 1.8,
+				"estimated": true
+			},
+			{
+				"name": "Energy",
+				"weightPercent": 1.6,
+				"estimated": true
+			},
+			{
+				"name": "Industrials",
+				"weightPercent": 1.6,
+				"estimated": true
+			}
+		],
+		"topSectorName": "Health Care",
+		"topSectorWeightPercent": 5.9,
+		"countries": [
+			{
+				"name": "United Kingdom",
+				"nameLt": "Jungtinė Karalystė",
+				"code": "GB",
+				"companies": 45,
+				"weightPercent": 23.0,
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Northern Europe",
+				"subRegionLt": "Šiaurės Europa",
+				"marketType": "Developed",
+				"currency": "GBP",
+				"currencyName": "Pound sterling",
+				"currencyNameLt": "Svaras sterlingų",
+				"euMember": false,
+				"countryWeightRank": 1,
+				"isTopCountry": true
+			},
+			{
+				"name": "France",
+				"nameLt": "Prancūzija",
+				"code": "FR",
+				"companies": 35,
+				"weightPercent": 17.0,
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Western Europe",
+				"subRegionLt": "Vakarų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 2,
+				"isTopCountry": false
+			},
+			{
+				"name": "Switzerland",
+				"nameLt": "Šveicarija",
+				"code": "CH",
+				"companies": 32,
+				"weightPercent": 16.0,
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Western Europe",
+				"subRegionLt": "Vakarų Europa",
+				"marketType": "Developed",
+				"currency": "CHF",
+				"currencyName": "Swiss franc",
+				"currencyNameLt": "Šveicarijos frankas",
+				"euMember": false,
+				"countryWeightRank": 3,
+				"isTopCountry": false
+			},
+			{
+				"name": "Germany",
+				"nameLt": "Vokietija",
+				"code": "DE",
+				"companies": 30,
+				"weightPercent": 15.0,
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Western Europe",
+				"subRegionLt": "Vakarų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 4,
+				"isTopCountry": false
+			},
+			{
+				"name": "Netherlands",
+				"nameLt": "Nyderlandai",
+				"code": "NL",
+				"companies": 18,
+				"weightPercent": 8.0,
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Western Europe",
+				"subRegionLt": "Vakarų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 5,
+				"isTopCountry": false
+			},
+			{
+				"name": "Other countries",
+				"nameLt": "Kitos šalys",
+				"code": null,
+				"companies": 40,
+				"weightPercent": 21.0,
+				"estimated": true,
+				"continent": "Other/Mixed",
+				"continentLt": "Kita / mišru",
+				"subRegion": "Other/Mixed",
+				"subRegionLt": "Kita / mišru",
+				"marketType": "Mixed",
+				"currency": "Mixed",
+				"currencyName": "Mixed currencies",
+				"currencyNameLt": "Mišrios valiutos",
+				"euMember": false,
+				"countryWeightRank": 6,
+				"isTopCountry": false
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 0,
+			"currency": "EUR",
+			"label": "€unknown",
+			"asOf": "2026-07-02",
+			"sourceName": "justETF / issuer",
+			"estimated": true
+		},
+		"topHoldings": [
+			{
+				"name": "ASML Holding NV",
+				"ticker": "ASML",
+				"countryCode": "NL",
+				"weightPercent": 4.3,
+				"estimated": true,
+				"sector": "Information Technology",
+				"isin": "NL0010273215"
+			},
+			{
+				"name": "HSBC Holdings Plc",
+				"ticker": "HSBA",
+				"countryCode": "GB",
+				"weightPercent": 2.2,
+				"estimated": true,
+				"sector": "Financials",
+				"isin": "GB0005405286"
+			},
+			{
+				"name": "Roche Holding AG",
+				"ticker": "ROG",
+				"countryCode": "CH",
+				"weightPercent": 2.0,
+				"estimated": true,
+				"sector": "Health Care",
+				"isin": "CH0012032048"
+			},
+			{
+				"name": "Novartis AG",
+				"ticker": "NOVN",
+				"countryCode": "CH",
+				"weightPercent": 2.0,
+				"estimated": true,
+				"sector": "Health Care",
+				"isin": "CH0012005267"
+			},
+			{
+				"name": "AstraZeneca PLC",
+				"ticker": "AZN",
+				"countryCode": "GB",
+				"weightPercent": 1.9,
+				"estimated": true,
+				"sector": "Health Care",
+				"isin": "GB0009895292"
+			},
+			{
+				"name": "Nestlé SA",
+				"ticker": "NESN",
+				"countryCode": "CH",
+				"weightPercent": 1.8,
+				"estimated": true,
+				"sector": "Consumer Staples",
+				"isin": "CH0038863350"
+			},
+			{
+				"name": "Shell Plc",
+				"ticker": "SHEL",
+				"countryCode": "GB",
+				"weightPercent": 1.6,
+				"estimated": true,
+				"sector": "Energy",
+				"isin": "GB00BP6MXD84"
+			},
+			{
+				"name": "Siemens AG",
+				"ticker": "SIE",
+				"countryCode": "DE",
+				"weightPercent": 1.6,
+				"estimated": true,
+				"sector": "Industrials",
+				"isin": "DE0007236101"
+			},
+			{
+				"name": "SAP SE",
+				"ticker": "SAP",
+				"countryCode": "DE",
+				"weightPercent": 1.3,
+				"estimated": true,
+				"sector": "Information Technology",
+				"isin": "DE0007164600"
+			},
+			{
+				"name": "Banco Santander SA",
+				"ticker": "SAN",
+				"countryCode": "ES",
+				"weightPercent": 1.2,
+				"estimated": true,
+				"sector": "Financials",
+				"isin": "ES0113900J37"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 19.9,
+		"sourceUrls": [
+			"https://www.justetf.com/en/etf-profile.html?isin=DE0005933980"
+		],
+		"notes": "Directly checked: 0.21 TER, STOXX Europe Large 200 equity, full replication. Fund size/country split estimated.",
+		"continentWeights": [
+			{
+				"name": "Europe",
+				"nameLt": "Europa",
+				"companies": 160,
+				"weightPercent": 79.0,
+				"estimated": true
+			},
+			{
+				"name": "Other/Mixed",
+				"nameLt": "Kita / mišru",
+				"companies": 40,
+				"weightPercent": 21.0,
+				"estimated": true
+			}
+		],
+		"marketTypeWeights": [
+			{
+				"name": "Developed",
+				"companies": 160,
+				"weightPercent": 79.0,
+				"estimated": true
+			},
+			{
+				"name": "Mixed",
+				"companies": 40,
+				"weightPercent": 21.0,
+				"estimated": true
+			}
+		],
+		"countryCount": 6,
+		"continentCount": 2,
+		"strategyType": "Regional",
+		"strategyTags": [
+			"Regional"
+		],
+		"dataQuality": "partial",
+		"dataQualityDetails": {
+			"countriesEstimated": true,
+			"topHoldingsEstimated": true,
+			"fundCapitalKnown": false,
+			"replicationEstimated": false
+		}
+	},
+	{
+		"id": "etfl55",
+		"ticker": "ETFL55",
+		"isin": "DE000ETFL557",
+		"name": "Deka MSCI EMU Climate Change ESG UCITS ETF",
+		"terPercent": 0.21,
+		"terBucket": "0.21",
+		"totalCompanies": 180,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Dist",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "ETFL55"
+			},
+			{
+				"exchange": "gettex",
+				"ticker": "ETFL55"
+			}
+		],
+		"assetClass": "Equity",
+		"equityExposurePercent": 100,
+		"ucits": true,
+		"issuer": "Deka",
+		"indexName": "MSCI EMU Climate Change ESG Select",
+		"region": "Europe",
+		"marketType": "Developed",
+		"hedgedToEur": false,
+		"fundCurrency": "EUR",
+		"primaryEurListing": {
+			"exchange": "XETRA",
+			"ticker": "ETFL55"
+		},
+		"replication": {
+			"type": "Physical",
+			"usesSwap": false,
+			"estimated": false
+		},
+		"maxCountryCode": "FR",
+		"maxCountryWeightPercent": 24.0,
+		"sectorWeights": [
+			{
+				"name": "Health Care",
+				"weightPercent": 5.9,
+				"estimated": true
+			},
+			{
+				"name": "Information Technology",
+				"weightPercent": 5.6,
+				"estimated": true
+			},
+			{
+				"name": "Financials",
+				"weightPercent": 3.4,
+				"estimated": true
+			},
+			{
+				"name": "Consumer Staples",
+				"weightPercent": 1.8,
+				"estimated": true
+			},
+			{
+				"name": "Energy",
+				"weightPercent": 1.6,
+				"estimated": true
+			},
+			{
+				"name": "Industrials",
+				"weightPercent": 1.6,
+				"estimated": true
+			}
+		],
+		"topSectorName": "Health Care",
+		"topSectorWeightPercent": 5.9,
+		"countries": [
+			{
+				"name": "France",
+				"nameLt": "Prancūzija",
+				"code": "FR",
+				"companies": 42,
+				"weightPercent": 24.0,
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Western Europe",
+				"subRegionLt": "Vakarų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 1,
+				"isTopCountry": true
+			},
+			{
+				"name": "Germany",
+				"nameLt": "Vokietija",
+				"code": "DE",
+				"companies": 40,
+				"weightPercent": 22.0,
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Western Europe",
+				"subRegionLt": "Vakarų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 2,
+				"isTopCountry": false
+			},
+			{
+				"name": "Netherlands",
+				"nameLt": "Nyderlandai",
+				"code": "NL",
+				"companies": 32,
+				"weightPercent": 18.0,
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Western Europe",
+				"subRegionLt": "Vakarų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 3,
+				"isTopCountry": false
+			},
+			{
+				"name": "Spain",
+				"nameLt": "Ispanija",
+				"code": "ES",
+				"companies": 20,
+				"weightPercent": 11.0,
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Southern Europe",
+				"subRegionLt": "Pietų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 4,
+				"isTopCountry": false
+			},
+			{
+				"name": "Italy",
+				"nameLt": "Italija",
+				"code": "IT",
+				"companies": 18,
+				"weightPercent": 9.0,
+				"estimated": true,
+				"continent": "Europe",
+				"continentLt": "Europa",
+				"subRegion": "Southern Europe",
+				"subRegionLt": "Pietų Europa",
+				"marketType": "Developed",
+				"currency": "EUR",
+				"currencyName": "Euro",
+				"currencyNameLt": "Euras",
+				"euMember": true,
+				"countryWeightRank": 5,
+				"isTopCountry": false
+			},
+			{
+				"name": "Other countries",
+				"nameLt": "Kitos šalys",
+				"code": null,
+				"companies": 28,
+				"weightPercent": 16.0,
+				"estimated": true,
+				"continent": "Other/Mixed",
+				"continentLt": "Kita / mišru",
+				"subRegion": "Other/Mixed",
+				"subRegionLt": "Kita / mišru",
+				"marketType": "Mixed",
+				"currency": "Mixed",
+				"currencyName": "Mixed currencies",
+				"currencyNameLt": "Mišrios valiutos",
+				"euMember": false,
+				"countryWeightRank": 6,
+				"isTopCountry": false
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 228,
+			"currency": "EUR",
+			"label": "€228M",
+			"asOf": "2026-07-02",
+			"sourceName": "justETF / issuer",
+			"estimated": false
+		},
+		"topHoldings": [
+			{
+				"name": "ASML Holding NV",
+				"ticker": "ASML",
+				"countryCode": "NL",
+				"weightPercent": 4.3,
+				"estimated": true,
+				"sector": "Information Technology",
+				"isin": "NL0010273215"
+			},
+			{
+				"name": "HSBC Holdings Plc",
+				"ticker": "HSBA",
+				"countryCode": "GB",
+				"weightPercent": 2.2,
+				"estimated": true,
+				"sector": "Financials",
+				"isin": "GB0005405286"
+			},
+			{
+				"name": "Roche Holding AG",
+				"ticker": "ROG",
+				"countryCode": "CH",
+				"weightPercent": 2.0,
+				"estimated": true,
+				"sector": "Health Care",
+				"isin": "CH0012032048"
+			},
+			{
+				"name": "Novartis AG",
+				"ticker": "NOVN",
+				"countryCode": "CH",
+				"weightPercent": 2.0,
+				"estimated": true,
+				"sector": "Health Care",
+				"isin": "CH0012005267"
+			},
+			{
+				"name": "AstraZeneca PLC",
+				"ticker": "AZN",
+				"countryCode": "GB",
+				"weightPercent": 1.9,
+				"estimated": true,
+				"sector": "Health Care",
+				"isin": "GB0009895292"
+			},
+			{
+				"name": "Nestlé SA",
+				"ticker": "NESN",
+				"countryCode": "CH",
+				"weightPercent": 1.8,
+				"estimated": true,
+				"sector": "Consumer Staples",
+				"isin": "CH0038863350"
+			},
+			{
+				"name": "Shell Plc",
+				"ticker": "SHEL",
+				"countryCode": "GB",
+				"weightPercent": 1.6,
+				"estimated": true,
+				"sector": "Energy",
+				"isin": "GB00BP6MXD84"
+			},
+			{
+				"name": "Siemens AG",
+				"ticker": "SIE",
+				"countryCode": "DE",
+				"weightPercent": 1.6,
+				"estimated": true,
+				"sector": "Industrials",
+				"isin": "DE0007236101"
+			},
+			{
+				"name": "SAP SE",
+				"ticker": "SAP",
+				"countryCode": "DE",
+				"weightPercent": 1.3,
+				"estimated": true,
+				"sector": "Information Technology",
+				"isin": "DE0007164600"
+			},
+			{
+				"name": "Banco Santander SA",
+				"ticker": "SAN",
+				"countryCode": "ES",
+				"weightPercent": 1.2,
+				"estimated": true,
+				"sector": "Financials",
+				"isin": "ES0113900J37"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 19.9,
+		"sourceUrls": [
+			"https://www.justetf.com/en/etf-profile.html?isin=DE000ETFL557"
+		],
+		"notes": "Directly checked: 0.21 TER, equity Europe ESG, full replication. Country/top holdings estimated.",
+		"continentWeights": [
+			{
+				"name": "Europe",
+				"nameLt": "Europa",
+				"companies": 152,
+				"weightPercent": 84.0,
+				"estimated": true
+			},
+			{
+				"name": "Other/Mixed",
+				"nameLt": "Kita / mišru",
+				"companies": 28,
+				"weightPercent": 16.0,
+				"estimated": true
+			}
+		],
+		"marketTypeWeights": [
+			{
+				"name": "Developed",
+				"companies": 152,
+				"weightPercent": 84.0,
+				"estimated": true
+			},
+			{
+				"name": "Mixed",
+				"companies": 28,
+				"weightPercent": 16.0,
+				"estimated": true
+			}
+		],
+		"countryCount": 6,
+		"continentCount": 2,
+		"strategyType": "Regional",
+		"strategyTags": [
+			"Regional",
+			"ESG",
+			"Climate"
+		],
+		"dataQuality": "estimated",
+		"dataQualityDetails": {
+			"countriesEstimated": true,
+			"topHoldingsEstimated": true,
+			"fundCapitalKnown": true,
+			"replicationEstimated": false
+		}
+	}
+]
