@@ -19,6 +19,7 @@ function initEtfFilters(etfs, renderCallback) {
 function getEmptyEtfFilters() {
 	return {
 		nameText: "",
+		includeSynthetic: false,
 		capitalBillions: { min: null, max: null },
 		terPercent: { min: null, max: null },
 		companies: { min: null, max: null },
@@ -31,6 +32,7 @@ function getEmptyEtfFilters() {
 
 function getEtfFilterBounds(etfs) {
 	return {
+		includeSynthetic: false,
 		nameText: "",
 		capitalBillions: getRange(etfs, getEtfCapitalBillions),
 		terPercent: getRange(etfs, etf => etf.terPercent),
@@ -83,6 +85,17 @@ function saveEtfFilters() {
 
 function setupEtfFilterInputs() {
 	const nameSearch = document.getElementById("etfNameSearch");
+
+	const includeSynthetic = document.getElementById("includeSyntheticEtfs");
+
+	if (includeSynthetic) {
+		includeSynthetic.addEventListener("change", () => {
+			activeEtfFilters.includeSynthetic = includeSynthetic.checked;
+
+			saveEtfFilters();
+			renderCurrentFilteredEtfs();
+		});
+	}
 
 	if (nameSearch) {
 		nameSearch.addEventListener("input", () => {

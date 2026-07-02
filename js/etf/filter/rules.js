@@ -1,6 +1,7 @@
 function etfPassesFilters(etf, filters) {
 	return (
 		passesEtfNameSearch(etf, filters.nameText) &&
+        passesSyntheticFilter(etf, filters.includeSynthetic) &&
 		passesRange(getEtfCapitalBillions(etf), filters.capitalBillions, defaultEtfFilters.capitalBillions) &&
 		passesRange(etf.terPercent, filters.terPercent, defaultEtfFilters.terPercent) &&
 		passesRange(etf.totalCompanies, filters.companies, defaultEtfFilters.companies) &&
@@ -62,4 +63,20 @@ function normalizeEtfSearchText(text) {
 		.replace(/[\u0300-\u036f]/g, "")
 		.replace(/[^a-z0-9]+/g, " ")
 		.trim();
+}
+
+function passesSyntheticFilter(etf, includeSynthetic) {
+	if (includeSynthetic) return true;
+
+	return !isSyntheticEtf(etf);
+}
+
+function isSyntheticEtf(etf) {
+	const replicationType = String(etf.replication?.type || "").toLowerCase();
+
+	return (
+		etf.replication?.usesSwap === true ||
+		replicationType.includes("synthetic") ||
+		replicationType.includes("swap")
+	);
 }

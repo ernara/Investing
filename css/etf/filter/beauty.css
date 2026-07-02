@@ -88,3 +88,28 @@ body.dragging-filter * {
 	align-items: center;
 	gap: 8px;
 }
+
+.etf-filter-checkbox {
+	margin-top: 6px;
+}
+
+.etf-filter-checkbox label {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	cursor: pointer;
+	font-weight: 700;
+	color: #111827;
+}
+
+.etf-filter-checkbox input {
+	width: 16px;
+	height: 16px;
+	margin: 0;
+	cursor: pointer;
+	accent-color: #111827;
+}
+
+.etf-filter-checkbox span {
+	line-height: 1.2;
+}

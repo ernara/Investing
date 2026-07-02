@@ -16,6 +16,7 @@ function getMyEtfPresetFilters() {
 	return {
 		...structuredClone(defaultEtfFilters),
 		nameText: "",
+        includeSynthetic: false,
 		capitalBillions: {
 			...defaultEtfFilters.capitalBillions,
 			min: 0.1

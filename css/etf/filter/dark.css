@@ -20,3 +20,11 @@ body.dark #applyEtfDefaultPreset {
 	background: white;
 	color: #111827;
 }
+
+body.dark .etf-filter-checkbox label {
+	color: white;
+}
+
+body.dark .etf-filter-checkbox input {
+	accent-color: white;
+}

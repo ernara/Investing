@@ -55,11 +55,23 @@ function renderEtfFilters(filters) {
 
 			${renderRangeFilter("capitalBillions", "ETF kapitalas", "B", filters.capitalBillions, "0.1")}
 			${renderRangeFilter("terPercent", "Valdymo mokestis", "%", filters.terPercent, "0.01")}
+			${renderRangeFilter("continentCount", "Žemynų skaičius", "", filters.continentCount, "1")}
 			${renderRangeFilter("companies", "Įmonių skaičius", "", filters.companies, "1")}
 			${renderRangeFilter("countryCount", "Šalių skaičius", "", filters.countryCount, "1")}
 			${renderRangeFilter("topHoldingsWeightPercent", "TOP10 pozicijų dalis", "%", filters.topHoldingsWeightPercent, "0.01")}
 			${renderRangeFilter("maxCountryWeightPercent", "Vienos šalies max dalis", "%", filters.maxCountryWeightPercent, "0.01")}
-            ${renderRangeFilter("continentCount", "Žemynų skaičius", "", filters.continentCount, "1")}
+
+			<div class="etf-filter etf-filter-checkbox">
+				<label>
+					<input
+						type="checkbox"
+						id="includeSyntheticEtfs"
+						${filters.includeSynthetic ? "checked" : ""}
+					>
+
+					<span>Rodyti sintetinius ETF</span>
+				</label>
+			</div>
 		</div>
 
 		<div class="etf-filter-bottom">
