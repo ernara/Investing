@@ -156,7 +156,11 @@ function renderEtfFilters(filters) {
 
 		<div class="etf-filter-bottom">
 			<span id="etfFilterCount"></span>
-			<button type="button" id="resetEtfFilters">Atstatyti</button>
+
+			<div class="etf-filter-buttons">
+				<button type="button" id="applyEtfDefaultPreset">Mano</button>
+				<button type="button" id="resetEtfFilters">Atstatyti</button>
+			</div>
 		</div>
 	`;
 
@@ -201,6 +205,41 @@ function setupEtfFilterInputs() {
 			renderCurrentFilteredEtfs();
 		});
 	});
+
+	document.getElementById("applyEtfDefaultPreset").addEventListener("click", () => {
+	activeEtfFilters = {
+		...structuredClone(defaultEtfFilters),
+		nameText: "",
+		capitalBillions: {
+			...defaultEtfFilters.capitalBillions,
+			min: 0.5
+		},
+		terPercent: {
+			...defaultEtfFilters.terPercent,
+			max: 0.1
+		},
+		companies: {
+			...defaultEtfFilters.companies,
+			min: 500
+		},
+		countryCount: {
+			...defaultEtfFilters.countryCount,
+			min: 10
+		},
+		topHoldingsWeightPercent: {
+			...defaultEtfFilters.topHoldingsWeightPercent,
+			max: 33.34
+		},
+		maxCountryWeightPercent: {
+			...defaultEtfFilters.maxCountryWeightPercent,
+			max: 33.34
+		}
+	};
+
+	saveEtfFilters();
+	renderEtfFilters(activeEtfFilters);
+	renderCurrentFilteredEtfs();
+});
 
 	document.getElementById("resetEtfFilters").addEventListener("click", () => {
 		activeEtfFilters = structuredClone(defaultEtfFilters);
@@ -361,21 +400,42 @@ function getEtfCapitalBillions(etf) {
 function getEtfCountryCount(etf) {
 	if (!Array.isArray(etf.countries)) return null;
 
-	return etf.countries.filter(country => {
-		return country && (country.code || country.countryCode || country.name || country.nameLt || country.nameEn);
-	}).length;
+	return etf.countries.filter(isRealEtfCountry).length;
 }
 
 function getMaxCountryWeightPercent(etf) {
 	if (!Array.isArray(etf.countries)) return null;
 
 	const weights = etf.countries
+		.filter(isRealEtfCountry)
 		.map(country => parseEtfNumber(country.weightPercent))
 		.filter(weight => weight !== null);
 
 	if (!weights.length) return null;
 
 	return Math.max(...weights);
+}
+
+function isRealEtfCountry(country) {
+	if (!country) return false;
+
+	const code = String(country.code || country.countryCode || "").trim().toUpperCase();
+	const name = String(country.name || country.nameLt || country.nameEn || "").trim().toLowerCase();
+
+	if (!code && !name) return false;
+
+	return !(
+		code === "SUM" ||
+		code === "TOTAL" ||
+		code === "OTHER" ||
+		name === "suma" ||
+		name === "total" ||
+		name === "iš viso" ||
+		name === "is viso" ||
+		name.includes("kitos šalys") ||
+		name.includes("kitos salys") ||
+		name.includes("other countries")
+	);
 }
 
 function updateEtfFilterCount(visibleCount, totalCount) {
