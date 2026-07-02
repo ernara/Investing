@@ -1,5 +1,5 @@
 const etfTerFileFrom = 3;
-const etfTerFileTo = 20;
+const etfTerFileTo = 25;
 
 async function loadEtfFiles() {
 	return loadTerEtfFiles(etfTerFileFrom, etfTerFileTo);
