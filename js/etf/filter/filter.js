@@ -19,7 +19,7 @@ function initEtfFilters(etfs, renderCallback) {
 function getEmptyEtfFilters() {
 	return {
 		nameText: "",
-		includeSynthetic: false,
+		includeSynthetic: true,
 		capitalBillions: { min: null, max: null },
 		terPercent: { min: null, max: null },
 		companies: { min: null, max: null },
@@ -32,8 +32,8 @@ function getEmptyEtfFilters() {
 
 function getEtfFilterBounds(etfs) {
 	return {
-		includeSynthetic: false,
 		nameText: "",
+		includeSynthetic: true,
 		capitalBillions: getRange(etfs, getEtfCapitalBillions),
 		terPercent: getRange(etfs, etf => etf.terPercent),
 		companies: getRange(etfs, etf => etf.totalCompanies),
@@ -71,7 +71,7 @@ function roundFilterMax(value) {
 function loadSavedEtfFilters(defaultFilters) {
 	const savedFilters = JSON.parse(localStorage.getItem(etfFiltersStorageKey) || "null");
 
-	if (!savedFilters) return getMyEtfPresetFilters();
+	if (!savedFilters) return structuredClone(defaultFilters);
 
 	return {
 		...structuredClone(defaultFilters),
