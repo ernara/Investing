@@ -36,6 +36,14 @@ function resetPanelButtonText(button) {
 		button.textContent = "Rodyti šalis";
 	}
 
+	if (button.dataset.panel === "continents") {
+		button.textContent = "Rodyti žemynus";
+	}
+
+	if (button.dataset.panel === "sectors") {
+		button.textContent = "Rodyti sektorius";
+	}
+
 	if (button.dataset.panel === "topHoldings") {
 		button.textContent = "Rodyti TOP10 pozicijas";
 	}
@@ -43,6 +51,8 @@ function resetPanelButtonText(button) {
 
 function getHideText(panelName) {
 	if (panelName === "countries") return "Slėpti šalis";
+	if (panelName === "continents") return "Slėpti žemynus";
+	if (panelName === "sectors") return "Slėpti sektorius";
 	if (panelName === "topHoldings") return "Slėpti TOP10 pozicijas";
 
 	return "Slėpti";

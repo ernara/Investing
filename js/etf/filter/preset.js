@@ -26,7 +26,11 @@ function getMyEtfPresetFilters() {
 		},
 		companies: {
 			...defaultEtfFilters.companies,
-			min: 100
+			min: 2000
+		},
+		continentCount: {
+			...defaultEtfFilters.continentCount,
+			min: 3
 		},
 		countryCount: {
 			...defaultEtfFilters.countryCount,
@@ -34,11 +38,11 @@ function getMyEtfPresetFilters() {
 		},
 		topHoldingsWeightPercent: {
 			...defaultEtfFilters.topHoldingsWeightPercent,
-			max: 33.34
+			max: 35
 		},
 		maxCountryWeightPercent: {
 			...defaultEtfFilters.maxCountryWeightPercent,
-			max: 33.34
+			max: 72
 		}
 	};
 }

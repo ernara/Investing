@@ -22,6 +22,7 @@ function getEmptyEtfFilters() {
 		capitalBillions: { min: null, max: null },
 		terPercent: { min: null, max: null },
 		companies: { min: null, max: null },
+		continentCount: { min: null, max: null },
 		countryCount: { min: null, max: null },
 		topHoldingsWeightPercent: { min: null, max: null },
 		maxCountryWeightPercent: { min: null, max: null }
@@ -34,6 +35,7 @@ function getEtfFilterBounds(etfs) {
 		capitalBillions: getRange(etfs, getEtfCapitalBillions),
 		terPercent: getRange(etfs, etf => etf.terPercent),
 		companies: getRange(etfs, etf => etf.totalCompanies),
+		continentCount: getRange(etfs, etf => etf.continentCount),
 		countryCount: getRange(etfs, getEtfCountryCount),
 		topHoldingsWeightPercent: getRange(etfs, etf => etf.topHoldingsTotalWeightPercent),
 		maxCountryWeightPercent: getRange(etfs, getMaxCountryWeightPercent)
@@ -67,7 +69,7 @@ function roundFilterMax(value) {
 function loadSavedEtfFilters(defaultFilters) {
 	const savedFilters = JSON.parse(localStorage.getItem(etfFiltersStorageKey) || "null");
 
-	if (!savedFilters) return structuredClone(defaultFilters);
+	if (!savedFilters) return getMyEtfPresetFilters();
 
 	return {
 		...structuredClone(defaultFilters),
