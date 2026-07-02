@@ -23,6 +23,7 @@ function initEtfFilters(etfs, renderCallback) {
 
 function getEmptyEtfFilters() {
 	return {
+		nameText: "",
 		capitalBillions: { min: null, max: null },
 		terPercent: { min: null, max: null },
 		companies: { min: null, max: null },
@@ -134,6 +135,17 @@ function renderEtfFilters(filters) {
 				</select>
 			</div>
 
+			<div class="etf-filter">
+				<label>Paieška pagal pavadinimą</label>
+
+				<input
+					type="text"
+					id="etfNameSearch"
+					placeholder="Pvz. MSCI World, VWCE, Amundi"
+					value="${filters.nameText || ""}"
+				>
+			</div>
+
 			${renderRangeFilter("capitalBillions", "ETF kapitalas", "B", filters.capitalBillions, "0.1")}
 			${renderRangeFilter("terPercent", "Valdymo mokestis", "%", filters.terPercent, "0.01")}
 			${renderRangeFilter("companies", "Įmonių skaičius", "", filters.companies, "1")}
@@ -168,6 +180,16 @@ function renderRangeFilter(key, label, unit, range, step) {
 }
 
 function setupEtfFilterInputs() {
+	const nameSearch = document.getElementById("etfNameSearch");
+
+	if (nameSearch) {
+		nameSearch.addEventListener("input", () => {
+			activeEtfFilters.nameText = nameSearch.value;
+
+			saveEtfFilters();
+			renderCurrentFilteredEtfs();
+		});
+	}
 	document.querySelectorAll("[data-filter]").forEach(input => {
 		input.addEventListener("input", () => {
 			const key = input.dataset.filter;
@@ -279,17 +301,6 @@ function compareNumbers(a, b, direction) {
 	if (direction === "desc") return numberB - numberA;
 
 	return numberA - numberB;
-}
-
-function etfPassesFilters(etf, filters) {
-	return (
-		passesRange(getEtfCapitalBillions(etf), filters.capitalBillions, defaultEtfFilters.capitalBillions) &&
-		passesRange(etf.terPercent, filters.terPercent, defaultEtfFilters.terPercent) &&
-		passesRange(etf.totalCompanies, filters.companies, defaultEtfFilters.companies) &&
-		passesRange(getEtfCountryCount(etf), filters.countryCount, defaultEtfFilters.countryCount) &&
-		passesRange(etf.topHoldingsTotalWeightPercent, filters.topHoldingsWeightPercent, defaultEtfFilters.topHoldingsWeightPercent) &&
-		passesRange(getMaxCountryWeightPercent(etf), filters.maxCountryWeightPercent, defaultEtfFilters.maxCountryWeightPercent)
-	);
 }
 
 function passesRange(value, range, defaultRange) {
@@ -416,4 +427,44 @@ function stopFilterDrag() {
 
 	document.body.classList.remove("dragging-filter");
 	draggedFilterPanel = null;
+}
+
+function etfPassesFilters(etf, filters) {
+	return (
+		passesEtfNameSearch(etf, filters.nameText) &&
+		passesRange(getEtfCapitalBillions(etf), filters.capitalBillions, defaultEtfFilters.capitalBillions) &&
+		passesRange(etf.terPercent, filters.terPercent, defaultEtfFilters.terPercent) &&
+		passesRange(etf.totalCompanies, filters.companies, defaultEtfFilters.companies) &&
+		passesRange(getEtfCountryCount(etf), filters.countryCount, defaultEtfFilters.countryCount) &&
+		passesRange(etf.topHoldingsTotalWeightPercent, filters.topHoldingsWeightPercent, defaultEtfFilters.topHoldingsWeightPercent) &&
+		passesRange(getMaxCountryWeightPercent(etf), filters.maxCountryWeightPercent, defaultEtfFilters.maxCountryWeightPercent)
+	);
+}
+
+function passesEtfNameSearch(etf, searchText) {
+	const search = normalizeEtfSearchText(searchText);
+
+	if (!search) return true;
+
+	const haystack = normalizeEtfSearchText([
+		etf.ticker,
+		etf.name,
+		etf.isin,
+		etf.provider,
+		etf.indexName
+	].filter(Boolean).join(" "));
+
+	return search
+		.split(" ")
+		.filter(Boolean)
+		.every(word => haystack.includes(word));
+}
+
+function normalizeEtfSearchText(text) {
+	return String(text || "")
+		.toLowerCase()
+		.normalize("NFD")
+		.replace(/[\u0300-\u036f]/g, "")
+		.replace(/[^a-z0-9]+/g, " ")
+		.trim();
 }

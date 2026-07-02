@@ -12,14 +12,17 @@ function renderEtfCard(etf) {
 						<th>ETF kapitalas</th>
 						<td>${formatFundCapital(etf.fundCapital)}</td>
 					</tr>
+
 					<tr>
 						<th>Valdymo mokestis</th>
 						<td>${formatPercent(etf.terPercent)}</td>
 					</tr>
+
 					<tr>
 						<th>Iš viso įmonių</th>
 						<td>${formatNumber(etf.totalCompanies)}</td>
 					</tr>
+
 					<tr>
 						<th>TOP10 pozicijų dalis</th>
 						<td>${formatPercent(etf.topHoldingsTotalWeightPercent)}</td>
