@@ -1,0 +1,817 @@
+[
+	{
+		"id": "bcfp",
+		"ticker": "BCFP",
+		"isin": "IE000SB4G4I4",
+		"name": "UBS Nasdaq-100 UCITS ETF USD acc",
+		"terPercent": 0.13,
+		"terBucket": "0.13",
+		"totalCompanies": 100,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Acc",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "BCFP"
+			},
+			{
+				"exchange": "gettex",
+				"ticker": "BCFP"
+			}
+		],
+		"assetClass": "Equity",
+		"equityExposurePercent": 100,
+		"ucits": true,
+		"issuer": "UBS",
+		"indexName": "Nasdaq 100",
+		"region": "USA",
+		"marketType": "Developed",
+		"hedgedToEur": false,
+		"fundCurrency": "USD",
+		"primaryEurListing": {
+			"exchange": "XETRA",
+			"ticker": "BCFP"
+		},
+		"replication": {
+			"type": "Physical",
+			"usesSwap": false,
+			"estimated": false
+		},
+		"maxCountryCode": "US",
+		"maxCountryWeightPercent": 96.0,
+		"sectorWeights": [
+			{
+				"name": "Information Technology",
+				"weightPercent": 32.52,
+				"estimated": true
+			},
+			{
+				"name": "Communication Services",
+				"weightPercent": 12.36,
+				"estimated": true
+			},
+			{
+				"name": "Consumer Discretionary",
+				"weightPercent": 9.3,
+				"estimated": true
+			},
+			{
+				"name": "Consumer Staples",
+				"weightPercent": 2.45,
+				"estimated": true
+			}
+		],
+		"topSectorName": "Information Technology",
+		"topSectorWeightPercent": 32.52,
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 95,
+				"weightPercent": 96.0,
+				"estimated": true
+			},
+			{
+				"name": "Netherlands",
+				"nameLt": "Nyderlandai",
+				"code": "NL",
+				"companies": 1,
+				"weightPercent": 1.2,
+				"estimated": true
+			},
+			{
+				"name": "Ireland",
+				"nameLt": "Airija",
+				"code": "IE",
+				"companies": 1,
+				"weightPercent": 1.0,
+				"estimated": true
+			},
+			{
+				"name": "United Kingdom",
+				"nameLt": "Jungtinė Karalystė",
+				"code": "GB",
+				"companies": 1,
+				"weightPercent": 0.8,
+				"estimated": true
+			},
+			{
+				"name": "Other countries",
+				"nameLt": "Kitos šalys",
+				"code": null,
+				"companies": 2,
+				"weightPercent": 1.0,
+				"estimated": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 410,
+			"currency": "EUR",
+			"label": "€410M",
+			"asOf": "2026-07-01",
+			"sourceName": "justETF",
+			"estimated": false
+		},
+		"topHoldings": [
+			{
+				"name": "NVIDIA Corp.",
+				"ticker": "NVDA",
+				"countryCode": "US",
+				"weightPercent": 10.85,
+				"estimated": 1,
+				"sector": "Information Technology",
+				"isin": "US67066G1040"
+			},
+			{
+				"name": "Microsoft Corp.",
+				"ticker": "MSFT",
+				"countryCode": "US",
+				"weightPercent": 8.62,
+				"estimated": 1,
+				"sector": "Information Technology",
+				"isin": "US5949181045"
+			},
+			{
+				"name": "Apple Inc.",
+				"ticker": "AAPL",
+				"countryCode": "US",
+				"weightPercent": 7.95,
+				"estimated": 1,
+				"sector": "Information Technology",
+				"isin": "US0378331005"
+			},
+			{
+				"name": "Amazon.com Inc.",
+				"ticker": "AMZN",
+				"countryCode": "US",
+				"weightPercent": 5.8,
+				"estimated": 1,
+				"sector": "Consumer Discretionary",
+				"isin": "US0231351067"
+			},
+			{
+				"name": "Broadcom Inc.",
+				"ticker": "AVGO",
+				"countryCode": "US",
+				"weightPercent": 5.1,
+				"estimated": 1,
+				"sector": "Information Technology",
+				"isin": "US11135F1012"
+			},
+			{
+				"name": "Meta Platforms Inc.",
+				"ticker": "META",
+				"countryCode": "US",
+				"weightPercent": 4.65,
+				"estimated": 1,
+				"sector": "Communication Services",
+				"isin": "US30303M1027"
+			},
+			{
+				"name": "Alphabet Inc. Class A",
+				"ticker": "GOOGL",
+				"countryCode": "US",
+				"weightPercent": 3.92,
+				"estimated": 1,
+				"sector": "Communication Services",
+				"isin": "US02079K3059"
+			},
+			{
+				"name": "Alphabet Inc. Class C",
+				"ticker": "GOOG",
+				"countryCode": "US",
+				"weightPercent": 3.79,
+				"estimated": 1,
+				"sector": "Communication Services",
+				"isin": "US02079K1079"
+			},
+			{
+				"name": "Tesla Inc.",
+				"ticker": "TSLA",
+				"countryCode": "US",
+				"weightPercent": 3.5,
+				"estimated": 1,
+				"sector": "Consumer Discretionary",
+				"isin": "US88160R1014"
+			},
+			{
+				"name": "Costco Wholesale Corp.",
+				"ticker": "COST",
+				"countryCode": "US",
+				"weightPercent": 2.45,
+				"estimated": 1,
+				"sector": "Consumer Staples",
+				"isin": "US22160K1051"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 56.63,
+		"sourceUrls": [
+			"https://www.justetf.com/en/etf-profile.html?isin=IE000SB4G4I4"
+		],
+		"notes": "Directly checked TER, holdings count, fund size, EUR listings. Country/top holdings estimated."
+	},
+	{
+		"id": "s5sg",
+		"ticker": "S5SG",
+		"isin": "IE00BHXMHQ65",
+		"name": "UBS S&P 500 Scored & Screened UCITS ETF hEUR acc",
+		"terPercent": 0.13,
+		"terBucket": "0.13",
+		"totalCompanies": 330,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Acc",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "S5SG"
+			},
+			{
+				"exchange": "gettex",
+				"ticker": "S5SG"
+			}
+		],
+		"assetClass": "Equity",
+		"equityExposurePercent": 100,
+		"ucits": true,
+		"issuer": "UBS",
+		"indexName": "S&P 500 Scored & Screened EUR Hedged",
+		"region": "USA",
+		"marketType": "Developed",
+		"hedgedToEur": true,
+		"fundCurrency": "EUR",
+		"primaryEurListing": {
+			"exchange": "XETRA",
+			"ticker": "S5SG"
+		},
+		"replication": {
+			"type": "Physical",
+			"usesSwap": false,
+			"estimated": false
+		},
+		"maxCountryCode": "US",
+		"maxCountryWeightPercent": 95.0,
+		"sectorWeights": [
+			{
+				"name": "Information Technology",
+				"weightPercent": 25.93,
+				"estimated": true
+			},
+			{
+				"name": "Communication Services",
+				"weightPercent": 9.78,
+				"estimated": true
+			},
+			{
+				"name": "Health Care",
+				"weightPercent": 2.18,
+				"estimated": true
+			},
+			{
+				"name": "Financials",
+				"weightPercent": 1.36,
+				"estimated": true
+			},
+			{
+				"name": "Consumer Staples",
+				"weightPercent": 1.29,
+				"estimated": true
+			}
+		],
+		"topSectorName": "Information Technology",
+		"topSectorWeightPercent": 25.93,
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 310,
+				"weightPercent": 95.0,
+				"estimated": true
+			},
+			{
+				"name": "Ireland",
+				"nameLt": "Airija",
+				"code": "IE",
+				"companies": 6,
+				"weightPercent": 2.0,
+				"estimated": true
+			},
+			{
+				"name": "Other countries",
+				"nameLt": "Kitos šalys",
+				"code": null,
+				"companies": 14,
+				"weightPercent": 3.0,
+				"estimated": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 932,
+			"currency": "EUR",
+			"label": "€932M",
+			"asOf": "2026-07-01",
+			"sourceName": "justETF",
+			"estimated": false
+		},
+		"topHoldings": [
+			{
+				"name": "NVIDIA Corp.",
+				"ticker": "NVDA",
+				"countryCode": "US",
+				"weightPercent": 12.82,
+				"estimated": 1,
+				"sector": "Information Technology",
+				"isin": "US67066G1040"
+			},
+			{
+				"name": "Microsoft Corp.",
+				"ticker": "MSFT",
+				"countryCode": "US",
+				"weightPercent": 7.08,
+				"estimated": 1,
+				"sector": "Information Technology",
+				"isin": "US5949181045"
+			},
+			{
+				"name": "Alphabet Inc. Class A",
+				"ticker": "GOOGL",
+				"countryCode": "US",
+				"weightPercent": 5.42,
+				"estimated": 1,
+				"sector": "Communication Services",
+				"isin": "US02079K3059"
+			},
+			{
+				"name": "Alphabet Inc. Class C",
+				"ticker": "GOOG",
+				"countryCode": "US",
+				"weightPercent": 4.36,
+				"estimated": 1,
+				"sector": "Communication Services",
+				"isin": "US02079K1079"
+			},
+			{
+				"name": "Micron Technology Inc.",
+				"ticker": "MU",
+				"countryCode": "US",
+				"weightPercent": 3.21,
+				"estimated": 1,
+				"sector": "Information Technology",
+				"isin": "US5951121038"
+			},
+			{
+				"name": "Eli Lilly & Co.",
+				"ticker": "LLY",
+				"countryCode": "US",
+				"weightPercent": 2.18,
+				"estimated": 1,
+				"sector": "Health Care",
+				"isin": "US5324571083"
+			},
+			{
+				"name": "Intel Corp.",
+				"ticker": "INTC",
+				"countryCode": "US",
+				"weightPercent": 1.59,
+				"estimated": 1,
+				"sector": "Information Technology",
+				"isin": "US4581401001"
+			},
+			{
+				"name": "Visa Inc.",
+				"ticker": "V",
+				"countryCode": "US",
+				"weightPercent": 1.36,
+				"estimated": 1,
+				"sector": "Financials",
+				"isin": "US92826C8394"
+			},
+			{
+				"name": "Walmart Inc.",
+				"ticker": "WMT",
+				"countryCode": "US",
+				"weightPercent": 1.29,
+				"estimated": 1,
+				"sector": "Consumer Staples",
+				"isin": "US9311421039"
+			},
+			{
+				"name": "Applied Materials Inc.",
+				"ticker": "AMAT",
+				"countryCode": "US",
+				"weightPercent": 1.23,
+				"estimated": 1,
+				"sector": "Information Technology",
+				"isin": "US0382221051"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 40.54,
+		"sourceUrls": [
+			"https://www.justetf.com/en/etf-profile.html?isin=IE00BHXMHQ65"
+		],
+		"notes": "Directly checked TER, holdings count, fund size, EUR hedged. Country/top holdings estimated."
+	},
+	{
+		"id": "esaa",
+		"ticker": "ESAA",
+		"isin": "IE000Q6C8036",
+		"name": "BNP Paribas Easy S&P 500 Scored and Screened UCITS ETF EUR Hedged Acc",
+		"terPercent": 0.13,
+		"terBucket": "0.13",
+		"totalCompanies": 300,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Acc",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "ESAA"
+			},
+			{
+				"exchange": "gettex",
+				"ticker": "ESAA"
+			}
+		],
+		"assetClass": "Equity",
+		"equityExposurePercent": 100,
+		"ucits": true,
+		"issuer": "BNP Paribas",
+		"indexName": "S&P 500 Scored & Screened EUR Hedged",
+		"region": "USA",
+		"marketType": "Developed",
+		"hedgedToEur": true,
+		"fundCurrency": "EUR",
+		"primaryEurListing": {
+			"exchange": "XETRA",
+			"ticker": "ESAA"
+		},
+		"replication": {
+			"type": "Physical",
+			"usesSwap": false,
+			"estimated": false
+		},
+		"maxCountryCode": "US",
+		"maxCountryWeightPercent": 95.0,
+		"sectorWeights": [
+			{
+				"name": "Information Technology",
+				"weightPercent": 25.93,
+				"estimated": true
+			},
+			{
+				"name": "Communication Services",
+				"weightPercent": 9.78,
+				"estimated": true
+			},
+			{
+				"name": "Health Care",
+				"weightPercent": 2.18,
+				"estimated": true
+			},
+			{
+				"name": "Financials",
+				"weightPercent": 1.36,
+				"estimated": true
+			},
+			{
+				"name": "Consumer Staples",
+				"weightPercent": 1.29,
+				"estimated": true
+			}
+		],
+		"topSectorName": "Information Technology",
+		"topSectorWeightPercent": 25.93,
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 282,
+				"weightPercent": 95.0,
+				"estimated": true
+			},
+			{
+				"name": "Ireland",
+				"nameLt": "Airija",
+				"code": "IE",
+				"companies": 5,
+				"weightPercent": 2.0,
+				"estimated": true
+			},
+			{
+				"name": "Other countries",
+				"nameLt": "Kitos šalys",
+				"code": null,
+				"companies": 13,
+				"weightPercent": 3.0,
+				"estimated": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 55,
+			"currency": "EUR",
+			"label": "€55M",
+			"asOf": "2026-07-01",
+			"sourceName": "justETF",
+			"estimated": false
+		},
+		"topHoldings": [
+			{
+				"name": "NVIDIA Corp.",
+				"ticker": "NVDA",
+				"countryCode": "US",
+				"weightPercent": 12.82,
+				"estimated": 1,
+				"sector": "Information Technology",
+				"isin": "US67066G1040"
+			},
+			{
+				"name": "Microsoft Corp.",
+				"ticker": "MSFT",
+				"countryCode": "US",
+				"weightPercent": 7.08,
+				"estimated": 1,
+				"sector": "Information Technology",
+				"isin": "US5949181045"
+			},
+			{
+				"name": "Alphabet Inc. Class A",
+				"ticker": "GOOGL",
+				"countryCode": "US",
+				"weightPercent": 5.42,
+				"estimated": 1,
+				"sector": "Communication Services",
+				"isin": "US02079K3059"
+			},
+			{
+				"name": "Alphabet Inc. Class C",
+				"ticker": "GOOG",
+				"countryCode": "US",
+				"weightPercent": 4.36,
+				"estimated": 1,
+				"sector": "Communication Services",
+				"isin": "US02079K1079"
+			},
+			{
+				"name": "Micron Technology Inc.",
+				"ticker": "MU",
+				"countryCode": "US",
+				"weightPercent": 3.21,
+				"estimated": 1,
+				"sector": "Information Technology",
+				"isin": "US5951121038"
+			},
+			{
+				"name": "Eli Lilly & Co.",
+				"ticker": "LLY",
+				"countryCode": "US",
+				"weightPercent": 2.18,
+				"estimated": 1,
+				"sector": "Health Care",
+				"isin": "US5324571083"
+			},
+			{
+				"name": "Intel Corp.",
+				"ticker": "INTC",
+				"countryCode": "US",
+				"weightPercent": 1.59,
+				"estimated": 1,
+				"sector": "Information Technology",
+				"isin": "US4581401001"
+			},
+			{
+				"name": "Visa Inc.",
+				"ticker": "V",
+				"countryCode": "US",
+				"weightPercent": 1.36,
+				"estimated": 1,
+				"sector": "Financials",
+				"isin": "US92826C8394"
+			},
+			{
+				"name": "Walmart Inc.",
+				"ticker": "WMT",
+				"countryCode": "US",
+				"weightPercent": 1.29,
+				"estimated": 1,
+				"sector": "Consumer Staples",
+				"isin": "US9311421039"
+			},
+			{
+				"name": "Applied Materials Inc.",
+				"ticker": "AMAT",
+				"countryCode": "US",
+				"weightPercent": 1.23,
+				"estimated": 1,
+				"sector": "Information Technology",
+				"isin": "US0382221051"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 40.54,
+		"sourceUrls": [
+			"https://www.justetf.com/en/etf-profile.html?isin=IE000Q6C8036"
+		],
+		"notes": "Directly checked TER, fund size, full replication, EUR hedged. Holdings count/country split estimated."
+	},
+	{
+		"id": "vjpe",
+		"ticker": "VJPE",
+		"isin": "IE00BFMXYY33",
+		"name": "Vanguard FTSE Japan UCITS ETF EUR Hedged Accumulating",
+		"terPercent": 0.13,
+		"terBucket": "0.13",
+		"totalCompanies": 476,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Acc",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "VJPE"
+			},
+			{
+				"exchange": "gettex",
+				"ticker": "VJPE"
+			},
+			{
+				"exchange": "Borsa Italiana",
+				"ticker": "VJPE"
+			}
+		],
+		"assetClass": "Equity",
+		"equityExposurePercent": 100,
+		"ucits": true,
+		"issuer": "Vanguard",
+		"indexName": "FTSE Japan EUR Hedged",
+		"region": "Japan",
+		"marketType": "Developed",
+		"hedgedToEur": true,
+		"fundCurrency": "EUR",
+		"primaryEurListing": {
+			"exchange": "XETRA",
+			"ticker": "VJPE"
+		},
+		"replication": {
+			"type": "Physical",
+			"usesSwap": false,
+			"estimated": false
+		},
+		"maxCountryCode": "JP",
+		"maxCountryWeightPercent": 100.0,
+		"sectorWeights": [
+			{
+				"name": "Financials",
+				"weightPercent": 8.26,
+				"estimated": true
+			},
+			{
+				"name": "Consumer Discretionary",
+				"weightPercent": 5.85,
+				"estimated": true
+			},
+			{
+				"name": "Information Technology",
+				"weightPercent": 4.81,
+				"estimated": true
+			},
+			{
+				"name": "Industrials",
+				"weightPercent": 4.28,
+				"estimated": true
+			},
+			{
+				"name": "Communication Services",
+				"weightPercent": 2.86,
+				"estimated": true
+			}
+		],
+		"topSectorName": "Financials",
+		"topSectorWeightPercent": 8.26,
+		"countries": [
+			{
+				"name": "Japan",
+				"nameLt": "Japonija",
+				"code": "JP",
+				"companies": 476,
+				"weightPercent": 100.0,
+				"estimated": 0
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 97,
+			"currency": "EUR",
+			"label": "€97M",
+			"asOf": "2026-07-01",
+			"sourceName": "justETF",
+			"estimated": false
+		},
+		"topHoldings": [
+			{
+				"name": "Mitsubishi UFJ Financial Group Inc.",
+				"ticker": "8306",
+				"countryCode": "JP",
+				"weightPercent": 3.8,
+				"estimated": 1,
+				"sector": "Financials",
+				"isin": "JP3902900004"
+			},
+			{
+				"name": "Toyota Motor Corp.",
+				"ticker": "7203",
+				"countryCode": "JP",
+				"weightPercent": 3.51,
+				"estimated": 1,
+				"sector": "Consumer Discretionary",
+				"isin": "JP3633400001"
+			},
+			{
+				"name": "SoftBank Group Corp.",
+				"ticker": "9984",
+				"countryCode": "JP",
+				"weightPercent": 2.86,
+				"estimated": 1,
+				"sector": "Communication Services",
+				"isin": "JP3436100006"
+			},
+			{
+				"name": "Tokyo Electron Ltd.",
+				"ticker": "8035",
+				"countryCode": "JP",
+				"weightPercent": 2.63,
+				"estimated": 1,
+				"sector": "Information Technology",
+				"isin": "JP3571400005"
+			},
+			{
+				"name": "Sumitomo Mitsui Financial Group Inc.",
+				"ticker": "8316",
+				"countryCode": "JP",
+				"weightPercent": 2.49,
+				"estimated": 1,
+				"sector": "Financials",
+				"isin": "JP3890350006"
+			},
+			{
+				"name": "Hitachi Ltd.",
+				"ticker": "6501",
+				"countryCode": "JP",
+				"weightPercent": 2.37,
+				"estimated": 1,
+				"sector": "Industrials",
+				"isin": "JP3788600009"
+			},
+			{
+				"name": "Sony Group Corp.",
+				"ticker": "6758",
+				"countryCode": "JP",
+				"weightPercent": 2.34,
+				"estimated": 1,
+				"sector": "Consumer Discretionary",
+				"isin": "JP3435000009"
+			},
+			{
+				"name": "Advantest Corp.",
+				"ticker": "6857",
+				"countryCode": "JP",
+				"weightPercent": 2.18,
+				"estimated": 1,
+				"sector": "Information Technology",
+				"isin": "JP3122400009"
+			},
+			{
+				"name": "Mizuho Financial Group Inc.",
+				"ticker": "8411",
+				"countryCode": "JP",
+				"weightPercent": 1.97,
+				"estimated": 1,
+				"sector": "Financials",
+				"isin": "JP3885780001"
+			},
+			{
+				"name": "Mitsubishi Corp.",
+				"ticker": "8058",
+				"countryCode": "JP",
+				"weightPercent": 1.91,
+				"estimated": 1,
+				"sector": "Industrials",
+				"isin": "JP3898400001"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 26.06,
+		"sourceUrls": [
+			"https://www.justetf.com/en/etf-profile.html?isin=IE00BFMXYY33"
+		],
+		"notes": "Directly checked TER, holdings count, fund size, full replication, EUR hedge, EUR listings."
+	}
+]

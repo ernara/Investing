@@ -1,0 +1,479 @@
+[
+	{
+		"id": "emgm",
+		"ticker": "EMGM",
+		"isin": "IE0004I037N4",
+		"name": "Franklin FTSE Emerging Markets UCITS ETF (Acc)",
+		"terPercent": 0.11,
+		"terBucket": "0.11",
+		"totalCompanies": 1516,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Acc",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "EMGM"
+			},
+			{
+				"exchange": "gettex",
+				"ticker": "EMGM"
+			},
+			{
+				"exchange": "Euronext Paris",
+				"ticker": "EMERG"
+			},
+			{
+				"exchange": "Borsa Italiana",
+				"ticker": "EMERG"
+			}
+		],
+		"assetClass": "Equity",
+		"equityExposurePercent": 100,
+		"ucits": true,
+		"issuer": "Franklin Templeton",
+		"indexName": "FTSE Emerging",
+		"region": "Emerging Markets",
+		"marketType": "Emerging",
+		"hedgedToEur": false,
+		"fundCurrency": "USD",
+		"primaryEurListing": {
+			"exchange": "XETRA",
+			"ticker": "EMGM"
+		},
+		"replication": {
+			"type": "Physical",
+			"usesSwap": false,
+			"estimated": false
+		},
+		"maxCountryCode": "CN",
+		"maxCountryWeightPercent": 27.0,
+		"sectorWeights": [
+			{
+				"name": "Information Technology",
+				"weightPercent": 13.9,
+				"estimated": true
+			},
+			{
+				"name": "Communication Services",
+				"weightPercent": 4.25,
+				"estimated": true
+			},
+			{
+				"name": "Financials",
+				"weightPercent": 3.9,
+				"estimated": true
+			},
+			{
+				"name": "Consumer Discretionary",
+				"weightPercent": 2.65,
+				"estimated": true
+			},
+			{
+				"name": "Energy",
+				"weightPercent": 1.0,
+				"estimated": true
+			}
+		],
+		"topSectorName": "Information Technology",
+		"topSectorWeightPercent": 13.9,
+		"countries": [
+			{
+				"name": "China",
+				"nameLt": "Kinija",
+				"code": "CN",
+				"companies": 520,
+				"weightPercent": 27.0,
+				"estimated": true
+			},
+			{
+				"name": "India",
+				"nameLt": "Indija",
+				"code": "IN",
+				"companies": 235,
+				"weightPercent": 20.0,
+				"estimated": true
+			},
+			{
+				"name": "Taiwan",
+				"nameLt": "Taivanas",
+				"code": "TW",
+				"companies": 100,
+				"weightPercent": 18.0,
+				"estimated": true
+			},
+			{
+				"name": "South Korea",
+				"nameLt": "Pietų Korėja",
+				"code": "KR",
+				"companies": 120,
+				"weightPercent": 11.0,
+				"estimated": true
+			},
+			{
+				"name": "Brazil",
+				"nameLt": "Brazilija",
+				"code": "BR",
+				"companies": 45,
+				"weightPercent": 5.0,
+				"estimated": true
+			},
+			{
+				"name": "Other countries",
+				"nameLt": "Kitos šalys",
+				"code": null,
+				"companies": 496,
+				"weightPercent": 19.0,
+				"estimated": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 7,
+			"currency": "EUR",
+			"label": "€7M",
+			"asOf": "2026-07-01",
+			"sourceName": "justETF",
+			"estimated": false
+		},
+		"topHoldings": [
+			{
+				"name": "Taiwan Semiconductor Manufacturing Co.",
+				"ticker": "2330",
+				"countryCode": "TW",
+				"weightPercent": 9.2,
+				"estimated": 1,
+				"sector": "Information Technology",
+				"isin": "TW0002330008"
+			},
+			{
+				"name": "Tencent Holdings Ltd.",
+				"ticker": "700",
+				"countryCode": "CN",
+				"weightPercent": 4.25,
+				"estimated": 1,
+				"sector": "Communication Services",
+				"isin": "KYG875721634"
+			},
+			{
+				"name": "Alibaba Group Holding Ltd.",
+				"ticker": "9988",
+				"countryCode": "CN",
+				"weightPercent": 2.65,
+				"estimated": 1,
+				"sector": "Consumer Discretionary",
+				"isin": "KYG017191142"
+			},
+			{
+				"name": "Samsung Electronics Co. Ltd.",
+				"ticker": "005930",
+				"countryCode": "KR",
+				"weightPercent": 2.55,
+				"estimated": 1,
+				"sector": "Information Technology",
+				"isin": "KR7005930003"
+			},
+			{
+				"name": "HDFC Bank Ltd.",
+				"ticker": "HDFCBANK",
+				"countryCode": "IN",
+				"weightPercent": 1.55,
+				"estimated": 1,
+				"sector": "Financials",
+				"isin": "INE040A01034"
+			},
+			{
+				"name": "ICICI Bank Ltd.",
+				"ticker": "ICICIBANK",
+				"countryCode": "IN",
+				"weightPercent": 1.25,
+				"estimated": 1,
+				"sector": "Financials",
+				"isin": "INE090A01021"
+			},
+			{
+				"name": "Xiaomi Corp.",
+				"ticker": "1810",
+				"countryCode": "CN",
+				"weightPercent": 1.2,
+				"estimated": 1,
+				"sector": "Information Technology",
+				"isin": "KYG9830T1067"
+			},
+			{
+				"name": "China Construction Bank Corp.",
+				"ticker": "939",
+				"countryCode": "CN",
+				"weightPercent": 1.1,
+				"estimated": 1,
+				"sector": "Financials",
+				"isin": "CNE1000002H1"
+			},
+			{
+				"name": "Reliance Industries Ltd.",
+				"ticker": "RELIANCE",
+				"countryCode": "IN",
+				"weightPercent": 1.0,
+				"estimated": 1,
+				"sector": "Energy",
+				"isin": "INE002A01018"
+			},
+			{
+				"name": "SK Hynix Inc.",
+				"ticker": "000660",
+				"countryCode": "KR",
+				"weightPercent": 0.95,
+				"estimated": 1,
+				"sector": "Information Technology",
+				"isin": "KR7000660001"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 25.7,
+		"sourceUrls": [
+			"https://www.justetf.com/en/etf-profile.html?isin=IE0004I037N4"
+		],
+		"notes": "Directly checked TER, holdings count, fund size, physical replication, EUR listings. Country/top holdings estimated."
+	},
+	{
+		"id": "excn",
+		"ticker": "EXCN",
+		"isin": "IE0006D3PGW3",
+		"name": "Franklin FTSE Emerging ex China UCITS ETF USD Acc",
+		"terPercent": 0.11,
+		"terBucket": "0.11",
+		"totalCompanies": 963,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Acc",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "EXCN"
+			},
+			{
+				"exchange": "Euronext Paris",
+				"ticker": "EXCN"
+			},
+			{
+				"exchange": "Borsa Italiana",
+				"ticker": "EXCN"
+			}
+		],
+		"assetClass": "Equity",
+		"equityExposurePercent": 100,
+		"ucits": true,
+		"issuer": "Franklin Templeton",
+		"indexName": "FTSE Emerging ex China",
+		"region": "Emerging Markets ex China",
+		"marketType": "Emerging",
+		"hedgedToEur": false,
+		"fundCurrency": "USD",
+		"primaryEurListing": {
+			"exchange": "XETRA",
+			"ticker": "EXCN"
+		},
+		"replication": {
+			"type": "Physical",
+			"usesSwap": false,
+			"estimated": false
+		},
+		"maxCountryCode": "IN",
+		"maxCountryWeightPercent": 34.0,
+		"sectorWeights": [
+			{
+				"name": "Information Technology",
+				"weightPercent": 23.35,
+				"estimated": true
+			},
+			{
+				"name": "Financials",
+				"weightPercent": 5.55,
+				"estimated": true
+			},
+			{
+				"name": "Energy",
+				"weightPercent": 2.15,
+				"estimated": true
+			},
+			{
+				"name": "Materials",
+				"weightPercent": 1.1,
+				"estimated": true
+			},
+			{
+				"name": "Consumer Discretionary",
+				"weightPercent": 0.95,
+				"estimated": true
+			}
+		],
+		"topSectorName": "Information Technology",
+		"topSectorWeightPercent": 23.35,
+		"countries": [
+			{
+				"name": "India",
+				"nameLt": "Indija",
+				"code": "IN",
+				"companies": 330,
+				"weightPercent": 34.0,
+				"estimated": true
+			},
+			{
+				"name": "Taiwan",
+				"nameLt": "Taivanas",
+				"code": "TW",
+				"companies": 290,
+				"weightPercent": 30.0,
+				"estimated": true
+			},
+			{
+				"name": "South Korea",
+				"nameLt": "Pietų Korėja",
+				"code": "KR",
+				"companies": 145,
+				"weightPercent": 15.0,
+				"estimated": true
+			},
+			{
+				"name": "Brazil",
+				"nameLt": "Brazilija",
+				"code": "BR",
+				"companies": 67,
+				"weightPercent": 7.0,
+				"estimated": true
+			},
+			{
+				"name": "Saudi Arabia",
+				"nameLt": "Saudo Arabija",
+				"code": "SA",
+				"companies": 39,
+				"weightPercent": 4.0,
+				"estimated": true
+			},
+			{
+				"name": "South Africa",
+				"nameLt": "Pietų Afrika",
+				"code": "ZA",
+				"companies": 35,
+				"weightPercent": 4.0,
+				"estimated": true
+			},
+			{
+				"name": "Other countries",
+				"nameLt": "Kitos šalys",
+				"code": null,
+				"companies": 57,
+				"weightPercent": 6.0,
+				"estimated": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 6,
+			"currency": "EUR",
+			"label": "€6M",
+			"asOf": "2026-07-01",
+			"sourceName": "justETF",
+			"estimated": false
+		},
+		"topHoldings": [
+			{
+				"name": "Taiwan Semiconductor Manufacturing Co.",
+				"ticker": "2330",
+				"countryCode": "TW",
+				"weightPercent": 13.5,
+				"estimated": 1,
+				"sector": "Information Technology",
+				"isin": "TW0002330008"
+			},
+			{
+				"name": "Samsung Electronics Co. Ltd.",
+				"ticker": "005930",
+				"countryCode": "KR",
+				"weightPercent": 4.95,
+				"estimated": 1,
+				"sector": "Information Technology",
+				"isin": "KR7005930003"
+			},
+			{
+				"name": "HDFC Bank Ltd.",
+				"ticker": "HDFCBANK",
+				"countryCode": "IN",
+				"weightPercent": 3.1,
+				"estimated": 1,
+				"sector": "Financials",
+				"isin": "INE040A01034"
+			},
+			{
+				"name": "ICICI Bank Ltd.",
+				"ticker": "ICICIBANK",
+				"countryCode": "IN",
+				"weightPercent": 2.45,
+				"estimated": 1,
+				"sector": "Financials",
+				"isin": "INE090A01021"
+			},
+			{
+				"name": "Reliance Industries Ltd.",
+				"ticker": "RELIANCE",
+				"countryCode": "IN",
+				"weightPercent": 2.15,
+				"estimated": 1,
+				"sector": "Energy",
+				"isin": "INE002A01018"
+			},
+			{
+				"name": "SK Hynix Inc.",
+				"ticker": "000660",
+				"countryCode": "KR",
+				"weightPercent": 1.9,
+				"estimated": 1,
+				"sector": "Information Technology",
+				"isin": "KR7000660001"
+			},
+			{
+				"name": "Infosys Ltd.",
+				"ticker": "INFY",
+				"countryCode": "IN",
+				"weightPercent": 1.55,
+				"estimated": 1,
+				"sector": "Information Technology",
+				"isin": "INE009A01021"
+			},
+			{
+				"name": "Hon Hai Precision Industry Co. Ltd.",
+				"ticker": "2317",
+				"countryCode": "TW",
+				"weightPercent": 1.45,
+				"estimated": 1,
+				"sector": "Information Technology",
+				"isin": "TW0002317005"
+			},
+			{
+				"name": "Vale SA",
+				"ticker": "VALE3",
+				"countryCode": "BR",
+				"weightPercent": 1.1,
+				"estimated": 1,
+				"sector": "Materials",
+				"isin": "BRVALEACNOR0"
+			},
+			{
+				"name": "Naspers Ltd.",
+				"ticker": "NPN",
+				"countryCode": "ZA",
+				"weightPercent": 0.95,
+				"estimated": 1,
+				"sector": "Consumer Discretionary",
+				"isin": "ZAE000325783"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 33.1,
+		"sourceUrls": [
+			"https://www.justetf.com/en-be/etf-profile.html?isin=IE0006D3PGW3",
+			"https://www.franklintempleton.lu/our-funds/price-and-performance-etfs/products/40164/SINGLCLASS/franklin-ftse-emerging-ex-china-ucits-etf/IE0006D3PGW3"
+		],
+		"notes": "Directly checked TER, fund size, physical replication, EUR listings, issuer holdings count. Country/top holdings estimated."
+	}
+]

@@ -2,7 +2,7 @@ let allRawEtfs = [];
 
 async function loadEtfs() {
 	try {
-		allRawEtfs = await loadTerEtfFiles(3, 10);
+		allRawEtfs = await loadEtfFiles();
 
 		renderEtfsByShareClassMode();
 	} catch (error) {
@@ -21,35 +21,7 @@ function renderEtfsByShareClassMode() {
 	initEtfFilters(sortedEtfs, renderEtfs);
 }
 
-async function loadTerEtfFiles(fromTer, toTer) {
-	const filePromises = [];
 
-	for (let ter = fromTer; ter <= toTer; ter++) {
-		const fileName = `data/ter-0.${String(ter).padStart(2, "0")}.json`;
-
-		filePromises.push(loadJsonFileIfExists(fileName));
-	}
-
-	const files = await Promise.all(filePromises);
-
-	return files
-		.filter(Boolean)
-		.flatMap(file => Array.isArray(file) ? file : file.etfs || []);
-}
-
-async function loadJsonFileIfExists(fileName) {
-	const response = await fetch(fileName);
-
-	if (response.status === 404) {
-		return null;
-	}
-
-	if (!response.ok) {
-		throw new Error(`Nepavyko įkelti: ${fileName}`);
-	}
-
-	return response.json();
-}
 
 function renderEtfs(etfs) {
 	const root = document.getElementById("etfSummary");

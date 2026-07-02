@@ -1,0 +1,907 @@
+[
+	{
+		"id": "vwce",
+		"ticker": "VWCE",
+		"isin": "IE00BK5BQT80",
+		"name": "Vanguard FTSE All-World UCITS ETF USD Acc",
+		"terPercent": 0.19,
+		"terBucket": "0.19",
+		"totalCompanies": 3900,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Acc",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "VWCE"
+			},
+			{
+				"exchange": "gettex",
+				"ticker": "VWCE"
+			}
+		],
+		"assetClass": "Equity",
+		"equityExposurePercent": 100,
+		"ucits": true,
+		"issuer": "Vanguard",
+		"indexName": "FTSE All-World",
+		"region": "World",
+		"marketType": "Developed + Emerging",
+		"hedgedToEur": false,
+		"fundCurrency": "USD",
+		"primaryEurListing": {
+			"exchange": "XETRA",
+			"ticker": "VWCE"
+		},
+		"replication": {
+			"type": "Physical",
+			"usesSwap": false,
+			"estimated": false
+		},
+		"maxCountryCode": "US",
+		"maxCountryWeightPercent": 63.0,
+		"sectorWeights": [
+			{
+				"name": "Information Technology",
+				"weightPercent": 15.2,
+				"estimated": true
+			},
+			{
+				"name": "Consumer Discretionary",
+				"weightPercent": 3.8,
+				"estimated": true
+			},
+			{
+				"name": "Communication Services",
+				"weightPercent": 3.6,
+				"estimated": true
+			},
+			{
+				"name": "Financials",
+				"weightPercent": 0.9,
+				"estimated": true
+			}
+		],
+		"topSectorName": "Information Technology",
+		"topSectorWeightPercent": 15.2,
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 1500,
+				"weightPercent": 63.0,
+				"estimated": true
+			},
+			{
+				"name": "Japan",
+				"nameLt": "Japonija",
+				"code": "JP",
+				"companies": 400,
+				"weightPercent": 5.8,
+				"estimated": true
+			},
+			{
+				"name": "United Kingdom",
+				"nameLt": "Jungtinė Karalystė",
+				"code": "GB",
+				"companies": 250,
+				"weightPercent": 3.6,
+				"estimated": true
+			},
+			{
+				"name": "Canada",
+				"nameLt": "Kanada",
+				"code": "CA",
+				"companies": 190,
+				"weightPercent": 3.2,
+				"estimated": true
+			},
+			{
+				"name": "Taiwan",
+				"nameLt": "Taivanas",
+				"code": "TW",
+				"companies": 120,
+				"weightPercent": 2.8,
+				"estimated": true
+			},
+			{
+				"name": "India",
+				"nameLt": "Indija",
+				"code": "IN",
+				"companies": 210,
+				"weightPercent": 2.3,
+				"estimated": true
+			},
+			{
+				"name": "France",
+				"nameLt": "Prancūzija",
+				"code": "FR",
+				"companies": 110,
+				"weightPercent": 2.2,
+				"estimated": true
+			},
+			{
+				"name": "Other countries",
+				"nameLt": "Kitos šalys",
+				"code": null,
+				"companies": 1120,
+				"weightPercent": 17.1,
+				"estimated": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 0,
+			"currency": "EUR",
+			"label": "€unknown",
+			"asOf": "2026-07-01",
+			"sourceName": "justETF / issuer",
+			"estimated": true
+		},
+		"topHoldings": [
+			{
+				"name": "NVIDIA Corp.",
+				"ticker": "NVDA",
+				"countryCode": "US",
+				"weightPercent": 4.9,
+				"estimated": true,
+				"sector": "Information Technology",
+				"isin": "US67066G1040"
+			},
+			{
+				"name": "Apple Inc.",
+				"ticker": "AAPL",
+				"countryCode": "US",
+				"weightPercent": 4.4,
+				"estimated": true,
+				"sector": "Information Technology",
+				"isin": "US0378331005"
+			},
+			{
+				"name": "Microsoft Corp.",
+				"ticker": "MSFT",
+				"countryCode": "US",
+				"weightPercent": 3.0,
+				"estimated": true,
+				"sector": "Information Technology",
+				"isin": "US5949181045"
+			},
+			{
+				"name": "Amazon.com Inc.",
+				"ticker": "AMZN",
+				"countryCode": "US",
+				"weightPercent": 2.5,
+				"estimated": true,
+				"sector": "Consumer Discretionary",
+				"isin": "US0231351067"
+			},
+			{
+				"name": "Alphabet Inc. Class A",
+				"ticker": "GOOGL",
+				"countryCode": "US",
+				"weightPercent": 2.2,
+				"estimated": true,
+				"sector": "Communication Services",
+				"isin": "US02079K3059"
+			},
+			{
+				"name": "Broadcom Inc.",
+				"ticker": "AVGO",
+				"countryCode": "US",
+				"weightPercent": 1.9,
+				"estimated": true,
+				"sector": "Information Technology",
+				"isin": "US11135F1012"
+			},
+			{
+				"name": "Meta Platforms Inc.",
+				"ticker": "META",
+				"countryCode": "US",
+				"weightPercent": 1.4,
+				"estimated": true,
+				"sector": "Communication Services",
+				"isin": "US30303M1027"
+			},
+			{
+				"name": "Tesla Inc.",
+				"ticker": "TSLA",
+				"countryCode": "US",
+				"weightPercent": 1.3,
+				"estimated": true,
+				"sector": "Consumer Discretionary",
+				"isin": "US88160R1014"
+			},
+			{
+				"name": "Taiwan Semiconductor Manufacturing Co.",
+				"ticker": "2330",
+				"countryCode": "TW",
+				"weightPercent": 1.0,
+				"estimated": true,
+				"sector": "Information Technology",
+				"isin": "TW0002330008"
+			},
+			{
+				"name": "JPMorgan Chase & Co.",
+				"ticker": "JPM",
+				"countryCode": "US",
+				"weightPercent": 0.9,
+				"estimated": true,
+				"sector": "Financials",
+				"isin": "US46625H1005"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 23.5,
+		"sourceUrls": [
+			"https://www.justetf.com/en/etf-profile.html?isin=IE00BK5BQT80"
+		],
+		"notes": "Verified TER 0.19. Broad all-world ETF; country/company split estimated."
+	},
+	{
+		"id": "vgwl",
+		"ticker": "VGWL",
+		"isin": "IE00B3RBWM25",
+		"name": "Vanguard FTSE All-World UCITS ETF USD Dist",
+		"terPercent": 0.19,
+		"terBucket": "0.19",
+		"totalCompanies": 3900,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Dist",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "VGWL"
+			},
+			{
+				"exchange": "gettex",
+				"ticker": "VGWL"
+			}
+		],
+		"assetClass": "Equity",
+		"equityExposurePercent": 100,
+		"ucits": true,
+		"issuer": "Vanguard",
+		"indexName": "FTSE All-World",
+		"region": "World",
+		"marketType": "Developed + Emerging",
+		"hedgedToEur": false,
+		"fundCurrency": "USD",
+		"primaryEurListing": {
+			"exchange": "XETRA",
+			"ticker": "VGWL"
+		},
+		"replication": {
+			"type": "Physical",
+			"usesSwap": false,
+			"estimated": false
+		},
+		"maxCountryCode": "US",
+		"maxCountryWeightPercent": 63.0,
+		"sectorWeights": [
+			{
+				"name": "Information Technology",
+				"weightPercent": 15.2,
+				"estimated": true
+			},
+			{
+				"name": "Consumer Discretionary",
+				"weightPercent": 3.8,
+				"estimated": true
+			},
+			{
+				"name": "Communication Services",
+				"weightPercent": 3.6,
+				"estimated": true
+			},
+			{
+				"name": "Financials",
+				"weightPercent": 0.9,
+				"estimated": true
+			}
+		],
+		"topSectorName": "Information Technology",
+		"topSectorWeightPercent": 15.2,
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 1500,
+				"weightPercent": 63.0,
+				"estimated": true
+			},
+			{
+				"name": "Japan",
+				"nameLt": "Japonija",
+				"code": "JP",
+				"companies": 400,
+				"weightPercent": 5.8,
+				"estimated": true
+			},
+			{
+				"name": "United Kingdom",
+				"nameLt": "Jungtinė Karalystė",
+				"code": "GB",
+				"companies": 250,
+				"weightPercent": 3.6,
+				"estimated": true
+			},
+			{
+				"name": "Canada",
+				"nameLt": "Kanada",
+				"code": "CA",
+				"companies": 190,
+				"weightPercent": 3.2,
+				"estimated": true
+			},
+			{
+				"name": "Taiwan",
+				"nameLt": "Taivanas",
+				"code": "TW",
+				"companies": 120,
+				"weightPercent": 2.8,
+				"estimated": true
+			},
+			{
+				"name": "India",
+				"nameLt": "Indija",
+				"code": "IN",
+				"companies": 210,
+				"weightPercent": 2.3,
+				"estimated": true
+			},
+			{
+				"name": "France",
+				"nameLt": "Prancūzija",
+				"code": "FR",
+				"companies": 110,
+				"weightPercent": 2.2,
+				"estimated": true
+			},
+			{
+				"name": "Other countries",
+				"nameLt": "Kitos šalys",
+				"code": null,
+				"companies": 1120,
+				"weightPercent": 17.1,
+				"estimated": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 22479,
+			"currency": "EUR",
+			"label": "€22 479M",
+			"asOf": "2026-07-01",
+			"sourceName": "justETF / issuer",
+			"estimated": false
+		},
+		"topHoldings": [
+			{
+				"name": "NVIDIA Corp.",
+				"ticker": "NVDA",
+				"countryCode": "US",
+				"weightPercent": 4.9,
+				"estimated": true,
+				"sector": "Information Technology",
+				"isin": "US67066G1040"
+			},
+			{
+				"name": "Apple Inc.",
+				"ticker": "AAPL",
+				"countryCode": "US",
+				"weightPercent": 4.4,
+				"estimated": true,
+				"sector": "Information Technology",
+				"isin": "US0378331005"
+			},
+			{
+				"name": "Microsoft Corp.",
+				"ticker": "MSFT",
+				"countryCode": "US",
+				"weightPercent": 3.0,
+				"estimated": true,
+				"sector": "Information Technology",
+				"isin": "US5949181045"
+			},
+			{
+				"name": "Amazon.com Inc.",
+				"ticker": "AMZN",
+				"countryCode": "US",
+				"weightPercent": 2.5,
+				"estimated": true,
+				"sector": "Consumer Discretionary",
+				"isin": "US0231351067"
+			},
+			{
+				"name": "Alphabet Inc. Class A",
+				"ticker": "GOOGL",
+				"countryCode": "US",
+				"weightPercent": 2.2,
+				"estimated": true,
+				"sector": "Communication Services",
+				"isin": "US02079K3059"
+			},
+			{
+				"name": "Broadcom Inc.",
+				"ticker": "AVGO",
+				"countryCode": "US",
+				"weightPercent": 1.9,
+				"estimated": true,
+				"sector": "Information Technology",
+				"isin": "US11135F1012"
+			},
+			{
+				"name": "Meta Platforms Inc.",
+				"ticker": "META",
+				"countryCode": "US",
+				"weightPercent": 1.4,
+				"estimated": true,
+				"sector": "Communication Services",
+				"isin": "US30303M1027"
+			},
+			{
+				"name": "Tesla Inc.",
+				"ticker": "TSLA",
+				"countryCode": "US",
+				"weightPercent": 1.3,
+				"estimated": true,
+				"sector": "Consumer Discretionary",
+				"isin": "US88160R1014"
+			},
+			{
+				"name": "Taiwan Semiconductor Manufacturing Co.",
+				"ticker": "2330",
+				"countryCode": "TW",
+				"weightPercent": 1.0,
+				"estimated": true,
+				"sector": "Information Technology",
+				"isin": "TW0002330008"
+			},
+			{
+				"name": "JPMorgan Chase & Co.",
+				"ticker": "JPM",
+				"countryCode": "US",
+				"weightPercent": 0.9,
+				"estimated": true,
+				"sector": "Financials",
+				"isin": "US46625H1005"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 23.5,
+		"sourceUrls": [
+			"https://www.justetf.com/en/etf-profile.html?isin=IE00B3RBWM25"
+		],
+		"notes": "Verified TER 0.19, fund size, quarterly distributing. Broad all-world ETF; country/company split estimated."
+	},
+	{
+		"id": "aw11",
+		"ticker": "AW11",
+		"isin": "IE00BN4PXC48",
+		"name": "UBS Climate Aware Global Developed Equity CTB UCITS ETF USD acc",
+		"terPercent": 0.19,
+		"terBucket": "0.19",
+		"totalCompanies": 1308,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Acc",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "AW11"
+			},
+			{
+				"exchange": "gettex",
+				"ticker": "AW11"
+			}
+		],
+		"assetClass": "Equity",
+		"equityExposurePercent": 100,
+		"ucits": true,
+		"issuer": "UBS",
+		"indexName": "Solactive UBS Climate Aware Global Developed Equity CTB",
+		"region": "World",
+		"marketType": "Developed",
+		"hedgedToEur": false,
+		"fundCurrency": "USD",
+		"primaryEurListing": {
+			"exchange": "XETRA",
+			"ticker": "AW11"
+		},
+		"replication": {
+			"type": "Physical",
+			"usesSwap": false,
+			"estimated": true
+		},
+		"maxCountryCode": "US",
+		"maxCountryWeightPercent": 72.45,
+		"sectorWeights": [
+			{
+				"name": "Information Technology",
+				"weightPercent": 16.4,
+				"estimated": true
+			},
+			{
+				"name": "Communication Services",
+				"weightPercent": 6.4,
+				"estimated": true
+			},
+			{
+				"name": "Consumer Discretionary",
+				"weightPercent": 4.4,
+				"estimated": true
+			},
+			{
+				"name": "Financials",
+				"weightPercent": 1.1,
+				"estimated": true
+			}
+		],
+		"topSectorName": "Information Technology",
+		"topSectorWeightPercent": 16.4,
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 536,
+				"weightPercent": 72.45,
+				"estimated": true
+			},
+			{
+				"name": "Japan",
+				"nameLt": "Japonija",
+				"code": "JP",
+				"companies": 180,
+				"weightPercent": 5.84,
+				"estimated": true
+			},
+			{
+				"name": "United Kingdom",
+				"nameLt": "Jungtinė Karalystė",
+				"code": "GB",
+				"companies": 72,
+				"weightPercent": 3.61,
+				"estimated": true
+			},
+			{
+				"name": "Canada",
+				"nameLt": "Kanada",
+				"code": "CA",
+				"companies": 83,
+				"weightPercent": 3.24,
+				"estimated": true
+			},
+			{
+				"name": "France",
+				"nameLt": "Prancūzija",
+				"code": "FR",
+				"companies": 35,
+				"weightPercent": 2.61,
+				"estimated": true
+			},
+			{
+				"name": "Switzerland",
+				"nameLt": "Šveicarija",
+				"code": "CH",
+				"companies": 41,
+				"weightPercent": 2.43,
+				"estimated": true
+			},
+			{
+				"name": "Germany",
+				"nameLt": "Vokietija",
+				"code": "DE",
+				"companies": 44,
+				"weightPercent": 2.26,
+				"estimated": true
+			},
+			{
+				"name": "Other countries",
+				"nameLt": "Kitos šalys",
+				"code": null,
+				"companies": 317,
+				"weightPercent": 7.56,
+				"estimated": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 0,
+			"currency": "EUR",
+			"label": "€unknown",
+			"asOf": "2026-07-01",
+			"sourceName": "justETF / issuer",
+			"estimated": true
+		},
+		"topHoldings": [
+			{
+				"name": "NVIDIA Corp.",
+				"ticker": "NVDA",
+				"countryCode": "US",
+				"weightPercent": 5.7,
+				"estimated": true,
+				"sector": "Information Technology",
+				"isin": "US67066G1040"
+			},
+			{
+				"name": "Apple Inc.",
+				"ticker": "AAPL",
+				"countryCode": "US",
+				"weightPercent": 5.0,
+				"estimated": true,
+				"sector": "Information Technology",
+				"isin": "US0378331005"
+			},
+			{
+				"name": "Microsoft Corp.",
+				"ticker": "MSFT",
+				"countryCode": "US",
+				"weightPercent": 3.5,
+				"estimated": true,
+				"sector": "Information Technology",
+				"isin": "US5949181045"
+			},
+			{
+				"name": "Amazon.com Inc.",
+				"ticker": "AMZN",
+				"countryCode": "US",
+				"weightPercent": 2.9,
+				"estimated": true,
+				"sector": "Consumer Discretionary",
+				"isin": "US0231351067"
+			},
+			{
+				"name": "Alphabet Inc. Class A",
+				"ticker": "GOOGL",
+				"countryCode": "US",
+				"weightPercent": 2.6,
+				"estimated": true,
+				"sector": "Communication Services",
+				"isin": "US02079K3059"
+			},
+			{
+				"name": "Broadcom Inc.",
+				"ticker": "AVGO",
+				"countryCode": "US",
+				"weightPercent": 2.2,
+				"estimated": true,
+				"sector": "Information Technology",
+				"isin": "US11135F1012"
+			},
+			{
+				"name": "Alphabet Inc. Class C",
+				"ticker": "GOOG",
+				"countryCode": "US",
+				"weightPercent": 2.2,
+				"estimated": true,
+				"sector": "Communication Services",
+				"isin": "US02079K1079"
+			},
+			{
+				"name": "Meta Platforms Inc.",
+				"ticker": "META",
+				"countryCode": "US",
+				"weightPercent": 1.6,
+				"estimated": true,
+				"sector": "Communication Services",
+				"isin": "US30303M1027"
+			},
+			{
+				"name": "Tesla Inc.",
+				"ticker": "TSLA",
+				"countryCode": "US",
+				"weightPercent": 1.5,
+				"estimated": true,
+				"sector": "Consumer Discretionary",
+				"isin": "US88160R1014"
+			},
+			{
+				"name": "JPMorgan Chase & Co.",
+				"ticker": "JPM",
+				"countryCode": "US",
+				"weightPercent": 1.1,
+				"estimated": true,
+				"sector": "Financials",
+				"isin": "US46625H1005"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 28.3,
+		"sourceUrls": [
+			"https://www.justetf.com/en/etf-profile.html?isin=IE00BN4PXC48"
+		],
+		"notes": "Verified TER 0.19. Climate-aware developed-world ETF; country/top holdings estimated."
+	},
+	{
+		"id": "fvub",
+		"ticker": "FVUB",
+		"isin": "IE00BHZRR147",
+		"name": "Franklin FTSE Brazil UCITS ETF",
+		"terPercent": 0.19,
+		"terBucket": "0.19",
+		"totalCompanies": 90,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Acc",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "FVUB"
+			},
+			{
+				"exchange": "Borsa Italiana",
+				"ticker": "FLXB"
+			}
+		],
+		"assetClass": "Equity",
+		"equityExposurePercent": 100,
+		"ucits": true,
+		"issuer": "Franklin Templeton",
+		"indexName": "FTSE Brazil 30/18 Capped",
+		"region": "Brazil",
+		"marketType": "Emerging",
+		"hedgedToEur": false,
+		"fundCurrency": "USD",
+		"primaryEurListing": {
+			"exchange": "XETRA",
+			"ticker": "FVUB"
+		},
+		"replication": {
+			"type": "Physical",
+			"usesSwap": false,
+			"estimated": true
+		},
+		"maxCountryCode": "BR",
+		"maxCountryWeightPercent": 100.0,
+		"sectorWeights": [
+			{
+				"name": "Financials",
+				"weightPercent": 23.3,
+				"estimated": true
+			},
+			{
+				"name": "Materials",
+				"weightPercent": 15.3,
+				"estimated": true
+			},
+			{
+				"name": "Energy",
+				"weightPercent": 10.5,
+				"estimated": true
+			},
+			{
+				"name": "Consumer Staples",
+				"weightPercent": 3.8,
+				"estimated": true
+			},
+			{
+				"name": "Industrials",
+				"weightPercent": 3.5,
+				"estimated": true
+			}
+		],
+		"topSectorName": "Financials",
+		"topSectorWeightPercent": 23.3,
+		"countries": [
+			{
+				"name": "Brazil",
+				"nameLt": "Brazilija",
+				"code": "BR",
+				"companies": 90,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 0,
+			"currency": "EUR",
+			"label": "€unknown",
+			"asOf": "2026-07-01",
+			"sourceName": "justETF / issuer",
+			"estimated": true
+		},
+		"topHoldings": [
+			{
+				"name": "Vale SA",
+				"ticker": "VALE3",
+				"countryCode": "BR",
+				"weightPercent": 12.5,
+				"estimated": true,
+				"sector": "Materials",
+				"isin": "BRVALEACNOR0"
+			},
+			{
+				"name": "Petroleo Brasileiro SA Petrobras",
+				"ticker": "PETR4",
+				"countryCode": "BR",
+				"weightPercent": 10.5,
+				"estimated": true,
+				"sector": "Energy",
+				"isin": "BRPETRACNPR6"
+			},
+			{
+				"name": "Itau Unibanco Holding SA",
+				"ticker": "ITUB4",
+				"countryCode": "BR",
+				"weightPercent": 8.6,
+				"estimated": true,
+				"sector": "Financials",
+				"isin": "BRITUBACNPR1"
+			},
+			{
+				"name": "Banco Bradesco SA",
+				"ticker": "BBDC4",
+				"countryCode": "BR",
+				"weightPercent": 5.2,
+				"estimated": true,
+				"sector": "Financials",
+				"isin": "BRBBDCACNPR8"
+			},
+			{
+				"name": "B3 SA Brasil Bolsa Balcao",
+				"ticker": "B3SA3",
+				"countryCode": "BR",
+				"weightPercent": 4.0,
+				"estimated": true,
+				"sector": "Financials",
+				"isin": "BRB3SAACNOR6"
+			},
+			{
+				"name": "Ambev SA",
+				"ticker": "ABEV3",
+				"countryCode": "BR",
+				"weightPercent": 3.8,
+				"estimated": true,
+				"sector": "Consumer Staples",
+				"isin": "BRABEVACNOR1"
+			},
+			{
+				"name": "WEG SA",
+				"ticker": "WEGE3",
+				"countryCode": "BR",
+				"weightPercent": 3.5,
+				"estimated": true,
+				"sector": "Industrials",
+				"isin": "BRWEGEACNOR0"
+			},
+			{
+				"name": "Itausa SA",
+				"ticker": "ITSA4",
+				"countryCode": "BR",
+				"weightPercent": 3.0,
+				"estimated": true,
+				"sector": "Financials",
+				"isin": "BRITSAACNPR7"
+			},
+			{
+				"name": "Suzano SA",
+				"ticker": "SUZB3",
+				"countryCode": "BR",
+				"weightPercent": 2.8,
+				"estimated": true,
+				"sector": "Materials",
+				"isin": "BRSUZBACNOR0"
+			},
+			{
+				"name": "Banco do Brasil SA",
+				"ticker": "BBAS3",
+				"countryCode": "BR",
+				"weightPercent": 2.5,
+				"estimated": true,
+				"sector": "Financials",
+				"isin": "BRBBASACNOR3"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 56.4,
+		"sourceUrls": [
+			"https://www.franklintempleton.co.uk/our-funds/etf/passive-etfs"
+		],
+		"notes": "Provider page shows Franklin FTSE Brazil UCITS ETF TER 0.19. Listing/holdings estimated; country is Brazil-only."
+	}
+]
