@@ -2,6 +2,7 @@ const etfTerFileFrom = 3;
 const etfTerFileTo = 25;
 
 async function loadEtfFiles() {
+	await loadCountryInvestmentTiers();
 	return loadTerEtfFiles(etfTerFileFrom, etfTerFileTo);
 }
 

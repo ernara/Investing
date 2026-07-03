@@ -1,12 +1,13 @@
 function etfPassesFilters(etf, filters) {
 	return (
 		passesEtfNameSearch(etf, filters.nameText) &&
-        passesSyntheticFilter(etf, filters.includeSynthetic) &&
+		passesSyntheticFilter(etf, filters.includeSynthetic) &&
 		passesRange(getEtfCapitalBillions(etf), filters.capitalBillions, defaultEtfFilters.capitalBillions) &&
 		passesRange(etf.terPercent, filters.terPercent, defaultEtfFilters.terPercent) &&
 		passesRange(etf.totalCompanies, filters.companies, defaultEtfFilters.companies) &&
-		passesRange(etf.continentCount, filters.continentCount, defaultEtfFilters.continentCount) &&
+		passesRange(getContinentWeights(etf).length, filters.continentCount, defaultEtfFilters.continentCount) &&
 		passesRange(getEtfCountryCount(etf), filters.countryCount, defaultEtfFilters.countryCount) &&
+		passesRange(getGoodCountryWeightPercent(etf), filters.goodCountryWeightPercent, defaultEtfFilters.goodCountryWeightPercent) &&
 		passesRange(etf.topHoldingsTotalWeightPercent, filters.topHoldingsWeightPercent, defaultEtfFilters.topHoldingsWeightPercent) &&
 		passesRange(getMaxCountryWeightPercent(etf), filters.maxCountryWeightPercent, defaultEtfFilters.maxCountryWeightPercent)
 	);

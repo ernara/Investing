@@ -19,6 +19,11 @@ function renderEtfCard(etf) {
 					</tr>
 
 					<tr>
+						<th>Patikimos šalys</th>
+						<td>${formatPercent(getGoodCountryWeightPercent(etf))}</td>
+					</tr>
+
+					<tr>
 						<th>Žemynai</th>
 						<td>${formatContinentSummary(etf)}</td>
 					</tr>
@@ -84,7 +89,7 @@ function formatContinentSummary(etf) {
 
 	if (!continents.length) return "Nerasta";
 
-	return formatNumber(etf.continentCount || continents.length);
+	return formatNumber(continents.length);
 }
 
 function formatTopSector(etf) {
@@ -95,181 +100,78 @@ function formatTopSector(etf) {
 
 function getContinentWeights(etf) {
 	if (Array.isArray(etf.continentWeights) && etf.continentWeights.length) {
-		return etf.continentWeights;
+		return etf.continentWeights
+			.filter(isRealContinentWeight)
+			.sort((a, b) => b.weightPercent - a.weightPercent);
 	}
 
 	if (!Array.isArray(etf.countries)) return [];
 
 	const continents = new Map();
 
-	etf.countries.forEach(country => {
-		const name = country.continent || "Unknown";
-		const nameLt = country.continentLt || name;
+	etf.countries
+		.filter(isRealCountryForContinent)
+		.forEach(country => {
+			const name = country.continent || "Unknown";
+			const nameLt = country.continentLt || name;
 
-		if (!continents.has(name)) {
-			continents.set(name, {
-				name: name,
-				nameLt: nameLt,
-				companies: 0,
-				weightPercent: 0
-			});
-		}
+			if (!continents.has(name)) {
+				continents.set(name, {
+					name: name,
+					nameLt: nameLt,
+					companies: 0,
+					weightPercent: 0
+				});
+			}
 
-		const continent = continents.get(name);
+			const continent = continents.get(name);
 
-		continent.companies += Number(country.companies || 0);
-		continent.weightPercent += Number(country.weightPercent || 0);
-	});
+			continent.companies += Number(country.companies || 0);
+			continent.weightPercent += Number(country.weightPercent || 0);
+		});
 
-	return [...continents.values()].sort((a, b) => b.weightPercent - a.weightPercent);
+	return [...continents.values()]
+		.filter(isRealContinentWeight)
+		.sort((a, b) => b.weightPercent - a.weightPercent);
 }
 
-function renderCountryTable(countries) {
-	if (!countries.length) {
-		return `<p class="no-data">Nėra šalių duomenų.</p>`;
-	}
+function isRealContinentWeight(continent) {
+	if (!continent) return false;
 
-	return `
-		<div class="country-list">
-			<div class="country-header">
-				<span>Šalis</span>
-				<span>Įmonių sk.</span>
-				<span>ETF dalis</span>
-			</div>
+	const name = String(continent.name || "").trim().toLowerCase();
+	const nameLt = String(continent.nameLt || "").trim().toLowerCase();
 
-			${countries.map(country => `
-				<div class="country-row">
-					<span class="country-name">
-						${renderFlag(country.code)}
-						<span>${country.nameLt}</span>
-					</span>
-
-					<span class="country-companies">
-						${formatNumber(country.companies)}
-					</span>
-
-					<strong class="country-weight">
-						${formatPercent(country.weightPercent)}
-					</strong>
-				</div>
-			`).join("")}
-		</div>
-	`;
+	return !(
+		name === "unknown" ||
+		name === "other" ||
+		name === "other/mixed" ||
+		name.includes("other countries") ||
+		name.includes("other/mixed") ||
+		nameLt === "nežinoma" ||
+		nameLt === "nezinoma" ||
+		nameLt === "kita / mišru" ||
+		nameLt === "kita / misru" ||
+		nameLt.includes("kitos šalys") ||
+		nameLt.includes("kitos salys")
+	);
 }
 
-function renderContinentTable(continents) {
-	if (!continents.length) {
-		return `<p class="no-data">Nėra žemynų duomenų.</p>`;
-	}
+function isRealCountryForContinent(country) {
+	if (!country) return false;
 
-	return `
-		<div class="country-list">
-			<div class="country-header">
-				<span>Žemynas</span>
-				<span>Įmonių sk.</span>
-				<span>ETF dalis</span>
-			</div>
+	const code = String(country.code || country.countryCode || "").trim().toUpperCase();
+	const name = String(country.name || country.nameLt || country.nameEn || "").trim().toLowerCase();
 
-			${continents.map(continent => `
-				<div class="country-row">
-					<span class="country-name">
-						<span>${continent.nameLt || continent.name}</span>
-					</span>
-
-					<span class="country-companies">
-						${formatNumber(continent.companies)}
-					</span>
-
-					<strong class="country-weight">
-						${formatPercent(continent.weightPercent)}
-					</strong>
-				</div>
-			`).join("")}
-		</div>
-	`;
-}
-
-function renderSectorTable(sectors) {
-	if (!sectors.length) {
-		return `<p class="no-data">Nėra sektorių duomenų.</p>`;
-	}
-
-	return `
-		<div class="country-list">
-			<div class="country-header">
-				<span>Sektorius</span>
-				<span></span>
-				<span>ETF dalis</span>
-			</div>
-
-			${sectors.map(sector => `
-				<div class="country-row">
-					<span class="country-name">
-						<span>${sector.name}</span>
-					</span>
-
-					<span></span>
-
-					<strong class="country-weight">
-						${formatPercent(sector.weightPercent)}
-					</strong>
-				</div>
-			`).join("")}
-		</div>
-	`;
-}
-
-function renderTopHoldingsTable(topHoldings) {
-	if (!topHoldings.length) {
-		return `<p class="no-data">Nėra TOP pozicijų duomenų.</p>`;
-	}
-
-	return `
-		<div class="country-list">
-			<div class="top-holdings-header">
-				<span>Įmonė</span>
-				<span>Sektorius</span>
-				<span>ETF dalis</span>
-			</div>
-
-			${topHoldings.map(holding => `
-				<div class="top-holdings-row">
-					<span class="holding-name">
-						${renderFlag(holding.countryCode)}
-						<span>
-							<strong>${holding.name}</strong>
-							<small>${holding.ticker || ""}</small>
-						</span>
-					</span>
-
-					<span class="holding-sector">
-						${translateSectorName(holding.sector)}
-					</span>
-
-					<strong class="holding-weight">
-						${formatPercent(holding.weightPercent)}
-					</strong>
-				</div>
-			`).join("")}
-		</div>
-	`;
-}
-
-function translateSectorName(sectorName) {
-	const sectors = {
-		"Information Technology": "Informacinės technologijos",
-		"Health Care": "Sveikatos priežiūra",
-		"Healthcare": "Sveikatos priežiūra",
-		"Financials": "Finansai",
-		"Consumer Discretionary": "Nebūtino vartojimo prekės ir paslaugos",
-		"Consumer Staples": "Būtino vartojimo prekės",
-		"Communication Services": "Komunikacijos paslaugos",
-		"Industrials": "Pramonė",
-		"Energy": "Energetika",
-		"Utilities": "Komunalinės paslaugos",
-		"Materials": "Žaliavos ir medžiagos",
-		"Real Estate": "Nekilnojamasis turtas"
-	};
-
-	return sectors[sectorName] || sectorName || "Nerasta";
+	return !(
+		code === "OTHER" ||
+		code === "SUM" ||
+		code === "TOTAL" ||
+		name === "suma" ||
+		name === "total" ||
+		name === "iš viso" ||
+		name === "is viso" ||
+		name.includes("kitos šalys") ||
+		name.includes("kitos salys") ||
+		name.includes("other countries")
+	);
 }

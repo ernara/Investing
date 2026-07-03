@@ -25,6 +25,7 @@ function getEmptyEtfFilters() {
 		companies: { min: null, max: null },
 		continentCount: { min: null, max: null },
 		countryCount: { min: null, max: null },
+		goodCountryWeightPercent: { min: null, max: null },
 		topHoldingsWeightPercent: { min: null, max: null },
 		maxCountryWeightPercent: { min: null, max: null }
 	};
@@ -37,8 +38,9 @@ function getEtfFilterBounds(etfs) {
 		capitalBillions: getRange(etfs, getEtfCapitalBillions),
 		terPercent: getRange(etfs, etf => etf.terPercent),
 		companies: getRange(etfs, etf => etf.totalCompanies),
-		continentCount: getRange(etfs, etf => etf.continentCount),
+		continentCount: getRange(etfs, etf => getContinentWeights(etf).length),
 		countryCount: getRange(etfs, getEtfCountryCount),
+		goodCountryWeightPercent: getRange(etfs, getGoodCountryWeightPercent),
 		topHoldingsWeightPercent: getRange(etfs, etf => etf.topHoldingsTotalWeightPercent),
 		maxCountryWeightPercent: getRange(etfs, getMaxCountryWeightPercent)
 	};

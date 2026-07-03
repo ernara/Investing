@@ -58,8 +58,9 @@ function renderEtfFilters(filters) {
 			${renderRangeFilter("continentCount", "Žemynų skaičius", "", filters.continentCount, "1")}
 			${renderRangeFilter("companies", "Įmonių skaičius", "", filters.companies, "1")}
 			${renderRangeFilter("countryCount", "Šalių skaičius", "", filters.countryCount, "1")}
-			${renderRangeFilter("topHoldingsWeightPercent", "TOP10 pozicijų dalis", "%", filters.topHoldingsWeightPercent, "0.01")}
-			${renderRangeFilter("maxCountryWeightPercent", "Vienos šalies dalis", "%", filters.maxCountryWeightPercent, "0.01")}
+			${renderRangeFilter("goodCountryWeightPercent", "Patikimos šalys", "%", filters.goodCountryWeightPercent, "1")}
+			${renderRangeFilter("topHoldingsWeightPercent", "TOP10 pozicijų dalis", "%", filters.topHoldingsWeightPercent, "1")}
+			${renderRangeFilter("maxCountryWeightPercent", "Vienos šalies dalis", "%", filters.maxCountryWeightPercent, "1")}
 
 			<div class="etf-filter etf-filter-checkbox">
 				<label>
