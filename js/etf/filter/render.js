@@ -56,11 +56,11 @@ function renderEtfFilters(filters) {
 			${renderRangeFilter("capitalBillions", "ETF kapitalas", "B", filters.capitalBillions, "0.1")}
 			${renderRangeFilter("terPercent", "Valdymo mokestis", "%", filters.terPercent, "0.01")}
 			${renderRangeFilter("continentCount", "Žemynų skaičius", "", filters.continentCount, "1")}
-			${renderRangeFilter("companies", "Įmonių skaičius", "", filters.companies, "1")}
+			${renderRangeFilter("companies", "Įmonių skaičius", "", filters.companies, "10")}
 			${renderRangeFilter("countryCount", "Šalių skaičius", "", filters.countryCount, "1")}
 			${renderRangeFilter("goodCountryWeightPercent", "Patikimos šalys", "%", filters.goodCountryWeightPercent, "1")}
 			${renderRangeFilter("topHoldingsWeightPercent", "TOP10 pozicijų dalis", "%", filters.topHoldingsWeightPercent, "1")}
-			${renderRangeFilter("maxCountryWeightPercent", "Vienos šalies dalis", "%", filters.maxCountryWeightPercent, "1")}
+			${renderRangeFilter("maxCountryWeightPercent", "Didžiausios šalies dalis", "%", filters.maxCountryWeightPercent, "1")}
 
 			<div class="etf-filter etf-filter-checkbox">
 				<label>
@@ -97,8 +97,25 @@ function renderRangeFilter(key, label, unit, range, step) {
 			<label>${label}${unit ? ` (${unit})` : ""}</label>
 
 			<div class="etf-filter-inputs">
-				<input type="number" step="${step}" data-filter="${key}" data-side="min" placeholder="Nuo" value="${range.min ?? ""}">
-				<input type="number" step="${step}" data-filter="${key}" data-side="max" placeholder="Iki" value="${range.max ?? ""}">
+				<input
+					type="number"
+					min="0"
+					step="${step}"
+					data-filter="${key}"
+					data-side="min"
+					placeholder="Nuo"
+					value="${range.min ?? ""}"
+				>
+
+				<input
+					type="number"
+					min="0"
+					step="${step}"
+					data-filter="${key}"
+					data-side="max"
+					placeholder="Iki"
+					value="${range.max ?? ""}"
+				>
 			</div>
 		</div>
 	`;
