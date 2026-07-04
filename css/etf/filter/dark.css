@@ -14,7 +14,7 @@ body.dark .etf-filter input {
 	border-color: #374151;
 	color: #f9fafb;
 }
-
+body.dark#applyGoodEtfPreset,
 body.dark #resetEtfFilters,
 body.dark #applyEtfDefaultPreset {
 	background: white;

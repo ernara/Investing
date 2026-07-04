@@ -1,22 +1,34 @@
 function setupEtfPresetButton() {
-	const button = document.getElementById("applyEtfDefaultPreset");
+	const bigButton = document.getElementById("applyEtfDefaultPreset");
+	const goodButton = document.getElementById("applyGoodEtfPreset");
 
-	if (!button) return;
+	if (bigButton) {
+		bigButton.addEventListener("click", () => {
+			applyEtfPreset(getMyEtfPresetFilters());
+		});
+	}
 
-	button.addEventListener("click", () => {
-		activeEtfFilters = getMyEtfPresetFilters();
+	if (goodButton) {
+		goodButton.addEventListener("click", () => {
+			applyEtfPreset(getGoodEtfPresetFilters());
+		});
+	}
+}
 
-		saveEtfFilters();
-		setEtfShareClassMode("combined");
+function applyEtfPreset(filters) {
+	activeEtfFilters = filters;
 
-		if (typeof renderEtfsByShareClassMode === "function") {
-			renderEtfsByShareClassMode();
-			return;
-		}
+	saveEtfFilters();
+	setEtfShareClassMode("combined");
+	setEtfSortMode("terAsc");
 
-		renderEtfFilters(activeEtfFilters);
-		renderCurrentFilteredEtfs();
-	});
+	if (typeof renderEtfsByShareClassMode === "function") {
+		renderEtfsByShareClassMode();
+		return;
+	}
+
+	renderEtfFilters(activeEtfFilters);
+	renderCurrentFilteredEtfs();
 }
 
 function getMyEtfPresetFilters() {
@@ -30,32 +42,73 @@ function getMyEtfPresetFilters() {
 		},
 		terPercent: {
 			...defaultEtfFilters.terPercent,
-			max: 0.07
+			max: 0.1
 		},
 		continentCount: {
 			...defaultEtfFilters.continentCount,
-			min: 4,
+			min: 3,
 			max: 6
 		},
 		companies: {
 			...defaultEtfFilters.companies,
-			min: 1300
+			min: 1000
 		},
 		countryCount: {
 			...defaultEtfFilters.countryCount,
-			min: 23
+			min: 10
 		},
 		goodCountryWeightPercent: {
 			...defaultEtfFilters.goodCountryWeightPercent,
-			min: 88
+			min: 80
 		},
 		topHoldingsWeightPercent: {
 			...defaultEtfFilters.topHoldingsWeightPercent,
-			max: 28.5
+			max: 33.4
 		},
 		maxCountryWeightPercent: {
 			...defaultEtfFilters.maxCountryWeightPercent,
-			max: 73
+			max: 75
+		}
+	};
+}
+
+function getGoodEtfPresetFilters() {
+	return {
+		...structuredClone(defaultEtfFilters),
+		nameText: "",
+		includeSynthetic: false,
+		capitalBillions: {
+			...defaultEtfFilters.capitalBillions,
+			min: 0.1
+		},
+		terPercent: {
+			...defaultEtfFilters.terPercent,
+			max: 0.1
+		},
+		continentCount: {
+			...defaultEtfFilters.continentCount,
+			min: 1,
+			max: 6
+		},
+		companies: {
+			...defaultEtfFilters.companies,
+			min: 100
+		},
+		countryCount: {
+			...defaultEtfFilters.countryCount,
+			min: 10
+		},
+		goodCountryWeightPercent: {
+			...defaultEtfFilters.goodCountryWeightPercent,
+			min: 80
+		},
+		topHoldingsWeightPercent: {
+			...defaultEtfFilters.topHoldingsWeightPercent,
+			max: 33.4
+		},
+		maxCountryWeightPercent: {
+			...defaultEtfFilters.maxCountryWeightPercent,
+			max: 33.4
 		}
 	};
 }

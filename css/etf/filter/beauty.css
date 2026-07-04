@@ -73,6 +73,7 @@ body.dragging-filter * {
 	gap: 8px;
 }
 
+#applyGoodEtfPreset,
 #resetEtfFilters,
 #applyEtfDefaultPreset {
 	border: 0;

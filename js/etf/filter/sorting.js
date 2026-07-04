@@ -6,6 +6,12 @@ function getEtfSortMode() {
 
 function setEtfSortMode(mode) {
 	localStorage.setItem(etfSortModeStorageKey, mode);
+
+	const select = document.getElementById("etfSortModeSelect");
+
+	if (select) {
+		select.value = mode;
+	}
 }
 
 function setupEtfSortSelect() {
@@ -13,14 +19,7 @@ function setupEtfSortSelect() {
 
 	if (!select) return;
 
-	const savedSortMode = getEtfSortMode();
-	const optionExists = [...select.options].some(option => option.value === savedSortMode);
-
-	if (!optionExists) {
-		setEtfSortMode("terAsc");
-	}
-
-	select.value = optionExists ? savedSortMode : "terAsc";
+	select.value = getEtfSortMode();
 
 	select.addEventListener("change", () => {
 		setEtfSortMode(select.value);
@@ -64,18 +63,17 @@ function sortFilteredEtfs(etfs) {
 	});
 }
 
-function compareNumbers(a, b, direction) {
-	const numberA = parseEtfNumber(a);
-	const numberB = parseEtfNumber(b);
+function compareNumbers(valueA, valueB, direction) {
+	const numberA = parseEtfNumber(valueA);
+	const numberB = parseEtfNumber(valueB);
 
-	const aMissing = numberA === null;
-	const bMissing = numberB === null;
+	if (numberA === null && numberB === null) return 0;
+	if (numberA === null) return 1;
+	if (numberB === null) return -1;
 
-	if (aMissing && bMissing) return 0;
-	if (aMissing) return 1;
-	if (bMissing) return -1;
-
-	if (direction === "desc") return numberB - numberA;
+	if (direction === "desc") {
+		return numberB - numberA;
+	}
 
 	return numberA - numberB;
 }
