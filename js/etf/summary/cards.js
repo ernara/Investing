@@ -19,6 +19,11 @@ function renderEtfCard(etf) {
 					</tr>
 
 					<tr>
+						<th>Šalys</th>
+						<td>${formatCountryCountSummary(etf)}</td>
+					</tr>
+
+					<tr>
 						<th>Patikimos šalys</th>
 						<td>${formatPercent(getGoodCountryWeightPercent(etf))}</td>
 					</tr>
@@ -87,6 +92,38 @@ function renderEtfCard(etf) {
 			</div>
 		</article>
 	`;
+}
+
+function formatCountryCountSummary(etf) {
+	const countryCount = getDisplayCountryCount(etf);
+
+	if (countryCount === null) return "Nerasta";
+
+	return formatNumber(countryCount);
+}
+
+function getDisplayCountryCount(etf) {
+	if (!Array.isArray(etf.countries)) {
+		return etf.countryCount ?? null;
+	}
+
+	return etf.countries.filter(isCountryCountRow).length;
+}
+
+function isCountryCountRow(country) {
+	if (!country) return false;
+
+	const code = String(country.code || country.countryCode || "").trim().toUpperCase();
+	const name = String(country.name || country.nameLt || country.nameEn || "").trim().toLowerCase();
+
+	return !(
+		code === "SUM" ||
+		code === "TOTAL" ||
+		name === "suma" ||
+		name === "total" ||
+		name === "iš viso" ||
+		name === "is viso"
+	);
 }
 
 function formatTopSector(etf) {
