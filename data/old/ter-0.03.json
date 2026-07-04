@@ -1,0 +1,3023 @@
+[
+	{
+		"id": "spy5",
+		"ticker": "SPY5",
+		"name": "State Street SPDR S&P 500 UCITS ETF USD Unhedged Dist",
+		"terPercent": 0.03,
+		"totalCompanies": 503,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Dist",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "SPY5"
+			},
+			{
+				"exchange": "Euronext Paris",
+				"ticker": "SPY5"
+			},
+			{
+				"exchange": "gettex",
+				"ticker": "SPY5"
+			}
+		],
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 503,
+				"weightPercent": 100.0,
+				"estimated": true,
+				"continent": "North America",
+				"continentLt": "Šiaurės Amerika",
+				"subRegion": "Northern America",
+				"subRegionLt": "Šiaurės Amerika",
+				"marketType": "Developed",
+				"currency": "USD",
+				"currencyName": "US dollar",
+				"currencyNameLt": "JAV doleris",
+				"euMember": false,
+				"countryWeightRank": 1,
+				"isTopCountry": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 18031,
+			"currency": "EUR",
+			"label": "€18 031M",
+			"asOf": "2026-06",
+			"sourceName": "justETF",
+			"estimated": false
+		},
+		"topHoldings": [
+			{
+				"name": "NVIDIA Corp.",
+				"ticker": "NVDA",
+				"countryCode": "US",
+				"weightPercent": 7.9,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US67066G1040"
+			},
+			{
+				"name": "Apple",
+				"ticker": "AAPL",
+				"countryCode": "US",
+				"weightPercent": 7.05,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US0378331005"
+			},
+			{
+				"name": "Microsoft",
+				"ticker": "MSFT",
+				"countryCode": "US",
+				"weightPercent": 5.15,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US5949181045"
+			},
+			{
+				"name": "Amazon.com, Inc.",
+				"ticker": "AMZN",
+				"countryCode": "US",
+				"weightPercent": 4.07,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US0231351067"
+			},
+			{
+				"name": "Alphabet, Inc. A",
+				"ticker": "GOOGL",
+				"countryCode": "US",
+				"weightPercent": 3.41,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K3059"
+			},
+			{
+				"name": "Broadcom Inc.",
+				"ticker": "AVGO",
+				"countryCode": "US",
+				"weightPercent": 3.26,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US11135F1012"
+			},
+			{
+				"name": "Alphabet, Inc. C",
+				"ticker": "GOOG",
+				"countryCode": "US",
+				"weightPercent": 2.71,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K1079"
+			},
+			{
+				"name": "Meta Platforms",
+				"ticker": "META",
+				"countryCode": "US",
+				"weightPercent": 2.13,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US30303M1027"
+			},
+			{
+				"name": "Tesla",
+				"ticker": "TSLA",
+				"countryCode": "US",
+				"weightPercent": 1.89,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US88160R1014"
+			},
+			{
+				"name": "Micron Technology",
+				"ticker": "MU",
+				"countryCode": "US",
+				"weightPercent": 1.68,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US5951121038"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 39.25,
+		"assetClass": "Equity",
+		"equityExposurePercent": 100,
+		"ucits": true,
+		"issuer": "State Street SPDR",
+		"indexName": "S&P 500",
+		"region": "USA",
+		"marketType": "Developed",
+		"hedgedToEur": true,
+		"fundCurrency": "USD",
+		"primaryEurListing": {
+			"exchange": "XETRA",
+			"ticker": "SPY5"
+		},
+		"replication": {
+			"type": "Physical",
+			"usesSwap": false,
+			"estimated": true
+		},
+		"maxCountryCode": "US",
+		"maxCountryWeightPercent": 100.0,
+		"sectorWeights": [
+			{
+				"name": "Information Technology",
+				"weightPercent": 25.04,
+				"estimated": true
+			},
+			{
+				"name": "Communication Services",
+				"weightPercent": 8.25,
+				"estimated": true
+			},
+			{
+				"name": "Consumer Discretionary",
+				"weightPercent": 5.96,
+				"estimated": true
+			}
+		],
+		"topSectorName": "Information Technology",
+		"topSectorWeightPercent": 25.04,
+		"continentWeights": [
+			{
+				"name": "North America",
+				"nameLt": "Šiaurės Amerika",
+				"companies": 503,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"marketTypeWeights": [
+			{
+				"name": "Developed",
+				"companies": 503,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"countryCount": 1,
+		"continentCount": 1,
+		"strategyType": "Country",
+		"strategyTags": [
+			"Country",
+			"Hedged"
+		],
+		"dataQuality": "partial",
+		"dataQualityDetails": {
+			"countriesEstimated": true,
+			"topHoldingsEstimated": false,
+			"fundCapitalKnown": true,
+			"replicationEstimated": true
+		}
+	},
+	{
+		"id": "spyl",
+		"ticker": "SPYL",
+		"name": "State Street SPDR S&P 500 UCITS ETF USD Unhedged Acc",
+		"terPercent": 0.03,
+		"totalCompanies": 503,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Acc",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "SPYL"
+			},
+			{
+				"exchange": "gettex",
+				"ticker": "SPYL"
+			},
+			{
+				"exchange": "Borsa Italiana",
+				"ticker": "SPYL"
+			}
+		],
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 503,
+				"weightPercent": 100.0,
+				"estimated": true,
+				"continent": "North America",
+				"continentLt": "Šiaurės Amerika",
+				"subRegion": "Northern America",
+				"subRegionLt": "Šiaurės Amerika",
+				"marketType": "Developed",
+				"currency": "USD",
+				"currencyName": "US dollar",
+				"currencyNameLt": "JAV doleris",
+				"euMember": false,
+				"countryWeightRank": 1,
+				"isTopCountry": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 15468,
+			"currency": "EUR",
+			"label": "€15 468M",
+			"asOf": "2026-06",
+			"sourceName": "justETF",
+			"estimated": false
+		},
+		"topHoldings": [
+			{
+				"name": "NVIDIA Corp.",
+				"ticker": "NVDA",
+				"countryCode": "US",
+				"weightPercent": 7.9,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US67066G1040"
+			},
+			{
+				"name": "Apple",
+				"ticker": "AAPL",
+				"countryCode": "US",
+				"weightPercent": 7.05,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US0378331005"
+			},
+			{
+				"name": "Microsoft",
+				"ticker": "MSFT",
+				"countryCode": "US",
+				"weightPercent": 5.15,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US5949181045"
+			},
+			{
+				"name": "Amazon.com, Inc.",
+				"ticker": "AMZN",
+				"countryCode": "US",
+				"weightPercent": 4.07,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US0231351067"
+			},
+			{
+				"name": "Alphabet, Inc. A",
+				"ticker": "GOOGL",
+				"countryCode": "US",
+				"weightPercent": 3.41,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K3059"
+			},
+			{
+				"name": "Broadcom Inc.",
+				"ticker": "AVGO",
+				"countryCode": "US",
+				"weightPercent": 3.26,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US11135F1012"
+			},
+			{
+				"name": "Alphabet, Inc. C",
+				"ticker": "GOOG",
+				"countryCode": "US",
+				"weightPercent": 2.71,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K1079"
+			},
+			{
+				"name": "Meta Platforms",
+				"ticker": "META",
+				"countryCode": "US",
+				"weightPercent": 2.13,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US30303M1027"
+			},
+			{
+				"name": "Tesla",
+				"ticker": "TSLA",
+				"countryCode": "US",
+				"weightPercent": 1.89,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US88160R1014"
+			},
+			{
+				"name": "Micron Technology",
+				"ticker": "MU",
+				"countryCode": "US",
+				"weightPercent": 1.68,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US5951121038"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 39.25,
+		"assetClass": "Equity",
+		"equityExposurePercent": 100,
+		"ucits": true,
+		"issuer": "State Street SPDR",
+		"indexName": "S&P 500",
+		"region": "USA",
+		"marketType": "Developed",
+		"hedgedToEur": true,
+		"fundCurrency": "USD",
+		"primaryEurListing": {
+			"exchange": "XETRA",
+			"ticker": "SPYL"
+		},
+		"replication": {
+			"type": "Physical",
+			"usesSwap": false,
+			"estimated": true
+		},
+		"maxCountryCode": "US",
+		"maxCountryWeightPercent": 100.0,
+		"sectorWeights": [
+			{
+				"name": "Information Technology",
+				"weightPercent": 25.04,
+				"estimated": true
+			},
+			{
+				"name": "Communication Services",
+				"weightPercent": 8.25,
+				"estimated": true
+			},
+			{
+				"name": "Consumer Discretionary",
+				"weightPercent": 5.96,
+				"estimated": true
+			}
+		],
+		"topSectorName": "Information Technology",
+		"topSectorWeightPercent": 25.04,
+		"continentWeights": [
+			{
+				"name": "North America",
+				"nameLt": "Šiaurės Amerika",
+				"companies": 503,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"marketTypeWeights": [
+			{
+				"name": "Developed",
+				"companies": 503,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"countryCount": 1,
+		"continentCount": 1,
+		"strategyType": "Country",
+		"strategyTags": [
+			"Country",
+			"Hedged"
+		],
+		"dataQuality": "partial",
+		"dataQualityDetails": {
+			"countriesEstimated": true,
+			"topHoldingsEstimated": false,
+			"fundCapitalKnown": true,
+			"replicationEstimated": true
+		}
+	},
+	{
+		"id": "xd9u",
+		"ticker": "XD9U",
+		"name": "Xtrackers MSCI USA UCITS ETF 1C",
+		"terPercent": 0.03,
+		"totalCompanies": 527,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Acc",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "XD9U"
+			},
+			{
+				"exchange": "gettex",
+				"ticker": "XD9U"
+			}
+		],
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 527,
+				"weightPercent": 100.0,
+				"estimated": true,
+				"continent": "North America",
+				"continentLt": "Šiaurės Amerika",
+				"subRegion": "Northern America",
+				"subRegionLt": "Šiaurės Amerika",
+				"marketType": "Developed",
+				"currency": "USD",
+				"currencyName": "US dollar",
+				"currencyNameLt": "JAV doleris",
+				"euMember": false,
+				"countryWeightRank": 1,
+				"isTopCountry": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 11023,
+			"currency": "EUR",
+			"label": "€11 023M",
+			"asOf": "2026-06",
+			"sourceName": "justETF",
+			"estimated": false
+		},
+		"topHoldings": [
+			{
+				"name": "NVIDIA Corp.",
+				"ticker": "NVDA",
+				"countryCode": "US",
+				"weightPercent": 7.51,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US67066G1040"
+			},
+			{
+				"name": "Apple",
+				"ticker": "AAPL",
+				"countryCode": "US",
+				"weightPercent": 6.76,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US0378331005"
+			},
+			{
+				"name": "Microsoft",
+				"ticker": "MSFT",
+				"countryCode": "US",
+				"weightPercent": 4.13,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US5949181045"
+			},
+			{
+				"name": "Amazon.com, Inc.",
+				"ticker": "AMZN",
+				"countryCode": "US",
+				"weightPercent": 3.65,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US0231351067"
+			},
+			{
+				"name": "Alphabet, Inc. A",
+				"ticker": "GOOGL",
+				"countryCode": "US",
+				"weightPercent": 3.31,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K3059"
+			},
+			{
+				"name": "Broadcom Inc.",
+				"ticker": "AVGO",
+				"countryCode": "US",
+				"weightPercent": 2.86,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US11135F1012"
+			},
+			{
+				"name": "Alphabet, Inc. C",
+				"ticker": "GOOG",
+				"countryCode": "US",
+				"weightPercent": 2.62,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K1079"
+			},
+			{
+				"name": "Micron Technology",
+				"ticker": "MU",
+				"countryCode": "US",
+				"weightPercent": 1.97,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US5951121038"
+			},
+			{
+				"name": "Meta Platforms",
+				"ticker": "META",
+				"countryCode": "US",
+				"weightPercent": 1.96,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US30303M1027"
+			},
+			{
+				"name": "Tesla",
+				"ticker": "TSLA",
+				"countryCode": "US",
+				"weightPercent": 1.74,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US88160R1014"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 36.51,
+		"assetClass": "Equity",
+		"equityExposurePercent": 100,
+		"ucits": true,
+		"issuer": "Xtrackers",
+		"indexName": "MSCI USA",
+		"region": "USA",
+		"marketType": "Developed",
+		"hedgedToEur": false,
+		"fundCurrency": "USD",
+		"primaryEurListing": {
+			"exchange": "XETRA",
+			"ticker": "XD9U"
+		},
+		"replication": {
+			"type": "Physical",
+			"usesSwap": false,
+			"estimated": true
+		},
+		"maxCountryCode": "US",
+		"maxCountryWeightPercent": 100.0,
+		"sectorWeights": [
+			{
+				"name": "Information Technology",
+				"weightPercent": 23.23,
+				"estimated": true
+			},
+			{
+				"name": "Communication Services",
+				"weightPercent": 7.89,
+				"estimated": true
+			},
+			{
+				"name": "Consumer Discretionary",
+				"weightPercent": 5.39,
+				"estimated": true
+			}
+		],
+		"topSectorName": "Information Technology",
+		"topSectorWeightPercent": 23.23,
+		"continentWeights": [
+			{
+				"name": "North America",
+				"nameLt": "Šiaurės Amerika",
+				"companies": 527,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"marketTypeWeights": [
+			{
+				"name": "Developed",
+				"companies": 527,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"countryCount": 1,
+		"continentCount": 1,
+		"strategyType": "Country",
+		"strategyTags": [
+			"Country"
+		],
+		"dataQuality": "partial",
+		"dataQualityDetails": {
+			"countriesEstimated": true,
+			"topHoldingsEstimated": false,
+			"fundCapitalKnown": true,
+			"replicationEstimated": true
+		}
+	},
+	{
+		"id": "xd9d",
+		"ticker": "XD9D",
+		"name": "Xtrackers MSCI USA UCITS ETF 1D",
+		"terPercent": 0.03,
+		"totalCompanies": 527,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Dist",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "XD9D"
+			},
+			{
+				"exchange": "gettex",
+				"ticker": "XD9D"
+			}
+		],
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 527,
+				"weightPercent": 100.0,
+				"estimated": true,
+				"continent": "North America",
+				"continentLt": "Šiaurės Amerika",
+				"subRegion": "Northern America",
+				"subRegionLt": "Šiaurės Amerika",
+				"marketType": "Developed",
+				"currency": "USD",
+				"currencyName": "US dollar",
+				"currencyNameLt": "JAV doleris",
+				"euMember": false,
+				"countryWeightRank": 1,
+				"isTopCountry": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 277,
+			"currency": "EUR",
+			"label": "€277M",
+			"asOf": "2026-06",
+			"sourceName": "justETF",
+			"estimated": false
+		},
+		"topHoldings": [
+			{
+				"name": "NVIDIA Corp.",
+				"ticker": "NVDA",
+				"countryCode": "US",
+				"weightPercent": 8.2,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US67066G1040"
+			},
+			{
+				"name": "Apple",
+				"ticker": "AAPL",
+				"countryCode": "US",
+				"weightPercent": 6.41,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US0378331005"
+			},
+			{
+				"name": "Microsoft",
+				"ticker": "MSFT",
+				"countryCode": "US",
+				"weightPercent": 4.84,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US5949181045"
+			},
+			{
+				"name": "Amazon.com, Inc.",
+				"ticker": "AMZN",
+				"countryCode": "US",
+				"weightPercent": 4.08,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US0231351067"
+			},
+			{
+				"name": "Alphabet, Inc. A",
+				"ticker": "GOOGL",
+				"countryCode": "US",
+				"weightPercent": 3.28,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K3059"
+			},
+			{
+				"name": "Broadcom Inc.",
+				"ticker": "AVGO",
+				"countryCode": "US",
+				"weightPercent": 2.95,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US11135F1012"
+			},
+			{
+				"name": "Alphabet, Inc. C",
+				"ticker": "GOOG",
+				"countryCode": "US",
+				"weightPercent": 2.73,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K1079"
+			},
+			{
+				"name": "Meta Platforms",
+				"ticker": "META",
+				"countryCode": "US",
+				"weightPercent": 2.35,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US30303M1027"
+			},
+			{
+				"name": "Tesla",
+				"ticker": "TSLA",
+				"countryCode": "US",
+				"weightPercent": 1.7,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US88160R1014"
+			},
+			{
+				"name": "JPMorgan Chase & Co.",
+				"ticker": "JPM",
+				"countryCode": "US",
+				"weightPercent": 1.36,
+				"estimated": false,
+				"sector": "Financials",
+				"isin": "US46625H1005"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 37.9,
+		"assetClass": "Equity",
+		"equityExposurePercent": 100,
+		"ucits": true,
+		"issuer": "Xtrackers",
+		"indexName": "MSCI USA",
+		"region": "USA",
+		"marketType": "Developed",
+		"hedgedToEur": false,
+		"fundCurrency": "USD",
+		"primaryEurListing": {
+			"exchange": "XETRA",
+			"ticker": "XD9D"
+		},
+		"replication": {
+			"type": "Physical",
+			"usesSwap": false,
+			"estimated": true
+		},
+		"maxCountryCode": "US",
+		"maxCountryWeightPercent": 100.0,
+		"sectorWeights": [
+			{
+				"name": "Information Technology",
+				"weightPercent": 22.4,
+				"estimated": true
+			},
+			{
+				"name": "Communication Services",
+				"weightPercent": 8.36,
+				"estimated": true
+			},
+			{
+				"name": "Consumer Discretionary",
+				"weightPercent": 5.78,
+				"estimated": true
+			},
+			{
+				"name": "Financials",
+				"weightPercent": 1.36,
+				"estimated": true
+			}
+		],
+		"topSectorName": "Information Technology",
+		"topSectorWeightPercent": 22.4,
+		"continentWeights": [
+			{
+				"name": "North America",
+				"nameLt": "Šiaurės Amerika",
+				"companies": 527,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"marketTypeWeights": [
+			{
+				"name": "Developed",
+				"companies": 527,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"countryCount": 1,
+		"continentCount": 1,
+		"strategyType": "Country",
+		"strategyTags": [
+			"Country"
+		],
+		"dataQuality": "partial",
+		"dataQualityDetails": {
+			"countriesEstimated": true,
+			"topHoldingsEstimated": false,
+			"fundCapitalKnown": true,
+			"replicationEstimated": true
+		}
+	},
+	{
+		"id": "sxr4",
+		"ticker": "SXR4",
+		"name": "iShares MSCI USA UCITS ETF Acc",
+		"terPercent": 0.03,
+		"totalCompanies": 527,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Acc",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "SXR4"
+			},
+			{
+				"exchange": "gettex",
+				"ticker": "SXR4"
+			}
+		],
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 527,
+				"weightPercent": 100.0,
+				"estimated": true,
+				"continent": "North America",
+				"continentLt": "Šiaurės Amerika",
+				"subRegion": "Northern America",
+				"subRegionLt": "Šiaurės Amerika",
+				"marketType": "Developed",
+				"currency": "USD",
+				"currencyName": "US dollar",
+				"currencyNameLt": "JAV doleris",
+				"euMember": false,
+				"countryWeightRank": 1,
+				"isTopCountry": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 4236,
+			"currency": "EUR",
+			"label": "€4 236M",
+			"asOf": "2026-06",
+			"sourceName": "justETF",
+			"estimated": false
+		},
+		"topHoldings": [
+			{
+				"name": "NVIDIA Corp.",
+				"ticker": "NVDA",
+				"countryCode": "US",
+				"weightPercent": 7.47,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US67066G1040"
+			},
+			{
+				"name": "Apple",
+				"ticker": "AAPL",
+				"countryCode": "US",
+				"weightPercent": 7.02,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US0378331005"
+			},
+			{
+				"name": "Microsoft",
+				"ticker": "MSFT",
+				"countryCode": "US",
+				"weightPercent": 4.87,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US5949181045"
+			},
+			{
+				"name": "Amazon.com, Inc.",
+				"ticker": "AMZN",
+				"countryCode": "US",
+				"weightPercent": 4.01,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US0231351067"
+			},
+			{
+				"name": "Alphabet, Inc. A",
+				"ticker": "GOOGL",
+				"countryCode": "US",
+				"weightPercent": 3.39,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K3059"
+			},
+			{
+				"name": "Broadcom Inc.",
+				"ticker": "AVGO",
+				"countryCode": "US",
+				"weightPercent": 3.08,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US11135F1012"
+			},
+			{
+				"name": "Alphabet, Inc. C",
+				"ticker": "GOOG",
+				"countryCode": "US",
+				"weightPercent": 2.67,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K1079"
+			},
+			{
+				"name": "Meta Platforms",
+				"ticker": "META",
+				"countryCode": "US",
+				"weightPercent": 2.13,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US30303M1027"
+			},
+			{
+				"name": "Tesla",
+				"ticker": "TSLA",
+				"countryCode": "US",
+				"weightPercent": 1.88,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US88160R1014"
+			},
+			{
+				"name": "Micron Technology",
+				"ticker": "MU",
+				"countryCode": "US",
+				"weightPercent": 1.68,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US5951121038"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 38.2,
+		"assetClass": "Equity",
+		"equityExposurePercent": 100,
+		"ucits": true,
+		"issuer": "iShares",
+		"indexName": "MSCI USA",
+		"region": "USA",
+		"marketType": "Developed",
+		"hedgedToEur": false,
+		"fundCurrency": "USD",
+		"primaryEurListing": {
+			"exchange": "XETRA",
+			"ticker": "SXR4"
+		},
+		"replication": {
+			"type": "Physical",
+			"usesSwap": false,
+			"estimated": true
+		},
+		"maxCountryCode": "US",
+		"maxCountryWeightPercent": 100.0,
+		"sectorWeights": [
+			{
+				"name": "Information Technology",
+				"weightPercent": 24.12,
+				"estimated": true
+			},
+			{
+				"name": "Communication Services",
+				"weightPercent": 8.19,
+				"estimated": true
+			},
+			{
+				"name": "Consumer Discretionary",
+				"weightPercent": 5.89,
+				"estimated": true
+			}
+		],
+		"topSectorName": "Information Technology",
+		"topSectorWeightPercent": 24.12,
+		"continentWeights": [
+			{
+				"name": "North America",
+				"nameLt": "Šiaurės Amerika",
+				"companies": 527,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"marketTypeWeights": [
+			{
+				"name": "Developed",
+				"companies": 527,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"countryCount": 1,
+		"continentCount": 1,
+		"strategyType": "Country",
+		"strategyTags": [
+			"Country"
+		],
+		"dataQuality": "partial",
+		"dataQualityDetails": {
+			"countriesEstimated": true,
+			"topHoldingsEstimated": false,
+			"fundCapitalKnown": true,
+			"replicationEstimated": true
+		}
+	},
+	{
+		"id": "webh",
+		"ticker": "WEBH",
+		"name": "Amundi Core MSCI USA UCITS ETF Acc",
+		"terPercent": 0.03,
+		"totalCompanies": 531,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Acc",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "WEBH"
+			},
+			{
+				"exchange": "Frankfurt",
+				"ticker": "WEBH"
+			},
+			{
+				"exchange": "Euronext Milan",
+				"ticker": "ETFUSA"
+			}
+		],
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 531,
+				"weightPercent": 100.0,
+				"estimated": true,
+				"continent": "North America",
+				"continentLt": "Šiaurės Amerika",
+				"subRegion": "Northern America",
+				"subRegionLt": "Šiaurės Amerika",
+				"marketType": "Developed",
+				"currency": "USD",
+				"currencyName": "US dollar",
+				"currencyNameLt": "JAV doleris",
+				"euMember": false,
+				"countryWeightRank": 1,
+				"isTopCountry": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 3616,
+			"currency": "EUR",
+			"label": "€3 616M",
+			"asOf": "2026-06",
+			"sourceName": "justETF",
+			"estimated": false
+		},
+		"topHoldings": [
+			{
+				"name": "NVIDIA Corp.",
+				"ticker": "NVDA",
+				"countryCode": "US",
+				"weightPercent": 7.92,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US67066G1040"
+			},
+			{
+				"name": "Apple",
+				"ticker": "AAPL",
+				"countryCode": "US",
+				"weightPercent": 7.0,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US0378331005"
+			},
+			{
+				"name": "Microsoft",
+				"ticker": "MSFT",
+				"countryCode": "US",
+				"weightPercent": 4.47,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US5949181045"
+			},
+			{
+				"name": "Amazon.com, Inc.",
+				"ticker": "AMZN",
+				"countryCode": "US",
+				"weightPercent": 4.01,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US0231351067"
+			},
+			{
+				"name": "Alphabet, Inc. A",
+				"ticker": "GOOGL",
+				"countryCode": "US",
+				"weightPercent": 3.47,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K3059"
+			},
+			{
+				"name": "Broadcom Inc.",
+				"ticker": "AVGO",
+				"countryCode": "US",
+				"weightPercent": 2.91,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US11135F1012"
+			},
+			{
+				"name": "Alphabet, Inc. C",
+				"ticker": "GOOG",
+				"countryCode": "US",
+				"weightPercent": 2.87,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K1079"
+			},
+			{
+				"name": "Meta Platforms",
+				"ticker": "META",
+				"countryCode": "US",
+				"weightPercent": 2.12,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US30303M1027"
+			},
+			{
+				"name": "Tesla",
+				"ticker": "TSLA",
+				"countryCode": "US",
+				"weightPercent": 1.91,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US88160R1014"
+			},
+			{
+				"name": "Micron Technology",
+				"ticker": "MU",
+				"countryCode": "US",
+				"weightPercent": 1.61,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US5951121038"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 38.29,
+		"assetClass": "Equity",
+		"equityExposurePercent": 100,
+		"ucits": true,
+		"issuer": "Amundi",
+		"indexName": "MSCI USA",
+		"region": "USA",
+		"marketType": "Developed",
+		"hedgedToEur": false,
+		"fundCurrency": "USD",
+		"primaryEurListing": {
+			"exchange": "XETRA",
+			"ticker": "WEBH"
+		},
+		"replication": {
+			"type": "Physical",
+			"usesSwap": false,
+			"estimated": true
+		},
+		"maxCountryCode": "US",
+		"maxCountryWeightPercent": 100.0,
+		"sectorWeights": [
+			{
+				"name": "Information Technology",
+				"weightPercent": 23.91,
+				"estimated": true
+			},
+			{
+				"name": "Communication Services",
+				"weightPercent": 8.46,
+				"estimated": true
+			},
+			{
+				"name": "Consumer Discretionary",
+				"weightPercent": 5.92,
+				"estimated": true
+			}
+		],
+		"topSectorName": "Information Technology",
+		"topSectorWeightPercent": 23.91,
+		"continentWeights": [
+			{
+				"name": "North America",
+				"nameLt": "Šiaurės Amerika",
+				"companies": 531,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"marketTypeWeights": [
+			{
+				"name": "Developed",
+				"companies": 531,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"countryCount": 1,
+		"continentCount": 1,
+		"strategyType": "Country",
+		"strategyTags": [
+			"Country"
+		],
+		"dataQuality": "partial",
+		"dataQualityDetails": {
+			"countriesEstimated": true,
+			"topHoldingsEstimated": false,
+			"fundCapitalKnown": true,
+			"replicationEstimated": true
+		}
+	},
+	{
+		"id": "webi",
+		"ticker": "WEBI",
+		"name": "Amundi Core MSCI USA UCITS ETF Dist",
+		"terPercent": 0.03,
+		"totalCompanies": 531,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Dist",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "WEBI"
+			},
+			{
+				"exchange": "Frankfurt",
+				"ticker": "WEBI"
+			},
+			{
+				"exchange": "Euronext Milan",
+				"ticker": "ETFUSA"
+			}
+		],
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 531,
+				"weightPercent": 100.0,
+				"estimated": true,
+				"continent": "North America",
+				"continentLt": "Šiaurės Amerika",
+				"subRegion": "Northern America",
+				"subRegionLt": "Šiaurės Amerika",
+				"marketType": "Developed",
+				"currency": "USD",
+				"currencyName": "US dollar",
+				"currencyNameLt": "JAV doleris",
+				"euMember": false,
+				"countryWeightRank": 1,
+				"isTopCountry": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 1049,
+			"currency": "EUR",
+			"label": "€1 049M",
+			"asOf": "2026-06",
+			"sourceName": "justETF",
+			"estimated": false
+		},
+		"topHoldings": [
+			{
+				"name": "NVIDIA Corp.",
+				"ticker": "NVDA",
+				"countryCode": "US",
+				"weightPercent": 7.92,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US67066G1040"
+			},
+			{
+				"name": "Apple",
+				"ticker": "AAPL",
+				"countryCode": "US",
+				"weightPercent": 7.0,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US0378331005"
+			},
+			{
+				"name": "Microsoft",
+				"ticker": "MSFT",
+				"countryCode": "US",
+				"weightPercent": 4.47,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US5949181045"
+			},
+			{
+				"name": "Amazon.com, Inc.",
+				"ticker": "AMZN",
+				"countryCode": "US",
+				"weightPercent": 4.01,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US0231351067"
+			},
+			{
+				"name": "Alphabet, Inc. A",
+				"ticker": "GOOGL",
+				"countryCode": "US",
+				"weightPercent": 3.47,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K3059"
+			},
+			{
+				"name": "Broadcom Inc.",
+				"ticker": "AVGO",
+				"countryCode": "US",
+				"weightPercent": 2.91,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US11135F1012"
+			},
+			{
+				"name": "Alphabet, Inc. C",
+				"ticker": "GOOG",
+				"countryCode": "US",
+				"weightPercent": 2.87,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K1079"
+			},
+			{
+				"name": "Meta Platforms",
+				"ticker": "META",
+				"countryCode": "US",
+				"weightPercent": 2.12,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US30303M1027"
+			},
+			{
+				"name": "Tesla",
+				"ticker": "TSLA",
+				"countryCode": "US",
+				"weightPercent": 1.91,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US88160R1014"
+			},
+			{
+				"name": "Micron Technology",
+				"ticker": "MU",
+				"countryCode": "US",
+				"weightPercent": 1.61,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US5951121038"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 38.29,
+		"assetClass": "Equity",
+		"equityExposurePercent": 100,
+		"ucits": true,
+		"issuer": "Amundi",
+		"indexName": "MSCI USA",
+		"region": "USA",
+		"marketType": "Developed",
+		"hedgedToEur": false,
+		"fundCurrency": "USD",
+		"primaryEurListing": {
+			"exchange": "XETRA",
+			"ticker": "WEBI"
+		},
+		"replication": {
+			"type": "Physical",
+			"usesSwap": false,
+			"estimated": true
+		},
+		"maxCountryCode": "US",
+		"maxCountryWeightPercent": 100.0,
+		"sectorWeights": [
+			{
+				"name": "Information Technology",
+				"weightPercent": 23.91,
+				"estimated": true
+			},
+			{
+				"name": "Communication Services",
+				"weightPercent": 8.46,
+				"estimated": true
+			},
+			{
+				"name": "Consumer Discretionary",
+				"weightPercent": 5.92,
+				"estimated": true
+			}
+		],
+		"topSectorName": "Information Technology",
+		"topSectorWeightPercent": 23.91,
+		"continentWeights": [
+			{
+				"name": "North America",
+				"nameLt": "Šiaurės Amerika",
+				"companies": 531,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"marketTypeWeights": [
+			{
+				"name": "Developed",
+				"companies": 531,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"countryCount": 1,
+		"continentCount": 1,
+		"strategyType": "Country",
+		"strategyTags": [
+			"Country"
+		],
+		"dataQuality": "partial",
+		"dataQualityDetails": {
+			"countriesEstimated": true,
+			"topHoldingsEstimated": false,
+			"fundCapitalKnown": true,
+			"replicationEstimated": true
+		}
+	},
+	{
+		"id": "4ubb",
+		"ticker": "4UBB",
+		"name": "UBS Core MSCI USA UCITS ETF USD Acc",
+		"terPercent": 0.03,
+		"totalCompanies": 536,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Acc",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "4UBB"
+			},
+			{
+				"exchange": "Borsa Italiana",
+				"ticker": "USAUSW"
+			}
+		],
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 536,
+				"weightPercent": 100.0,
+				"estimated": true,
+				"continent": "North America",
+				"continentLt": "Šiaurės Amerika",
+				"subRegion": "Northern America",
+				"subRegionLt": "Šiaurės Amerika",
+				"marketType": "Developed",
+				"currency": "USD",
+				"currencyName": "US dollar",
+				"currencyNameLt": "JAV doleris",
+				"euMember": false,
+				"countryWeightRank": 1,
+				"isTopCountry": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 2698,
+			"currency": "EUR",
+			"label": "€2 698M",
+			"asOf": "2026-06",
+			"sourceName": "justETF",
+			"estimated": false
+		},
+		"topHoldings": [
+			{
+				"name": "NVIDIA Corp.",
+				"ticker": "NVDA",
+				"countryCode": "US",
+				"weightPercent": 7.76,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US67066G1040"
+			},
+			{
+				"name": "Apple",
+				"ticker": "AAPL",
+				"countryCode": "US",
+				"weightPercent": 6.94,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US0378331005"
+			},
+			{
+				"name": "Microsoft",
+				"ticker": "MSFT",
+				"countryCode": "US",
+				"weightPercent": 4.81,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US5949181045"
+			},
+			{
+				"name": "Amazon.com, Inc.",
+				"ticker": "AMZN",
+				"countryCode": "US",
+				"weightPercent": 3.94,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US0231351067"
+			},
+			{
+				"name": "Alphabet, Inc. A",
+				"ticker": "GOOGL",
+				"countryCode": "US",
+				"weightPercent": 3.35,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K3059"
+			},
+			{
+				"name": "Broadcom Inc.",
+				"ticker": "AVGO",
+				"countryCode": "US",
+				"weightPercent": 3.05,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US11135F1012"
+			},
+			{
+				"name": "Alphabet, Inc. C",
+				"ticker": "GOOG",
+				"countryCode": "US",
+				"weightPercent": 2.77,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K1079"
+			},
+			{
+				"name": "Meta Platforms",
+				"ticker": "META",
+				"countryCode": "US",
+				"weightPercent": 2.09,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US30303M1027"
+			},
+			{
+				"name": "Tesla",
+				"ticker": "TSLA",
+				"countryCode": "US",
+				"weightPercent": 1.86,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US88160R1014"
+			},
+			{
+				"name": "Micron Technology",
+				"ticker": "MU",
+				"countryCode": "US",
+				"weightPercent": 1.65,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US5951121038"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 38.22,
+		"assetClass": "Equity",
+		"equityExposurePercent": 100,
+		"ucits": true,
+		"issuer": "UBS",
+		"indexName": "MSCI USA",
+		"region": "USA",
+		"marketType": "Developed",
+		"hedgedToEur": false,
+		"fundCurrency": "USD",
+		"primaryEurListing": {
+			"exchange": "XETRA",
+			"ticker": "4UBB"
+		},
+		"replication": {
+			"type": "Physical",
+			"usesSwap": false,
+			"estimated": true
+		},
+		"maxCountryCode": "US",
+		"maxCountryWeightPercent": 100.0,
+		"sectorWeights": [
+			{
+				"name": "Information Technology",
+				"weightPercent": 24.21,
+				"estimated": true
+			},
+			{
+				"name": "Communication Services",
+				"weightPercent": 8.21,
+				"estimated": true
+			},
+			{
+				"name": "Consumer Discretionary",
+				"weightPercent": 5.8,
+				"estimated": true
+			}
+		],
+		"topSectorName": "Information Technology",
+		"topSectorWeightPercent": 24.21,
+		"continentWeights": [
+			{
+				"name": "North America",
+				"nameLt": "Šiaurės Amerika",
+				"companies": 536,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"marketTypeWeights": [
+			{
+				"name": "Developed",
+				"companies": 536,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"countryCount": 1,
+		"continentCount": 1,
+		"strategyType": "Country",
+		"strategyTags": [
+			"Country"
+		],
+		"dataQuality": "partial",
+		"dataQualityDetails": {
+			"countriesEstimated": true,
+			"topHoldingsEstimated": false,
+			"fundCapitalKnown": true,
+			"replicationEstimated": true
+		}
+	},
+	{
+		"id": "ubu3",
+		"ticker": "UBU3",
+		"name": "UBS Core MSCI USA UCITS ETF USD Dis",
+		"terPercent": 0.03,
+		"totalCompanies": 536,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Dist",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "UBU3"
+			},
+			{
+				"exchange": "Borsa Italiana",
+				"ticker": "UBU3"
+			}
+		],
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 536,
+				"weightPercent": 100.0,
+				"estimated": true,
+				"continent": "North America",
+				"continentLt": "Šiaurės Amerika",
+				"subRegion": "Northern America",
+				"subRegionLt": "Šiaurės Amerika",
+				"marketType": "Developed",
+				"currency": "USD",
+				"currencyName": "US dollar",
+				"currencyNameLt": "JAV doleris",
+				"euMember": false,
+				"countryWeightRank": 1,
+				"isTopCountry": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 1253,
+			"currency": "EUR",
+			"label": "€1 253M",
+			"asOf": "2026-06",
+			"sourceName": "justETF",
+			"estimated": false
+		},
+		"topHoldings": [
+			{
+				"name": "NVIDIA Corp.",
+				"ticker": "NVDA",
+				"countryCode": "US",
+				"weightPercent": 7.76,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US67066G1040"
+			},
+			{
+				"name": "Apple",
+				"ticker": "AAPL",
+				"countryCode": "US",
+				"weightPercent": 6.94,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US0378331005"
+			},
+			{
+				"name": "Microsoft",
+				"ticker": "MSFT",
+				"countryCode": "US",
+				"weightPercent": 4.81,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US5949181045"
+			},
+			{
+				"name": "Amazon.com, Inc.",
+				"ticker": "AMZN",
+				"countryCode": "US",
+				"weightPercent": 3.94,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US0231351067"
+			},
+			{
+				"name": "Alphabet, Inc. A",
+				"ticker": "GOOGL",
+				"countryCode": "US",
+				"weightPercent": 3.35,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K3059"
+			},
+			{
+				"name": "Broadcom Inc.",
+				"ticker": "AVGO",
+				"countryCode": "US",
+				"weightPercent": 3.05,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US11135F1012"
+			},
+			{
+				"name": "Alphabet, Inc. C",
+				"ticker": "GOOG",
+				"countryCode": "US",
+				"weightPercent": 2.77,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K1079"
+			},
+			{
+				"name": "Meta Platforms",
+				"ticker": "META",
+				"countryCode": "US",
+				"weightPercent": 2.09,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US30303M1027"
+			},
+			{
+				"name": "Tesla",
+				"ticker": "TSLA",
+				"countryCode": "US",
+				"weightPercent": 1.86,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US88160R1014"
+			},
+			{
+				"name": "Micron Technology",
+				"ticker": "MU",
+				"countryCode": "US",
+				"weightPercent": 1.65,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US5951121038"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 38.22,
+		"assetClass": "Equity",
+		"equityExposurePercent": 100,
+		"ucits": true,
+		"issuer": "UBS",
+		"indexName": "MSCI USA",
+		"region": "USA",
+		"marketType": "Developed",
+		"hedgedToEur": false,
+		"fundCurrency": "USD",
+		"primaryEurListing": {
+			"exchange": "XETRA",
+			"ticker": "UBU3"
+		},
+		"replication": {
+			"type": "Physical",
+			"usesSwap": false,
+			"estimated": true
+		},
+		"maxCountryCode": "US",
+		"maxCountryWeightPercent": 100.0,
+		"sectorWeights": [
+			{
+				"name": "Information Technology",
+				"weightPercent": 24.21,
+				"estimated": true
+			},
+			{
+				"name": "Communication Services",
+				"weightPercent": 8.21,
+				"estimated": true
+			},
+			{
+				"name": "Consumer Discretionary",
+				"weightPercent": 5.8,
+				"estimated": true
+			}
+		],
+		"topSectorName": "Information Technology",
+		"topSectorWeightPercent": 24.21,
+		"continentWeights": [
+			{
+				"name": "North America",
+				"nameLt": "Šiaurės Amerika",
+				"companies": 536,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"marketTypeWeights": [
+			{
+				"name": "Developed",
+				"companies": 536,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"countryCount": 1,
+		"continentCount": 1,
+		"strategyType": "Country",
+		"strategyTags": [
+			"Country"
+		],
+		"dataQuality": "partial",
+		"dataQualityDetails": {
+			"countriesEstimated": true,
+			"topHoldingsEstimated": false,
+			"fundCapitalKnown": true,
+			"replicationEstimated": true
+		}
+	},
+	{
+		"id": "bcft",
+		"ticker": "BCFT",
+		"name": "UBS Core S&P 500 UCITS ETF USD Acc",
+		"terPercent": 0.03,
+		"totalCompanies": 504,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Acc",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "BCFT"
+			},
+			{
+				"exchange": "Frankfurt",
+				"ticker": "BCFT"
+			}
+		],
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 504,
+				"weightPercent": 100.0,
+				"estimated": true,
+				"continent": "North America",
+				"continentLt": "Šiaurės Amerika",
+				"subRegion": "Northern America",
+				"subRegionLt": "Šiaurės Amerika",
+				"marketType": "Developed",
+				"currency": "USD",
+				"currencyName": "US dollar",
+				"currencyNameLt": "JAV doleris",
+				"euMember": false,
+				"countryWeightRank": 1,
+				"isTopCountry": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 1435,
+			"currency": "EUR",
+			"label": "€1 435M",
+			"asOf": "2026-06",
+			"sourceName": "justETF",
+			"estimated": false
+		},
+		"topHoldings": [
+			{
+				"name": "NVIDIA Corp.",
+				"ticker": "NVDA",
+				"countryCode": "US",
+				"weightPercent": 7.84,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US67066G1040"
+			},
+			{
+				"name": "Apple",
+				"ticker": "AAPL",
+				"countryCode": "US",
+				"weightPercent": 7.0,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US0378331005"
+			},
+			{
+				"name": "Microsoft",
+				"ticker": "MSFT",
+				"countryCode": "US",
+				"weightPercent": 5.11,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US5949181045"
+			},
+			{
+				"name": "Amazon.com, Inc.",
+				"ticker": "AMZN",
+				"countryCode": "US",
+				"weightPercent": 4.04,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US0231351067"
+			},
+			{
+				"name": "Alphabet, Inc. A",
+				"ticker": "GOOGL",
+				"countryCode": "US",
+				"weightPercent": 3.38,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K3059"
+			},
+			{
+				"name": "Broadcom Inc.",
+				"ticker": "AVGO",
+				"countryCode": "US",
+				"weightPercent": 3.23,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US11135F1012"
+			},
+			{
+				"name": "Alphabet, Inc. C",
+				"ticker": "GOOG",
+				"countryCode": "US",
+				"weightPercent": 2.69,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K1079"
+			},
+			{
+				"name": "Meta Platforms",
+				"ticker": "META",
+				"countryCode": "US",
+				"weightPercent": 2.11,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US30303M1027"
+			},
+			{
+				"name": "Tesla",
+				"ticker": "TSLA",
+				"countryCode": "US",
+				"weightPercent": 1.87,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US88160R1014"
+			},
+			{
+				"name": "Micron Technology",
+				"ticker": "MU",
+				"countryCode": "US",
+				"weightPercent": 1.67,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US5951121038"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 38.94,
+		"assetClass": "Equity",
+		"equityExposurePercent": 100,
+		"ucits": true,
+		"issuer": "UBS",
+		"indexName": "S&P 500",
+		"region": "USA",
+		"marketType": "Developed",
+		"hedgedToEur": false,
+		"fundCurrency": "USD",
+		"primaryEurListing": {
+			"exchange": "XETRA",
+			"ticker": "BCFT"
+		},
+		"replication": {
+			"type": "Physical",
+			"usesSwap": false,
+			"estimated": true
+		},
+		"maxCountryCode": "US",
+		"maxCountryWeightPercent": 100.0,
+		"sectorWeights": [
+			{
+				"name": "Information Technology",
+				"weightPercent": 24.85,
+				"estimated": true
+			},
+			{
+				"name": "Communication Services",
+				"weightPercent": 8.18,
+				"estimated": true
+			},
+			{
+				"name": "Consumer Discretionary",
+				"weightPercent": 5.91,
+				"estimated": true
+			}
+		],
+		"topSectorName": "Information Technology",
+		"topSectorWeightPercent": 24.85,
+		"continentWeights": [
+			{
+				"name": "North America",
+				"nameLt": "Šiaurės Amerika",
+				"companies": 504,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"marketTypeWeights": [
+			{
+				"name": "Developed",
+				"companies": 504,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"countryCount": 1,
+		"continentCount": 1,
+		"strategyType": "Country",
+		"strategyTags": [
+			"Country"
+		],
+		"dataQuality": "partial",
+		"dataQualityDetails": {
+			"countriesEstimated": true,
+			"topHoldingsEstimated": false,
+			"fundCapitalKnown": true,
+			"replicationEstimated": true
+		}
+	},
+	{
+		"id": "ubu9",
+		"ticker": "UBU9",
+		"name": "UBS Core S&P 500 UCITS ETF USD Dis",
+		"terPercent": 0.03,
+		"totalCompanies": 504,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Dist",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "Euronext Amsterdam",
+				"ticker": "UBU9"
+			},
+			{
+				"exchange": "Frankfurt",
+				"ticker": "UBU9"
+			}
+		],
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 504,
+				"weightPercent": 100.0,
+				"estimated": true,
+				"continent": "North America",
+				"continentLt": "Šiaurės Amerika",
+				"subRegion": "Northern America",
+				"subRegionLt": "Šiaurės Amerika",
+				"marketType": "Developed",
+				"currency": "USD",
+				"currencyName": "US dollar",
+				"currencyNameLt": "JAV doleris",
+				"euMember": false,
+				"countryWeightRank": 1,
+				"isTopCountry": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 1028,
+			"currency": "EUR",
+			"label": "€1 028M",
+			"asOf": "2026-06",
+			"sourceName": "justETF",
+			"estimated": false
+		},
+		"topHoldings": [
+			{
+				"name": "NVIDIA Corp.",
+				"ticker": "NVDA",
+				"countryCode": "US",
+				"weightPercent": 7.84,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US67066G1040"
+			},
+			{
+				"name": "Apple",
+				"ticker": "AAPL",
+				"countryCode": "US",
+				"weightPercent": 7.0,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US0378331005"
+			},
+			{
+				"name": "Microsoft",
+				"ticker": "MSFT",
+				"countryCode": "US",
+				"weightPercent": 5.11,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US5949181045"
+			},
+			{
+				"name": "Amazon.com, Inc.",
+				"ticker": "AMZN",
+				"countryCode": "US",
+				"weightPercent": 4.04,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US0231351067"
+			},
+			{
+				"name": "Alphabet, Inc. A",
+				"ticker": "GOOGL",
+				"countryCode": "US",
+				"weightPercent": 3.38,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K3059"
+			},
+			{
+				"name": "Broadcom Inc.",
+				"ticker": "AVGO",
+				"countryCode": "US",
+				"weightPercent": 3.23,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US11135F1012"
+			},
+			{
+				"name": "Alphabet, Inc. C",
+				"ticker": "GOOG",
+				"countryCode": "US",
+				"weightPercent": 2.69,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K1079"
+			},
+			{
+				"name": "Meta Platforms",
+				"ticker": "META",
+				"countryCode": "US",
+				"weightPercent": 2.11,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US30303M1027"
+			},
+			{
+				"name": "Tesla",
+				"ticker": "TSLA",
+				"countryCode": "US",
+				"weightPercent": 1.87,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US88160R1014"
+			},
+			{
+				"name": "Micron Technology",
+				"ticker": "MU",
+				"countryCode": "US",
+				"weightPercent": 1.67,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US5951121038"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 38.94,
+		"assetClass": "Equity",
+		"equityExposurePercent": 100,
+		"ucits": true,
+		"issuer": "UBS",
+		"indexName": "S&P 500",
+		"region": "USA",
+		"marketType": "Developed",
+		"hedgedToEur": false,
+		"fundCurrency": "USD",
+		"primaryEurListing": {
+			"exchange": "Frankfurt",
+			"ticker": "UBU9"
+		},
+		"replication": {
+			"type": "Physical",
+			"usesSwap": false,
+			"estimated": true
+		},
+		"maxCountryCode": "US",
+		"maxCountryWeightPercent": 100.0,
+		"sectorWeights": [
+			{
+				"name": "Information Technology",
+				"weightPercent": 24.85,
+				"estimated": true
+			},
+			{
+				"name": "Communication Services",
+				"weightPercent": 8.18,
+				"estimated": true
+			},
+			{
+				"name": "Consumer Discretionary",
+				"weightPercent": 5.91,
+				"estimated": true
+			}
+		],
+		"topSectorName": "Information Technology",
+		"topSectorWeightPercent": 24.85,
+		"continentWeights": [
+			{
+				"name": "North America",
+				"nameLt": "Šiaurės Amerika",
+				"companies": 504,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"marketTypeWeights": [
+			{
+				"name": "Developed",
+				"companies": 504,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"countryCount": 1,
+		"continentCount": 1,
+		"strategyType": "Country",
+		"strategyTags": [
+			"Country"
+		],
+		"dataQuality": "partial",
+		"dataQualityDetails": {
+			"countriesEstimated": true,
+			"topHoldingsEstimated": false,
+			"fundCapitalKnown": true,
+			"replicationEstimated": true
+		}
+	},
+	{
+		"id": "xdpu",
+		"ticker": "XDPU",
+		"name": "Xtrackers S&P 500 UCITS ETF 4C",
+		"terPercent": 0.03,
+		"totalCompanies": 504,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Acc",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "XDPU"
+			},
+			{
+				"exchange": "gettex",
+				"ticker": "XDPU"
+			}
+		],
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 504,
+				"weightPercent": 100.0,
+				"estimated": true,
+				"continent": "North America",
+				"continentLt": "Šiaurės Amerika",
+				"subRegion": "Northern America",
+				"subRegionLt": "Šiaurės Amerika",
+				"marketType": "Developed",
+				"currency": "USD",
+				"currencyName": "US dollar",
+				"currencyNameLt": "JAV doleris",
+				"euMember": false,
+				"countryWeightRank": 1,
+				"isTopCountry": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 1141,
+			"currency": "EUR",
+			"label": "€1 141M",
+			"asOf": "2026-06",
+			"sourceName": "justETF",
+			"estimated": false
+		},
+		"topHoldings": [
+			{
+				"name": "NVIDIA Corp.",
+				"ticker": "NVDA",
+				"countryCode": "US",
+				"weightPercent": 7.9,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US67066G1040"
+			},
+			{
+				"name": "Apple",
+				"ticker": "AAPL",
+				"countryCode": "US",
+				"weightPercent": 6.78,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US0378331005"
+			},
+			{
+				"name": "Microsoft",
+				"ticker": "MSFT",
+				"countryCode": "US",
+				"weightPercent": 4.36,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US5949181045"
+			},
+			{
+				"name": "Amazon.com, Inc.",
+				"ticker": "AMZN",
+				"countryCode": "US",
+				"weightPercent": 3.7,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US0231351067"
+			},
+			{
+				"name": "Alphabet, Inc. A",
+				"ticker": "GOOGL",
+				"countryCode": "US",
+				"weightPercent": 3.34,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K3059"
+			},
+			{
+				"name": "Broadcom Inc.",
+				"ticker": "AVGO",
+				"countryCode": "US",
+				"weightPercent": 3.02,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US11135F1012"
+			},
+			{
+				"name": "Alphabet, Inc. C",
+				"ticker": "GOOG",
+				"countryCode": "US",
+				"weightPercent": 2.69,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K1079"
+			},
+			{
+				"name": "Micron Technology",
+				"ticker": "MU",
+				"countryCode": "US",
+				"weightPercent": 1.98,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US5951121038"
+			},
+			{
+				"name": "Meta Platforms",
+				"ticker": "META",
+				"countryCode": "US",
+				"weightPercent": 1.96,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US30303M1027"
+			},
+			{
+				"name": "Tesla",
+				"ticker": "TSLA",
+				"countryCode": "US",
+				"weightPercent": 1.75,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US88160R1014"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 37.48,
+		"assetClass": "Equity",
+		"equityExposurePercent": 100,
+		"ucits": true,
+		"issuer": "Xtrackers",
+		"indexName": "S&P 500",
+		"region": "USA",
+		"marketType": "Developed",
+		"hedgedToEur": false,
+		"fundCurrency": "USD",
+		"primaryEurListing": {
+			"exchange": "XETRA",
+			"ticker": "XDPU"
+		},
+		"replication": {
+			"type": "Physical",
+			"usesSwap": false,
+			"estimated": true
+		},
+		"maxCountryCode": "US",
+		"maxCountryWeightPercent": 100.0,
+		"sectorWeights": [
+			{
+				"name": "Information Technology",
+				"weightPercent": 24.04,
+				"estimated": true
+			},
+			{
+				"name": "Communication Services",
+				"weightPercent": 7.99,
+				"estimated": true
+			},
+			{
+				"name": "Consumer Discretionary",
+				"weightPercent": 5.45,
+				"estimated": true
+			}
+		],
+		"topSectorName": "Information Technology",
+		"topSectorWeightPercent": 24.04,
+		"continentWeights": [
+			{
+				"name": "North America",
+				"nameLt": "Šiaurės Amerika",
+				"companies": 504,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"marketTypeWeights": [
+			{
+				"name": "Developed",
+				"companies": 504,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"countryCount": 1,
+		"continentCount": 1,
+		"strategyType": "Country",
+		"strategyTags": [
+			"Country"
+		],
+		"dataQuality": "partial",
+		"dataQualityDetails": {
+			"countriesEstimated": true,
+			"topHoldingsEstimated": false,
+			"fundCapitalKnown": true,
+			"replicationEstimated": true
+		}
+	},
+	{
+		"id": "x5sp",
+		"ticker": "X5SP",
+		"name": "Xtrackers S&P 500 UCITS ETF 4D",
+		"terPercent": 0.03,
+		"totalCompanies": 504,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Dist",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "X5SP"
+			},
+			{
+				"exchange": "gettex",
+				"ticker": "X5SP"
+			}
+		],
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 504,
+				"weightPercent": 100.0,
+				"estimated": true,
+				"continent": "North America",
+				"continentLt": "Šiaurės Amerika",
+				"subRegion": "Northern America",
+				"subRegionLt": "Šiaurės Amerika",
+				"marketType": "Developed",
+				"currency": "USD",
+				"currencyName": "US dollar",
+				"currencyNameLt": "JAV doleris",
+				"euMember": false,
+				"countryWeightRank": 1,
+				"isTopCountry": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 1,
+			"currency": "EUR",
+			"label": "€1M",
+			"asOf": "2026-06",
+			"sourceName": "justETF",
+			"estimated": false
+		},
+		"topHoldings": [
+			{
+				"name": "NVIDIA Corp.",
+				"ticker": "NVDA",
+				"countryCode": "US",
+				"weightPercent": 7.9,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US67066G1040"
+			},
+			{
+				"name": "Apple",
+				"ticker": "AAPL",
+				"countryCode": "US",
+				"weightPercent": 6.78,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US0378331005"
+			},
+			{
+				"name": "Microsoft",
+				"ticker": "MSFT",
+				"countryCode": "US",
+				"weightPercent": 4.36,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US5949181045"
+			},
+			{
+				"name": "Amazon.com, Inc.",
+				"ticker": "AMZN",
+				"countryCode": "US",
+				"weightPercent": 3.7,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US0231351067"
+			},
+			{
+				"name": "Alphabet, Inc. A",
+				"ticker": "GOOGL",
+				"countryCode": "US",
+				"weightPercent": 3.34,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K3059"
+			},
+			{
+				"name": "Broadcom Inc.",
+				"ticker": "AVGO",
+				"countryCode": "US",
+				"weightPercent": 3.02,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US11135F1012"
+			},
+			{
+				"name": "Alphabet, Inc. C",
+				"ticker": "GOOG",
+				"countryCode": "US",
+				"weightPercent": 2.69,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K1079"
+			},
+			{
+				"name": "Micron Technology",
+				"ticker": "MU",
+				"countryCode": "US",
+				"weightPercent": 1.98,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US5951121038"
+			},
+			{
+				"name": "Meta Platforms",
+				"ticker": "META",
+				"countryCode": "US",
+				"weightPercent": 1.96,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US30303M1027"
+			},
+			{
+				"name": "Tesla",
+				"ticker": "TSLA",
+				"countryCode": "US",
+				"weightPercent": 1.75,
+				"estimated": false,
+				"sector": "Consumer Discretionary",
+				"isin": "US88160R1014"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 37.48,
+		"assetClass": "Equity",
+		"equityExposurePercent": 100,
+		"ucits": true,
+		"issuer": "Xtrackers",
+		"indexName": "S&P 500",
+		"region": "USA",
+		"marketType": "Developed",
+		"hedgedToEur": false,
+		"fundCurrency": "USD",
+		"primaryEurListing": {
+			"exchange": "XETRA",
+			"ticker": "X5SP"
+		},
+		"replication": {
+			"type": "Physical",
+			"usesSwap": false,
+			"estimated": true
+		},
+		"maxCountryCode": "US",
+		"maxCountryWeightPercent": 100.0,
+		"sectorWeights": [
+			{
+				"name": "Information Technology",
+				"weightPercent": 24.04,
+				"estimated": true
+			},
+			{
+				"name": "Communication Services",
+				"weightPercent": 7.99,
+				"estimated": true
+			},
+			{
+				"name": "Consumer Discretionary",
+				"weightPercent": 5.45,
+				"estimated": true
+			}
+		],
+		"topSectorName": "Information Technology",
+		"topSectorWeightPercent": 24.04,
+		"continentWeights": [
+			{
+				"name": "North America",
+				"nameLt": "Šiaurės Amerika",
+				"companies": 504,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"marketTypeWeights": [
+			{
+				"name": "Developed",
+				"companies": 504,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"countryCount": 1,
+		"continentCount": 1,
+		"strategyType": "Country",
+		"strategyTags": [
+			"Country"
+		],
+		"dataQuality": "partial",
+		"dataQualityDetails": {
+			"countriesEstimated": true,
+			"topHoldingsEstimated": false,
+			"fundCapitalKnown": true,
+			"replicationEstimated": true
+		}
+	},
+	{
+		"id": "sppy",
+		"ticker": "SPPY",
+		"name": "State Street SPDR S&P 500 Leaders UCITS ETF USD Unhedged Acc",
+		"terPercent": 0.03,
+		"totalCompanies": 229,
+		"totalWeightPercent": 100.0,
+		"estimated": true,
+		"distribution": "Acc",
+		"tradeCurrency": "EUR",
+		"eurListings": [
+			{
+				"exchange": "XETRA",
+				"ticker": "SPPY"
+			},
+			{
+				"exchange": "Euronext Amsterdam",
+				"ticker": "SPPY"
+			},
+			{
+				"exchange": "gettex",
+				"ticker": "SPPY"
+			}
+		],
+		"countries": [
+			{
+				"name": "United States",
+				"nameLt": "JAV",
+				"code": "US",
+				"companies": 229,
+				"weightPercent": 100.0,
+				"estimated": true,
+				"continent": "North America",
+				"continentLt": "Šiaurės Amerika",
+				"subRegion": "Northern America",
+				"subRegionLt": "Šiaurės Amerika",
+				"marketType": "Developed",
+				"currency": "USD",
+				"currencyName": "US dollar",
+				"currencyNameLt": "JAV doleris",
+				"euMember": false,
+				"countryWeightRank": 1,
+				"isTopCountry": true
+			}
+		],
+		"fundCapital": {
+			"amountMillions": 4381,
+			"currency": "EUR",
+			"label": "€4 381M",
+			"asOf": "2026-06",
+			"sourceName": "justETF",
+			"estimated": false
+		},
+		"topHoldings": [
+			{
+				"name": "NVIDIA Corp.",
+				"ticker": "NVDA",
+				"countryCode": "US",
+				"weightPercent": 12.29,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US67066G1040"
+			},
+			{
+				"name": "Microsoft",
+				"ticker": "MSFT",
+				"countryCode": "US",
+				"weightPercent": 8.01,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US5949181045"
+			},
+			{
+				"name": "Alphabet, Inc. A",
+				"ticker": "GOOGL",
+				"countryCode": "US",
+				"weightPercent": 5.26,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K3059"
+			},
+			{
+				"name": "Alphabet, Inc. C",
+				"ticker": "GOOG",
+				"countryCode": "US",
+				"weightPercent": 4.2,
+				"estimated": false,
+				"sector": "Communication Services",
+				"isin": "US02079K1079"
+			},
+			{
+				"name": "Micron Technology",
+				"ticker": "MU",
+				"countryCode": "US",
+				"weightPercent": 3.12,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US5951121038"
+			},
+			{
+				"name": "Visa, Inc.",
+				"ticker": "V",
+				"countryCode": "US",
+				"weightPercent": 2.03,
+				"estimated": false,
+				"sector": "Financials",
+				"isin": "US92826C8394"
+			},
+			{
+				"name": "Walmart, Inc.",
+				"ticker": "WMT",
+				"countryCode": "US",
+				"weightPercent": 1.85,
+				"estimated": false,
+				"sector": "Consumer Staples",
+				"isin": "US9311421039"
+			},
+			{
+				"name": "Cisco Systems, Inc.",
+				"ticker": "CSCO",
+				"countryCode": "US",
+				"weightPercent": 1.56,
+				"estimated": false,
+				"sector": "Information Technology",
+				"isin": "US17275R1023"
+			},
+			{
+				"name": "AbbVie, Inc.",
+				"ticker": "ABBV",
+				"countryCode": "US",
+				"weightPercent": 1.55,
+				"estimated": false,
+				"sector": "Health Care",
+				"isin": "US00287Y1091"
+			},
+			{
+				"name": "Mastercard, Inc.",
+				"ticker": "MA",
+				"countryCode": "US",
+				"weightPercent": 1.49,
+				"estimated": false,
+				"sector": "Financials",
+				"isin": "US57636Q1040"
+			}
+		],
+		"topHoldingsCount": 10,
+		"topHoldingsTotalWeightPercent": 41.36,
+		"assetClass": "Equity",
+		"equityExposurePercent": 100,
+		"ucits": true,
+		"issuer": "State Street SPDR",
+		"indexName": "S&P 500 ESG Leaders",
+		"region": "USA",
+		"marketType": "Developed",
+		"hedgedToEur": true,
+		"fundCurrency": "USD",
+		"primaryEurListing": {
+			"exchange": "XETRA",
+			"ticker": "SPPY"
+		},
+		"replication": {
+			"type": "Physical",
+			"usesSwap": false,
+			"estimated": true
+		},
+		"maxCountryCode": "US",
+		"maxCountryWeightPercent": 100.0,
+		"sectorWeights": [
+			{
+				"name": "Information Technology",
+				"weightPercent": 24.98,
+				"estimated": true
+			},
+			{
+				"name": "Communication Services",
+				"weightPercent": 9.46,
+				"estimated": true
+			},
+			{
+				"name": "Financials",
+				"weightPercent": 3.52,
+				"estimated": true
+			},
+			{
+				"name": "Consumer Staples",
+				"weightPercent": 1.85,
+				"estimated": true
+			},
+			{
+				"name": "Health Care",
+				"weightPercent": 1.55,
+				"estimated": true
+			}
+		],
+		"topSectorName": "Information Technology",
+		"topSectorWeightPercent": 24.98,
+		"continentWeights": [
+			{
+				"name": "North America",
+				"nameLt": "Šiaurės Amerika",
+				"companies": 229,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"marketTypeWeights": [
+			{
+				"name": "Developed",
+				"companies": 229,
+				"weightPercent": 100.0,
+				"estimated": true
+			}
+		],
+		"countryCount": 1,
+		"continentCount": 1,
+		"strategyType": "Country",
+		"strategyTags": [
+			"Country",
+			"ESG",
+			"Hedged"
+		],
+		"dataQuality": "partial",
+		"dataQualityDetails": {
+			"countriesEstimated": true,
+			"topHoldingsEstimated": false,
+			"fundCapitalKnown": true,
+			"replicationEstimated": true
+		}
+	}
+]
