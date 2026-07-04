@@ -2431,8 +2431,8 @@
 				"isTopCountry": false
 			},
 			{
-				"name": "Other countries / rounding",
-				"nameLt": "Kitos šalys / apvalinimas",
+				"name": "Other countries",
+				"nameLt": "Kitos šalys",
 				"code": null,
 				"companies": 1,
 				"weightPercent": 0.0966,
@@ -4089,8 +4089,8 @@
 				"isTopCountry": false
 			},
 			{
-				"name": "Other countries / rounding",
-				"nameLt": "Kitos šalys / apvalinimas",
+				"name": "Other countries",
+				"nameLt": "Kitos šalys",
 				"code": null,
 				"companies": 1,
 				"weightPercent": 0.21,
@@ -4821,8 +4821,8 @@
 				"isTopCountry": false
 			},
 			{
-				"name": "Other countries / rounding",
-				"nameLt": "Kitos šalys / apvalinimas",
+				"name": "Other countries",
+				"nameLt": "Kitos šalys",
 				"code": null,
 				"companies": 1,
 				"weightPercent": 0.21,
@@ -5483,8 +5483,8 @@
 				"isTopCountry": false
 			},
 			{
-				"name": "Other countries / rounding",
-				"nameLt": "Kitos šalys / apvalinimas",
+				"name": "Other countries",
+				"nameLt": "Kitos šalys",
 				"code": null,
 				"companies": 93,
 				"weightPercent": 6.2,
@@ -6379,8 +6379,8 @@
 				"isTopCountry": false
 			},
 			{
-				"name": "Other countries / rounding",
-				"nameLt": "Kitos šalys / apvalinimas",
+				"name": "Other countries",
+				"nameLt": "Kitos šalys",
 				"code": null,
 				"companies": 1,
 				"weightPercent": 0.14,

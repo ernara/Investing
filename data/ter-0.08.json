@@ -1564,8 +1564,8 @@
 				"isTopCountry": false
 			},
 			{
-				"name": "Other countries / rounding",
-				"nameLt": "Kitos šalys / apvalinimas",
+				"name": "Other countries",
+				"nameLt": "Kitos šalys",
 				"code": null,
 				"companies": 2,
 				"weightPercent": 0.2,
