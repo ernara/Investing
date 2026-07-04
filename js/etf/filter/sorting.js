@@ -52,6 +52,14 @@ function sortFilteredEtfs(etfs) {
 			return compareNumbers(a.topHoldingsTotalWeightPercent, b.topHoldingsTotalWeightPercent, "desc");
 		}
 
+		if (mode === "otherCountriesAsc") {
+			return compareNumbers(getOtherCountriesWeightPercent(a), getOtherCountriesWeightPercent(b), "asc");
+		}
+
+		if (mode === "otherCountriesDesc") {
+			return compareNumbers(getOtherCountriesWeightPercent(a), getOtherCountriesWeightPercent(b), "desc");
+		}
+
 		return compareNumbers(a.terPercent, b.terPercent, "asc");
 	});
 }

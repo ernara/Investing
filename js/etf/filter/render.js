@@ -28,18 +28,20 @@ function renderEtfFilters(filters) {
 			<div class="etf-filter">
 				<label>Rūšiavimas</label>
 
-				<select id="etfSortModeSelect">
-					<option value="terAsc">Valdymo mokestis: mažiausias</option>
-					<option value="terDesc">Valdymo mokestis: didžiausias</option>
-					<option value="capitalDesc">ETF kapitalas: didžiausias</option>
-					<option value="capitalAsc">ETF kapitalas: mažiausias</option>
-					<option value="companiesDesc">Įmonių skaičius: didžiausias</option>
-					<option value="companiesAsc">Įmonių skaičius: mažiausias</option>
-					<option value="countryCountDesc">Šalių skaičius: didžiausias</option>
-					<option value="countryCountAsc">Šalių skaičius: mažiausias</option>
-					<option value="topHoldingsAsc">TOP10 dalis: mažiausia</option>
-					<option value="topHoldingsDesc">TOP10 dalis: didžiausia</option>
-				</select>
+			<select id="etfSortModeSelect">
+				<option value="terAsc">Valdymo mokestis: mažiausias</option>
+				<option value="terDesc">Valdymo mokestis: didžiausias</option>
+				<option value="capitalDesc">ETF kapitalas: didžiausias</option>
+				<option value="capitalAsc">ETF kapitalas: mažiausias</option>
+				<option value="companiesDesc">Įmonių skaičius: didžiausias</option>
+				<option value="companiesAsc">Įmonių skaičius: mažiausias</option>
+				<option value="countryCountDesc">Šalių skaičius: didžiausias</option>
+				<option value="countryCountAsc">Šalių skaičius: mažiausias</option>
+				<option value="topHoldingsAsc">TOP10 dalis: mažiausia</option>
+				<option value="topHoldingsDesc">TOP10 dalis: didžiausia</option>
+				<option value="otherCountriesAsc">Kitos šalys: mažiausia</option>
+				<option value="otherCountriesDesc">Kitos šalys: didžiausia</option>
+			</select>
 			</div>
 
 			<div class="etf-filter">

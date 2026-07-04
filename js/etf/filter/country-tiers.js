@@ -42,3 +42,15 @@ function isOtherCountriesRow(country) {
 		name.includes("other countries")
 	);
 }
+
+function getOtherCountriesWeightPercent(etf) {
+	if (!Array.isArray(etf.countries)) return null;
+
+	const otherCountriesWeight = etf.countries
+		.filter(isOtherCountriesRow)
+		.reduce((total, country) => {
+			return total + (parseEtfNumber(country.weightPercent) || 0);
+		}, 0);
+
+	return Math.round(otherCountriesWeight * 100) / 100;
+}
