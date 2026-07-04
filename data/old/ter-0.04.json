@@ -2003,8 +2003,8 @@
 				"isTopCountry": false
 			},
 			{
-				"name": "Other countries",
-				"nameLt": "Kitos šalys",
+				"name": "Other countries / rounding",
+				"nameLt": "Kitos šalys / apvalinimas",
 				"code": null,
 				"companies": 1,
 				"weightPercent": 0.055,
@@ -2301,7 +2301,7 @@
 		"sourceUrls": [
 			"https://divvydiary.com/en/xtrackers-msci-world-climate-transition-ucits-1c-etf-IE000P4AYI47"
 		],
-		"notes": "Country exposure expanded from source country list; small residual bucket kept as Other countries."
+		"notes": "Country exposure expanded from source country list; tiny residuals are rounding."
 	},
 	{
 		"id": "xect",
@@ -2686,8 +2686,8 @@
 				"isTopCountry": false
 			},
 			{
-				"name": "Other countries",
-				"nameLt": "Kitos šalys",
+				"name": "Other countries / rounding",
+				"nameLt": "Kitos šalys / apvalinimas",
 				"code": null,
 				"companies": 1,
 				"weightPercent": 0.15,
@@ -2975,7 +2975,7 @@
 			"https://divvydiary.com/en/xtrackers-msci-europe-climate-transition-ucits-1c-etf-IE000N9MLVT1",
 			"https://etf.dws.com/en-gb/IE000N9MLVT1-msci-europe-climate-transition-ucits-etf-1c/"
 		],
-		"notes": "XECT country breakdown improved from expanded DivvyDiary country list. Country company counts are estimated and weights include a 0.15% residual country bucket. justETF shows 0.04% TER; DWS/extraETF factsheet pages show 0.12%, so TER should be rechecked before relying on this ETF as a true 0.04% option. Country exposure expanded from source country list; small residual bucket kept as Other countries."
+		"notes": "XECT country breakdown improved from expanded DivvyDiary country list. Country company counts are estimated and weights include a 0.15% rounding bucket. justETF shows 0.04% TER; DWS/extraETF factsheet pages show 0.12%, so TER should be rechecked before relying on this ETF as a true 0.04% option. Country exposure expanded from source country list; tiny residuals are rounding."
 	},
 	{
 		"id": "xcjd",

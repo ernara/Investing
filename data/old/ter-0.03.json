@@ -153,7 +153,7 @@
 		"indexName": "S&P 500",
 		"region": "USA",
 		"marketType": "Developed",
-		"hedgedToEur": false,
+		"hedgedToEur": true,
 		"fundCurrency": "USD",
 		"primaryEurListing": {
 			"exchange": "XETRA",
@@ -206,7 +206,8 @@
 		"continentCount": 1,
 		"strategyType": "Country",
 		"strategyTags": [
-			"Country"
+			"Country",
+			"Hedged"
 		],
 		"dataQuality": "partial",
 		"dataQualityDetails": {
@@ -370,7 +371,7 @@
 		"indexName": "S&P 500",
 		"region": "USA",
 		"marketType": "Developed",
-		"hedgedToEur": false,
+		"hedgedToEur": true,
 		"fundCurrency": "USD",
 		"primaryEurListing": {
 			"exchange": "XETRA",
@@ -423,7 +424,8 @@
 		"continentCount": 1,
 		"strategyType": "Country",
 		"strategyTags": [
-			"Country"
+			"Country",
+			"Hedged"
 		],
 		"dataQuality": "partial",
 		"dataQualityDetails": {
@@ -2943,7 +2945,7 @@
 		"indexName": "S&P 500 ESG Leaders",
 		"region": "USA",
 		"marketType": "Developed",
-		"hedgedToEur": false,
+		"hedgedToEur": true,
 		"fundCurrency": "USD",
 		"primaryEurListing": {
 			"exchange": "XETRA",
@@ -3007,7 +3009,8 @@
 		"strategyType": "Country",
 		"strategyTags": [
 			"Country",
-			"ESG"
+			"ESG",
+			"Hedged"
 		],
 		"dataQuality": "partial",
 		"dataQualityDetails": {
