@@ -15,7 +15,7 @@ function renderEtfFilters(filters) {
 
 		<div class="etf-filter-grid">
 			<div class="etf-filter">
-				<label>ETF versija</label>
+				${renderFilterLabel("ETF versija", "Acc-ETF'as, kuris dividendus refinansuoja, Dist- ETF'as, kuris dividendus išmoka. Kai kurie ETF'ai investuoja taip pat, tiesiog vienas iš jų išmoka dividendus, o kitas- ne. Todėl galima tokius ETF'us atskirti arba sujungti")}
 
 				<select id="etfShareClassModeSelect">
 					<option value="combined">Acc + Dist kartu</option>
@@ -26,7 +26,7 @@ function renderEtfFilters(filters) {
 			</div>
 
 			<div class="etf-filter">
-				<label>Rūšiavimas</label>
+				${renderFilterLabel("Rūšiavimas", "Nustato, kokia tvarka rodomi ETF po filtravimo.")}
 
 				<select id="etfSortModeSelect">
 					<option value="terAsc">Valdymo mokestis: mažiausias</option>
@@ -45,7 +45,7 @@ function renderEtfFilters(filters) {
 			</div>
 
 			<div class="etf-filter">
-				<label>Paieška pagal pavadinimą</label>
+				${renderFilterLabel("Paieška pagal pavadinimą", "Ieškoma pagal ETF pavadinimą ar tickerį")}
 
 				<input
 					type="text"
@@ -55,14 +55,14 @@ function renderEtfFilters(filters) {
 				>
 			</div>
 
-			${renderRangeFilter("capitalBillions", "ETF kapitalas", "B", filters.capitalBillions, "0.1")}
-			${renderRangeFilter("terPercent", "Valdymo mokestis", "%", filters.terPercent, "0.01")}
-			${renderRangeFilter("continentCount", "Žemynų skaičius", "", filters.continentCount, "1")}
-			${renderRangeFilter("companies", "Įmonių skaičius", "", filters.companies, "10")}
-			${renderRangeFilter("countryCount", "Šalių skaičius", "", filters.countryCount, "1")}
-			${renderRangeFilter("goodCountryWeightPercent", "Patikimos šalys", "%", filters.goodCountryWeightPercent, "1")}
-			${renderRangeFilter("topHoldingsWeightPercent", "TOP10 pozicijų dalis", "%", filters.topHoldingsWeightPercent, "1")}
-			${renderRangeFilter("maxCountryWeightPercent", "Didžiausios šalies dalis", "%", filters.maxCountryWeightPercent, "1")}
+			${renderRangeFilter("capitalBillions", "ETF kapitalas", "B", filters.capitalBillions, "0.1", "Fondo dydis milijardais. Didesnis ETF dažniausiai turi mažesnę uždarymo arba sujungimo riziką")}
+			${renderRangeFilter("terPercent", "Valdymo mokestis", "%", filters.terPercent, "0.01", "Metinis ETF mokestis. Kuo mažesnis, tuo mažiau fondo grąžos suvalgo mokesčiai")}
+			${renderRangeFilter("continentCount", "Žemynų skaičius", "", filters.continentCount, "1", "Į kiek skirtingų realių žemynų investuoja ETF")}
+			${renderRangeFilter("companies", "Įmonių skaičius", "", filters.companies, "10", "Į kiek įmonių investuoja ETF")}
+			${renderRangeFilter("countryCount", "Šalių skaičius", "", filters.countryCount, "1", "Į kiek skirtingų šalių investuoja ETF")}
+			${renderRangeFilter("goodCountryWeightPercent", "Patikimos šalys", "%", filters.goodCountryWeightPercent, "1", "Šalys į kurias saugu ir verta investuoti")}
+			${renderRangeFilter("topHoldingsWeightPercent", "TOP10 pozicijų dalis", "%", filters.topHoldingsWeightPercent, "1", "Kiek ETF kapitalo sudaro 10 didžiausių įmonių")}
+			${renderRangeFilter("maxCountryWeightPercent", "Didžiausios šalies dalis", "%", filters.maxCountryWeightPercent, "1", "Kiek ETF'o kapitalo sudaro invescticija į didžiausią vieną šalį. Mažesnė reikšmė reiškia mažesnę priklausomybę nuo vienos šalies")}
 
 			<div class="etf-filter etf-filter-checkbox">
 				<label>
@@ -73,6 +73,7 @@ function renderEtfFilters(filters) {
 					>
 
 					<span>Rodyti sintetinius ETF</span>
+					${renderInfoBubble("Sintetinis ETF indekso grąžą atkartoja per finansinį susitarimą su banku, o ne tiesiogiai pirkdamas visas indekso akcijas")}
 				</label>
 			</div>
 		</div>
@@ -94,10 +95,10 @@ function renderEtfFilters(filters) {
 	initEtfFilterDrag();
 }
 
-function renderRangeFilter(key, label, unit, range, step) {
+function renderRangeFilter(key, label, unit, range, step, infoText) {
 	return `
 		<div class="etf-filter">
-			<label>${label}${unit ? ` (${unit})` : ""}</label>
+			${renderFilterLabel(`${label}${unit ? ` (${unit})` : ""}`, infoText)}
 
 			<div class="etf-filter-inputs">
 				<input
@@ -122,4 +123,32 @@ function renderRangeFilter(key, label, unit, range, step) {
 			</div>
 		</div>
 	`;
+}
+
+function renderFilterLabel(label, infoText) {
+	return `
+		<div class="etf-filter-label">
+			<span>${label}</span>
+			${renderInfoBubble(infoText)}
+		</div>
+	`;
+}
+
+function renderInfoBubble(infoText) {
+	return `
+		<span
+			class="etf-info-bubble"
+			tabindex="0"
+			data-tooltip="${escapeAttribute(infoText)}"
+			aria-label="${escapeAttribute(infoText)}"
+		>?</span>
+	`;
+}
+
+function escapeAttribute(value) {
+	return String(value || "")
+		.replaceAll("&", "&amp;")
+		.replaceAll('"', "&quot;")
+		.replaceAll("<", "&lt;")
+		.replaceAll(">", "&gt;");
 }

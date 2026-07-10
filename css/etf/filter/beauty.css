@@ -114,3 +114,111 @@ body.dragging-filter * {
 .etf-filter-checkbox span {
 	line-height: 1.2;
 }
+
+.etf-filters,
+.etf-filter,
+.etf-filter-grid {
+	overflow: visible;
+}
+
+.etf-filter-label {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	margin-bottom: 5px;
+	font-size: 13px;
+	font-weight: 800;
+	color: #111827;
+	line-height: 1.2;
+}
+
+.etf-info-bubble {
+	position: relative;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 17px;
+	height: 17px;
+	border: 1px solid #d1d5db;
+	border-radius: 999px;
+	background: linear-gradient(180deg, #ffffff 0%, #f3f4f6 100%);
+	color: #4b5563;
+	font-size: 11px;
+	font-weight: 900;
+	line-height: 1;
+	cursor: help;
+	user-select: none;
+	box-shadow:
+		0 1px 2px rgba(15, 23, 42, 0.08),
+		inset 0 1px 0 rgba(255, 255, 255, 0.9);
+	transition:
+		transform 0.15s ease,
+		border-color 0.15s ease,
+		background 0.15s ease,
+		color 0.15s ease;
+}
+
+.etf-info-bubble:hover,
+.etf-info-bubble:focus {
+	transform: translateY(-1px);
+	border-color: #111827;
+	background: #111827;
+	color: white;
+	outline: none;
+}
+
+.etf-info-bubble::after {
+	content: attr(data-tooltip);
+	position: absolute;
+	left: 50%;
+	bottom: calc(100% + 10px);
+	z-index: 50;
+	width: max-content;
+	max-width: 245px;
+	padding: 10px 12px;
+	border-radius: 12px;
+	background: #111827;
+	color: white;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 1.35;
+	text-align: left;
+	white-space: normal;
+	box-shadow:
+		0 16px 35px rgba(15, 23, 42, 0.25),
+		0 4px 10px rgba(15, 23, 42, 0.12);
+	opacity: 0;
+	pointer-events: none;
+	transform: translateX(-50%) translateY(4px) scale(0.98);
+	transition:
+		opacity 0.15s ease,
+		transform 0.15s ease;
+}
+
+.etf-info-bubble::before {
+	content: "";
+	position: absolute;
+	left: 50%;
+	bottom: calc(100% + 4px);
+	z-index: 51;
+	border: 6px solid transparent;
+	border-top-color: #111827;
+	opacity: 0;
+	pointer-events: none;
+	transform: translateX(-50%) translateY(4px);
+	transition:
+		opacity 0.15s ease,
+		transform 0.15s ease;
+}
+
+.etf-info-bubble:hover::after,
+.etf-info-bubble:focus::after,
+.etf-info-bubble:hover::before,
+.etf-info-bubble:focus::before {
+	opacity: 1;
+	transform: translateX(-50%) translateY(0) scale(1);
+}
+
+.etf-filter-checkbox .etf-info-bubble {
+	margin-left: 2px;
+}
