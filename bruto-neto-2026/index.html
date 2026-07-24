@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="lt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#070b14">
+
+  <title>Atlyginimas</title>
+
+  <link rel="stylesheet" href="design.css">
+  <script src="app.js" defer></script>
+</head>
+
+<body>
+  <main class="calculator">
+    <nav class="mode-tabs" aria-label="Skaičiavimo būdas">
+      <button
+        class="mode-tab active"
+        type="button"
+        data-mode="salary"
+      >
+        Mėnesinis
+      </button>
+
+      <button
+        class="mode-tab"
+        type="button"
+        data-mode="hourly"
+      >
+        Valandinis
+      </button>
+    </nav>
+
+    <section class="panel inputs-panel">
+      <div id="salaryMode">
+        <label class="field">
+          <span>Bruto</span>
+
+          <span class="money-input">
+            <input
+              id="salary"
+              type="number"
+              min="0"
+              step="0.01"
+              inputmode="decimal"
+              value="2000"
+            >
+
+            <b>€</b>
+          </span>
+        </label>
+      </div>
+
+      <div id="hourlyMode" class="hidden">
+        <label class="field">
+          <span>Bruto už valandą</span>
+
+          <span class="money-input">
+            <input
+              id="hourlyRate"
+              type="number"
+              min="0"
+              step="0.01"
+              inputmode="decimal"
+              value="10"
+            >
+
+            <b>€</b>
+          </span>
+        </label>
+
+        <div class="calendar-toolbar">
+          <button
+            id="previousMonth"
+            class="nav-btn"
+            type="button"
+            aria-label="Ankstesnis mėnuo"
+          >
+            ‹
+          </button>
+
+          <button
+            id="monthTitle"
+            class="month-title"
+            type="button"
+          >
+            Liepa
+          </button>
+
+          <button
+            id="nextMonth"
+            class="nav-btn"
+            type="button"
+            aria-label="Kitas mėnuo"
+          >
+            ›
+          </button>
+
+          <button
+            id="yearViewButton"
+            class="year-btn"
+            type="button"
+          >
+            Metai
+          </button>
+        </div>
+
+        <div id="monthView">
+          <div class="weekdays" aria-hidden="true">
+            <span>P</span>
+            <span>A</span>
+            <span>T</span>
+            <span>K</span>
+            <span>P</span>
+            <span>Š</span>
+            <span>S</span>
+          </div>
+
+          <div id="calendarGrid" class="calendar-grid"></div>
+
+          <div class="calendar-legend">
+            <span>
+              <i class="legend-holiday"></i>
+              Šventė ×2
+            </span>
+
+            <span>
+              Shift + paspaudimas
+            </span>
+          </div>
+
+          <div id="holidayList" class="holiday-list"></div>
+
+          <section class="bulk-panel">
+            <div class="selection-head">
+              <strong id="selectionCount">0 pasirinkta</strong>
+
+              <button
+                id="clearSelection"
+                class="small-button"
+                type="button"
+              >
+                Nuimti
+              </button>
+            </div>
+
+            <div class="selection-buttons">
+              <button
+                id="selectWeekdays"
+                class="small-button"
+                type="button"
+              >
+                Darbo d.
+              </button>
+
+              <button
+                id="selectAllDays"
+                class="small-button"
+                type="button"
+              >
+                Visos
+              </button>
+
+              <button
+                id="selectWorkedDays"
+                class="small-button"
+                type="button"
+              >
+                Dirbtos
+              </button>
+            </div>
+
+            <div class="shift-presets">
+              <button
+                class="shift-preset"
+                type="button"
+                data-day="8"
+                data-night="0"
+              >
+                8 h
+              </button>
+
+              <button
+                class="shift-preset"
+                type="button"
+                data-day="12"
+                data-night="0"
+              >
+                12 h
+              </button>
+
+              <button
+                class="shift-preset"
+                type="button"
+                data-day="6.5"
+                data-night="1.5"
+              >
+                6,5 + 1,5
+              </button>
+
+              <button
+                class="shift-preset"
+                type="button"
+                data-day="10.5"
+                data-night="1.5"
+              >
+                10,5 + 1,5
+              </button>
+
+              <button
+                class="shift-preset"
+                type="button"
+                data-day="0"
+                data-night="12"
+              >
+                12 n.
+              </button>
+
+              <button
+                class="shift-preset danger-button"
+                type="button"
+                data-day="0"
+                data-night="0"
+              >
+                0
+              </button>
+            </div>
+
+            <div class="custom-shift">
+              <label>
+                <span>Diena</span>
+
+                <span class="hour-input">
+                  <input
+                    id="bulkDayHours"
+                    type="number"
+                    min="0"
+                    max="24"
+                    step="0.25"
+                    inputmode="decimal"
+                    value="8"
+                  >
+
+                  <b>h</b>
+                </span>
+              </label>
+
+              <label>
+                <span>Naktis</span>
+
+                <span class="hour-input">
+                  <input
+                    id="bulkNightHours"
+                    type="number"
+                    min="0"
+                    max="24"
+                    step="0.25"
+                    inputmode="decimal"
+                    value="0"
+                  >
+
+                  <b>h</b>
+                </span>
+              </label>
+
+              <button
+                id="applyCustomShift"
+                class="apply-button"
+                type="button"
+              >
+                ✓
+              </button>
+            </div>
+          </section>
+
+          <div class="hours-total">
+            <span>
+              Diena
+              <b id="regularHoursTotal">0</b> h
+            </span>
+
+            <span>
+              Naktis
+              <b id="nightHoursTotal">0</b> h
+            </span>
+
+            <span>
+              Šventės
+              <b id="holidayHoursTotal">0</b> h
+            </span>
+
+            <span>
+              Bruto
+              <b id="monthGrossTotal">0,00 €</b>
+            </span>
+          </div>
+        </div>
+
+        <div id="yearView" class="year-view hidden">
+          <div class="year-table-head">
+            <span>Mėnuo</span>
+            <span>Val.</span>
+            <span>Bruto</span>
+            <span>Neto</span>
+          </div>
+
+          <div id="yearTable"></div>
+        </div>
+      </div>
+
+      <section id="bonusSection">
+        <div class="bonus-head">
+          <span>Premijos</span>
+
+          <button
+            id="addBonus"
+            class="icon-btn"
+            type="button"
+            aria-label="Pridėti premiją"
+          >
+            +
+          </button>
+        </div>
+
+        <div id="bonusList" class="bonus-list"></div>
+      </section>
+
+      <div class="switches">
+        <label class="switch-row">
+          <span>NPD</span>
+
+          <input
+            id="useNpd"
+            type="checkbox"
+            checked
+          >
+
+          <i aria-hidden="true"></i>
+        </label>
+
+        <label class="switch-row">
+          <span>Pensija 3%</span>
+
+          <input
+            id="pension"
+            type="checkbox"
+          >
+
+          <i aria-hidden="true"></i>
+        </label>
+      </div>
+    </section>
+
+    <section class="result-meta">
+      <div>
+        <span>NPD</span>
+        <b id="resultNpd">0,00 €</b>
+      </div>
+
+      <div id="springRow" class="hidden">
+        <span id="springLabel">Pavasarį</span>
+        <b id="springRefund">+0,00 €</b>
+      </div>
+    </section>
+
+    <section class="net-card">
+      <span>Į rankas</span>
+      <strong id="netPay">0,00 €</strong>
+    </section>
+
+    <section class="panel breakdown">
+      <div class="row neutral">
+        <span>Bruto</span>
+        <b id="grossTotal">0,00 €</b>
+      </div>
+
+      <div class="row neutral">
+        <span>Atlyginimas</span>
+        <b id="baseGross">0,00 €</b>
+      </div>
+
+      <div id="hoursBreakdown" class="row neutral hidden">
+        <span>Valandos</span>
+        <b id="hoursValue">0 h</b>
+      </div>
+
+      <div id="bonusTotalRow" class="row neutral hidden">
+        <span>Premijos bruto</span>
+        <b id="bonusTotal">0,00 €</b>
+      </div>
+
+      <div id="bonusNetRow" class="row bonus-net hidden">
+        <span>Premijos neto</span>
+        <b id="bonusNet">0,00 €</b>
+      </div>
+
+      <div id="bonusLossRow" class="row tax hidden">
+        <span>
+          Premijų mokesčiai
+          <small id="bonusLossPercent">0%</small>
+        </span>
+
+        <b id="bonusLoss">−0,00 €</b>
+      </div>
+
+      <div class="row benefit">
+        <span>Taikytas NPD</span>
+        <b id="npdValue">0,00 €</b>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="row tax main-tax">
+        <span>
+          GPM
+          <small>20%</small>
+        </span>
+
+        <b id="gpm">−0,00 €</b>
+      </div>
+
+      <div class="row tax main-tax">
+        <span>
+          Sodra
+          <small>19,5%</small>
+        </span>
+
+        <b id="sodra">−0,00 €</b>
+      </div>
+
+      <div
+        id="secondPillarRow"
+        class="row tax main-tax hidden"
+      >
+        <span>
+          II pakopa
+          <small>3%</small>
+        </span>
+
+        <b id="secondPillar">−0,00 €</b>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="row total-tax">
+        <span>Mokesčiai</span>
+        <b id="totalTax">−0,00 €</b>
+      </div>
+
+      <div class="row net-row">
+        <span>Neto</span>
+        <b id="netBottom">0,00 €</b>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
