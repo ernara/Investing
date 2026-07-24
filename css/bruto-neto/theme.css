@@ -1,0 +1,126 @@
+/* Shared light/dark palette for the Bruto–Neto calculator. */
+:root {
+  color-scheme: light;
+
+  --bg: #f4f6f8;
+  --panel: rgba(255, 255, 255, 0.92);
+  --panel-strong: #ffffff;
+  --input: rgba(248, 250, 252, 0.96);
+
+  --line: rgba(15, 23, 42, 0.11);
+  --line-strong: rgba(15, 23, 42, 0.20);
+
+  --text: #111827;
+  --muted: #64748b;
+
+  --accent: #3f7edb;
+  --accent-soft: rgba(63, 126, 219, 0.13);
+
+  --green: #16876b;
+  --green-soft: rgba(22, 135, 107, 0.11);
+
+  --danger: #d84b61;
+  --danger-soft: rgba(216, 75, 97, 0.10);
+
+  --holiday: #ce642c;
+  --holiday-soft: rgba(206, 100, 44, 0.10);
+
+  --shadow: 0 18px 48px rgba(15, 23, 42, 0.13);
+
+  --page-accent-glow: rgba(63, 126, 219, 0.12);
+  --page-green-glow: rgba(22, 135, 107, 0.09);
+  --surface-soft: rgba(255, 255, 255, 0.78);
+  --accent-inset: rgba(63, 126, 219, 0.22);
+  --focus-border: rgba(63, 126, 219, 0.66);
+  --focus-ring: rgba(63, 126, 219, 0.12);
+  --control-bg: rgba(15, 23, 42, 0.045);
+  --legend-text: #64748b;
+  --calendar-bg: rgba(15, 23, 42, 0.025);
+  --calendar-hover: rgba(15, 23, 42, 0.06);
+  --weekend-text: #7a879b;
+  --weekend-bg: rgba(15, 23, 42, 0.015);
+  --holiday-border: rgba(206, 100, 44, 0.42);
+  --selected-bg: rgba(63, 126, 219, 0.14);
+  --selected-ring: rgba(63, 126, 219, 0.45);
+  --holiday-selected-ring: rgba(206, 100, 44, 0.56);
+  --holiday-chip-border: rgba(206, 100, 44, 0.26);
+  --holiday-chip-bg: rgba(206, 100, 44, 0.07);
+  --section-bg: rgba(248, 250, 252, 0.72);
+  --preset-border: rgba(63, 126, 219, 0.38);
+  --preset-bg: rgba(63, 126, 219, 0.09);
+  --preset-text: #244f8f;
+  --summary-bg: rgba(15, 23, 42, 0.02);
+  --row-hover: rgba(63, 126, 219, 0.06);
+  --danger-border: rgba(216, 75, 97, 0.42);
+  --switch-bg: rgba(15, 23, 42, 0.035);
+  --switch-off: #c2cad6;
+  --meta-bg: rgba(255, 255, 255, 0.72);
+  --net-gradient-accent: rgba(63, 126, 219, 0.20);
+  --net-gradient-green: rgba(22, 135, 107, 0.11);
+  --net-label: #334155;
+  --small-text: #64748b;
+  --main-tax-text: #475569;
+}
+
+body.dark {
+  color-scheme: dark;
+
+  --bg: #070b14;
+  --panel: rgba(18, 25, 43, 0.84);
+  --panel-strong: #121a2c;
+  --input: rgba(5, 9, 18, 0.62);
+
+  --line: rgba(255, 255, 255, 0.09);
+  --line-strong: rgba(255, 255, 255, 0.15);
+
+  --text: #f7f9ff;
+  --muted: #8f9bb3;
+
+  --accent: #7c9cff;
+  --accent-soft: rgba(124, 156, 255, 0.15);
+
+  --green: #74e5bc;
+  --green-soft: rgba(116, 229, 188, 0.12);
+
+  --danger: #ff7f92;
+  --danger-soft: rgba(255, 127, 146, 0.12);
+
+  --holiday: #ff9a64;
+  --holiday-soft: rgba(255, 154, 100, 0.13);
+
+  --shadow: 0 22px 65px rgba(0, 0, 0, 0.35);
+
+  --page-accent-glow: rgba(124, 156, 255, 0.16);
+  --page-green-glow: rgba(116, 229, 188, 0.12);
+  --surface-soft: rgba(18, 25, 43, 0.72);
+  --accent-inset: rgba(124, 156, 255, 0.25);
+  --focus-border: rgba(124, 156, 255, 0.72);
+  --focus-ring: rgba(124, 156, 255, 0.10);
+  --control-bg: rgba(255, 255, 255, 0.045);
+  --legend-text: #69758e;
+  --calendar-bg: rgba(255, 255, 255, 0.03);
+  --calendar-hover: rgba(255, 255, 255, 0.055);
+  --weekend-text: #a5aec2;
+  --weekend-bg: rgba(255, 255, 255, 0.018);
+  --holiday-border: rgba(255, 154, 100, 0.48);
+  --selected-bg: rgba(124, 156, 255, 0.20);
+  --selected-ring: rgba(124, 156, 255, 0.55);
+  --holiday-selected-ring: rgba(255, 154, 100, 0.65);
+  --holiday-chip-border: rgba(255, 154, 100, 0.24);
+  --holiday-chip-bg: rgba(255, 154, 100, 0.07);
+  --section-bg: rgba(5, 9, 18, 0.33);
+  --preset-border: rgba(124, 156, 255, 0.48);
+  --preset-bg: rgba(124, 156, 255, 0.11);
+  --preset-text: #dce4f7;
+  --summary-bg: rgba(255, 255, 255, 0.025);
+  --row-hover: rgba(124, 156, 255, 0.07);
+  --danger-border: rgba(255, 127, 146, 0.45);
+  --switch-bg: rgba(255, 255, 255, 0.035);
+  --switch-off: #313a50;
+  --meta-bg: rgba(18, 25, 43, 0.56);
+  --net-gradient-accent: rgba(124, 156, 255, 0.24);
+  --net-gradient-green: rgba(116, 229, 188, 0.13);
+  --net-label: #cbd5ed;
+  --small-text: #66728c;
+  --main-tax-text: #b3bed5;
+}

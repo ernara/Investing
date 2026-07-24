@@ -65,3 +65,14 @@ body {
 	font-weight: bold;
 	color: #111827;
 }
+#top-menu-dropdown button.active-page {
+	background: #e8f0fb;
+	font-weight: 700;
+}
+
+#top-menu-dropdown .top-menu-label {
+	width: auto;
+	justify-content: flex-start;
+	font-weight: inherit;
+	color: inherit;
+}

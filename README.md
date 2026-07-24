@@ -1,4 +1,4 @@
-Last updated: 2026-07-05
+Last updated: 2026-07-24
 
 # Investing
 
@@ -42,6 +42,24 @@ Open directly:
 
 https://ernara.github.io/Investing/investing.html
 
+### Bruto / Neto
+
+Lithuanian 2026 salary calculator.
+
+Main things it does:
+
+* calculates monthly bruto and neto salary
+* supports hourly pay with a monthly work calendar
+* includes night and holiday multipliers
+* supports bonuses, NPD and second-pillar pension settings
+* provides monthly and yearly views
+* shares the same navigation and dark/light theme as the other projects
+* works on desktop and mobile
+
+Open directly:
+
+https://ernara.github.io/Investing/bruto-neto.html
+
 ## Technologies
 
 This project is intentionally simple and static.
@@ -63,6 +81,7 @@ Investing/
   index.html
   etf.html
   investing.html
+  bruto-neto.html
 
   css/
   js/

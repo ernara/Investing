@@ -1,37 +1,8 @@
-:root {
-  color-scheme: dark;
-
-  --bg: #070b14;
-  --panel: rgba(18, 25, 43, 0.84);
-  --panel-strong: #121a2c;
-  --input: rgba(5, 9, 18, 0.62);
-
-  --line: rgba(255, 255, 255, 0.09);
-  --line-strong: rgba(255, 255, 255, 0.15);
-
-  --text: #f7f9ff;
-  --muted: #8f9bb3;
-
-  --accent: #7c9cff;
-  --accent-soft: rgba(124, 156, 255, 0.15);
-
-  --green: #74e5bc;
-  --green-soft: rgba(116, 229, 188, 0.12);
-
-  --danger: #ff7f92;
-  --danger-soft: rgba(255, 127, 146, 0.12);
-
-  --holiday: #ff9a64;
-  --holiday-soft: rgba(255, 154, 100, 0.13);
-
-  --shadow: 0 22px 65px rgba(0, 0, 0, 0.35);
-}
-
 * {
   box-sizing: border-box;
 }
 
-body {
+body.bruto-neto-page {
   margin: 0;
   min-height: 100vh;
 
@@ -45,12 +16,12 @@ body {
   background:
     radial-gradient(
       circle at 12% 10%,
-      rgba(124, 156, 255, 0.16),
+      var(--page-accent-glow),
       transparent 28%
     ),
     radial-gradient(
       circle at 88% 90%,
-      rgba(116, 229, 188, 0.12),
+      var(--page-green-glow),
       transparent 30%
     ),
     var(--bg);
@@ -76,6 +47,7 @@ button {
 
 .calculator {
   width: min(100%, 560px);
+  padding-top: 34px;
 }
 
 .hidden {
@@ -111,7 +83,7 @@ button {
   border: 1px solid var(--line);
   border-radius: 16px;
 
-  background: rgba(18, 25, 43, 0.72);
+  background: var(--surface-soft);
 }
 
 .mode-tab {
@@ -134,7 +106,7 @@ button {
   background: var(--accent-soft);
 
   box-shadow:
-    inset 0 0 0 1px rgba(124, 156, 255, 0.25);
+    inset 0 0 0 1px var(--accent-inset);
 }
 
 .field {
@@ -176,10 +148,10 @@ button {
 
 .money-input:focus-within,
 .hour-input:focus-within {
-  border-color: rgba(124, 156, 255, 0.72);
+  border-color: var(--focus-border);
 
   box-shadow:
-    0 0 0 4px rgba(124, 156, 255, 0.1);
+    0 0 0 4px var(--focus-ring);
 }
 
 .money-input input,
@@ -247,7 +219,7 @@ input[type="number"] {
   border: 1px solid var(--line);
 
   color: var(--text);
-  background: rgba(255, 255, 255, 0.045);
+  background: var(--control-bg);
 
   cursor: pointer;
 }
@@ -302,7 +274,7 @@ input[type="number"] {
 .weekdays span {
   padding: 3px 0;
 
-  color: #65718b;
+  color: var(--legend-text);
 
   text-align: center;
   font-size: 11px;
@@ -336,7 +308,7 @@ input[type="number"] {
   border-radius: 12px;
 
   color: var(--text);
-  background: rgba(255, 255, 255, 0.03);
+  background: var(--calendar-bg);
 
   text-align: left;
 
@@ -350,7 +322,7 @@ input[type="number"] {
 
 .calendar-day:hover {
   border-color: var(--line-strong);
-  background: rgba(255, 255, 255, 0.055);
+  background: var(--calendar-hover);
 }
 
 .calendar-day:active {
@@ -358,28 +330,28 @@ input[type="number"] {
 }
 
 .calendar-day.weekend {
-  color: #a5aec2;
-  background: rgba(255, 255, 255, 0.018);
+  color: var(--weekend-text);
+  background: var(--weekend-bg);
 }
 
 .calendar-day.holiday {
-  border-color: rgba(255, 154, 100, 0.48);
+  border-color: var(--holiday-border);
   background: var(--holiday-soft);
 }
 
 .calendar-day.selected {
   border-color: var(--accent);
-  background: rgba(124, 156, 255, 0.2);
+  background: var(--selected-bg);
 
   box-shadow:
-    inset 0 0 0 1px rgba(124, 156, 255, 0.55);
+    inset 0 0 0 1px var(--selected-ring);
 }
 
 .calendar-day.holiday.selected {
   border-color: var(--holiday);
 
   box-shadow:
-    inset 0 0 0 1px rgba(255, 154, 100, 0.65);
+    inset 0 0 0 1px var(--holiday-selected-ring);
 }
 
 .calendar-day.has-shift {
@@ -424,7 +396,7 @@ input[type="number"] {
 
   margin: 10px 2px 0;
 
-  color: #69758e;
+  color: var(--legend-text);
 
   font-size: 10px;
   font-weight: 750;
@@ -458,11 +430,11 @@ input[type="number"] {
 .holiday-name {
   padding: 5px 8px;
 
-  border: 1px solid rgba(255, 154, 100, 0.24);
+  border: 1px solid var(--holiday-chip-border);
   border-radius: 999px;
 
   color: var(--holiday);
-  background: rgba(255, 154, 100, 0.07);
+  background: var(--holiday-chip-bg);
 
   font-size: 10px;
   font-weight: 750;
@@ -475,7 +447,7 @@ input[type="number"] {
   border: 1px solid var(--line);
   border-radius: 16px;
 
-  background: rgba(5, 9, 18, 0.33);
+  background: var(--section-bg);
 }
 
 .selection-head {
@@ -525,12 +497,12 @@ input[type="number"] {
 .month-title:hover,
 .year-btn:hover,
 .icon-btn:hover {
-  border-color: rgba(124, 156, 255, 0.48);
-  background: rgba(124, 156, 255, 0.11);
+  border-color: var(--preset-border);
+  background: var(--preset-bg);
 }
 
 .shift-preset {
-  color: #dce4f7;
+  color: var(--preset-text);
 }
 
 .danger-button {
@@ -590,7 +562,7 @@ input[type="number"] {
   border-radius: 11px;
 
   color: var(--muted);
-  background: rgba(255, 255, 255, 0.025);
+  background: var(--summary-bg);
 
   text-align: center;
 
@@ -626,7 +598,7 @@ input[type="number"] {
 .year-table-head {
   padding: 0 10px 7px;
 
-  color: #69758e;
+  color: var(--legend-text);
 
   font-size: 10px;
   font-weight: 850;
@@ -652,7 +624,7 @@ input[type="number"] {
 }
 
 .year-row:hover {
-  background: rgba(124, 156, 255, 0.07);
+  background: var(--row-hover);
 }
 
 .year-row span {
@@ -758,7 +730,7 @@ input[type="number"] {
 
 .remove-btn:hover {
   color: var(--danger);
-  border-color: rgba(255, 127, 146, 0.45);
+  border-color: var(--danger-border);
 }
 
 .switches {
@@ -783,7 +755,7 @@ input[type="number"] {
   border-radius: 14px;
 
   color: var(--muted);
-  background: rgba(255, 255, 255, 0.035);
+  background: var(--switch-bg);
 
   font-size: 13px;
   font-weight: 800;
@@ -805,7 +777,7 @@ input[type="number"] {
   height: 20px;
 
   border-radius: 999px;
-  background: #313a50;
+  background: var(--switch-off);
 
   transition: background 160ms ease;
 }
@@ -858,7 +830,7 @@ input[type="number"] {
   border-radius: 12px;
 
   color: var(--muted);
-  background: rgba(18, 25, 43, 0.56);
+  background: var(--meta-bg);
 
   font-size: 11px;
   font-weight: 800;
@@ -885,13 +857,13 @@ input[type="number"] {
   background:
     linear-gradient(
       135deg,
-      rgba(124, 156, 255, 0.24),
-      rgba(116, 229, 188, 0.13)
+      var(--net-gradient-accent),
+      var(--net-gradient-green)
     );
 }
 
 .net-card span {
-  color: #cbd5ed;
+  color: var(--net-label);
 
   font-size: 13px;
   font-weight: 800;
@@ -930,7 +902,7 @@ input[type="number"] {
 .row small {
   margin-left: 4px;
 
-  color: #66728c;
+  color: var(--small-text);
 
   font-size: 11px;
 }
@@ -956,7 +928,7 @@ input[type="number"] {
 }
 
 .main-tax span {
-  color: #b3bed5;
+  color: var(--main-tax-text);
   font-size: 15px;
   font-weight: 800;
 }
@@ -992,7 +964,7 @@ input[type="number"] {
 }
 
 @media (max-width: 500px) {
-  body {
+  body.bruto-neto-page {
     padding: 14px 9px;
   }
 

@@ -26,3 +26,6 @@ body.dark #top-menu-dropdown button:hover {
 body.dark #top-menu-dropdown button span {
 	color: #f9fafb;
 }
+body.dark #top-menu-dropdown button.active-page {
+	background: #374151;
+}
