@@ -58,7 +58,7 @@ Main things it does:
 
 Open directly:
 
-https://ernara.github.io/Investing/bruto-neto.html
+https://ernara.github.io/Investing/salary-calculator.html
 
 ## Technologies
 
@@ -81,7 +81,7 @@ Investing/
   index.html
   etf.html
   investing.html
-  bruto-neto.html
+  salary-calculator.html
 
   css/
   js/

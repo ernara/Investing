@@ -14,6 +14,11 @@ function renderTopMenu() {
 		</button>
 
 		<div id="top-menu-dropdown" role="menu">
+			<button type="button" data-page="salary-calculator.html" onclick="location.href='salary-calculator.html'">
+				<span>💶</span>
+				Atlyginimo skaičiuoklė
+			</button>
+
 			<button type="button" data-page="investing.html" onclick="location.href='investing.html'">
 				<span>📈</span>
 				Investicijų palyginimas
@@ -22,11 +27,6 @@ function renderTopMenu() {
 			<button type="button" data-page="etf.html" onclick="location.href='etf.html'">
 				<span>🌍</span>
 				ETF palyginimas
-			</button>
-
-			<button type="button" data-page="bruto-neto.html" onclick="location.href='bruto-neto.html'">
-				<span>💶</span>
-				Bruto / neto
 			</button>
 
 			<button id="theme-menu-button" type="button" onclick="toggleTheme(); closeTopMenu();">
